@@ -1,0 +1,6 @@
+{
+  "name": "Koç Tavuk",
+  "description": "Koç Tavuk eşliğinde kişiselleştirilmiş fitness, gym ve evde antrenmanlar, kilo takibi, takvim ve AI koçluk uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

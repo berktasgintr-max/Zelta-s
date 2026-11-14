@@ -1,0 +1,207 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Global Default-Deny Safety Net
+    match /{document=**} {
+      allow read, write: if false;
+    }
+
+    function isSignedIn() {
+      return request.auth != null;
+    }
+
+    function isValidId(id) {
+      return id is string && id.size() >= 1 && id.size() <= 128 && id.matches('^[a-zA-Z0-9_\\-]+$');
+    }
+
+    function incoming() {
+      return request.resource.data;
+    }
+
+    function existing() {
+      return resource.data;
+    }
+
+    function isValidTimestamp(ts) {
+      return ts is timestamp && ts <= request.time;
+    }
+
+    function isValidUserProfile(data) {
+      return data.userId is string && data.userId == request.auth.uid &&
+             data.displayName is string && data.displayName.size() >= 1 && data.displayName.size() <= 50 &&
+             data.age is int && data.age >= 5 && data.age <= 120 &&
+             data.heightCm is int && data.heightCm >= 80 && data.heightCm <= 250 &&
+             data.startWeightKg is number && data.startWeightKg >= 20 && data.startWeightKg <= 350 &&
+             data.currentWeightKg is number && data.currentWeightKg >= 20 && data.currentWeightKg <= 350 &&
+             data.targetWeightKg is number && data.targetWeightKg >= 20 && data.targetWeightKg <= 350 &&
+             data.goal in ['muscle', 'fat_loss', 'fitness', 'growth_posture'] &&
+             data.environment in ['gym', 'home', 'hybrid'] &&
+             data.activityLevel in ['sedentary', 'light', 'moderate', 'active'] &&
+             data.experienceLevel in ['beginner', 'occasional', 'regular', 'advanced'] &&
+             data.weeklyDays is int && data.weeklyDays >= 1 && data.weeklyDays <= 7 &&
+             data.sessionMinutes is int && data.sessionMinutes >= 10 && data.sessionMinutes <= 180 &&
+             data.focusArea in ['full_body', 'upper', 'lower', 'core'] &&
+             data.planTier in ['free', 'pro'] &&
+             data.proSource in ['none', 'purchased', 'referral_reward'] &&
+             data.proExpiresAtMillis is int && data.proExpiresAtMillis >= 0 &&
+             data.inviteCode is string && data.inviteCode.size() >= 4 && data.inviteCode.size() <= 24 &&
+             data.referralCount is int && data.referralCount >= 0 && data.referralCount <= 1000 &&
+             data.referredByCode is string && data.referredByCode.size() <= 24 &&
+             data.aiQuestionsUsedToday is int && data.aiQuestionsUsedToday >= 0 && data.aiQuestionsUsedToday <= 1000 &&
+             data.aiQuotaDate is string && data.aiQuotaDate.size() <= 20 &&
+             data.onboardingCompleted is bool &&
+             isValidTimestamp(data.createdAt) &&
+             isValidTimestamp(data.updatedAt);
+    }
+
+    function isValidWeightLog(data) {
+      return data.weightKg is number && data.weightKg >= 20 && data.weightKg <= 350 &&
+             (!('note' in data) || (data.note is string && data.note.size() <= 120)) &&
+             data.loggedAtMillis is int && data.loggedAtMillis >= 0 &&
+             isValidTimestamp(data.createdAt) &&
+             isValidTimestamp(data.updatedAt);
+    }
+
+    function isValidCalendarEntry(data) {
+      return data.dateKey is string && data.dateKey.size() == 10 &&
+             data.workoutId is string && data.workoutId.size() >= 1 && data.workoutId.size() <= 64 &&
+             data.workoutTitle is string && data.workoutTitle.size() >= 1 && data.workoutTitle.size() <= 100 &&
+             data.completed is bool &&
+             data.durationMinutes is int && data.durationMinutes >= 1 && data.durationMinutes <= 240 &&
+             isValidTimestamp(data.createdAt) &&
+             isValidTimestamp(data.updatedAt);
+    }
+
+    function isValidReferralCode(data) {
+      return data.ownerUid is string && data.ownerUid == request.auth.uid &&
+             data.code is string && data.code.size() >= 4 && data.code.size() <= 24 &&
+             isValidTimestamp(data.createdAt) &&
+             isValidTimestamp(data.updatedAt);
+    }
+
+    function isValidRedemption(data) {
+      return data.code is string && data.code.size() >= 4 && data.code.size() <= 24 &&
+             data.codeOwnerUid is string && data.codeOwnerUid.size() >= 1 && data.codeOwnerUid.size() <= 128 &&
+             data.redeemerUid is string && data.redeemerUid == request.auth.uid &&
+             isValidTimestamp(data.createdAt);
+    }
+
+    match /users/{userId} {
+      allow get: if isSignedIn() && isValidId(userId) && request.auth.uid == userId;
+      allow list: if isSignedIn() && request.auth.uid == userId;
+
+      allow create: if isSignedIn() &&
+                       isValidId(userId) &&
+                       request.auth.uid == userId &&
+                       incoming().keys().hasAll([
+                         'userId', 'displayName', 'age', 'heightCm', 'startWeightKg', 'currentWeightKg',
+                         'targetWeightKg', 'goal', 'environment', 'activityLevel', 'experienceLevel',
+                         'weeklyDays', 'sessionMinutes', 'focusArea', 'planTier', 'proSource',
+                         'proExpiresAtMillis', 'inviteCode', 'referralCount', 'referredByCode',
+                         'aiQuestionsUsedToday', 'aiQuotaDate', 'onboardingCompleted', 'createdAt', 'updatedAt'
+                       ]) &&
+                       incoming().keys().hasOnly([
+                         'userId', 'displayName', 'age', 'heightCm', 'startWeightKg', 'currentWeightKg',
+                         'targetWeightKg', 'goal', 'environment', 'activityLevel', 'experienceLevel',
+                         'weeklyDays', 'sessionMinutes', 'focusArea', 'planTier', 'proSource',
+                         'proExpiresAtMillis', 'inviteCode', 'referralCount', 'referredByCode',
+                         'aiQuestionsUsedToday', 'aiQuotaDate', 'onboardingCompleted', 'createdAt', 'updatedAt'
+                       ]) &&
+                       isValidUserProfile(incoming());
+
+      allow update: if isSignedIn() &&
+                       isValidId(userId) &&
+                       request.auth.uid == userId &&
+                       isValidUserProfile(incoming()) &&
+                       incoming().userId == existing().userId &&
+                       incoming().createdAt == existing().createdAt &&
+                       incoming().diff(existing()).affectedKeys().hasOnly([
+                         'displayName', 'age', 'heightCm', 'startWeightKg', 'currentWeightKg',
+                         'targetWeightKg', 'goal', 'environment', 'activityLevel', 'experienceLevel',
+                         'weeklyDays', 'sessionMinutes', 'focusArea', 'planTier', 'proSource',
+                         'proExpiresAtMillis', 'inviteCode', 'referralCount', 'referredByCode',
+                         'aiQuestionsUsedToday', 'aiQuotaDate', 'onboardingCompleted', 'updatedAt'
+                       ]);
+
+      allow delete: if isSignedIn() && isValidId(userId) && request.auth.uid == userId;
+
+      match /weightLogs/{logId} {
+        allow get: if isSignedIn() && isValidId(logId) && request.auth.uid == userId;
+        allow list: if isSignedIn() && request.auth.uid == userId;
+
+        allow create: if isSignedIn() &&
+                         isValidId(logId) &&
+                         request.auth.uid == userId &&
+                         incoming().keys().hasAll(['weightKg', 'loggedAtMillis', 'createdAt', 'updatedAt']) &&
+                         incoming().keys().hasOnly(['weightKg', 'note', 'loggedAtMillis', 'createdAt', 'updatedAt']) &&
+                         isValidWeightLog(incoming());
+
+        allow update: if isSignedIn() &&
+                         isValidId(logId) &&
+                         request.auth.uid == userId &&
+                         isValidWeightLog(incoming()) &&
+                         incoming().createdAt == existing().createdAt &&
+                         incoming().diff(existing()).affectedKeys().hasOnly(['weightKg', 'note', 'loggedAtMillis', 'updatedAt']);
+
+        allow delete: if isSignedIn() && isValidId(logId) && request.auth.uid == userId;
+      }
+
+      match /calendarEntries/{entryId} {
+        allow get: if isSignedIn() && isValidId(entryId) && request.auth.uid == userId;
+        allow list: if isSignedIn() && request.auth.uid == userId;
+
+        allow create: if isSignedIn() &&
+                         isValidId(entryId) &&
+                         request.auth.uid == userId &&
+                         incoming().keys().hasAll(['dateKey', 'workoutId', 'workoutTitle', 'completed', 'durationMinutes', 'createdAt', 'updatedAt']) &&
+                         incoming().keys().hasOnly(['dateKey', 'workoutId', 'workoutTitle', 'completed', 'durationMinutes', 'createdAt', 'updatedAt']) &&
+                         isValidCalendarEntry(incoming());
+
+        allow update: if isSignedIn() &&
+                         isValidId(entryId) &&
+                         request.auth.uid == userId &&
+                         isValidCalendarEntry(incoming()) &&
+                         incoming().createdAt == existing().createdAt &&
+                         incoming().diff(existing()).affectedKeys().hasOnly(['dateKey', 'workoutId', 'workoutTitle', 'completed', 'durationMinutes', 'updatedAt']);
+
+        allow delete: if isSignedIn() && isValidId(entryId) && request.auth.uid == userId;
+      }
+    }
+
+    match /referralCodes/{code} {
+      allow get: if isSignedIn() && isValidId(code);
+      allow list: if isSignedIn() && resource.data.ownerUid == request.auth.uid;
+
+      allow create: if isSignedIn() &&
+                       isValidId(code) &&
+                       incoming().code == code &&
+                       incoming().keys().hasAll(['ownerUid', 'code', 'createdAt', 'updatedAt']) &&
+                       incoming().keys().hasOnly(['ownerUid', 'code', 'createdAt', 'updatedAt']) &&
+                       isValidReferralCode(incoming());
+
+      allow update, delete: if false;
+
+      match /redemptions/{redeemerUid} {
+        allow get: if isSignedIn() &&
+                      isValidId(code) &&
+                      isValidId(redeemerUid) &&
+                      (request.auth.uid == redeemerUid || resource.data.codeOwnerUid == request.auth.uid);
+        allow list: if isSignedIn() && resource.data.codeOwnerUid == request.auth.uid;
+
+        allow create: if isSignedIn() &&
+                         isValidId(code) &&
+                         isValidId(redeemerUid) &&
+                         request.auth.uid == redeemerUid &&
+                         incoming().keys().hasAll(['code', 'codeOwnerUid', 'redeemerUid', 'createdAt']) &&
+                         incoming().keys().hasOnly(['code', 'codeOwnerUid', 'redeemerUid', 'createdAt']) &&
+                         isValidRedemption(incoming()) &&
+                         incoming().code == code &&
+                         exists(/databases/$(database)/documents/referralCodes/$(code)) &&
+                         get(/databases/$(database)/documents/referralCodes/$(code)).data.ownerUid == incoming().codeOwnerUid &&
+                         incoming().codeOwnerUid != request.auth.uid;
+
+        allow update, delete: if false;
+      }
+    }
+  }
+}

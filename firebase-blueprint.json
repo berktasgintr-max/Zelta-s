@@ -1,0 +1,117 @@
+{
+  "entities": {
+    "UserProfile": {
+      "title": "UserProfile",
+      "description": "User fitness profile, quiz answers, subscription tier, referral stats, and AI daily quota.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "description": "Authenticated Firebase UID" },
+        "displayName": { "type": "string", "description": "User display name" },
+        "age": { "type": "integer", "description": "User age in years" },
+        "heightCm": { "type": "integer", "description": "Height in centimeters" },
+        "startWeightKg": { "type": "number", "description": "Initial weight in kg" },
+        "currentWeightKg": { "type": "number", "description": "Latest weight in kg" },
+        "targetWeightKg": { "type": "number", "description": "Target weight in kg" },
+        "goal": { "type": "string", "enum": ["muscle", "fat_loss", "fitness", "growth_posture"] },
+        "environment": { "type": "string", "enum": ["gym", "home", "hybrid"] },
+        "activityLevel": { "type": "string", "enum": ["sedentary", "light", "moderate", "active"] },
+        "experienceLevel": { "type": "string", "enum": ["beginner", "occasional", "regular", "advanced"] },
+        "weeklyDays": { "type": "integer", "description": "Target workout days per week" },
+        "sessionMinutes": { "type": "integer", "description": "Preferred workout duration in minutes" },
+        "focusArea": { "type": "string", "enum": ["full_body", "upper", "lower", "core"] },
+        "planTier": { "type": "string", "enum": ["free", "pro"] },
+        "proSource": { "type": "string", "enum": ["none", "purchased", "referral_reward"] },
+        "proExpiresAtMillis": { "type": "integer", "description": "Epoch millis when referral Pro expires (0 for permanent/free)" },
+        "inviteCode": { "type": "string", "description": "User unique referral invite code" },
+        "referralCount": { "type": "integer", "description": "Number of friends who signed up with invite code" },
+        "referredByCode": { "type": "string", "description": "Invite code redeemed by this user" },
+        "aiQuestionsUsedToday": { "type": "integer", "description": "Count of AI coach questions used today" },
+        "aiQuotaDate": { "type": "string", "description": "YYYY-MM-DD date string for AI quota reset" },
+        "onboardingCompleted": { "type": "boolean", "description": "Whether onboarding quiz was finished" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Server timestamp on creation" },
+        "updatedAt": { "type": "string", "format": "date-time", "description": "Server timestamp on update" }
+      },
+      "required": [
+        "userId", "displayName", "age", "heightCm", "startWeightKg", "currentWeightKg",
+        "targetWeightKg", "goal", "environment", "activityLevel", "experienceLevel",
+        "weeklyDays", "sessionMinutes", "focusArea", "planTier", "proSource",
+        "proExpiresAtMillis", "inviteCode", "referralCount", "referredByCode",
+        "aiQuestionsUsedToday", "aiQuotaDate", "onboardingCompleted", "createdAt", "updatedAt"
+      ]
+    },
+    "WeightLog": {
+      "title": "WeightLog",
+      "description": "Timestamped weight measurement entry for progress charting.",
+      "type": "object",
+      "properties": {
+        "weightKg": { "type": "number", "description": "Recorded weight in kg" },
+        "note": { "type": "string", "description": "Optional note" },
+        "loggedAtMillis": { "type": "integer", "description": "Client display timestamp millis" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Server timestamp on creation" },
+        "updatedAt": { "type": "string", "format": "date-time", "description": "Server timestamp on update" }
+      },
+      "required": ["weightKg", "loggedAtMillis", "createdAt", "updatedAt"]
+    },
+    "CalendarEntry": {
+      "title": "CalendarEntry",
+      "description": "Scheduled or completed workout assigned to a calendar date.",
+      "type": "object",
+      "properties": {
+        "dateKey": { "type": "string", "description": "ISO date YYYY-MM-DD" },
+        "workoutId": { "type": "string", "description": "Workout ID from catalog" },
+        "workoutTitle": { "type": "string", "description": "Workout title" },
+        "completed": { "type": "boolean", "description": "Completion flag" },
+        "durationMinutes": { "type": "integer", "description": "Planned duration in minutes" },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Server timestamp on creation" },
+        "updatedAt": { "type": "string", "format": "date-time", "description": "Server timestamp on update" }
+      },
+      "required": ["dateKey", "workoutId", "workoutTitle", "completed", "durationMinutes", "createdAt", "updatedAt"]
+    },
+    "ReferralCode": {
+      "title": "ReferralCode",
+      "description": "Claimed referral invite code mapped to owner UID.",
+      "type": "object",
+      "properties": {
+        "ownerUid": { "type": "string", "description": "UID of invite code owner" },
+        "code": { "type": "string", "description": "Unique invite code" },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "updatedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["ownerUid", "code", "createdAt", "updatedAt"]
+    },
+    "ReferralRedemption": {
+      "title": "ReferralRedemption",
+      "description": "Record of a friend signing up and redeeming an invite code.",
+      "type": "object",
+      "properties": {
+        "code": { "type": "string", "description": "Redeemed invite code" },
+        "codeOwnerUid": { "type": "string", "description": "Denormalized UID of the code owner" },
+        "redeemerUid": { "type": "string", "description": "UID of the invited friend" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["code", "codeOwnerUid", "redeemerUid", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/UserProfile" },
+      "description": "Private user fitness profile and plan state."
+    },
+    "/users/{userId}/weightLogs/{logId}": {
+      "schema": { "$ref": "#/entities/WeightLog" },
+      "description": "User weight history entries."
+    },
+    "/users/{userId}/calendarEntries/{entryId}": {
+      "schema": { "$ref": "#/entities/CalendarEntry" },
+      "description": "User workout calendar schedule entries."
+    },
+    "/referralCodes/{code}": {
+      "schema": { "$ref": "#/entities/ReferralCode" },
+      "description": "Referral code ownership registry."
+    },
+    "/referralCodes/{code}/redemptions/{redeemerUid}": {
+      "schema": { "$ref": "#/entities/ReferralRedemption" },
+      "description": "Immutable friend referral redemptions."
+    }
+  }
+}
