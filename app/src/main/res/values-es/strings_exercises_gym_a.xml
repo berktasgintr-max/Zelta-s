@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Press de Banca con Barra</string>
+    <string name="ex_g1_1_muscle">Pecho</string>
+    <string name="ex_g1_1_cue">Codos a ~45° del torso y muñecas rectas.</string>
+    <string name="ex_g1_1_breath">Inhala al bajar, exhala fuerte al empujar.</string>
+    <string name="ex_g1_1_mistake">Rebotar la barra en el pecho o levantar la cadera del banco.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Acuéstate en el banco con los pies firmes en el suelo.</item>
+        <item>Agarra la barra algo más ancho que los hombros y junta escápulas.</item>
+        <item>Baja la barra con control hacia la línea media-baja del pecho.</item>
+        <item>Empuja la barra con potencia apretando el pecho.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Press Inclinado con Mancuernas</string>
+    <string name="ex_g1_2_muscle">Pecho Superior</string>
+    <string name="ex_g1_2_cue">No choques las mancuernas arriba; mantén la tensión.</string>
+    <string name="ex_g1_2_breath">Inhala al bajar, exhala al subir.</string>
+    <string name="ex_g1_2_mistake">Poner el banco a más de 45° cargando demasiado los hombros.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Ajusta el banco a 30 grados.</item>
+        <item>Sube las mancuernas sobre los hombros.</item>
+        <item>Baja controlado abriendo los codos hacia el pecho superior.</item>
+        <item>Empuja contrayendo arriba el pecho superior.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Press de Hombros con Mancuernas</string>
+    <string name="ex_g1_3_muscle">Hombros</string>
+    <string name="ex_g1_3_cue">No arquees demasiado la espalda baja; controla tus costillas.</string>
+    <string name="ex_g1_3_breath">Exhala al subir, inhala al bajar.</string>
+    <string name="ex_g1_3_mistake">Empujar las pesas demasiado hacia adelante.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Siéntate recto con el abdomen firme.</item>
+        <item>Mancuernas a la altura de las orejas, palmas al frente.</item>
+        <item>Empuja controlado sobre la cabeza.</item>
+        <item>Baja despacio hasta la altura de las orejas.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Extensión Tríceps Polea con Cuerda</string>
+    <string name="ex_g1_4_muscle">Tríceps</string>
+    <string name="ex_g1_4_cue">Solo se mueve el codo; hombros inmóviles.</string>
+    <string name="ex_g1_4_breath">Exhala al empujar abajo.</string>
+    <string name="ex_g1_4_mistake">Inclinarse encima con el peso del cuerpo.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Agarra la cuerda a la altura del pecho.</item>
+        <item>Pega los codos a tus costillas.</item>
+        <item>Extiende abajo del todo abriendo las puntas de la cuerda.</item>
+        <item>Vuelve controlado sin mover los codos.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Jalón al Pecho</string>
+    <string name="ex_g2_1_muscle">Dorsales / Espalda</string>
+    <string name="ex_g2_1_cue">Siente que tiras con los codos, no con las manos.</string>
+    <string name="ex_g2_1_breath">Exhala al bajar la barra, inhala al subir.</string>
+    <string name="ex_g2_1_mistake">Balancearse demasiado atrás buscando impulso.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Agarra amplio y fija rodillas bajo el cojín.</item>
+        <item>Saca pecho ligeramente hacia arriba.</item>
+        <item>Tira codos abajo y atrás llevando la barra al pecho alto.</item>
+        <item>Extiende arriba con control.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Remo Sentado en Polea</string>
+    <string name="ex_g2_2_muscle">Espalda Media</string>
+    <string name="ex_g2_2_cue">Mantén hombros abajo, lejos de las orejas.</string>
+    <string name="ex_g2_2_breath">Exhala al remar hacia ti.</string>
+    <string name="ex_g2_2_mistake">Encorvar la espalda hacia adelante.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Apoya los pies con rodillas ligeramente flexionadas.</item>
+        <item>Espalda recta, rema el agarre hacia el abdomen.</item>
+        <item>Aprieta escápulas 1 segundo atrás.</item>
+        <item>Extiende al frente con control.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull en Polea</string>
+    <string name="ex_g2_3_muscle">Deltoides Post. y Postura</string>
+    <string name="ex_g2_3_cue">El mejor movimiento protector para tu postura.</string>
+    <string name="ex_g2_3_breath">Exhala al tirar.</string>
+    <string name="ex_g2_3_mistake">Cargar demasiado peso e impulsarse con la espalda.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Coloca la polea a la altura de los ojos.</item>
+        <item>Tira hacia la frente abriendo los codos afuera.</item>
+        <item>Rota externamente al final apretando deltoides posteriores.</item>
+        <item>Regresa despacio.</item>
+    </string-array>
+    <string name="ex_g2_4_name">Curl Bíceps Barra Z</string>
+    <string name="ex_g2_4_muscle">Bíceps</string>
+    <string name="ex_g2_4_cue">Mantén las muñecas neutras sin doblarlas.</string>
+    <string name="ex_g2_4_breath">Exhala al subir, inhala al bajar.</string>
+    <string name="ex_g2_4_mistake">Balancear la espalda baja para subir.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>Agarra la barra Z al ancho de hombros.</item>
+        <item>Fija los codos a los costados.</item>
+        <item>Sube al nivel de hombros y aprieta 1 segundo.</item>
+        <item>Baja lento en 3 segundos.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Sentadilla Trasera con Barra</string>
+    <string name="ex_g3_1_muscle">Cuádriceps y Glúteos</string>
+    <string name="ex_g3_1_cue">Rodillas alineadas con las puntas sin meterse hacia adentro.</string>
+    <string name="ex_g3_1_breath">Inhala al bajar, exhala al subir.</string>
+    <string name="ex_g3_1_mistake">Levantar los talones o redondear la espalda baja.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Apoya la barra en trapecios, pies al ancho de hombros.</item>
+        <item>Inhala y aprieta fuerte el abdomen.</item>
+        <item>Baja cadera atrás y abajo hasta el paralelo.</item>
+        <item>Empuja el suelo con los talones para subir.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Peso Muerto Rumano</string>
+    <string name="ex_g3_2_muscle">Isquios y Glúteos</string>
+    <string name="ex_g3_2_cue">Es una bisagra de cadera, no flexión lumbar.</string>
+    <string name="ex_g3_2_breath">Inhala al bajar, exhala al subir.</string>
+    <string name="ex_g3_2_mistake">Alejar la barra de las piernas y curvar la espalda.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Barra frente a caderas con rodillas casi rectas.</item>
+        <item>Espalda plana, empuja cadera atrás rozando las piernas.</item>
+        <item>Al sentir el estiramiento posterior, sube apretando glúteos.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Prensa de Piernas</string>
+    <string name="ex_g3_3_muscle">Cuádriceps</string>
+    <string name="ex_g3_3_cue">No bajes tanto como para despegar los glúteos del asiento.</string>
+    <string name="ex_g3_3_breath">Exhala al empujar.</string>
+    <string name="ex_g3_3_mistake">Bloquear de golpe las rodillas arriba.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Pega espalda y glúteos al respaldo.</item>
+        <item>Pies al ancho de hombros en la plataforma.</item>
+        <item>Baja las rodillas controlado hacia el pecho.</item>
+        <item>Empuja sin bloquear por completo las rodillas.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Elevación de Talones de Pie</string>
+    <string name="ex_g3_4_muscle">Gemelos</string>
+    <string name="ex_g3_4_cue">Trabaja a ritmo controlado sin rebotes.</string>
+    <string name="ex_g3_4_breath">Exhala al subir.</string>
+    <string name="ex_g3_4_mistake">Rebotar muy rápido sobrecargando el tendón.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Apoya la punta de los pies en un escalón.</item>
+        <item>Estira los talones abajo del todo.</item>
+        <item>Sube de puntillas al máximo y aguanta 1 s.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Sentadilla Goblet</string>
+    <string name="ex_g4_1_muscle">Piernas y Core</string>
+    <string name="ex_g4_1_cue">Pecho hacia adelante sin inclinarte de más.</string>
+    <string name="ex_g4_1_breath">Inhala al bajar, exhala al subir.</string>
+    <string name="ex_g4_1_mistake">Alejar la mancuerna del cuerpo.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Sostén una mancuerna vertical frente al pecho.</item>
+        <item>Baja con el torso erguido.</item>
+        <item>Cuando los codos toquen la cara interna de rodillas, sube.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Prensa de Pecho en Máquina</string>
+    <string name="ex_g4_2_muscle">Pecho</string>
+    <string name="ex_g4_2_cue">No adelantes los hombros; pecho abierto.</string>
+    <string name="ex_g4_2_breath">Exhala al empujar.</string>
+    <string name="ex_g4_2_mistake">Soltar las placas al final haciendo ruido.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Ajusta el asiento a la línea media del pecho.</item>
+        <item>Apoya la espalda y empuja al frente.</item>
+        <item>Regresa despacio al inicio.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Remo en Máquina</string>
+    <string name="ex_g4_3_muscle">Espalda</string>
+    <string name="ex_g4_3_cue">No encojas los hombros hacia el cuello.</string>
+    <string name="ex_g4_3_breath">Exhala al tirar.</string>
+    <string name="ex_g4_3_mistake">Hacer medias repeticiones sin rango.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Apoya el pecho en el cojín y toma los agarres.</item>
+        <item>Tira codos atrás apretando la espalda.</item>
+        <item>Extiende adelante controlado.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Plancha</string>
+    <string name="ex_g4_4_muscle">Abdomen y Core</string>
+    <string name="ex_g4_4_sets">3 x 40 s</string>
+    <string name="ex_g4_4_cue">Respira continuo, no te congeles.</string>
+    <string name="ex_g4_4_breath">Inhala por nariz, exhala fluido por boca.</string>
+    <string name="ex_g4_4_mistake">Subir la cadera o hundir la zona lumbar.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Apóyate sobre antebrazos.</item>
+        <item>Forma una línea recta de cabeza a talones.</item>
+        <item>Contrae abdomen y glúteos todo el tiempo.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Press de Banca con Mancuernas</string>
+    <string name="ex_g5_1_muscle">Pecho</string>
+    <string name="ex_g5_1_cue">Una pausa de 1 s abajo potencia la fuerza.</string>
+    <string name="ex_g5_1_breath">Exhala al empujar.</string>
+    <string name="ex_g5_1_mistake">Abrir los codos completamente a 90°.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Lleva las mancuernas al pecho ayudándote con las rodillas.</item>
+        <item>Empuja arriba y baja con control.</item>
+    </string-array>
+    <string name="ex_g5_2_name">Remo a Un Brazo con Mancuerna</string>
+    <string name="ex_g5_2_muscle">Espalda</string>
+    <string name="ex_g5_2_sets">4 x 10/brazo</string>
+    <string name="ex_g5_2_cue">Tira solo con la espalda sin rotar el torso.</string>
+    <string name="ex_g5_2_breath">Exhala al tirar.</string>
+    <string name="ex_g5_2_mistake">Subir la mancuerna hacia el hombro.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Apoya mano y rodilla en el banco con espalda recta.</item>
+        <item>Rema la mancuerna hacia tu cadera.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Elevaciones Laterales</string>
+    <string name="ex_g5_3_muscle">Deltoides Medio</string>
+    <string name="ex_g5_3_cue">Sube llevando levemente el meñique arriba.</string>
+    <string name="ex_g5_3_breath">Exhala al elevar.</string>
+    <string name="ex_g5_3_mistake">Balancear el torso para impulsar las pesas.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Mancuernas a los lados, codos ligeramente doblados.</item>
+        <item>Sube los brazos lateralmente a la altura del hombro.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Curl Martillo</string>
+    <string name="ex_g5_4_muscle">Bíceps y Antebrazos</string>
+    <string name="ex_g5_4_cue">El mejor agarre para grosor de brazo.</string>
+    <string name="ex_g5_4_breath">Exhala al subir.</string>
+    <string name="ex_g5_4_mistake">Adelantar los hombros.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Palmas mirándose entre sí.</item>
+        <item>Codos fijos y sube con control.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Press Arnold</string>
+    <string name="ex_g6_1_muscle">Hombro Completo</string>
+    <string name="ex_g6_1_cue">Activa deltoides anterior y lateral a la vez.</string>
+    <string name="ex_g6_1_breath">Exhala al subir.</string>
+    <string name="ex_g6_1_mistake">Arquear de más la espalda baja.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Empieza con palmas hacia tu rostro.</item>
+        <item>Gira muñecas afuera al empujar arriba.</item>
+        <item>Invierte el giro al bajar.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Curl Inclinado con Mancuernas</string>
+    <string name="ex_g6_2_muscle">Cabeza Larga Bíceps</string>
+    <string name="ex_g6_2_cue">Codos fijos un poco detrás del torso.</string>
+    <string name="ex_g6_2_breath">Exhala al subir.</string>
+    <string name="ex_g6_2_mistake">Adelantar los codos al subir.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Apóyate en un banco inclinado a 45°.</item>
+        <item>Deja colgar los brazos y flexiona solo desde el codo.</item>
+    </string-array>
+    <string name="ex_g6_3_name">Press Francés (Barra Z)</string>
+    <string name="ex_g6_3_muscle">Tríceps</string>
+    <string name="ex_g6_3_cue">No dejes que los codos se abran afuera.</string>
+    <string name="ex_g6_3_breath">Exhala al extender.</string>
+    <string name="ex_g6_3_mistake">Cargar demasiado peso lastimando los codos.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Acostado, barra vertical sobre la vista.</item>
+        <item>Dobla solo codos detrás de la frente y extiende.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Elevación Lateral en Polea</string>
+    <string name="ex_g6_4_muscle">Deltoides Medio</string>
+    <string name="ex_g6_4_cue">Mantiene tensión constante desde el inicio.</string>
+    <string name="ex_g6_4_breath">Exhala al abrir.</string>
+    <string name="ex_g6_4_mistake">Inclinar el torso de lado.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Sujeta el cable por delante del cuerpo.</item>
+        <item>Eleva controlado hasta la altura del hombro.</item>
+    </string-array>
+</resources>

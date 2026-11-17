@@ -1,19 +1,8 @@
 package com.example.ui.screens
 
-import android.Manifest
-import android.content.Context
-import android.content.pm.PackageManager
-import android.graphics.Bitmap
-import android.graphics.BitmapFactory
-import android.graphics.ImageDecoder
-import android.net.Uri
-import android.os.Build
-import androidx.activity.compose.rememberLauncherForActivityResult
-import androidx.activity.result.PickVisualMediaRequest
-import androidx.activity.result.contract.ActivityResultContracts
-import androidx.compose.foundation.Image
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -23,233 +12,92 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.lazy.LazyColumn
+import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.rounded.CameraAlt
-import androidx.compose.material.icons.rounded.CardGiftcard
+import androidx.compose.material.icons.rounded.Add
+import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.Delete
 import androidx.compose.material.icons.rounded.LocalFireDepartment
-import androidx.compose.material.icons.rounded.Lock
-import androidx.compose.material.icons.rounded.PhotoLibrary
+import androidx.compose.material.icons.rounded.Remove
 import androidx.compose.material.icons.rounded.Restaurant
-import androidx.compose.material.icons.rounded.Verified
+import androidx.compose.material.icons.rounded.Scale
+import androidx.compose.material.icons.rounded.Search
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
-import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.FilterChip
+import androidx.compose.material3.FilterChipDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.OutlinedButton
+import androidx.compose.material3.Slider
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.graphics.asImageBitmap
-import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.core.content.ContextCompat
-import androidx.core.content.FileProvider
+import androidx.compose.ui.window.Dialog
 import com.example.R
+import com.example.data.catalog.FitnessFoodDatabase
+import com.example.data.catalog.FitnessFoodItem
+import com.example.data.catalog.FoodCategory
 import com.example.data.local.MealCalorieEntity
 import com.example.data.model.UserProfile
-import com.example.ui.i18n.LocalAppStrings
-import com.example.ui.theme.LocalExtendedColors
-import com.example.ui.viewmodel.CalorieScanUiState
-import java.io.File
+import com.example.ui.components.AnimatedKocTavuk
+import com.example.ui.components.CleanTextField
+import com.example.ui.i18n.LocalAppLanguageCode
+import com.example.ui.i18n.LocalAppLocale
+import com.example.ui.i18n.strRes
 import java.text.SimpleDateFormat
 import java.util.Calendar
 import java.util.Date
 import java.util.Locale
+import kotlin.math.abs
+import kotlin.math.roundToInt
 
 @Composable
 fun CalorieScannerTab(
     profile: UserProfile,
     calorieLogs: List<MealCalorieEntity>,
-    scanState: CalorieScanUiState,
-    onAnalyzePhoto: (Bitmap) -> Unit,
-    onDeleteLog: (String) -> Unit,
-    onClearScanState: () -> Unit,
-    onUpgradePro: () -> Unit,
-    onOpenInviteTab: () -> Unit
+    onLogFood: (FitnessFoodItem, Int) -> Unit,
+    onDeleteLog: (String) -> Unit
 ) {
-    val strings = LocalAppStrings.current
-    val isEn = strings.langCode == "en"
-    val ext = LocalExtendedColors.current
-    val context = LocalContext.current
+    val langCode = LocalAppLanguageCode.current
+    val locale = LocalAppLocale.current
+    val cardBorder = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.28f))
 
-    var previewBitmap by remember { mutableStateOf<Bitmap?>(null) }
-    var pendingCaptureUri by remember { mutableStateOf<Uri?>(null) }
-    var localError by remember { mutableStateOf<String?>(null) }
-
-    fun handleDecodedBitmap(uri: Uri) {
-        val bmp = decodeScaledBitmap(context, uri, maxDimension = 1024)
-        if (bmp == null) {
-            localError = if (isEn) "Could not read selected image." else "Seçilen fotoğraf okunamadı."
-        } else {
-            localError = null
-            previewBitmap = bmp
-            onAnalyzePhoto(bmp)
-        }
+    var searchQuery by rememberSaveable { mutableStateOf("") }
+    var selectedCategoryKey by rememberSaveable { mutableStateOf<String?>(null) }
+    val selectedCategory = remember(selectedCategoryKey) {
+        FoodCategory.entries.firstOrNull { it.name == selectedCategoryKey }
     }
+    var activeFood by remember { mutableStateOf<FitnessFoodItem?>(null) }
+    var portionGrams by rememberIntState(100)
 
-    val takePictureLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.TakePicture()
-    ) { success ->
-        val uri = pendingCaptureUri
-        if (success && uri != null) {
-            handleDecodedBitmap(uri)
-        }
-    }
-
-    fun launchCameraCapture() {
-        localError = null
-        val uri = createTempMealPhotoUri(context)
-        pendingCaptureUri = uri
-        takePictureLauncher.launch(uri)
-    }
-
-    val cameraPermissionLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.RequestPermission()
-    ) { granted ->
-        if (granted) {
-            launchCameraCapture()
-        } else {
-            localError = if (isEn) {
-                "Camera permission is required to take a meal photo. You can also pick from your gallery."
-            } else {
-                "Öğün fotoğrafı çekmek için kamera izni gerekiyor. Dilersen galeriden de fotoğraf seçebilirsin."
-            }
-        }
-    }
-
-    val photoPickerLauncher = rememberLauncherForActivityResult(
-        contract = ActivityResultContracts.PickVisualMedia()
-    ) { uri ->
-        if (uri != null) {
-            handleDecodedBitmap(uri)
-        }
-    }
-
-    // Strict PRO Paywall / Gate
-    if (!profile.isProActive) {
-        LazyColumn(
-            contentPadding = PaddingValues(16.dp),
-            verticalArrangement = Arrangement.spacedBy(14.dp),
-            modifier = Modifier.fillMaxSize()
-        ) {
-            item {
-                Card(
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
-                    shape = MaterialTheme.shapes.large,
-                    modifier = Modifier
-                        .fillMaxWidth()
-                        .border(2.dp, ext.goldText.copy(alpha = 0.7f), MaterialTheme.shapes.large)
-                        .testTag("calorie_pro_gate_card")
-                ) {
-                    Column(
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.spacedBy(12.dp),
-                        modifier = Modifier.padding(20.dp)
-                    ) {
-                        Image(
-                            painter = painterResource(id = R.drawable.img_koc_tavuk_0),
-                            contentDescription = strings.coachAdviceHeader,
-                            contentScale = ContentScale.Fit,
-                            modifier = Modifier.size(124.dp)
-                        )
-                        Surface(
-                            color = ext.goldContainer,
-                            shape = CircleShape
-                        ) {
-                            Row(
-                                verticalAlignment = Alignment.CenterVertically,
-                                modifier = Modifier.padding(horizontal = 12.dp, vertical = 6.dp)
-                            ) {
-                                Icon(Icons.Rounded.Lock, contentDescription = null, tint = ext.goldText, modifier = Modifier.size(16.dp))
-                                Spacer(modifier = Modifier.width(6.dp))
-                                Text(
-                                    text = if (isEn) "PRO FEATURE" else "PRO ÖZELLİK",
-                                    style = MaterialTheme.typography.labelLarge,
-                                    color = ext.goldText,
-                                    fontWeight = FontWeight.Bold
-                                )
-                            }
-                        }
-                        Text(
-                            text = strings.homeCalorieTitle,
-                            style = MaterialTheme.typography.headlineMedium,
-                            fontWeight = FontWeight.ExtraBold,
-                            textAlign = TextAlign.Center
-                        )
-                        Text(
-                            text = if (isEn) {
-                                "Snap a photo of your plate or choose from gallery—Koç Tavuk AI estimates total calories, protein, carbs, and fats and saves your daily nutrition log. Exclusive to PRO Plan!"
-                            } else {
-                                "Tabağının fotoğrafını çek veya galeriden seç; Koç Tavuk AI yemeğinin kalorisini, protein, karbonhidrat ve yağ değerlerini anında hesaplayıp günlüğüne kaydetsin. Bu özellik PRO Plan'a özeldir!"
-                            },
-                            style = MaterialTheme.typography.bodyLarge,
-                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                            textAlign = TextAlign.Center
-                        )
-                        Button(
-                            onClick = onUpgradePro,
-                            colors = ButtonDefaults.buttonColors(
-                                containerColor = MaterialTheme.colorScheme.secondary,
-                                contentColor = MaterialTheme.colorScheme.onSecondary
-                            ),
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(50.dp)
-                                .testTag("calorie_upgrade_pro_button")
-                        ) {
-                            Icon(Icons.Rounded.Verified, contentDescription = null)
-                            Spacer(modifier = Modifier.width(8.dp))
-                            Text(
-                                text = if (isEn) "Upgrade to PRO" else "PRO Plana Geç",
-                                fontWeight = FontWeight.Bold
-                            )
-                        }
-                        OutlinedButton(
-                            onClick = onOpenInviteTab,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(48.dp)
-                        ) {
-                            Icon(Icons.Rounded.CardGiftcard, contentDescription = null)
-                            Spacer(modifier = Modifier.width(8.dp))
-                            Text(
-                                text = if (isEn) "Invite 5 Friends = 1 Month Free PRO" else "5 Arkadaş Davet Et = 1 Ay Ücretsiz PRO",
-                                fontWeight = FontWeight.Bold
-                            )
-                        }
-                    }
-                }
-            }
-        }
-        return
-    }
-
-    // PRO Active: Full Camera + Gallery Calorie Calculator
     val todayLogs = remember(calorieLogs) {
         val startOfDay = Calendar.getInstance().apply {
             set(Calendar.HOUR_OF_DAY, 0)
@@ -264,19 +112,58 @@ fun CalorieScannerTab(
     val todayCarbs = todayLogs.sumOf { it.carbsGrams }
     val todayFat = todayLogs.sumOf { it.fatGrams }
 
+    val targetKcal = profile.dailyCalorieTarget.coerceAtLeast(1200)
+    val feedback = remember(profile, todayKcal, todayProtein, langCode) {
+        FitnessFoodDatabase.evaluateDailyNutrition(
+            profile = profile,
+            consumedKcal = todayKcal,
+            consumedProtein = todayProtein,
+            langCode = langCode
+        )
+    }
+    val targetProtein = feedback.proteinTargetGrams.coerceAtLeast(60)
+    val nextXpBonus = if (todayLogs.isEmpty()) 25 else 15
+
+    val filteredFoods = remember(searchQuery, selectedCategory) {
+        FitnessFoodDatabase.search(searchQuery, selectedCategory)
+    }
+
+    activeFood?.let { food ->
+        FoodPortionDialog(
+            food = food,
+            langCode = langCode,
+            grams = portionGrams,
+            xpBonus = nextXpBonus,
+            onGramsChange = { portionGrams = it.coerceIn(10, 1000) },
+            onConfirmLog = {
+                onLogFood(food, portionGrams)
+                activeFood = null
+            },
+            onDismiss = { activeFood = null }
+        )
+    }
+
+    val flatElevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+    val surfaceCardColors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+
     LazyColumn(
-        contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
+        contentPadding = PaddingValues(start = 16.dp, top = 12.dp, end = 16.dp, bottom = 96.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp),
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .fillMaxSize()
+            .imePadding()
+            .background(MaterialTheme.colorScheme.background)
     ) {
-        // Daily Macro & Calorie Summary Card
-        item {
+        // Daily Calorie & Protein Progress Card
+        item(key = "macro_daily_goals", contentType = "summary_card") {
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
+                border = cardBorder,
+                elevation = flatElevation,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .border(1.5.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.55f), MaterialTheme.shapes.large)
+                    .testTag("macro_daily_goals_card")
             ) {
                 Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Row(
@@ -284,207 +171,310 @@ fun CalorieScannerTab(
                         horizontalArrangement = Arrangement.SpaceBetween,
                         modifier = Modifier.fillMaxWidth()
                     ) {
-                        Row(verticalAlignment = Alignment.CenterVertically) {
+                        Row(verticalAlignment = Alignment.CenterVertically, modifier = Modifier.weight(1f)) {
                             Icon(Icons.Rounded.LocalFireDepartment, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                             Spacer(modifier = Modifier.width(8.dp))
                             Text(
-                                text = if (isEn) "Today's Nutrition" else "Bugünkü Kalori & Makrolar",
-                                style = MaterialTheme.typography.titleLarge,
-                                fontWeight = FontWeight.Bold
+                                text = strRes(R.string.home_calorie_title),
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.ExtraBold,
+                                color = MaterialTheme.colorScheme.onSurface,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis
                             )
                         }
-                        Surface(color = ext.goldContainer, shape = CircleShape) {
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Surface(
+                            color = MaterialTheme.colorScheme.primary.copy(alpha = 0.14f),
+                            shape = CircleShape,
+                            border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.3f))
+                        ) {
                             Text(
-                                text = "$todayKcal kcal",
-                                style = MaterialTheme.typography.labelLarge,
-                                color = ext.goldText,
-                                fontWeight = FontWeight.ExtraBold,
+                                text = strRes(R.string.calorie_pro_required),
+                                style = MaterialTheme.typography.labelMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.primary,
+                                maxLines = 1,
+                                softWrap = false,
                                 modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
                             )
                         }
                     }
 
-                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                        MacroPill(if (isEn) "Protein" else "Protein", "${todayProtein}g", ext.mintText, ext.mintContainer, Modifier.weight(1f))
-                        MacroPill(if (isEn) "Carbs" else "Karb", "${todayCarbs}g", ext.tealText, ext.tealContainer, Modifier.weight(1f))
-                        MacroPill(if (isEn) "Fat" else "Yağ", "${todayFat}g", ext.goldText, ext.goldContainer, Modifier.weight(1f))
-                    }
-                }
-            }
-        }
-
-        // Camera & Gallery Capture Card
-        item {
-            Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
-                shape = MaterialTheme.shapes.large,
-                modifier = Modifier.fillMaxWidth()
-            ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                    Text(
-                        text = strings.homeCalorieTitle,
-                        style = MaterialTheme.typography.titleLarge,
-                        fontWeight = FontWeight.Bold
-                    )
-                    Text(
-                        text = strings.homeCalorieSub,
-                        style = MaterialTheme.typography.bodyMedium,
-                        color = MaterialTheme.colorScheme.onSurfaceVariant
-                    )
-
-                    previewBitmap?.let { bmp ->
-                        Image(
-                            bitmap = bmp.asImageBitmap(),
-                            contentDescription = strings.homeCalorieTitle,
-                            contentScale = ContentScale.Crop,
+                    // Calorie Goal Bar
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
+                            Text(
+                                text = strRes(R.string.macro_daily_calorie_goal_fmt, todayKcal, targetKcal),
+                                style = MaterialTheme.typography.labelLarge,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Text(
+                                text = "${((todayKcal.toFloat() / targetKcal) * 100).roundToInt().coerceIn(0, 999)}%",
+                                style = MaterialTheme.typography.labelMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                        }
+                        LinearProgressIndicator(
+                            progress = { (todayKcal.toFloat() / targetKcal.toFloat()).coerceIn(0f, 1f) },
                             modifier = Modifier
                                 .fillMaxWidth()
-                                .height(180.dp)
-                                .clip(MaterialTheme.shapes.medium)
+                                .height(8.dp)
+                                .clip(CircleShape),
+                            color = MaterialTheme.colorScheme.primary,
+                            trackColor = MaterialTheme.colorScheme.background
                         )
                     }
 
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
-                        Button(
-                            onClick = {
-                                onClearScanState()
-                                val hasPerm = ContextCompat.checkSelfPermission(
-                                    context,
-                                    Manifest.permission.CAMERA
-                                ) == PackageManager.PERMISSION_GRANTED
-                                if (hasPerm) {
-                                    launchCameraCapture()
-                                } else {
-                                    cameraPermissionLauncher.launch(Manifest.permission.CAMERA)
-                                }
-                            },
-                            enabled = scanState !is CalorieScanUiState.Analyzing,
-                            modifier = Modifier
-                                .weight(1f)
-                                .height(48.dp)
-                                .testTag("calorie_camera_button")
-                        ) {
-                            Icon(Icons.Rounded.CameraAlt, contentDescription = null, modifier = Modifier.size(18.dp))
-                            Spacer(modifier = Modifier.width(6.dp))
+                    // Protein Goal Bar
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
                             Text(
-                                text = if (isEn) "Take Photo" else "Fotoğraf Çek",
-                                fontWeight = FontWeight.Bold
+                                text = strRes(R.string.macro_daily_protein_goal_fmt, todayProtein, targetProtein),
+                                style = MaterialTheme.typography.labelLarge,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Text(
+                                text = "${((todayProtein.toFloat() / targetProtein) * 100).roundToInt().coerceIn(0, 999)}%",
+                                style = MaterialTheme.typography.labelMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.tertiary
                             )
                         }
+                        LinearProgressIndicator(
+                            progress = { (todayProtein.toFloat() / targetProtein.toFloat()).coerceIn(0f, 1f) },
+                            modifier = Modifier
+                                .fillMaxWidth()
+                                .height(8.dp)
+                                .clip(CircleShape),
+                            color = MaterialTheme.colorScheme.tertiary,
+                            trackColor = MaterialTheme.colorScheme.background
+                        )
+                    }
 
-                        OutlinedButton(
+                    Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                        MacroPill(strRes(R.string.macro_protein), "${todayProtein}g", Modifier.weight(1f))
+                        MacroPill(strRes(R.string.macro_carbs), "${todayCarbs}g", Modifier.weight(1f))
+                        MacroPill(strRes(R.string.macro_fat), "${todayFat}g", Modifier.weight(1f))
+                    }
+                }
+            }
+        }
+
+        // Dynamic FitChicken Mascot Nutrition Feedback Card
+        item(key = "macro_mascot_feedback", contentType = "mascot_card") {
+            Card(
+                colors = surfaceCardColors,
+                shape = MaterialTheme.shapes.large,
+                border = cardBorder,
+                elevation = flatElevation,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .testTag("macro_mascot_feedback_card")
+            ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(12.dp),
+                    modifier = Modifier.padding(16.dp)
+                ) {
+                    AnimatedKocTavuk(
+                        size = 76.dp,
+                        mood = feedback.mood,
+                        triggerKey = "${todayKcal}_${todayProtein}",
+                        showAura = false,
+                        contentDescription = feedback.title
+                    )
+                    Column(verticalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.weight(1f)) {
+                        Text(
+                            text = feedback.title,
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.Bold,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                        Text(
+                            text = feedback.message,
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurface
+                        )
+                        Text(
+                            text = strRes(R.string.macro_database_count_fmt, FitnessFoodDatabase.ALL_FOODS.size),
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                }
+            }
+        }
+
+        // Search Bar & Category Filter Chips
+        item(key = "macro_search_filters", contentType = "search_bar") {
+            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.spacedBy(8.dp),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Icon(Icons.Rounded.Search, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                    CleanTextField(
+                        value = searchQuery,
+                        onValueChange = { searchQuery = it },
+                        placeholder = strRes(R.string.macro_search_hint),
+                        singleLine = true,
+                        modifier = Modifier.weight(1f),
+                        inputModifier = Modifier.testTag("macro_food_search_input")
+                    )
+                    if (searchQuery.isNotEmpty()) {
+                        IconButton(onClick = { searchQuery = "" }) {
+                            Icon(Icons.Rounded.Close, contentDescription = strRes(R.string.common_close))
+                        }
+                    }
+                }
+
+                LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+                    item(key = "cat_all", contentType = "filter_chip") {
+                        FilterChip(
+                            selected = selectedCategory == null,
+                            onClick = { selectedCategoryKey = null },
+                            label = { Text(strRes(R.string.macro_all_categories)) },
+                            colors = FilterChipDefaults.filterChipColors(
+                                selectedContainerColor = MaterialTheme.colorScheme.primary,
+                                selectedLabelColor = MaterialTheme.colorScheme.onPrimary
+                            ),
+                            modifier = Modifier.testTag("food_filter_all")
+                        )
+                    }
+                    items(FoodCategory.entries, key = { it.name }, contentType = { "filter_chip" }) { cat ->
+                        val isSelected = selectedCategory == cat
+                        FilterChip(
+                            selected = isSelected,
                             onClick = {
-                                onClearScanState()
-                                photoPickerLauncher.launch(
-                                    PickVisualMediaRequest(ActivityResultContracts.PickVisualMedia.ImageOnly)
+                                selectedCategoryKey = if (isSelected) null else cat.name
+                            },
+                            label = { Text(strRes(cat.labelRes)) },
+                            colors = FilterChipDefaults.filterChipColors(
+                                selectedContainerColor = MaterialTheme.colorScheme.primary,
+                                selectedLabelColor = MaterialTheme.colorScheme.onPrimary
+                            ),
+                            modifier = Modifier.testTag("food_filter_${cat.name}")
+                        )
+                    }
+                }
+
+                Text(
+                    text = strRes(R.string.macro_tap_hint),
+                    style = MaterialTheme.typography.labelMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant
+                )
+            }
+        }
+
+        // Food Catalog Results
+        if (filteredFoods.isEmpty()) {
+            item(key = "macro_empty_search", contentType = "empty_state") {
+                Card(
+                    colors = surfaceCardColors,
+                    shape = MaterialTheme.shapes.large,
+                    border = cardBorder,
+                    elevation = flatElevation,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(
+                        text = strRes(R.string.macro_empty_search),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(20.dp)
+                    )
+                }
+            }
+        } else {
+            items(
+                items = filteredFoods,
+                key = { it.id },
+                contentType = { "food_item" }
+            ) { food ->
+                Card(
+                    colors = surfaceCardColors,
+                    shape = MaterialTheme.shapes.medium,
+                    border = cardBorder,
+                    elevation = flatElevation,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .clip(MaterialTheme.shapes.medium)
+                        .clickable {
+                            portionGrams = food.defaultPortionGrams.coerceIn(10, 500)
+                            activeFood = food
+                        }
+                        .testTag("food_item_${food.id}")
+                ) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.padding(14.dp)
+                    ) {
+                        Box(
+                            contentAlignment = Alignment.Center,
+                            modifier = Modifier
+                                .size(44.dp)
+                                .clip(RoundedCornerShape(12.dp))
+                                .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.12f))
+                        ) {
+                            Icon(
+                                imageVector = Icons.Rounded.Scale,
+                                contentDescription = null,
+                                tint = MaterialTheme.colorScheme.primary,
+                                modifier = Modifier.size(22.dp)
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(12.dp))
+                        Column(
+                            verticalArrangement = Arrangement.spacedBy(3.dp),
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Text(
+                                text = food.localizedName(langCode),
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                            Text(
+                                text = "${strRes(food.category.labelRes)} • ${food.localizedPortionHint(langCode)}",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                maxLines = 1,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                            Text(
+                                text = strRes(
+                                    R.string.macro_per_100g_fmt,
+                                    food.caloriesPer100g,
+                                    formatMacro(food.proteinPer100g),
+                                    formatMacro(food.carbsPer100g),
+                                    formatMacro(food.fatPer100g)
+                                ),
+                                style = MaterialTheme.typography.labelLarge,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Surface(
+                            color = MaterialTheme.colorScheme.primary.copy(alpha = 0.14f),
+                            shape = CircleShape,
+                            modifier = Modifier.size(36.dp)
+                        ) {
+                            Box(contentAlignment = Alignment.Center) {
+                                Icon(
+                                    imageVector = Icons.Rounded.Add,
+                                    contentDescription = strRes(R.string.macro_portion_title),
+                                    tint = MaterialTheme.colorScheme.primary,
+                                    modifier = Modifier.size(20.dp)
                                 )
-                            },
-                            enabled = scanState !is CalorieScanUiState.Analyzing,
-                            modifier = Modifier
-                                .weight(1f)
-                                .height(48.dp)
-                                .testTag("calorie_gallery_button")
-                        ) {
-                            Icon(Icons.Rounded.PhotoLibrary, contentDescription = null, modifier = Modifier.size(18.dp))
-                            Spacer(modifier = Modifier.width(6.dp))
-                            Text(
-                                text = if (isEn) "Gallery" else "Galeriden Seç",
-                                fontWeight = FontWeight.Bold
-                            )
-                        }
-                    }
-
-                    localError?.let { msg ->
-                        Text(msg, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.error)
-                    }
-
-                    when (scanState) {
-                        CalorieScanUiState.Idle -> Unit
-                        CalorieScanUiState.Analyzing -> {
-                            Surface(
-                                color = MaterialTheme.colorScheme.surface,
-                                shape = MaterialTheme.shapes.medium,
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Row(
-                                    verticalAlignment = Alignment.CenterVertically,
-                                    modifier = Modifier.padding(14.dp)
-                                ) {
-                                    CircularProgressIndicator(modifier = Modifier.size(22.dp), strokeWidth = 2.5.dp)
-                                    Spacer(modifier = Modifier.width(12.dp))
-                                    Text(
-                                        text = if (isEn) "Koç Tavuk is analyzing your meal..." else "Koç Tavuk öğününü analiz ediyor...",
-                                        style = MaterialTheme.typography.bodyMedium,
-                                        fontWeight = FontWeight.SemiBold
-                                    )
-                                }
-                            }
-                        }
-                        is CalorieScanUiState.Result -> {
-                            val item = scanState.entity
-                            Surface(
-                                color = ext.mintContainer,
-                                shape = MaterialTheme.shapes.medium,
-                                modifier = Modifier
-                                    .fillMaxWidth()
-                                    .border(1.dp, ext.mintText.copy(alpha = 0.5f), MaterialTheme.shapes.medium)
-                            ) {
-                                Column(modifier = Modifier.padding(14.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                                    Row(
-                                        horizontalArrangement = Arrangement.SpaceBetween,
-                                        verticalAlignment = Alignment.CenterVertically,
-                                        modifier = Modifier.fillMaxWidth()
-                                    ) {
-                                        Text(
-                                            text = item.mealName,
-                                            style = MaterialTheme.typography.titleMedium,
-                                            fontWeight = FontWeight.ExtraBold,
-                                            modifier = Modifier.weight(1f)
-                                        )
-                                        Text(
-                                            text = "${item.calories} kcal",
-                                            style = MaterialTheme.typography.titleMedium,
-                                            color = ext.mintText,
-                                            fontWeight = FontWeight.ExtraBold
-                                        )
-                                    }
-                                    Text(
-                                        text = "P: ${item.proteinGrams}g  •  K: ${item.carbsGrams}g  •  Y: ${item.fatGrams}g",
-                                        style = MaterialTheme.typography.labelLarge,
-                                        fontWeight = FontWeight.Bold
-                                    )
-                                    if (item.portionSummary.isNotBlank()) {
-                                        Text(item.portionSummary, style = MaterialTheme.typography.bodyMedium)
-                                    }
-                                    if (item.coachNote.isNotBlank()) {
-                                        Text(
-                                            text = "Koç Tavuk: ${item.coachNote}",
-                                            style = MaterialTheme.typography.bodyMedium,
-                                            fontWeight = FontWeight.SemiBold,
-                                            color = MaterialTheme.colorScheme.onSurface
-                                        )
-                                    }
-                                }
-                            }
-                        }
-                        is CalorieScanUiState.Error -> {
-                            Surface(
-                                color = MaterialTheme.colorScheme.error.copy(alpha = 0.14f),
-                                shape = MaterialTheme.shapes.medium,
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Column(modifier = Modifier.padding(12.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                                    Text(
-                                        text = scanState.message,
-                                        style = MaterialTheme.typography.bodyMedium,
-                                        color = MaterialTheme.colorScheme.error
-                                    )
-                                    previewBitmap?.let { bmp ->
-                                        OutlinedButton(onClick = { onAnalyzePhoto(bmp) }) {
-                                            Text(if (isEn) "Retry Analysis" else "Tekrar Dene")
-                                        }
-                                    }
-                                }
                             }
                         }
                     }
@@ -492,43 +482,76 @@ fun CalorieScannerTab(
             }
         }
 
-        // Logged Meals History
-        if (calorieLogs.isNotEmpty()) {
-            item {
-                Text(
-                    text = if (isEn) "Recent Meal Analyses" else "Kaydedilen Öğün Analizleri",
-                    style = MaterialTheme.typography.titleMedium,
-                    fontWeight = FontWeight.Bold
-                )
+        // Logged Meals Section
+        item(key = "macro_recent_meals_header", contentType = "section_header") {
+            Spacer(modifier = Modifier.height(4.dp))
+            Text(
+                text = strRes(R.string.recent_meals),
+                style = MaterialTheme.typography.titleMedium,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.onBackground
+            )
+        }
+
+        if (calorieLogs.isEmpty()) {
+            item(key = "macro_no_logs", contentType = "empty_state") {
+                Card(
+                    colors = surfaceCardColors,
+                    shape = MaterialTheme.shapes.medium,
+                    border = cardBorder,
+                    elevation = flatElevation,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Text(
+                        text = strRes(R.string.macro_no_logs_today),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(16.dp)
+                    )
+                }
             }
-            items(calorieLogs, key = { it.id }) { meal ->
-                val timeStr = remember(meal.loggedAtMillis, isEn) {
-                    val loc = if (isEn) Locale.ENGLISH else Locale.forLanguageTag("tr")
-                    SimpleDateFormat("dd MMM, HH:mm", loc).format(Date(meal.loggedAtMillis))
+        } else {
+            items(
+                items = calorieLogs,
+                key = { it.id },
+                contentType = { "meal_log" }
+            ) { meal ->
+                val timeStr = remember(meal.loggedAtMillis, langCode) {
+                    SimpleDateFormat("dd MMM, HH:mm", locale).format(Date(meal.loggedAtMillis))
                 }
                 Card(
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                    colors = surfaceCardColors,
                     shape = MaterialTheme.shapes.medium,
+                    border = cardBorder,
+                    elevation = flatElevation,
                     modifier = Modifier.fillMaxWidth()
                 ) {
                     Row(
                         verticalAlignment = Alignment.CenterVertically,
-                        modifier = Modifier.padding(12.dp)
+                        modifier = Modifier.padding(14.dp)
                     ) {
                         Box(
                             contentAlignment = Alignment.Center,
                             modifier = Modifier
                                 .size(42.dp)
                                 .clip(RoundedCornerShape(12.dp))
-                                .background(ext.goldContainer)
+                                .background(MaterialTheme.colorScheme.background)
                         ) {
-                            Icon(Icons.Rounded.Restaurant, contentDescription = null, tint = ext.goldText)
+                            Icon(Icons.Rounded.Restaurant, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                         }
                         Spacer(modifier = Modifier.width(12.dp))
                         Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(2.dp)) {
-                            Text(meal.mealName, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
                             Text(
-                                text = "${meal.calories} kcal • P:${meal.proteinGrams}g  K:${meal.carbsGrams}g  Y:${meal.fatGrams}g",
+                                text = meal.mealName,
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Text(
+                                text = "${meal.calories} kcal • P:${meal.proteinGrams}g  C:${meal.carbsGrams}g  F:${meal.fatGrams}g",
                                 style = MaterialTheme.typography.labelLarge,
                                 color = MaterialTheme.colorScheme.primary
                             )
@@ -538,10 +561,184 @@ fun CalorieScannerTab(
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
-                        IconButton(onClick = { onDeleteLog(meal.id) }) {
-                            Icon(Icons.Rounded.Delete, contentDescription = if (isEn) "Delete" else "Sil", tint = MaterialTheme.colorScheme.error)
+                        IconButton(
+                            onClick = { onDeleteLog(meal.id) },
+                            modifier = Modifier.size(48.dp)
+                        ) {
+                            Icon(
+                                Icons.Rounded.Delete,
+                                contentDescription = strRes(R.string.common_delete),
+                                tint = MaterialTheme.colorScheme.error
+                            )
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+@Composable
+private fun FoodPortionDialog(
+    food: FitnessFoodItem,
+    langCode: String,
+    grams: Int,
+    xpBonus: Int,
+    onGramsChange: (Int) -> Unit,
+    onConfirmLog: () -> Unit,
+    onDismiss: () -> Unit
+) {
+    val scaled = remember(food, grams) { food.scaleForGrams(grams) }
+    val presets = remember { listOf(50, 100, 150, 200, 250) }
+
+    Dialog(onDismissRequest = onDismiss) {
+        Card(
+            colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface),
+            shape = MaterialTheme.shapes.large,
+            border = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.36f)),
+            modifier = Modifier
+                .fillMaxWidth()
+                .testTag("macro_portion_dialog")
+        ) {
+            Column(
+                verticalArrangement = Arrangement.spacedBy(14.dp),
+                modifier = Modifier
+                    .verticalScroll(rememberScrollState())
+                    .padding(18.dp)
+            ) {
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Column(modifier = Modifier.weight(1f)) {
+                        Text(
+                            text = food.localizedName(langCode),
+                            style = MaterialTheme.typography.titleMedium,
+                            fontWeight = FontWeight.ExtraBold,
+                            color = MaterialTheme.colorScheme.onSurface
+                        )
+                        Text(
+                            text = "${strRes(food.category.labelRes)} • ${food.localizedPortionHint(langCode)}",
+                            style = MaterialTheme.typography.labelMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant
+                        )
+                    }
+                    IconButton(
+                        onClick = onDismiss,
+                        modifier = Modifier.size(48.dp)
+                    ) {
+                        Icon(Icons.Rounded.Close, contentDescription = strRes(R.string.common_close))
+                    }
+                }
+
+                Text(
+                    text = strRes(R.string.macro_portion_title),
+                    style = MaterialTheme.typography.labelLarge,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.primary
+                )
+
+                Row(
+                    horizontalArrangement = Arrangement.spacedBy(6.dp),
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    presets.forEach { preset ->
+                        val selected = grams == preset
+                        Surface(
+                            color = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.background,
+                            shape = CircleShape,
+                            border = BorderStroke(
+                                1.dp,
+                                if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline.copy(alpha = 0.35f)
+                            ),
+                            modifier = Modifier
+                                .weight(1f)
+                                .heightIn(min = 42.dp)
+                                .clip(CircleShape)
+                                .clickable { onGramsChange(preset) }
+                                .testTag("portion_preset_$preset")
+                        ) {
+                            Box(contentAlignment = Alignment.Center, modifier = Modifier.padding(vertical = 8.dp)) {
+                                Text(
+                                    text = strRes(R.string.macro_grams_unit, preset),
+                                    style = MaterialTheme.typography.labelMedium,
+                                    fontWeight = FontWeight.Bold,
+                                    color = if (selected) MaterialTheme.colorScheme.onPrimary else MaterialTheme.colorScheme.onSurface
+                                )
+                            }
+                        }
+                    }
+                }
+
+                Row(
+                    verticalAlignment = Alignment.CenterVertically,
+                    horizontalArrangement = Arrangement.SpaceBetween,
+                    modifier = Modifier.fillMaxWidth()
+                ) {
+                    Surface(
+                        color = MaterialTheme.colorScheme.background,
+                        shape = CircleShape,
+                        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline.copy(alpha = 0.35f)),
+                        modifier = Modifier
+                            .size(48.dp)
+                            .clip(CircleShape)
+                            .clickable { onGramsChange((grams - 10).coerceAtLeast(10)) }
+                    ) {
+                        Box(contentAlignment = Alignment.Center) {
+                            Icon(Icons.Rounded.Remove, contentDescription = "-10g", tint = MaterialTheme.colorScheme.primary)
+                        }
+                    }
+
+                    Text(
+                        text = strRes(R.string.macro_grams_unit, scaled.grams),
+                        style = MaterialTheme.typography.headlineSmall,
+                        fontWeight = FontWeight.ExtraBold,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+
+                    Surface(
+                        color = MaterialTheme.colorScheme.background,
+                        shape = CircleShape,
+                        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline.copy(alpha = 0.35f)),
+                        modifier = Modifier
+                            .size(48.dp)
+                            .clip(CircleShape)
+                            .clickable { onGramsChange((grams + 10).coerceAtMost(1000)) }
+                    ) {
+                        Box(contentAlignment = Alignment.Center) {
+                            Icon(Icons.Rounded.Add, contentDescription = "+10g", tint = MaterialTheme.colorScheme.primary)
+                        }
+                    }
+                }
+
+                Slider(
+                    value = grams.toFloat().coerceIn(10f, 500f),
+                    onValueChange = { onGramsChange(it.roundToInt()) },
+                    valueRange = 10f..500f
+                )
+
+                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                    MacroPill("kcal", "${scaled.calories}", Modifier.weight(1f))
+                    MacroPill(strRes(R.string.macro_protein), "${scaled.proteinGrams}g", Modifier.weight(1f))
+                    MacroPill(strRes(R.string.macro_carbs), "${scaled.carbsGrams}g", Modifier.weight(1f))
+                    MacroPill(strRes(R.string.macro_fat), "${scaled.fatGrams}g", Modifier.weight(1f))
+                }
+
+                Button(
+                    onClick = onConfirmLog,
+                    shape = CircleShape,
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .heightIn(min = 48.dp)
+                        .testTag("macro_log_food_button")
+                ) {
+                    Text(
+                        text = strRes(R.string.macro_log_button_fmt, scaled.calories, xpBonus),
+                        fontWeight = FontWeight.Bold,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
+                    )
                 }
             }
         }
@@ -552,71 +749,43 @@ fun CalorieScannerTab(
 private fun MacroPill(
     label: String,
     value: String,
-    textColor: Color,
-    bgColor: Color,
     modifier: Modifier = Modifier
 ) {
     Surface(
-        color = bgColor,
+        color = MaterialTheme.colorScheme.background,
         shape = MaterialTheme.shapes.medium,
+        border = BorderStroke(1.dp, MaterialTheme.colorScheme.outline.copy(alpha = 0.25f)),
         modifier = modifier
     ) {
         Column(
             horizontalAlignment = Alignment.CenterHorizontally,
-            modifier = Modifier.padding(vertical = 10.dp, horizontal = 6.dp)
+            modifier = Modifier.padding(vertical = 10.dp, horizontal = 4.dp)
         ) {
-            Text(label, style = MaterialTheme.typography.labelMedium, color = textColor)
+            Text(
+                text = label,
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                maxLines = 1,
+                overflow = TextOverflow.Ellipsis
+            )
             Spacer(modifier = Modifier.height(2.dp))
-            Text(value, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.ExtraBold, color = textColor)
-        }
-    }
-}
-
-private fun createTempMealPhotoUri(context: Context): Uri {
-    val dir = File(context.cacheDir, "meal_photos").apply { mkdirs() }
-    val file = File(dir, "meal_${System.currentTimeMillis()}.jpg")
-    return FileProvider.getUriForFile(context, "${context.packageName}.fileprovider", file)
-}
-
-private fun decodeScaledBitmap(context: Context, uri: Uri, maxDimension: Int): Bitmap? {
-    return try {
-        val raw = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
-            val source = ImageDecoder.createSource(context.contentResolver, uri)
-            ImageDecoder.decodeBitmap(source) { decoder, info, _ ->
-                val w = info.size.width
-                val h = info.size.height
-                val largest = maxOf(w, h)
-                if (largest > maxDimension) {
-                    val ratio = maxDimension.toFloat() / largest.toFloat()
-                    decoder.setTargetSize((w * ratio).toInt().coerceAtLeast(1), (h * ratio).toInt().coerceAtLeast(1))
-                }
-                decoder.allocator = ImageDecoder.ALLOCATOR_SOFTWARE
-            }
-        } else {
-            val bounds = BitmapFactory.Options().apply { inJustDecodeBounds = true }
-            context.contentResolver.openInputStream(uri)?.use { BitmapFactory.decodeStream(it, null, bounds) }
-            val largest = maxOf(bounds.outWidth, bounds.outHeight)
-            var sample = 1
-            while (largest / sample > maxDimension * 2) {
-                sample *= 2
-            }
-            val opts = BitmapFactory.Options().apply { inSampleSize = sample }
-            context.contentResolver.openInputStream(uri)?.use { BitmapFactory.decodeStream(it, null, opts) }
-        } ?: return null
-
-        val largest = maxOf(raw.width, raw.height)
-        if (largest <= maxDimension) {
-            raw
-        } else {
-            val ratio = maxDimension.toFloat() / largest.toFloat()
-            Bitmap.createScaledBitmap(
-                raw,
-                (raw.width * ratio).toInt().coerceAtLeast(1),
-                (raw.height * ratio).toInt().coerceAtLeast(1),
-                true
+            Text(
+                text = value,
+                style = MaterialTheme.typography.titleSmall,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.primary,
+                maxLines = 1
             )
         }
-    } catch (_: Exception) {
-        null
     }
 }
+
+private fun formatMacro(value: Double): String =
+    if (abs(value - value.toInt()) < 0.05) {
+        value.toInt().toString()
+    } else {
+        String.format(Locale.US, "%.1f", value)
+    }
+
+@Composable
+private fun rememberIntState(initial: Int) = rememberSaveable { mutableIntStateOf(initial) }

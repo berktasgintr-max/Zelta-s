@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Langhantel-Bankdrücken</string>
+    <string name="ex_g1_1_muscle">Brust</string>
+    <string name="ex_g1_1_cue">Ellbogen im 45°-Winkel zum Körper, Handgelenke gerade halten.</string>
+    <string name="ex_g1_1_breath">Beim Senken tief einatmen, beim Hochdrücken kräftig ausatmen.</string>
+    <string name="ex_g1_1_mistake">Stange von der Brust abfedern oder Gesäß von der Bank heben.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Lege dich flach auf die Bank und stelle die Füße fest auf den Boden.</item>
+        <item>Greife etwas breiter als schulterbreit und ziehe die Schulterblätter zusammen.</item>
+        <item>Senke die Stange kontrolliert bis zur unteren-mittleren Brust.</item>
+        <item>Drücke die Stange kräftig aus der Brust nach oben.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Schrägbank-Kurzhanteldrücken</string>
+    <string name="ex_g1_2_muscle">Obere Brust</string>
+    <string name="ex_g1_2_cue">Hanteln oben nicht zusammenschlagen – Spannung halten.</string>
+    <string name="ex_g1_2_breath">Beim Senken ein-, beim Hochdrücken ausatmen.</string>
+    <string name="ex_g1_2_mistake">Bank steiler als 45° stellen und vordere Schulter überladen.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Stelle die Bank auf 30° Neigung ein.</item>
+        <item>Drücke die Kurzhanteln über die Schultern.</item>
+        <item>Senke kontrolliert auf Höhe der oberen Brust ab.</item>
+        <item>Drücke hoch und spanne die obere Brust oben an.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Kurzhantel-Schulterdrücken sitzend</string>
+    <string name="ex_g1_3_muscle">Schultern</string>
+    <string name="ex_g1_3_cue">Vermeide starkes Hohlkreuz, halte die Rippen unten.</string>
+    <string name="ex_g1_3_breath">Beim Hochdrücken ausatmen, beim Senken einatmen.</string>
+    <string name="ex_g1_3_mistake">Gewicht zu weit nach vorn vor den Kopf drücken.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Sitze aufrecht mit angespanntem Rumpf.</item>
+        <item>Halte Hanteln auf Ohrhöhe, Handflächen nach vorn.</item>
+        <item>Drücke kontrolliert über Kopf nach oben.</item>
+        <item>Langsam zurück auf Ohrhöhe senken.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Trizeps-Seilzug Pushdown</string>
+    <string name="ex_g1_4_muscle">Trizeps</string>
+    <string name="ex_g1_4_cue">Nur das Ellbogengelenk arbeitet – Schultern bleiben ruhig.</string>
+    <string name="ex_g1_4_breath">Beim Herunterdrücken ausatmen.</string>
+    <string name="ex_g1_4_mistake">Sich mit dem Oberkörper nach vorn auf das Gewicht lehnen.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Greife das Seil auf Brusthöhe.</item>
+        <item>Fixiere die Ellbogen eng an den Rippen.</item>
+        <item>Strecke die Unterarme nach unten durch und ziehe das Seil auseinander.</item>
+        <item>Kontrolliert zurückführen ohne die Ellbogen zu verschieben.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Latzug zur Brust</string>
+    <string name="ex_g2_1_muscle">Latissimus / Rücken</string>
+    <string name="ex_g2_1_cue">Aus den Ellbogen ziehen, nicht aus den Händen.</string>
+    <string name="ex_g2_1_breath">Beim Herunterziehen aus-, beim Hochlassen einatmen.</string>
+    <string name="ex_g2_1_mistake">Mit starkem Schwung weit nach hinten lehnen.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Greife die Stange breit und fixiere die Knie unter dem Polster.</item>
+        <item>Hebe die Brust leicht an.</item>
+        <item>Ziehe die Ellbogen nach unten/hinten bis zur oberen Brust.</item>
+        <item>Führe die Arme kontrolliert wieder hoch.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Sitzendes Kabelrudern</string>
+    <string name="ex_g2_2_muscle">Mittlerer Rücken</string>
+    <string name="ex_g2_2_cue">Schultern tief halten, weg von den Ohren.</string>
+    <string name="ex_g2_2_breath">Beim Heranziehen ausatmen.</string>
+    <string name="ex_g2_2_mistake">Mit rundem Rücken nach vorn fallen.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Füße auf die Plattform stützen, Knie leicht gebeugt.</item>
+        <item>Rücken gerade halten, Griff zum Bauch ziehen.</item>
+        <item>Schulterblätter 1 Sek. fest zusammendrücken.</item>
+        <item>Kontrolliert nach vorn strecken.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull am Kabelzug</string>
+    <string name="ex_g2_3_muscle">Hintere Schultern &amp; Haltung</string>
+    <string name="ex_g2_3_cue">Wichtigste Schutzübung für eine aufrechte Haltung.</string>
+    <string name="ex_g2_3_breath">Beim Heranziehen ausatmen.</string>
+    <string name="ex_g2_3_mistake">Zu viel Gewicht nehmen und aus dem Rücken schwingen.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Seil auf Augenhöhe einstellen.</item>
+        <item>Seil Richtung Stirn ziehen, Ellbogen weit öffnen.</item>
+        <item>Am Endpunkt außenrotieren und hintere Schultern spannen.</item>
+        <item>Langsam zurückführen.</item>
+    </string-array>
+    <string name="ex_g2_4_name">SZ-Stangen Bizeps-Curl</string>
+    <string name="ex_g2_4_muscle">Bizeps</string>
+    <string name="ex_g2_4_cue">Handgelenke neutral halten, nicht einknicken.</string>
+    <string name="ex_g2_4_breath">Beim Heben aus-, beim Senken einatmen.</string>
+    <string name="ex_g2_4_mistake">Schwungholen aus dem unteren Rücken.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>SZ-Stange schulterbreit fassen.</item>
+        <item>Ellbogen fest an der Seite halten.</item>
+        <item>Zur Schulter curlen und 1 Sek. anspannen.</item>
+        <item>Langsam über 3 Sekunden ablassen.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Langhantel-Kniebeuge</string>
+    <string name="ex_g3_1_muscle">Beine &amp; Gesäß</string>
+    <string name="ex_g3_1_cue">Knie in Richtung Zehenspitzen führen, nicht nach innen kippen.</string>
+    <string name="ex_g3_1_breath">Beim Heruntergehen ein-, beim Aufstehen ausatmen.</string>
+    <string name="ex_g3_1_mistake">Fersen vom Boden abheben oder unteren Rücken einrunden.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Stange auf dem Trapezmuskel ablegen, Füße schulterbreit.</item>
+        <item>Tief einatmen und Rumpf fest anspannen.</item>
+        <item>Hüfte nach hinten und bis zur Parallele absenken.</item>
+        <item>Über die Fersen kraftvoll aufstehen.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Rumänisches Kreuzheben</string>
+    <string name="ex_g3_2_muscle">Beinbeuger &amp; Gesäß</string>
+    <string name="ex_g3_2_cue">Es ist eine Hüftbeugebewegung, kein Vorbeugen des Rückens.</string>
+    <string name="ex_g3_2_breath">Beim Absenken ein-, beim Aufrichten ausatmen.</string>
+    <string name="ex_g3_2_mistake">Stange von den Beinen weghalten und Rücken einrunden.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Stange vor der Hüfte halten, Knie ganz leicht gebeugt.</item>
+        <item>Mit geradem Rücken Hüfte zurückschieben, Stange eng am Bein führen.</item>
+        <item>Sobald Dehnung im Beinbeuger spürbar ist, Hüfte kraftvoll strecken.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Beinpresse</string>
+    <string name="ex_g3_3_muscle">Quadrizeps</string>
+    <string name="ex_g3_3_cue">Nicht so tief senken, dass sich das Gesäß vom Polster löst.</string>
+    <string name="ex_g3_3_breath">Beim Wegdrücken ausatmen.</string>
+    <string name="ex_g3_3_mistake">Knie oben ruckartig durchdrücken.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Rücken und Gesäß fest an das Polster drücken.</item>
+        <item>Füße schulterbreit auf der Platte platzieren.</item>
+        <item>Knie kontrolliert zur Brust absenken.</item>
+        <item>Platte wegdrücken ohne die Knie durchzustrecken.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Stehendes Wadenheben</string>
+    <string name="ex_g3_4_muscle">Waden</string>
+    <string name="ex_g3_4_cue">Ohne Federn in ruhigem Tempo arbeiten.</string>
+    <string name="ex_g3_4_breath">Beim Heben ausatmen.</string>
+    <string name="ex_g3_4_mistake">Zu schnelles Wippen zulasten der Achillessehne.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Fußballen auf eine Stufe stellen.</item>
+        <item>Fersen tief nach unten dehnen.</item>
+        <item>Maximal auf die Zehenspitzen heben und 1 Sek. halten.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Goblet Squat (Kniebeuge)</string>
+    <string name="ex_g4_1_muscle">Beine &amp; Rumpf</string>
+    <string name="ex_g4_1_cue">Brust zeigt nach vorn, nicht nach vorn kippen.</string>
+    <string name="ex_g4_1_breath">Runter ein-, hoch ausatmen.</string>
+    <string name="ex_g4_1_mistake">Das Gewicht zu weit vom Körper weg halten.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Kurzhantel senkrecht vor der Brust halten.</item>
+        <item>Mit aufrechtem Oberkörper tief in die Kniebeuge gehen.</item>
+        <item>Sobald Ellbogen die Knieinnenseite berühren, kraftvoll aufstehen.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Brustpresse-Maschine</string>
+    <string name="ex_g4_2_muscle">Brust</string>
+    <string name="ex_g4_2_cue">Schultern nicht nach vorn rollen, Brust offen lassen.</string>
+    <string name="ex_g4_2_breath">Beim Nach-vorn-Drücken ausatmen.</string>
+    <string name="ex_g4_2_mistake">Gewichtsplatten am Ende hart zusammenschlagen lassen.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Sitzhöhe einstellen, Griffe auf Höhe der mittleren Brust.</item>
+        <item>Rücken anlehnen, Griffe nach vorn drücken.</item>
+        <item>Langsam zurückführen.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Rudermaschine sitzend</string>
+    <string name="ex_g4_3_muscle">Rücken</string>
+    <string name="ex_g4_3_cue">Schultern nicht zum Nacken hochziehen.</string>
+    <string name="ex_g4_3_breath">Beim Ziehen ausatmen.</string>
+    <string name="ex_g4_3_mistake">Unvollständige halbe Wiederholungen.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Brust leicht ans Polster lehnen, Griffe fassen.</item>
+        <item>Ellbogen nach hinten ziehen und Rücken anspannen.</item>
+        <item>Kontrolliert vorlassen.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Unterarmstütz (Plank)</string>
+    <string name="ex_g4_4_muscle">Bauch &amp; Core</string>
+    <string name="ex_g4_4_sets">3 x 40 Sek.</string>
+    <string name="ex_g4_4_cue">Ruhig weiteratmen, nicht verkrampfen.</string>
+    <string name="ex_g4_4_breath">Durch die Nase ein-, durch den Mund gleichmäßig ausatmen.</string>
+    <string name="ex_g4_4_mistake">Hüfte zu hoch heben oder ins Hohlkreuz fallen.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Auf die Unterarme stützen.</item>
+        <item>Von Kopf bis Ferse eine gerade Linie bilden.</item>
+        <item>Bauch und Gesäß fest anspannen bis die Zeit abläuft.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Kurzhantel-Bankdrücken</string>
+    <string name="ex_g5_1_muscle">Brust</string>
+    <string name="ex_g5_1_cue">1 Sek. Pause unten steigert die Kraftentwicklung.</string>
+    <string name="ex_g5_1_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_g5_1_mistake">Ellbogen im vollen 90°-Winkel abspreizen.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Hanteln mithilfe der Knie auf Brusthöhe bringen.</item>
+        <item>Nach oben drücken und kontrolliert senken.</item>
+    </string-array>
+    <string name="ex_g5_2_name">Einarmiges Kurzhantelrudern</string>
+    <string name="ex_g5_2_muscle">Rücken</string>
+    <string name="ex_g5_2_sets">4 x 10/Arm</string>
+    <string name="ex_g5_2_cue">Ohne Rumpfdrehung sauber aus dem Rücken ziehen.</string>
+    <string name="ex_g5_2_breath">Beim Hochziehen ausatmen.</string>
+    <string name="ex_g5_2_mistake">Die Hantel senkrecht zur Schulter hochreißen.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Eine Hand und ein Knie auf der Bank abstützen, Rücken parallel.</item>
+        <item>Kurzhantel eng zur Hosentasche/Hüfte ziehen.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Seitheben Kurzhanteln</string>
+    <string name="ex_g5_3_muscle">Seitliche Schultern</string>
+    <string name="ex_g5_3_cue">Kleiner Finger zeigt minimal nach oben.</string>
+    <string name="ex_g5_3_breath">Beim Anheben ausatmen.</string>
+    <string name="ex_g5_3_mistake">Mit Schwung aus dem Körper reißen.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Hanteln seitlich halten, Ellbogen leicht gebeugt.</item>
+        <item>Arme seitlich bis auf Schulterhöhe anheben.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Hammer Curls</string>
+    <string name="ex_g5_4_muscle">Bizeps &amp; Unterarme</string>
+    <string name="ex_g5_4_cue">Bester Griff für mehr Armumfang und Unterarme.</string>
+    <string name="ex_g5_4_breath">Beim Curlen ausatmen.</string>
+    <string name="ex_g5_4_mistake">Schultern nach vorn ziehen.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Hanteln neutral halten, Handflächen zueinander.</item>
+        <item>Ellbogen fixieren und abwechselnd curlen.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Arnold Press</string>
+    <string name="ex_g6_1_muscle">Gesamte Schulter</string>
+    <string name="ex_g6_1_cue">Trainiert vordere und seitliche Schultern in einem Fluss.</string>
+    <string name="ex_g6_1_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_g6_1_mistake">Starkes Hohlkreuz machen.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Mit Handflächen zum Gesicht vor den Schultern starten.</item>
+        <item>Beim Hochdrücken Handgelenke nach außen drehen.</item>
+        <item>Umgekehrt kontrolliert absenken.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Schrägbank-Bizepscurls</string>
+    <string name="ex_g6_2_muscle">Langer Bizepskopf</string>
+    <string name="ex_g6_2_cue">Ellbogen leicht hinter dem Körper fixiert lassen.</string>
+    <string name="ex_g6_2_breath">Beim Curlen ausatmen.</string>
+    <string name="ex_g6_2_mistake">Ellbogen beim Heben nach vorn schieben.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Auf einer 45°-Schrägbank zurücklehnen.</item>
+        <item>Arme frei hängen lassen und sauber aus dem Ellbogen curlen.</item>
+    </string-array>
+    <string name="ex_g6_3_name">French Press (SZ-Stange)</string>
+    <string name="ex_g6_3_muscle">Trizeps</string>
+    <string name="ex_g6_3_cue">Ellbogen nicht nach außen wandern lassen.</string>
+    <string name="ex_g6_3_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_g6_3_mistake">Zu hohes Gewicht zulasten der Ellbogen.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Auf der Bank liegend die SZ-Stange über der Stirn halten.</item>
+        <item>Nur Ellbogen beugen, Stange hinter die Stirn senken und hochdrücken.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Kabel-Seitheben</string>
+    <string name="ex_g6_4_muscle">Seitliche Schultern</string>
+    <string name="ex_g6_4_cue">Hält auch im untersten Punkt konstante Spannung.</string>
+    <string name="ex_g6_4_breath">Beim Heben ausatmen.</string>
+    <string name="ex_g6_4_mistake">Den Oberkörper zur Seite wegneigen.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Kabel quer vor dem Körper greifen.</item>
+        <item>Kontrolliert bis auf Schulterhöhe seitlich heben.</item>
+    </string-array>
+</resources>

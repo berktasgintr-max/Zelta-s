@@ -1,7 +1,6 @@
 package com.example.ui.components
 
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -30,18 +29,17 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
+import com.example.R
+import com.example.ui.i18n.strRes
 import com.example.ui.theme.AppThemeOption
 
 @Composable
 fun ThemePickerDialog(
     currentTheme: AppThemeOption,
-    language: String = "tr",
     onSelectTheme: (AppThemeOption) -> Unit,
     onDismiss: () -> Unit
 ) {
-    val isEn = language == "en"
     AlertDialog(
         onDismissRequest = onDismiss,
         icon = {
@@ -52,7 +50,7 @@ fun ThemePickerDialog(
             )
         },
         title = {
-            Text(if (isEn) "Theme Studio" else "Tema Stüdyosu")
+            Text(strRes(R.string.theme_studio_title))
         },
         text = {
             Column(
@@ -62,7 +60,7 @@ fun ThemePickerDialog(
                     .verticalScroll(rememberScrollState())
             ) {
                 Text(
-                    text = if (isEn) "Switch the app atmosphere instantly:" else "Uygulamanın atmosferini anında değiştir:",
+                    text = strRes(R.string.theme_dialog_sub),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant
                 )
@@ -70,19 +68,14 @@ fun ThemePickerDialog(
                     val selected = option == currentTheme
                     Surface(
                         color = if (selected) {
-                            MaterialTheme.colorScheme.primary.copy(alpha = 0.16f)
+                            MaterialTheme.colorScheme.primary.copy(alpha = 0.14f)
                         } else {
-                            MaterialTheme.colorScheme.surfaceVariant
+                            MaterialTheme.colorScheme.background
                         },
                         shape = MaterialTheme.shapes.medium,
                         modifier = Modifier
                             .fillMaxWidth()
                             .clip(MaterialTheme.shapes.medium)
-                            .border(
-                                width = if (selected) 1.5.dp else 1.dp,
-                                color = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline,
-                                shape = MaterialTheme.shapes.medium
-                            )
                             .clickable {
                                 onSelectTheme(option)
                                 onDismiss()
@@ -91,14 +84,13 @@ fun ThemePickerDialog(
                     ) {
                         Row(
                             verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.padding(12.dp)
+                            modifier = Modifier.padding(14.dp)
                         ) {
                             Box(
                                 modifier = Modifier
                                     .size(34.dp)
                                     .clip(CircleShape)
-                                    .background(option.previewBg)
-                                    .border(1.5.dp, option.previewPrimary, CircleShape),
+                                    .background(option.previewBg),
                                 contentAlignment = Alignment.Center
                             ) {
                                 Row(horizontalArrangement = Arrangement.spacedBy(2.dp)) {
@@ -119,12 +111,12 @@ fun ThemePickerDialog(
                             Spacer(modifier = Modifier.width(12.dp))
                             Column(modifier = Modifier.weight(1f)) {
                                 Text(
-                                    text = option.title(language),
+                                    text = strRes(option.titleRes),
                                     style = MaterialTheme.typography.titleMedium,
-                                    fontWeight = FontWeight.Bold
+                                    color = MaterialTheme.colorScheme.onSurface
                                 )
                                 Text(
-                                    text = option.subtitle(language),
+                                    text = strRes(option.subtitleRes),
                                     style = MaterialTheme.typography.bodyMedium,
                                     color = MaterialTheme.colorScheme.onSurfaceVariant
                                 )
@@ -132,7 +124,7 @@ fun ThemePickerDialog(
                             if (selected) {
                                 Icon(
                                     imageVector = Icons.Rounded.CheckCircle,
-                                    contentDescription = if (isEn) "Selected" else "Seçili",
+                                    contentDescription = strRes(R.string.common_selected),
                                     tint = MaterialTheme.colorScheme.primary
                                 )
                             }
@@ -143,7 +135,7 @@ fun ThemePickerDialog(
         },
         confirmButton = {
             TextButton(onClick = onDismiss) {
-                Text(if (isEn) "Close" else "Kapat")
+                Text(strRes(R.string.common_close))
             }
         }
     )

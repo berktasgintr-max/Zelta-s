@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Początkujący</string>
+    <string name="diff_intermediate">Średniozaaw.</string>
+    <string name="diff_advanced">Zaawansowany</string>
+    <string name="diff_pro">Pro / Zaaw.</string>
+    <string name="story_1_badge">-11,5 kg w 4 mies.</string>
+    <string name="story_1_result" formatted="false">94 kg → 82,5 kg • Tk. tłuszczowa 26% → 16%</string>
+    <string name="story_1_quote">Trzymałem się planu i kalendarza. Codzienne wskazówki od FitChicken sprawiły, że nie odpuściłem ani razu!</string>
+    <string name="story_2_badge">Tryb Wzrostu 0–18</string>
+    <string name="story_2_result">+4 cm Postawa • +12 cm Wyskok</string>
+    <string name="story_2_quote">Robiłem treningi wyskoku i postawy pod koszykówkę. Wyprostowałem plecy i jestem znacznie szybszy na boisku.</string>
+    <string name="story_3_badge">90 dni w domu</string>
+    <string name="story_3_result">Zero sprzętu • 4 dni/tydz.</string>
+    <string name="story_3_quote">Nie miałem czasu na siłownię, ale domowe plany i animacje techniki działały jak własny trener!</string>
+    <string name="story_4_badge">Pro Hipertrofia</string>
+    <string name="story_4_result">+4,8 kg czystej masy mięśniowej</string>
+    <string name="story_4_quote">Pytałem FitChicken Coach o dietę i przerwy między seriami. Konkretna nauka i humor podwoiły moje wyniki.</string>
+    <string-array name="coach_tips">
+        <item>Przestań gdakać i podnoś żelastwo! Nie odpuszczaj ostatnich dwóch powtórzeń — tam zaczyna się rozwój.</item>
+        <item>Zbudowałem te skrzydła szeroką klatką! Ściągaj łopatki w tył przy każdej pompce i wyciskaniu.</item>
+        <item>Pij wodę, mistrzu! 2,5–3 litry wody dziennie podnoszą wydolność mięśni nawet o 15%.</item>
+        <item>Nawet ja szanuję pierś z kurczaka — celuj w 25–35 g wartościowego białka w każdym głównym posiłku.</item>
+        <item>Bez snu nie ma mięśni! Hormon wzrostu osiąga szczyt w pierwszych 4 godzinach głębokiego snu.</item>
+        <item>Dobieraj ciężar pod czucie mięśni, nie pod ego. Powolne opuszczanie przez 3 sekundy czyni cuda.</item>
+        <item>Nigdy nie pomijaj rozgrzewki! 5 minut mobilności zmniejsza ryzyko kontuzji o połowę.</item>
+        <item>Kto omija dzień nóg, chodzi jak gołąb! Przysiady i wykroki napędzają całe ciało.</item>
+        <item>Nie wstrzymuj oddechu! Wydychaj przy wysiłku i spokojnie nabieraj powietrza w powrocie.</item>
+        <item>Dla wieku 0–18 lat: chroń kręgosłup i postawę — zwis na drążku i ćwiczenia sylwetki to złoto.</item>
+        <item>Trzy regularne treningi w tygodniu zawsze pokonają jedną heroiczną sesję raz w miesiącu.</item>
+        <item>Brzuch odsłania się w kuchni, a rzeźbi na treningu. Napinaj pośladki w każdym planku!</item>
+        <item>Nie przeglądaj telefonu po 5 minut między seriami. 60–90 s przerwy utrzyma pełną pompę.</item>
+        <item>Barki lecą do przodu? Zwiększ objętość wiosłowania — każde wypychanie równoważ przyciąganiem.</item>
+        <item>Nie musisz być idealny pierwszego dnia — samo zawiązanie butów na trening to już wygrana!</item>
+        <item>Waga codziennie waha się przez wodę — oceniaj zawsze średnią z 7 dni.</item>
+        <item>Kofeina 30 min przed treningiem wyostrza skupienie, ale unikaj jej po 18:00 dla zdrowego snu.</item>
+        <item>Skupiona 20-minutowa sesja w domu bije na głowę godzinny trening na siłowni, na który nie poszedłeś.</item>
+        <item>Nie blokuj gwałtownie łokci ani kolan — zachowuj pełną kontrolę u góry ruchu.</item>
+        <item>Cardio wzmacnia serce, dzięki czemu szybciej regenerujesz się między ciężkimi seriami.</item>
+        <item>Cel to redukcja? Licz kroki! 8 000–10 000 kroków dziennie to Twoja cicha supermoc.</item>
+        <item>Nie ma idealnego planu — działa tylko ten, którego się trzymasz. Planuj i odhaczaj w kalendarzu!</item>
+        <item>Przy uginaniach ramion przyklej łokcie do boków — nie bujaj dolnymi plecami.</item>
+        <item>W ćwiczeniach na plecy wyobrażaj sobie, że ciągniesz łokciami, a nie samymi dłońmi.</item>
+        <item>Zjedz po treningu w ciągu 1–2 godzin chude białko i złożone węglowodany.</item>
+        <item>Poświęć choć 5 minut na rozciąganie po treningu — jutro podziękujesz sobie za brak zakwasów.</item>
+        <item>Młodzi sportowcy: szlifujcie czystą technikę i skoczność zamiast ryzykownych rekordów na 1 raz.</item>
+        <item>Seria kończy się, gdy psuje się technika. Czyste 10 powtórzeń buduje więcej niż krzywe 15.</item>
+        <item>Masz dziś mniej energii? Zmniejsz ciężar o 20%, ale zrób trening. Dyscyplina wygrywa z motywacją.</item>
+        <item>Sprawdź postawę w lustrze: broda równo, klatka otwarta, barki luźno cofnięte.</item>
+        <item>W martwym ciągu prowadź gryf blisko piszczeli — jeśli plecy się zaokrąglają, natychmiast zmniejsz ciężar.</item>
+        <item>Jeśli lędźwia opadają w planku, mocniej napnij brzuch i pośladki albo oprzyj kolana.</item>
+        <item>Patrz nie tylko na wagę, ale na obwód talii i energię — mięśnie są gęstsze od tłuszczu.</item>
+        <item>Zamiana słodkich napojów na wodę pozwala bez wysiłku zaoszczędzić tysiące kalorii.</item>
+        <item>Progresywne przeciążenie: co tydzień spróbuj dołożyć choć 1 powtórzenie lub 1 kg.</item>
+        <item>Brak ciężarów w domu? Steruj tempem: 3 sekundy w dół, 1 sekunda pauzy, dynamiczny wyprost!</item>
+        <item>Pięć minut kociego grzbietu i otwierania klatki rano zdejmuje sztywność po biurku.</item>
+        <item>Każda odhaczona sesja w kalendarzu wzmacnia nawyk zwycięzcy — chroń swoją serię!</item>
+        <item>Ruch, którego unikasz, to zazwyczaj dokładnie to ogniwo, które blokuje Twój postęp!</item>
+        <item>Jestem FitChicken: gdybym poddał się przez małe skrzydełka, nie miałbym dziś takich rąk. Twoja kolej!</item>
+    </string-array>
+</resources>

@@ -1,11 +1,14 @@
 package com.example
 
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import androidx.activity.ComponentActivity
+import androidx.activity.SystemBarStyle
 import androidx.activity.compose.BackHandler
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.animation.Crossfade
+import androidx.appcompat.app.AppCompatActivity
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -18,7 +21,7 @@ import androidx.compose.material.icons.rounded.FitnessCenter
 import androidx.compose.material.icons.rounded.Home
 import androidx.compose.material.icons.rounded.Person
 import androidx.compose.material.icons.rounded.PlayCircle
-import androidx.compose.material.icons.rounded.Psychology
+import androidx.compose.material.icons.rounded.Restaurant
 import androidx.compose.material3.AlertDialog
 import androidx.compose.material3.Button
 import androidx.compose.material3.Icon
@@ -34,6 +37,7 @@ import androidx.compose.material3.Text
 import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
+import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf
@@ -44,19 +48,32 @@ import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.toArgb
 import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalView
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
+import androidx.core.view.WindowCompat
 import androidx.credentials.CredentialManager
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.example.data.local.PreferencesStore
 import com.example.data.model.WorkoutProgram
 import com.example.firebase.attemptAutoSignIn
 import com.example.firebase.configureAppCheck
+import com.example.ui.components.ChoosePlanBottomSheet
 import com.example.ui.components.ThemePickerDialog
-import com.example.ui.i18n.AppStrings
-import com.example.ui.i18n.LocalAppStrings
+import com.example.ui.i18n.AppLanguage
+import com.example.ui.i18n.LocalAppLanguageCode
+import com.example.ui.i18n.LocalAppLocale
+import com.example.ui.i18n.LocalLocalizedContext
+import com.example.ui.i18n.LocaleHelper
+import com.example.ui.i18n.strRes
 import com.example.ui.screens.AiCoachScreen
+import com.example.ui.screens.CalorieScannerTab
 import com.example.ui.screens.HomeScreen
 import com.example.ui.screens.OnboardingScreen
 import com.example.ui.screens.PlannerAndWeightScreen
@@ -64,9 +81,9 @@ import com.example.ui.screens.ProfileAndProScreen
 import com.example.ui.screens.WorkoutFilter
 import com.example.ui.screens.WorkoutsScreen
 import com.example.ui.theme.AppThemeOption
-import com.example.ui.theme.FlameOrange
-import com.example.ui.theme.TavukKocTheme
-import com.example.ui.theme.WarmGold
+import com.example.ui.theme.DarkOrangeBackground
+import com.example.ui.theme.KocTavukTheme
+import com.example.ui.theme.LightOrangeBackground
 import com.example.ui.viewmodel.AdWatchSession
 import com.example.ui.viewmodel.MainUiState
 import com.example.ui.viewmodel.MainViewModel
@@ -74,25 +91,112 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 
-class MainActivity : ComponentActivity() {
+class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        val splashScreen = installSplashScreen()
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
+
+        var isPrefsReady = false
+        splashScreen.setKeepOnScreenCondition { !isPrefsReady }
+
+        window.setBackgroundDrawable(ColorDrawable(android.graphics.Color.BLACK))
+
+        WindowCompat.getInsetsController(window, window.decorView).apply {
+            isAppearanceLightStatusBars = false
+            isAppearanceLightNavigationBars = false
+        }
+
+        enableEdgeToEdge(
+            statusBarStyle = SystemBarStyle.auto(
+                android.graphics.Color.TRANSPARENT,
+                android.graphics.Color.TRANSPARENT
+            ) { true },
+            navigationBarStyle = SystemBarStyle.auto(
+                android.graphics.Color.TRANSPARENT,
+                android.graphics.Color.TRANSPARENT
+            ) { true }
+        )
 
         // Configure Firebase App Check with launch intent before rendering Compose UI or ViewModels.
         configureAppCheck(this, intent)
 
         setContent {
-            val context = LocalContext.current
-            val viewModel: MainViewModel = viewModel(factory = MainViewModel.factory(context))
-            val uiState by viewModel.uiState.collectAsStateWithLifecycle()
-            val activeTheme = AppThemeOption.fromId(uiState.profile.themeId)
-            val appStrings = AppStrings.forLang(uiState.profile.appLanguage)
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(Color.Black)
+            ) {
+                val context = LocalContext.current
+                val view = LocalView.current
+                val viewModel: MainViewModel = viewModel(factory = MainViewModel.factory(context))
+                val uiState by viewModel.uiState.collectAsStateWithLifecycle()
+                val activeTheme = AppThemeOption.fromId(uiState.profile.themeId)
+                val activeLangCode = AppLanguage.fromCode(uiState.profile.appLanguage).code
+                val localizedContext = remember(context, activeLangCode) {
+                    LocaleHelper.localizedContext(context, activeLangCode)
+                }
+                val appLocale = remember(activeLangCode) {
+                    LocaleHelper.localeFor(activeLangCode)
+                }
 
-            CompositionLocalProvider(LocalAppStrings provides appStrings) {
-                TavukKocTheme(themeOption = activeTheme) {
-                    Surface(modifier = Modifier.fillMaxSize()) {
-                        TavukKocRootApp(viewModel = viewModel, uiState = uiState)
+                LaunchedEffect(uiState.prefsLoaded) {
+                    if (uiState.prefsLoaded) {
+                        isPrefsReady = true
+                    }
+                }
+
+                DisposableEffect(uiState.prefsLoaded, activeTheme.isDark) {
+                    if (uiState.prefsLoaded) {
+                        val bgArgb = if (activeTheme.isDark) DarkOrangeBackground.toArgb() else LightOrangeBackground.toArgb()
+                        window.setBackgroundDrawable(ColorDrawable(bgArgb))
+                        val insetsController = WindowCompat.getInsetsController(window, view)
+                        insetsController.isAppearanceLightStatusBars = !activeTheme.isDark
+                        insetsController.isAppearanceLightNavigationBars = !activeTheme.isDark
+                    }
+                    onDispose { }
+                }
+
+                val toggleTheme = {
+                    val next = if (activeTheme == AppThemeOption.DARK_ORANGE) {
+                        AppThemeOption.LIGHT_ORANGE
+                    } else {
+                        AppThemeOption.DARK_ORANGE
+                    }
+                    viewModel.setAppTheme(next)
+                }
+
+                CompositionLocalProvider(
+                    LocalLocalizedContext provides localizedContext,
+                    LocalAppLocale provides appLocale,
+                    LocalAppLanguageCode provides activeLangCode
+                ) {
+                    KocTavukTheme(selectedTheme = activeTheme) {
+                        val rootSurfaceColor = if (!uiState.prefsLoaded) {
+                            Color.Black
+                        } else {
+                            MaterialTheme.colorScheme.background
+                        }
+                        Surface(
+                            modifier = Modifier
+                                .fillMaxSize()
+                                .background(Color.Black),
+                            color = rootSurfaceColor
+                        ) {
+                            if (!uiState.prefsLoaded) {
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .background(Color.Black)
+                                )
+                            } else {
+                                TavukKocRootApp(
+                                    viewModel = viewModel,
+                                    uiState = uiState,
+                                    activeTheme = activeTheme,
+                                    onToggleTheme = toggleTheme
+                                )
+                            }
+                        }
                     }
                 }
             }
@@ -103,9 +207,10 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun TavukKocRootApp(
     viewModel: MainViewModel,
-    uiState: MainUiState
+    uiState: MainUiState,
+    activeTheme: AppThemeOption,
+    onToggleTheme: () -> Unit
 ) {
-    val strings = LocalAppStrings.current
     val context = LocalContext.current
     val scope = rememberCoroutineScope()
 
@@ -132,6 +237,8 @@ fun TavukKocRootApp(
     if (!uiState.profile.onboardingCompleted) {
         OnboardingScreen(
             initialProfile = uiState.profile,
+            activeTheme = activeTheme,
+            onToggleTheme = onToggleTheme,
             onSelectLanguage = viewModel::setLanguage,
             onComplete = { profile, selectedPlan ->
                 viewModel.completeOnboarding(profile, selectedPlan)
@@ -146,7 +253,7 @@ fun TavukKocRootApp(
         uiState.profile.isYouthGrowthMode
     ) {
         when {
-            uiState.profile.environment == "home" -> WorkoutFilter.HOME
+            uiState.profile.environment == "home" || uiState.profile.environment == "outdoor" -> WorkoutFilter.HOME
             uiState.profile.isYouthGrowthMode -> WorkoutFilter.YOUTH
             uiState.profile.environment == "gym" -> WorkoutFilter.GYM
             else -> WorkoutFilter.ALL
@@ -161,60 +268,121 @@ fun TavukKocRootApp(
     }
     var selectedWorkout by remember { mutableStateOf<WorkoutProgram?>(null) }
     var showThemePicker by remember { mutableStateOf(false) }
+    var showAiCoach by rememberSaveable { mutableStateOf(false) }
+    var showPricingModal by rememberSaveable { mutableStateOf(false) }
 
     val openCalorieScanner = {
-        plannerSubTab = 2
+        showAiCoach = false
         selectedWorkout = null
         selectedTab = 2
     }
 
-    if (selectedWorkout != null) {
+    if (showAiCoach) {
+        BackHandler { showAiCoach = false }
+    } else if (selectedWorkout != null) {
         BackHandler { selectedWorkout = null }
     } else if (selectedTab != 0) {
         BackHandler { selectedTab = 0 }
     }
 
     Scaffold(
+        containerColor = MaterialTheme.colorScheme.background,
         snackbarHost = { SnackbarHost(hostState = snackbarHostState) },
         bottomBar = {
-            if (selectedWorkout == null) {
-                NavigationBar {
+            if (selectedWorkout == null && !showAiCoach) {
+                NavigationBar(containerColor = MaterialTheme.colorScheme.surface) {
+                    val navCoach = strRes(R.string.nav_coach)
+                    val navWorkouts = strRes(R.string.nav_workouts)
+                    val navCalorieScanner = strRes(R.string.nav_calorie_scanner)
+                    val navPlanner = strRes(R.string.nav_planner)
+                    val navProfile = strRes(R.string.nav_profile)
                     NavigationBarItem(
                         selected = selectedTab == 0,
-                        onClick = { selectedTab = 0 },
-                        icon = { Icon(Icons.Rounded.Home, contentDescription = strings.navCoach) },
-                        label = { Text(strings.navCoach) },
+                        onClick = {
+                            showAiCoach = false
+                            selectedTab = 0
+                        },
+                        icon = { Icon(Icons.Rounded.Home, contentDescription = navCoach) },
+                        label = {
+                            Text(
+                                text = navCoach,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        },
                         modifier = Modifier.testTag("nav_home")
                     )
                     NavigationBarItem(
                         selected = selectedTab == 1,
                         onClick = {
+                            showAiCoach = false
                             selectedWorkout = null
                             selectedTab = 1
                         },
-                        icon = { Icon(Icons.Rounded.FitnessCenter, contentDescription = strings.navWorkouts) },
-                        label = { Text(strings.navWorkouts) },
+                        icon = { Icon(Icons.Rounded.FitnessCenter, contentDescription = navWorkouts) },
+                        label = {
+                            Text(
+                                text = navWorkouts,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        },
                         modifier = Modifier.testTag("nav_workouts")
                     )
                     NavigationBarItem(
                         selected = selectedTab == 2,
-                        onClick = { selectedTab = 2 },
-                        icon = { Icon(Icons.Rounded.CalendarMonth, contentDescription = strings.navPlanner) },
-                        label = { Text(strings.navPlanner) },
-                        modifier = Modifier.testTag("nav_planner")
+                        onClick = {
+                            showAiCoach = false
+                            selectedWorkout = null
+                            selectedTab = 2
+                        },
+                        icon = { Icon(Icons.Rounded.Restaurant, contentDescription = navCalorieScanner) },
+                        label = {
+                            Text(
+                                text = navCalorieScanner,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        },
+                        modifier = Modifier.testTag("nav_calorie_scanner")
                     )
                     NavigationBarItem(
                         selected = selectedTab == 3,
-                        onClick = { selectedTab = 3 },
-                        icon = { Icon(Icons.Rounded.Psychology, contentDescription = strings.navAi) },
-                        label = { Text(strings.navAi) },
-                        modifier = Modifier.testTag("nav_ai")
+                        onClick = {
+                            showAiCoach = false
+                            selectedWorkout = null
+                            selectedTab = 3
+                        },
+                        icon = { Icon(Icons.Rounded.CalendarMonth, contentDescription = navPlanner) },
+                        label = {
+                            Text(
+                                text = navPlanner,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        },
+                        modifier = Modifier.testTag("nav_planner")
                     )
                     NavigationBarItem(
                         selected = selectedTab == 4,
-                        onClick = { selectedTab = 4 },
-                        icon = { Icon(Icons.Rounded.Person, contentDescription = strings.navProfile) },
-                        label = { Text(strings.navProfile) },
+                        onClick = {
+                            showAiCoach = false
+                            selectedWorkout = null
+                            selectedTab = 4
+                        },
+                        icon = { Icon(Icons.Rounded.Person, contentDescription = navProfile) },
+                        label = {
+                            Text(
+                                text = navProfile,
+                                maxLines = 1,
+                                softWrap = false,
+                                overflow = TextOverflow.Ellipsis
+                            )
+                        },
                         modifier = Modifier.testTag("nav_profile")
                     )
                 }
@@ -226,8 +394,17 @@ fun TavukKocRootApp(
                 .fillMaxSize()
                 .padding(innerPadding)
         ) {
-            Crossfade(targetState = selectedTab, label = "main_tabs") { tab ->
-                when (tab) {
+            if (showAiCoach) {
+                AiCoachScreen(
+                    profile = uiState.profile,
+                    messages = uiState.aiMessages,
+                    aiUiState = uiState.aiUiState,
+                    onAskQuestion = viewModel::askAiCoach,
+                    onOpenCalorieScanner = openCalorieScanner,
+                    onBack = { showAiCoach = false }
+                )
+            } else {
+                when (selectedTab) {
                     0 -> HomeScreen(
                         uiState = uiState,
                         personalizedWorkouts = viewModel.getPersonalizedWorkouts(),
@@ -238,83 +415,85 @@ fun TavukKocRootApp(
                         onCompleteQuest = viewModel::completeDailyQuest,
                         onSpinWheel = viewModel::spinDailyWheel,
                         onSpinAnimationFinished = viewModel::announceWheelOutcome,
-                        onToggleLanguage = viewModel::setLanguage,
                         onOpenThemePicker = { showThemePicker = true },
                         onOpenWorkout = { workout ->
-                            selectedWorkout = workout
-                            selectedTab = 1
+                            if (viewModel.isWorkoutAccessible(workout)) {
+                                selectedWorkout = workout
+                                selectedTab = 1
+                            } else {
+                                viewModel.startRewardedAd(workout)
+                            }
                         },
                         onWatchAdForWorkout = viewModel::startRewardedAd,
-                        onUpgradePro = { selectedTab = 4 },
-                        onOpenYouthCatalog = {
-                            workoutFilter = WorkoutFilter.YOUTH
-                            selectedWorkout = null
-                            selectedTab = 1
-                        },
-                        onOpenAiCoach = { selectedTab = 3 },
-                        onOpenCalorieScanner = openCalorieScanner,
-                        onAuthMessage = viewModel::showBannerMessage
+                        onOpenAiCoach = { showAiCoach = true },
+                        onUpgradePro = { showPricingModal = true }
                     )
                     1 -> WorkoutsScreen(
-                        activeFilter = workoutFilter,
-                        onSelectFilter = { workoutFilter = it },
-                        gender = uiState.profile.gender,
-                        isProActive = uiState.profile.isProActive,
-                        isWorkoutAccessible = viewModel::isWorkoutAccessible,
-                        adsWatchedForWorkout = viewModel::adsWatchedForWorkout,
-                        onWatchAdForWorkout = viewModel::startRewardedAd,
-                        onUpgradePro = { selectedTab = 4 },
-                        onScheduleToday = { w ->
-                            val today = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Date())
-                            viewModel.scheduleWorkout(today, w)
-                        },
-                        onCompleteWorkout = viewModel::markWorkoutCompleted,
-                        selectedWorkout = selectedWorkout,
-                        onSelectWorkout = { selectedWorkout = it }
-                    )
-                    2 -> PlannerAndWeightScreen(
-                        selectedSubTab = plannerSubTab,
-                        onSelectSubTab = { plannerSubTab = it },
-                        profile = uiState.profile,
-                        weightLogs = uiState.weightLogs,
-                        calendarEntries = uiState.calendarEntries,
-                        calorieLogs = uiState.calorieLogs,
-                        calorieScanState = uiState.calorieScanState,
-                        isWorkoutAccessible = viewModel::isWorkoutAccessible,
-                        onAddWeightLog = viewModel::addWeightLog,
-                        onDeleteWeightLog = viewModel::deleteWeightLog,
-                        onScheduleWorkout = viewModel::scheduleWorkout,
-                        onAutoBuildProSchedule = viewModel::autoBuildWeeklyScheduleForPro,
-                        onToggleCalendarCompleted = viewModel::toggleCalendarCompleted,
-                        onDeleteCalendarEntry = viewModel::deleteCalendarEntry,
-                        onAnalyzeMealPhoto = viewModel::analyzeMealPhoto,
-                        onDeleteMealCalorieLog = viewModel::deleteMealCalorieLog,
-                        onClearCalorieScanState = viewModel::clearCalorieScanState,
-                        onUpgradePro = { selectedTab = 4 },
-                        onOpenInviteTab = { selectedTab = 4 }
-                    )
-                    3 -> AiCoachScreen(
-                        profile = uiState.profile,
-                        messages = uiState.aiMessages,
-                        aiUiState = uiState.aiUiState,
-                        remainingFreeQuestions = viewModel.remainingFreeAiQuestions(),
-                        onAskQuestion = viewModel::askAiCoach,
-                        onUpgradePro = { selectedTab = 4 },
-                        onOpenInviteTab = { selectedTab = 4 },
-                        onOpenCalorieScanner = openCalorieScanner
-                    )
-                    4 -> ProfileAndProScreen(
-                        uiState = uiState,
-                        onSelectLanguage = viewModel::setLanguage,
-                        onSelectGender = viewModel::setGender,
-                        onSelectTheme = viewModel::setAppTheme,
-                        onUpgradePro = viewModel::upgradeToPro,
-                        onDowngradeFree = viewModel::downgradeToFree,
-                        onRedeemFriendCode = viewModel::redeemFriendInviteCode,
-                        onRefreshReferrals = viewModel::refreshReferralCountFromCloud,
-                        onRestartQuiz = viewModel::restartOnboarding,
-                        onMessage = viewModel::showBannerMessage
-                    )
+                            activeFilter = workoutFilter,
+                            onSelectFilter = { workoutFilter = it },
+                            gender = uiState.profile.gender,
+                            userProfile = uiState.profile,
+                            customWorkouts = uiState.customWorkouts,
+                            weightUnit = uiState.profile.weightUnit,
+                            onWeightUnitChange = viewModel::setWeightUnit,
+                            isProActive = uiState.profile.isProActive,
+                            isWorkoutAccessible = viewModel::isWorkoutAccessible,
+                            adsWatchedForWorkout = viewModel::adsWatchedForWorkout,
+                            onWatchAdForWorkout = viewModel::startRewardedAd,
+                            onUpgradePro = { showPricingModal = true },
+                            onScheduleToday = { w ->
+                                val today = SimpleDateFormat("yyyy-MM-dd", Locale.US).format(Date())
+                                viewModel.scheduleWorkout(today, w)
+                            },
+                            onCompleteWorkout = viewModel::markWorkoutCompleted,
+                            onSaveCustomWorkout = { title, category, difficulty, exercises, scheduleDate ->
+                                viewModel.saveCustomWorkout(title, category, difficulty, exercises, scheduleDate)
+                            },
+                            onDeleteCustomWorkout = viewModel::deleteCustomWorkout,
+                            selectedWorkout = selectedWorkout,
+                            onSelectWorkout = { w ->
+                                if (w == null || viewModel.isWorkoutAccessible(w)) {
+                                    selectedWorkout = w
+                                } else {
+                                    viewModel.startRewardedAd(w)
+                                }
+                            }
+                        )
+                        2 -> CalorieScannerTab(
+                            profile = uiState.profile,
+                            calorieLogs = uiState.calorieLogs,
+                            onLogFood = viewModel::logFoodEntry,
+                            onDeleteLog = viewModel::deleteMealCalorieLog
+                        )
+                        3 -> PlannerAndWeightScreen(
+                            selectedSubTab = plannerSubTab.coerceIn(0, 1),
+                            onSelectSubTab = { plannerSubTab = it.coerceIn(0, 1) },
+                            profile = uiState.profile,
+                            weightLogs = uiState.weightLogs,
+                            calendarEntries = uiState.calendarEntries,
+                            customWorkouts = uiState.customWorkouts,
+                            isWorkoutAccessible = viewModel::isWorkoutAccessible,
+                            onAddWeightLog = viewModel::addWeightLog,
+                            onDeleteWeightLog = viewModel::deleteWeightLog,
+                            onScheduleWorkout = viewModel::scheduleWorkout,
+                            onAutoBuildProSchedule = viewModel::autoBuildWeeklyScheduleForPro,
+                            onToggleCalendarCompleted = viewModel::toggleCalendarCompleted,
+                            onDeleteCalendarEntry = viewModel::deleteCalendarEntry,
+                            onUpdateTrainingDays = viewModel::updateTrainingDays,
+                            onUpgradePro = { showPricingModal = true }
+                        )
+                        4 -> ProfileAndProScreen(
+                            uiState = uiState,
+                            onSelectLanguage = viewModel::setLanguage,
+                            onSelectGender = viewModel::setGender,
+                            onSelectTheme = viewModel::setAppTheme,
+                            onUpgradePro = { showPricingModal = true },
+                            onDowngradeFree = viewModel::downgradeToFree,
+                            onRedeemFriendCode = viewModel::redeemFriendInviteCode,
+                            onRefreshReferrals = viewModel::refreshReferralCountFromCloud,
+                            onRestartQuiz = viewModel::restartOnboarding,
+                            onMessage = viewModel::showBannerMessage
+                        )
                 }
             }
         }
@@ -323,9 +502,23 @@ fun TavukKocRootApp(
     if (showThemePicker) {
         ThemePickerDialog(
             currentTheme = AppThemeOption.fromId(uiState.profile.themeId),
-            language = uiState.profile.appLanguage,
             onSelectTheme = viewModel::setAppTheme,
             onDismiss = { showThemePicker = false }
+        )
+    }
+
+    if (showPricingModal) {
+        ChoosePlanBottomSheet(
+            isProActive = uiState.profile.isProActive,
+            onSelectPlan = { plan ->
+                if (plan == "pro") {
+                    viewModel.upgradeToPro()
+                } else {
+                    viewModel.downgradeToFree()
+                }
+                showPricingModal = false
+            },
+            onDismiss = { showPricingModal = false }
         )
     }
 
@@ -333,7 +526,6 @@ fun TavukKocRootApp(
     uiState.adSession?.let { session ->
         RewardedAdDialog(
             session = session,
-            language = uiState.profile.appLanguage,
             onClaimStep = viewModel::completeRewardedAdStep,
             onDismiss = viewModel::cancelRewardedAd
         )
@@ -343,18 +535,13 @@ fun TavukKocRootApp(
 @Composable
 private fun RewardedAdDialog(
     session: AdWatchSession,
-    language: String,
     onClaimStep: () -> Unit,
     onDismiss: () -> Unit
 ) {
-    val isEn = language == "en"
     AlertDialog(
         onDismissRequest = onDismiss,
         title = {
-            Text(
-                if (isEn) "Rewarded Ad (${session.currentAdIndex} / ${session.totalAdsRequired})"
-                else "Ödüllü Reklam (${session.currentAdIndex} / ${session.totalAdsRequired})"
-            )
+            Text(strRes(R.string.ad_dialog_title, session.currentAdIndex, session.totalAdsRequired))
         },
         text = {
             Column(
@@ -362,30 +549,24 @@ private fun RewardedAdDialog(
                 verticalArrangement = Arrangement.spacedBy(12.dp),
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Icon(Icons.Rounded.PlayCircle, contentDescription = null, tint = FlameOrange)
+                Icon(Icons.Rounded.PlayCircle, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                 Text(
-                    text = if (isEn) {
-                        "Watching sponsored ad to unlock '${session.workoutTitle}'."
-                    } else {
-                        "'${session.workoutTitle}' özel antrenmanını açmak için sponsorlu reklam izleniyor."
-                    },
+                    text = strRes(R.string.ad_dialog_body, session.workoutTitle),
                     style = MaterialTheme.typography.bodyMedium
                 )
                 LinearProgressIndicator(
                     progress = { (4 - session.remainingSeconds) / 4f },
                     modifier = Modifier.fillMaxWidth(),
-                    color = WarmGold
+                    color = MaterialTheme.colorScheme.primary
                 )
                 Text(
                     text = if (session.remainingSeconds > 0) {
-                        if (isEn) "Ad finishing in: ${session.remainingSeconds}s"
-                        else "Reklam bitiyor: ${session.remainingSeconds} sn"
+                        strRes(R.string.ad_finishing_fmt, session.remainingSeconds)
                     } else {
-                        if (isEn) "Ad complete! Claim your reward."
-                        else "Reklam tamamlandı! Ödülü alabilirsin."
+                        strRes(R.string.ad_complete_claim)
                     },
                     style = MaterialTheme.typography.titleMedium,
-                    color = if (session.remainingSeconds > 0) FlameOrange else MaterialTheme.colorScheme.tertiary
+                    color = MaterialTheme.colorScheme.primary
                 )
             }
         },
@@ -397,16 +578,16 @@ private fun RewardedAdDialog(
             ) {
                 Text(
                     if (session.currentAdIndex >= 3) {
-                        if (isEn) "Unlock Workout!" else "Antrenmanı Aç!"
+                        strRes(R.string.ad_unlock_workout)
                     } else {
-                        if (isEn) "Next Step" else "Sonraki Adıma Geç"
+                        strRes(R.string.common_next_step)
                     }
                 )
             }
         },
         dismissButton = {
             TextButton(onClick = onDismiss) {
-                Text(if (isEn) "Cancel" else "İptal")
+                Text(strRes(R.string.common_cancel))
             }
         }
     )

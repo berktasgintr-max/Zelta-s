@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g7_1_name">Conventional Deadlift</string>
+    <string name="ex_g7_1_muscle">Full Posterior Chain</string>
+    <string name="ex_g7_1_cue">Never round your lower back; the bar must travel in a straight vertical path.</string>
+    <string name="ex_g7_1_breath">Take a deep breath and brace before pulling, exhale at the top.</string>
+    <string name="ex_g7_1_mistake">Pulling with the lower back instead of pushing the floor.</string>
+    <string-array name="ex_g7_1_steps">
+        <item>Stand with feet hip-width apart and the bar over mid-foot.</item>
+        <item>Push hips back to grip the bar, open your chest, and lock your back flat.</item>
+        <item>Drive through your feet keeping the bar close to your legs until lockout.</item>
+    </string-array>
+    <string name="ex_g7_2_name">Hip Thrust</string>
+    <string name="ex_g7_2_muscle">Glutes</string>
+    <string name="ex_g7_2_cue">Tuck your chin slightly toward your chest to prevent lower back hyperextension.</string>
+    <string name="ex_g7_2_breath">Exhale as you thrust upward.</string>
+    <string name="ex_g7_2_mistake">Hyperextending through the lower back.</string>
+    <string-array name="ex_g7_2_steps">
+        <item>Rest your shoulder blades on a bench with the barbell across your hip crease.</item>
+        <item>Drive through your heels to lift your hips until parallel and squeeze hard at the top.</item>
+    </string-array>
+    <string name="ex_g7_3_name">Lying Leg Curl</string>
+    <string name="ex_g7_3_muscle">Hamstrings</string>
+    <string name="ex_g7_3_cue">Keep your hips pressed flat into the pad.</string>
+    <string name="ex_g7_3_breath">Exhale as you curl.</string>
+    <string name="ex_g7_3_mistake">Dropping the weight down too fast.</string>
+    <string-array name="ex_g7_3_steps">
+        <item>Lie face down on the machine with the pad just above your Achilles tendon.</item>
+        <item>Curl your heels toward your glutes and lower with control.</item>
+    </string-array>
+    <string name="ex_g7_4_name">Hanging Knee Raise</string>
+    <string name="ex_g7_4_muscle">Lower Abs &amp; Grip</string>
+    <string name="ex_g7_4_cue">Lower slowly to prevent torso swing.</string>
+    <string name="ex_g7_4_breath">Exhale as knees lift.</string>
+    <string name="ex_g7_4_mistake">Swinging legs for momentum.</string>
+    <string-array name="ex_g7_4_steps">
+        <item>Hang from a pull-up bar.</item>
+        <item>Curl your knees smoothly toward your chest.</item>
+        <item>Lower with control without swinging.</item>
+    </string-array>
+    <string name="ex_g8_1_name">Rowing Machine Sprint</string>
+    <string name="ex_g8_1_muscle">Full Body Cardio</string>
+    <string name="ex_g8_1_cue" formatted="false">Use 60% legs, 20% core, 20% arms.</string>
+    <string name="ex_g8_1_breath">Exhale on each drive.</string>
+    <string name="ex_g8_1_mistake">Pulling with arms before legs finish pushing.</string>
+    <string-array name="ex_g8_1_steps">
+        <item>Strap your feet securely.</item>
+        <item>Push powerfully with your legs first, lean slightly back, then pull handle to chest.</item>
+    </string-array>
+    <string name="ex_g8_2_name">Kettlebell Swing</string>
+    <string name="ex_g8_2_muscle">Glutes &amp; Conditioning</string>
+    <string name="ex_g8_2_cue">Arms are just ropes—power comes completely from your hip snap.</string>
+    <string name="ex_g8_2_breath">Exhale sharply on the swing up.</string>
+    <string name="ex_g8_2_mistake">Squatting down and lifting with the front delts.</string>
+    <string-array name="ex_g8_2_steps">
+        <item>Stand wider than shoulder-width.</item>
+        <item>Hinge at the hips and hike the kettlebell between your legs.</item>
+        <item>Snap hips forward explosively to swing weight to chest height.</item>
+    </string-array>
+    <string name="ex_g8_3_name">Battle Ropes</string>
+    <string name="ex_g8_3_muscle">Shoulders &amp; Cardio</string>
+    <string name="ex_g8_3_sets">4 x 30 sec</string>
+    <string name="ex_g8_3_cue">Brace your abs tight and keep your chest upright.</string>
+    <string name="ex_g8_3_breath">Breathe rhythmically throughout.</string>
+    <string name="ex_g8_3_mistake">Flicking only from the wrists.</string>
+    <string-array name="ex_g8_3_steps">
+        <item>Take an athletic stance with knees slightly bent.</item>
+        <item>Whip the ropes alternately in fast continuous waves.</item>
+    </string-array>
+    <string name="ex_g8_4_name">Incline Treadmill Walk</string>
+    <string name="ex_g8_4_muscle">Fat-Burning Heart Rate</string>
+    <string name="ex_g8_4_sets">12 min</string>
+    <string name="ex_g8_4_cue">Burns high calories with low joint impact.</string>
+    <string name="ex_g8_4_breath">Inhale deeply through your nose.</string>
+    <string name="ex_g8_4_mistake">Leaning on the handles and reducing effort.</string>
+    <string-array name="ex_g8_4_steps">
+        <item>Walk briskly at 10–12% incline and 5.0–5.5 km/h.</item>
+        <item>Swing your arms naturally without holding the rails.</item>
+    </string-array>
+    <string name="ex_g9_1_name">Paused Barbell Bench Press</string>
+    <string name="ex_g9_1_muscle">Chest</string>
+    <string name="ex_g9_1_cue">Keep full muscular tension during the pause.</string>
+    <string name="ex_g9_1_breath">Inhale at the top, exhale as you press.</string>
+    <string name="ex_g9_1_mistake">Bouncing the bar off your chest.</string>
+    <string-array name="ex_g9_1_steps">
+        <item>Lower the bar smoothly to your chest.</item>
+        <item>Pause completely for 1 full second on your chest.</item>
+        <item>Drive explosively upward.</item>
+    </string-array>
+    <string name="ex_g9_2_name">Weighted Chest Dips</string>
+    <string name="ex_g9_2_muscle">Lower Chest &amp; Triceps</string>
+    <string name="ex_g9_2_cue">Forward lean shifts focus onto the lower chest.</string>
+    <string name="ex_g9_2_breath">Exhale on the press up.</string>
+    <string name="ex_g9_2_mistake">Rolling shoulders forward at the bottom.</string>
+    <string-array name="ex_g9_2_steps">
+        <item>Grip parallel bars and lean your torso slightly forward.</item>
+        <item>Lower until elbows reach 90 degrees, then press strongly up.</item>
+    </string-array>
+    <string name="ex_g9_3_name">Pec Deck Fly</string>
+    <string name="ex_g9_3_muscle">Inner Chest</string>
+    <string name="ex_g9_3_cue">Sweep in a wide arc to stretch the chest.</string>
+    <string name="ex_g9_3_breath">Exhale as arms close.</string>
+    <string name="ex_g9_3_mistake">Loading too heavy and bending elbows sharply.</string>
+    <string-array name="ex_g9_3_steps">
+        <item>Adjust seat height and keep elbows slightly bent.</item>
+        <item>Bring arms together in front and squeeze for 1 second.</item>
+    </string-array>
+    <string name="ex_g10_1_name">T-Bar Row</string>
+    <string name="ex_g10_1_muscle">Mid-Back</string>
+    <string name="ex_g10_1_cue">Squeeze your back on every rep.</string>
+    <string name="ex_g10_1_breath">Exhale as you pull.</string>
+    <string name="ex_g10_1_mistake">Jerking upright with the lower back.</string>
+    <string-array name="ex_g10_1_steps">
+        <item>Hinge 45 degrees forward with a locked flat back.</item>
+        <item>Pull the weight toward your lower chest.</item>
+    </string-array>
+    <string name="ex_g10_2_name">Close-Grip Pulldown</string>
+    <string name="ex_g10_2_muscle">Lower Lats</string>
+    <string name="ex_g10_2_cue">Deeply stretches and engages the lower lats.</string>
+    <string name="ex_g10_2_breath">Exhale on the pull down.</string>
+    <string name="ex_g10_2_mistake">Shrugging shoulders up toward ears.</string>
+    <string-array name="ex_g10_2_steps">
+        <item>Hold a narrow V-bar overhead.</item>
+        <item>Keep elbows tucked to your sides and pull down to upper chest.</item>
+    </string-array>
+    <string name="ex_g10_3_name">Dumbbell Shrugs</string>
+    <string name="ex_g10_3_muscle">Trapezius</string>
+    <string name="ex_g10_3_cue">Lift straight up—do not roll shoulders.</string>
+    <string name="ex_g10_3_breath">Exhale on the shrug.</string>
+    <string name="ex_g10_3_mistake">Jutting the head forward.</string>
+    <string-array name="ex_g10_3_steps">
+        <item>Hold heavy dumbbells at your sides.</item>
+        <item>Elevate shoulders straight toward your ears and hold 1 second.</item>
+    </string-array>
+    <string name="ex_g11_1_name">Hack Squat</string>
+    <string name="ex_g11_1_muscle">Quadriceps</string>
+    <string name="ex_g11_1_cue">Don\'t let your knees cave inward.</string>
+    <string name="ex_g11_1_breath">Exhale as you drive up.</string>
+    <string name="ex_g11_1_mistake">Doing shallow half-reps.</string>
+    <string-array name="ex_g11_1_steps">
+        <item>Press your back flat against the pad and place feet slightly forward.</item>
+        <item>Squat deep and drive up through your heels.</item>
+    </string-array>
+    <string name="ex_g11_2_name">Walking Dumbbell Lunges</string>
+    <string name="ex_g11_2_muscle">Legs &amp; Balance</string>
+    <string name="ex_g11_2_sets">3 x 20 steps</string>
+    <string name="ex_g11_2_cue">Keep torso upright and both knees near 90 degrees.</string>
+    <string name="ex_g11_2_breath">Exhale as you stand into each step.</string>
+    <string name="ex_g11_2_mistake">Stepping on a narrow tightrope line.</string>
+    <string-array name="ex_g11_2_steps">
+        <item>Take a long step forward until the rear knee nears the floor.</item>
+        <item>Drive through the front heel into the next step.</item>
+    </string-array>
+    <string name="ex_g11_3_name">Leg Extension</string>
+    <string name="ex_g11_3_muscle">Quad Isolation</string>
+    <string name="ex_g11_3_cue">Lower slowly to maximize quad tension.</string>
+    <string name="ex_g11_3_breath">Exhale as you extend.</string>
+    <string name="ex_g11_3_mistake">Kicking the weight up with momentum.</string>
+    <string-array name="ex_g11_3_steps">
+        <item>Position the pad just above your ankles.</item>
+        <item>Extend legs fully and squeeze for 1 second at the top.</item>
+    </string-array>
+    <string name="ex_g12_1_name">Cable Rope Crunch</string>
+    <string name="ex_g12_1_muscle">Upper &amp; Mid Abs</string>
+    <string name="ex_g12_1_cue">Flex through your abs, not by pulling with your arms.</string>
+    <string name="ex_g12_1_breath">Exhale hard as you crunch.</string>
+    <string name="ex_g12_1_mistake">Sitting hips back toward your heels.</string>
+    <string-array name="ex_g12_1_steps">
+        <item>Kneel before the cable pulley, holding the rope beside your head.</item>
+        <item>Keep hips fixed and curl ribs toward your knees.</item>
+    </string-array>
+    <string name="ex_g12_2_name">Decline Sit-Up</string>
+    <string name="ex_g12_2_muscle">Abs</string>
+    <string name="ex_g12_2_cue">Keep slight spinal flexion to maintain ab tension.</string>
+    <string name="ex_g12_2_breath">Exhale as you sit up.</string>
+    <string name="ex_g12_2_mistake">Pulling on the neck with your hands.</string>
+    <string-array name="ex_g12_2_steps">
+        <item>Anchor feet under the decline bench pads.</item>
+        <item>Lower and rise smoothly with core tension.</item>
+    </string-array>
+    <string name="ex_g12_3_name">Pallof Press</string>
+    <string name="ex_g12_3_muscle">Obliques &amp; Anti-Rotation</string>
+    <string name="ex_g12_3_sets">3 x 12/side</string>
+    <string name="ex_g12_3_cue">Builds rock-solid spinal stability.</string>
+    <string name="ex_g12_3_breath">Exhale as you press forward.</string>
+    <string name="ex_g12_3_mistake">Letting your shoulders rotate toward the cable.</string>
+    <string-array name="ex_g12_3_steps">
+        <item>Stand sideways to a cable machine holding the handle at chest height.</item>
+        <item>Press arms straight forward and resist the cable\'s pull to twist.</item>
+    </string-array>
+    <string name="ex_gp1_1_name">Incline Smith Machine Press</string>
+    <string name="ex_gp1_1_muscle">Upper Chest</string>
+    <string name="ex_gp1_1_cue">One of the safest hypertrophy techniques for upper chest.</string>
+    <string name="ex_gp1_1_breath">Exhale as you press.</string>
+    <string name="ex_gp1_1_mistake">Flaring elbows too far back.</string>
+    <string-array name="ex_gp1_1_steps">
+        <item>Align the bar over your upper chest on a 30-degree incline bench.</item>
+        <item>Lower for 3 seconds, pause 1 second, press explosively.</item>
+    </string-array>
+    <string name="ex_gp1_2_name">Weighted Dips + Cable Fly Superset</string>
+    <string name="ex_gp1_2_muscle">Chest</string>
+    <string name="ex_gp1_2_cue">Supersets double muscular blood flow and pump.</string>
+    <string name="ex_gp1_2_breath">Breathe rhythmically.</string>
+    <string name="ex_gp1_2_mistake">Taking long rests between the two exercises.</string>
+    <string-array name="ex_gp1_2_steps">
+        <item>Immediately perform cable flyes right after finishing your dips.</item>
+        <item>Fully stretch and squeeze your chest fibers.</item>
+    </string-array>
+    <string name="ex_gp1_3_name">Dumbbell Lateral Raise Drop Set</string>
+    <string name="ex_gp1_3_muscle">Shoulders</string>
+    <string name="ex_gp1_3_cue">Maximally recruits the lateral deltoid head.</string>
+    <string name="ex_gp1_3_breath">Exhale as you raise.</string>
+    <string name="ex_gp1_3_mistake">Over-recruiting upper traps by shrugging.</string>
+    <string-array name="ex_gp1_3_steps">
+        <item>Do 12 reps with your starting weight, immediately drop weight for 10 reps, then drop again for 10 more.</item>
+    </string-array>
+    <string name="ex_gp2_1_name">Weighted Pull-Ups</string>
+    <string name="ex_gp2_1_muscle">Wide Lats</string>
+    <string name="ex_gp2_1_cue">Depress your shoulder blades before initiating the pull.</string>
+    <string name="ex_gp2_1_breath">Exhale as you pull up.</string>
+    <string name="ex_gp2_1_mistake">Kicking your legs to swing upward.</string>
+    <string-array name="ex_gp2_1_steps">
+        <item>Hang with a wide overhand grip.</item>
+        <item>Pull your chest toward the bar until your chin clears it.</item>
+    </string-array>
+    <string name="ex_gp2_2_name">Chest-Supported Row</string>
+    <string name="ex_gp2_2_muscle">Mid-Back</string>
+    <string name="ex_gp2_2_cue">Isolates pure mid-back thickness.</string>
+    <string name="ex_gp2_2_breath">Exhale on each row.</string>
+    <string name="ex_gp2_2_mistake">Lifting your chest off the bench.</string>
+    <string-array name="ex_gp2_2_steps">
+        <item>Lie chest-down on an incline bench.</item>
+        <item>Row cleanly with zero lower-back momentum.</item>
+    </string-array>
+    <string name="ex_gp2_3_name">Preacher Curl + Rope Hammer</string>
+    <string name="ex_gp2_3_muscle">Biceps Peak</string>
+    <string name="ex_gp2_3_cue">Builds arms under continuous tension.</string>
+    <string name="ex_gp2_3_breath">Exhale as you curl up.</string>
+    <string name="ex_gp2_3_mistake">Snapping elbows into full lockout at the bottom.</string>
+    <string-array name="ex_gp2_3_steps">
+        <item>Do 10 reps on the preacher bench, then move straight to cable rope hammer curls.</item>
+    </string-array>
+    <string name="ex_gp3_1_name">Front Squat</string>
+    <string name="ex_gp3_1_muscle">Quads &amp; Core</string>
+    <string name="ex_gp3_1_cue">If your elbows drop, your torso will pitch forward.</string>
+    <string name="ex_gp3_1_breath">Exhale on the drive up.</string>
+    <string name="ex_gp3_1_mistake">Straining the wrists instead of resting on delts.</string>
+    <string-array name="ex_gp3_1_steps">
+        <item>Rest the barbell across your front delts with elbows pointed high.</item>
+        <item>Squat deep with an upright torso and drive explosively up.</item>
+    </string-array>
+    <string name="ex_gp3_2_name">Bulgarian Split Squat</string>
+    <string name="ex_gp3_2_muscle">Glutes &amp; Balance</string>
+    <string name="ex_gp3_2_sets">3 x 10/leg</string>
+    <string name="ex_gp3_2_cue">Fixes single-leg strength imbalances.</string>
+    <string name="ex_gp3_2_breath">Exhale as you drive up.</string>
+    <string name="ex_gp3_2_mistake">Collapsing torso too far forward.</string>
+    <string-array name="ex_gp3_2_steps">
+        <item>Place your rear foot\'s laces on a bench behind you.</item>
+        <item>Lower down with control and drive up through the front leg.</item>
+    </string-array>
+    <string name="ex_gp3_3_name">Box Jump</string>
+    <string name="ex_gp3_3_muscle">Explosive Power</string>
+    <string name="ex_gp3_3_cue">Land quietly like a cat to protect joints.</string>
+    <string name="ex_gp3_3_breath">Exhale on the jump.</string>
+    <string name="ex_gp3_3_mistake">Jumping backwards off the box (step down instead).</string>
+    <string-array name="ex_gp3_3_steps">
+        <item>Set an athletic stance facing the plyo box.</item>
+        <item>Swing arms and jump softly onto the center of the box.</item>
+    </string-array>
+    <string name="ex_gp4_1_name">Barbell Squat</string>
+    <string name="ex_gp4_1_muscle">Lower Body</string>
+    <string name="ex_gp4_1_cue">Keep intra-abdominal bracing tight.</string>
+    <string name="ex_gp4_1_breath">Exhale on the drive up.</string>
+    <string name="ex_gp4_1_mistake">Letting knees cave inward.</string>
+    <string-array name="ex_gp4_1_steps">
+        <item>Activate major lower-body muscles with deep controlled squat technique.</item>
+    </string-array>
+    <string name="ex_gp4_2_name">Incline Barbell Press</string>
+    <string name="ex_gp4_2_muscle">Upper Chest</string>
+    <string name="ex_gp4_2_cue">Pin shoulder blades firmly to the bench.</string>
+    <string name="ex_gp4_2_breath">Exhale as you press.</string>
+    <string name="ex_gp4_2_mistake">Lowering the bar toward your neck.</string>
+    <string-array name="ex_gp4_2_steps">
+        <item>Lower the bar just below your collarbone and press powerfully up.</item>
+    </string-array>
+    <string name="ex_gp4_3_name">Pendlay Row</string>
+    <string name="ex_gp4_3_muscle">Explosive Back</string>
+    <string name="ex_gp4_3_cue">Builds raw back thickness and athletic power.</string>
+    <string name="ex_gp4_3_breath">Exhale on the explosive pull.</string>
+    <string name="ex_gp4_3_mistake">Jerking the torso upright.</string>
+    <string-array name="ex_gp4_3_steps">
+        <item>With torso parallel to the floor, pull explosively from a dead stop each rep.</item>
+    </string-array>
+    <string name="ex_gp4_4_name">Farmer\'s Walk</string>
+    <string name="ex_gp4_4_muscle">Grip &amp; Core</string>
+    <string name="ex_gp4_4_cue">Tests full-body core stabilization.</string>
+    <string name="ex_gp4_4_breath">Breathe steadily rather than shallow gasps.</string>
+    <string name="ex_gp4_4_mistake">Swaying sideways while walking.</string>
+    <string-array name="ex_gp4_4_steps">
+        <item>Hold heavy dumbbells at your sides, pull shoulders back, and walk briskly.</item>
+    </string-array>
+</resources>

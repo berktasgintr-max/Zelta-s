@@ -50,6 +50,21 @@ data class MealCalorieEntity(
     val loggedAtMillis: Long
 )
 
+@Entity(tableName = "custom_workouts")
+data class CustomWorkoutEntity(
+    @PrimaryKey val id: String,
+    val title: String,
+    val categoryName: String,
+    val focusArea: String,
+    val difficulty: String,
+    val durationMinutes: Int,
+    val estimatedCalories: Int,
+    val exercisesJson: String,
+    val heroImageUrl: String,
+    val imagePrompt: String,
+    val createdAtMillis: Long
+)
+
 @Dao
 interface TavukKocDao {
     @Query("SELECT * FROM weight_logs ORDER BY loggedAtMillis ASC")
@@ -87,6 +102,15 @@ interface TavukKocDao {
 
     @Query("DELETE FROM meal_calories WHERE id = :id")
     suspend fun deleteMealCalorie(id: String)
+
+    @Query("SELECT * FROM custom_workouts ORDER BY createdAtMillis DESC")
+    fun observeCustomWorkouts(): Flow<List<CustomWorkoutEntity>>
+
+    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    suspend fun upsertCustomWorkout(entity: CustomWorkoutEntity)
+
+    @Query("DELETE FROM custom_workouts WHERE id = :id")
+    suspend fun deleteCustomWorkout(id: String)
 }
 
 @Database(
@@ -94,9 +118,10 @@ interface TavukKocDao {
         WeightLogEntity::class,
         CalendarEntryEntity::class,
         AdUnlockEntity::class,
-        MealCalorieEntity::class
+        MealCalorieEntity::class,
+        CustomWorkoutEntity::class
     ],
-    version = 2,
+    version = 3,
     exportSchema = false
 )
 abstract class TavukKocDatabase : RoomDatabase() {

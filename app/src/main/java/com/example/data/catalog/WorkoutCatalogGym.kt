@@ -2,6 +2,7 @@ package com.example.data.catalog
 
 import com.example.data.model.ExerciseDemoType
 import com.example.data.model.ExerciseItem
+import com.example.data.model.TargetGroup
 import com.example.data.model.WorkoutCategory
 import com.example.data.model.WorkoutProgram
 
@@ -158,6 +159,7 @@ object WorkoutCatalogGym {
             difficulty = "Orta",
             durationMinutes = 50,
             estimatedCalories = 380,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("g5_1", "Dumbbell Bench Press", "Göğüs", "4 x 10", 75, ExerciseDemoType.PRESS,
                     listOf("Dambılları dizlerinden destekle göğüs hizasına al.", "Yukarı it ve kontrollü indir."),
@@ -182,6 +184,7 @@ object WorkoutCatalogGym {
             difficulty = "Orta",
             durationMinutes = 40,
             estimatedCalories = 280,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("g6_1", "Arnold Press", "Tüm Omuz", "3 x 10", 75, ExerciseDemoType.PRESS,
                     listOf("Avuç içleri yüzüne dönük başla.", "Yukarı iterken bileklerini dışa döndür.", "Ters sırayla başlangıç pozisyonuna in."),
@@ -256,6 +259,7 @@ object WorkoutCatalogGym {
             difficulty = "Zor",
             durationMinutes = 45,
             estimatedCalories = 310,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("g9_1", "Paused Barbell Bench Press", "Göğüs", "5 x 5", 150, ExerciseDemoType.PRESS,
                     listOf("Barı kontrollü göğsüne indir.", "Göğsünün üzerinde tam 1 saniye durakla.", "Patlayıcı şekilde yukarı it."),
@@ -277,6 +281,7 @@ object WorkoutCatalogGym {
             difficulty = "Orta",
             durationMinutes = 45,
             estimatedCalories = 340,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("g10_1", "T-Bar Row", "Orta Sırt", "4 x 8-10", 90, ExerciseDemoType.PULL,
                     listOf("Gövdeni 45 derece öne eğ ve sırtını düz kilitle.", "Ağırlığı göğüs altına doğru çek."),
@@ -298,6 +303,7 @@ object WorkoutCatalogGym {
             difficulty = "Orta",
             durationMinutes = 45,
             estimatedCalories = 370,
+            targetGroup = TargetGroup.FEMALE_ONLY,
             exercises = listOf(
                 ex("g11_1", "Hack Squat", "Quadriceps", "4 x 10", 90, ExerciseDemoType.SQUAT,
                     listOf("Sırtını pede tam daya, ayakları hafif öne al.", "Derin inip topuklarla it."),
@@ -319,6 +325,7 @@ object WorkoutCatalogGym {
             difficulty = "Orta",
             durationMinutes = 30,
             estimatedCalories = 220,
+            targetGroup = TargetGroup.FEMALE_ONLY,
             exercises = listOf(
                 ex("g12_1", "Cable Rope Crunch", "Üst & Orta Karın", "4 x 15", 45, ExerciseDemoType.PLANK,
                     listOf("Kablo önünde diz çök, halatı başının yanında tut.", "Kalçayı sabit tutup göğsünü dizlerine doğru bük."),
@@ -342,6 +349,7 @@ object WorkoutCatalogGym {
             durationMinutes = 60,
             estimatedCalories = 450,
             isProSpecial = true,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("gp1_1", "Incline Smith Machine Press", "Üst Göğüs", "4 x 8-10", 90, ExerciseDemoType.PRESS,
                     listOf("30 derece eğimli sehpada barı üst göğüs çizgisine hizala.", "3 saniyede indir, 1 saniye bekle, patlayıcı it."),
@@ -364,6 +372,7 @@ object WorkoutCatalogGym {
             durationMinutes = 60,
             estimatedCalories = 430,
             isProSpecial = true,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("gp2_1", "Weighted Pull-Ups", "Geniş Kanat", "4 x 6-8", 120, ExerciseDemoType.PULL,
                     listOf("Geniş tutuşla barfiks barına asıl.", "Göğsünü bara doğru çek, çene barı geçsin."),
@@ -386,6 +395,7 @@ object WorkoutCatalogGym {
             durationMinutes = 60,
             estimatedCalories = 500,
             isProSpecial = true,
+            targetGroup = TargetGroup.FEMALE_ONLY,
             exercises = listOf(
                 ex("gp3_1", "Front Squat", "Quad & Core", "4 x 6-8", 120, ExerciseDemoType.SQUAT,
                     listOf("Barı ön omuzların üzerine yerleştir, dirsekleri yukarı kaldır.", "Dik sırtla tam derinliğe in ve patlayıcı kalk."),
@@ -401,7 +411,7 @@ object WorkoutCatalogGym {
         WorkoutProgram(
             id = "gym_pro_4",
             title = "PRO: Şampiyon Full Body",
-            subtitle = "Koç Tavuk'un hafta 3-4 gün için maksimum verimli özel bileşik programı",
+            subtitle = "FitChicken'ın haftada 3-4 gün için maksimum verimli özel bileşik programı",
             category = WorkoutCategory.GYM,
             focusArea = "full_body",
             difficulty = "İleri",

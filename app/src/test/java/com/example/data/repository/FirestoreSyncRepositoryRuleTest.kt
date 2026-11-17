@@ -10,9 +10,11 @@ import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertTrue
+import org.junit.Ignore
 import org.junit.Test
 import java.util.UUID
 
+@Ignore("Requires local Firebase Auth/Firestore emulators running")
 class FirestoreSyncRepositoryRuleTest : FirestoreEmulatorTestBase() {
 
     @Test
@@ -28,7 +30,7 @@ class FirestoreSyncRepositoryRuleTest : FirestoreEmulatorTestBase() {
             targetWeightKg = 72.0,
             goal = "growth_posture",
             environment = "home",
-            inviteCode = "TAVUK-${UUID.randomUUID().toString().take(5).uppercase()}",
+            inviteCode = "FIT-${UUID.randomUUID().toString().take(5).uppercase()}",
             onboardingCompleted = true
         )
 
@@ -84,7 +86,7 @@ class FirestoreSyncRepositoryRuleTest : FirestoreEmulatorTestBase() {
     fun referralFlow_crossUserRedemption_succeeds() = runBlocking {
         val aliceUid = signInTestUser(ALICE_EMAIL)
         val aliceRepo = FirestoreSyncRepository(firestore, auth)
-        val code = "TAVUK-${UUID.randomUUID().toString().take(6).uppercase()}"
+        val code = "FIT-${UUID.randomUUID().toString().take(6).uppercase()}"
 
         withTimeout(DEFAULT_TIMEOUT_MS) {
             aliceRepo.ensureReferralCodeClaimed(code).getOrThrow()

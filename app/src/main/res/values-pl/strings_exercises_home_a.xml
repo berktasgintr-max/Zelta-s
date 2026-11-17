@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h1_1_name">Przysiady z masą ciała</string>
+    <string name="ex_h1_1_muscle">Nogi i Pośladki</string>
+    <string name="ex_h1_1_cue">Trzymaj klatkę prosto i stabilne kolana.</string>
+    <string name="ex_h1_1_breath">Wdech w dół, wydech w górę.</string>
+    <string name="ex_h1_1_mistake">Zbliżanie kolan do środka.</string>
+    <string-array name="ex_h1_1_steps">
+        <item>Stopy na szerokość barków, ręce przed siebie.</item>
+        <item>Cofnij biodra jak przy siadaniu na niewidzialne krzesło.</item>
+        <item>Wstań, wypychając z pięt.</item>
+    </string-array>
+    <string name="ex_h1_2_name">Klasyczne pompki (lub na kolanach)</string>
+    <string name="ex_h1_2_muscle">Klatka i Ramiona</string>
+    <string name="ex_h1_2_cue">Łokcie pod kątem 45 stopni w tył, nie twórz litery T.</string>
+    <string name="ex_h1_2_breath">Wdech w dół, wydech przy wypychaniu.</string>
+    <string name="ex_h1_2_mistake">Zapadanie się bioder w dół.</string>
+    <string-array name="ex_h1_2_steps">
+        <item>Ustaw dłonie nieco szerzej niż barki.</item>
+        <item>Utrzymuj ciało w linii prostej i opuść klatkę do podłogi.</item>
+        <item>Odepchnij się mocno dłońmi.</item>
+    </string-array>
+    <string name="ex_h1_3_name">Mostek biodrowy</string>
+    <string name="ex_h1_3_muscle">Pośladki i Lędźwie</string>
+    <string name="ex_h1_3_cue">Skup się na napięciu pośladków, a nie lędźwi.</string>
+    <string name="ex_h1_3_breath">Wydech przy unoszeniu.</string>
+    <string name="ex_h1_3_mistake">Stawianie stóp zbyt daleko.</string>
+    <string-array name="ex_h1_3_steps">
+        <item>Połóż się na plecach, kolana ugięte, stopy blisko pośladków.</item>
+        <item>Unieś biodra do jednej linii z barkami i kolanami.</item>
+        <item>Przytrzymaj 2 sekundy u góry i powoli opuść.</item>
+    </string-array>
+    <string name="ex_h1_4_name">Bieg górski (Mountain Climbers)</string>
+    <string name="ex_h1_4_muscle">Brzuch i Cardio</string>
+    <string name="ex_h1_4_sets">3 x 30 sek</string>
+    <string name="ex_h1_4_cue">Trzymaj biodra stabilnie bez podskakiwania.</string>
+    <string name="ex_h1_4_breath">Oddychaj rytmicznie.</string>
+    <string name="ex_h1_4_mistake">Zbyt wysokie unoszenie bioder.</string>
+    <string-array name="ex_h1_4_steps">
+        <item>Przyjmij pozycję wysokiej deski.</item>
+        <item>Przyciągaj naprzemiennie kolana szybko do klatki.</item>
+    </string-array>
+    <string name="ex_h2_1_name">Pompki ze stopami na podwyższeniu</string>
+    <string name="ex_h2_1_muscle">Góra klatki</string>
+    <string name="ex_h2_1_cue">Mocniej angażuje górę klatki i przód barków.</string>
+    <string name="ex_h2_1_breath">Wydech przy wypychaniu.</string>
+    <string name="ex_h2_1_mistake">Opuszczanie głowy w dół.</string>
+    <string-array name="ex_h2_1_steps">
+        <item>Oprzyj stopy na kanapie lub ławce.</item>
+        <item>Opuść klatkę do podłogi i wyciśnij.</item>
+    </string-array>
+    <string name="ex_h2_2_name">Pompki diamentowe</string>
+    <string name="ex_h2_2_muscle">Środek klatki i Triceps</string>
+    <string name="ex_h2_2_cue">Mocno aktywuje triceps i środek klatki.</string>
+    <string name="ex_h2_2_breath">Wydech przy wypychaniu.</string>
+    <string name="ex_h2_2_mistake">Ustawianie dłoni pod twarzą.</string>
+    <string-array name="ex_h2_2_steps">
+        <item>Ułóż dłonie w kształt diamentu pod klatką.</item>
+        <item>Trzymaj łokcie blisko, opuść się i wyciśnij.</item>
+    </string-array>
+    <string name="ex_h2_3_name">Pompki z wolną fazą negatywną</string>
+    <string name="ex_h2_3_muscle">Kontrola klatki</string>
+    <string name="ex_h2_3_cue">Wolne opuszczanie mocniej stymuluje mięśnie.</string>
+    <string name="ex_h2_3_breath">Powolny wdech przy opuszczaniu.</string>
+    <string name="ex_h2_3_mistake">Opadanie bez kontroli w ostatniej sekundzie.</string>
+    <string-array name="ex_h2_3_steps">
+        <item>Opuszczaj się wolno, licząc do 4 sekund.</item>
+        <item>Lekko dotknij podłogi i szybko wyciśnij.</item>
+    </string-array>
+    <string name="ex_h3_1_name">Rowerek (brzuszki)</string>
+    <string name="ex_h3_1_muscle">Góra i boki brzucha</string>
+    <string name="ex_h3_1_cue">Skręcaj bark do kolana, nie ciągnij szyi.</string>
+    <string name="ex_h3_1_breath">Wydech przy każdym skręcie.</string>
+    <string name="ex_h3_1_mistake">Zbyt szybkie i niepełne ruchy.</string>
+    <string-array name="ex_h3_1_steps">
+        <item>Na plecach, dłonie przy skroniach.</item>
+        <item>Zbliż prawy łokieć do lewego kolana, prostując drugą nogę i zmień.</item>
+    </string-array>
+    <string name="ex_h3_2_name">Unoszenie nóg leżąc</string>
+    <string name="ex_h3_2_muscle">Dół brzucha</string>
+    <string name="ex_h3_2_cue">Opuszczaj wyżej, jeśli lędźwie odrywają się od maty.</string>
+    <string name="ex_h3_2_breath">Wdech w dół, wydech w górę.</string>
+    <string name="ex_h3_2_mistake">Odrywanie lędźwi od podłoża.</string>
+    <string-array name="ex_h3_2_steps">
+        <item>Podłóż dłonie pod pośladki.</item>
+        <item>Unieś proste nogi do 90° i opuść nad ziemię.</item>
+    </string-array>
+    <string name="ex_h3_3_name">Deska bokiem (Side Plank)</string>
+    <string name="ex_h3_3_muscle">Skośne brzucha i Talia</string>
+    <string name="ex_h3_3_sets">3 x 30 sek/stronę</string>
+    <string name="ex_h3_3_cue">Wzmacnia talię i mięśnie skośne.</string>
+    <string name="ex_h3_3_breath">Oddychaj równomiernie.</string>
+    <string name="ex_h3_3_mistake">Skręcanie bioder do przodu lub tyłu.</string>
+    <string-array name="ex_h3_3_steps">
+        <item>Podeprzyj się na przedramieniu w jednej linii.</item>
+        <item>Utrzymaj pozycję bez opuszczania bioder.</item>
+    </string-array>
+    <string name="ex_h4_1_name">Przysiad sumo</string>
+    <string name="ex_h4_1_muscle">Wewnętrzna część ud i Pośladki</string>
+    <string name="ex_h4_1_cue">Mocno angażuje przywodziciele i pośladki.</string>
+    <string name="ex_h4_1_breath">Wydech przy wstawaniu.</string>
+    <string name="ex_h4_1_mistake">Zapadanie się kolan do środka.</string>
+    <string-array name="ex_h4_1_steps">
+        <item>Stań szeroko ze stopami pod kątem 45° na zewnątrz.</item>
+        <item>Zejdź prosto w dół i wstań.</item>
+    </string-array>
+    <string name="ex_h4_2_name">Zakroki</string>
+    <string name="ex_h4_2_muscle">Uda i Pośladki</string>
+    <string name="ex_h4_2_sets">3 x 12/nogę</string>
+    <string name="ex_h4_2_cue">Bezpieczniejsze dla kolan niż wykroki w przód.</string>
+    <string name="ex_h4_2_breath">Wydech przy wstawaniu.</string>
+    <string name="ex_h4_2_mistake">Zbyt mocne pochylenie w przód.</string>
+    <string-array name="ex_h4_2_steps">
+        <item>Zrób krok jedną nogą w tył.</item>
+        <item>Opuść tylne kolano nad podłogę i wstań z przedniej pięty.</item>
+    </string-array>
+    <string name="ex_h4_3_name">Mostek biodrowy na jednej nodze</string>
+    <string name="ex_h4_3_muscle">Pośladki jednonóż</string>
+    <string name="ex_h4_3_sets">3 x 12/nogę</string>
+    <string name="ex_h4_3_cue">Podwaja aktywację pośladków.</string>
+    <string name="ex_h4_3_breath">Wydech przy wypychaniu.</string>
+    <string name="ex_h4_3_mistake">Przechylanie bioder na bok.</string>
+    <string-array name="ex_h4_3_steps">
+        <item>Wyprostuj jedną nogę w górę.</item>
+        <item>Wypchnij biodra z drugiej pięty i dopnij na 1 sekundę.</item>
+    </string-array>
+    <string name="ex_h5_1_name">Pajacyki</string>
+    <string name="ex_h5_1_muscle">Rozgrzewka i Cardio</string>
+    <string name="ex_h5_1_sets">4 x 40 sek</string>
+    <string name="ex_h5_1_cue">Ląduj cicho na przedniej części stóp.</string>
+    <string name="ex_h5_1_breath">Oddychaj rytmicznie.</string>
+    <string name="ex_h5_1_mistake">Twarde lądowanie na piętach.</string>
+    <string-array name="ex_h5_1_steps">
+        <item>Wyskocz w rozkrok, łącząc ręce nad głową.</item>
+        <item>Wróć skokiem do pozycji wyjściowej.</item>
+    </string-array>
+    <string name="ex_h5_2_name">Burpees (krokiem lub skokiem)</string>
+    <string name="ex_h5_2_muscle">Spalanie całego ciała</string>
+    <string name="ex_h5_2_sets">4 x 30 sek</string>
+    <string name="ex_h5_2_cue">Przy zmęczeniu przejdź na wersję kroczoną.</string>
+    <string name="ex_h5_2_breath">Wydech w wyskoku.</string>
+    <string name="ex_h5_2_mistake">Zapadanie się lędźwi w desce.</string>
+    <string-array name="ex_h5_2_steps">
+        <item>Połóż dłonie, wyrzuć nogi do deski.</item>
+        <item>Wróć nogami i wyskocz w górę.</item>
+    </string-array>
+    <string name="ex_h5_3_name">Bieg w miejscu (High Knees)</string>
+    <string name="ex_h5_3_muscle">Cardio i Dół brzucha</string>
+    <string name="ex_h5_3_sets">4 x 30 sek</string>
+    <string name="ex_h5_3_cue">Pracuj rękami w rytmie biegu.</string>
+    <string name="ex_h5_3_breath">Oddychaj regularnie.</string>
+    <string name="ex_h5_3_mistake">Odchylanie się do tyłu.</string>
+    <string-array name="ex_h5_3_steps">
+        <item>Biegnij w miejscu, wysoko unosząc kolana do bioder.</item>
+    </string-array>
+    <string name="ex_h6_1_name">Thrusters z hantlami</string>
+    <string name="ex_h6_1_muscle">Nogi i Barki</string>
+    <string name="ex_h6_1_cue">Angażuje całe ciało w jednym płynnym ruchu.</string>
+    <string name="ex_h6_1_breath">Wydech przy wyciskaniu w górę.</string>
+    <string name="ex_h6_1_mistake">Wyciskanie samymi rękami bez napędu z nóg.</string>
+    <string-array name="ex_h6_1_steps">
+        <item>Zrób przysiad z hantlami na barkach.</item>
+        <item>Wykorzystaj impet nóg, by wycisnąć nad głowę.</item>
+    </string-array>
+    <string name="ex_h6_2_name">Wiosłowanie hantlami w opadzie</string>
+    <string name="ex_h6_2_muscle">Plecy</string>
+    <string name="ex_h6_2_cue">Trzymaj szyję w jednej linii z kręgosłupem.</string>
+    <string name="ex_h6_2_breath">Wydech przy przyciąganiu.</string>
+    <string name="ex_h6_2_mistake">Zaokrąglanie pleców.</string>
+    <string-array name="ex_h6_2_steps">
+        <item>Pochyl się o 45° z prostymi plecami.</item>
+        <item>Przyciągnij hantle do bioder, ściągając łopatki.</item>
+    </string-array>
+    <string name="ex_h6_3_name">Wyciskanie hantli na podłodze</string>
+    <string name="ex_h6_3_muscle">Klatka i Triceps</string>
+    <string name="ex_h6_3_cue">Świetne domowe ćwiczenie chroniące stawy barkowe.</string>
+    <string name="ex_h6_3_breath">Wydech przy wyciskaniu.</string>
+    <string name="ex_h6_3_mistake">Uderzanie łokciami o podłogę.</string>
+    <string-array name="ex_h6_3_steps">
+        <item>Połóż się na plecach ze zgiętymi kolanami.</item>
+        <item>Dotknij łokciami podłogi, zatrzymaj i wyciśnij.</item>
+    </string-array>
+    <string name="ex_h7_1_name">Koci grzbiet (Cat-Cow)</string>
+    <string name="ex_h7_1_muscle">Mobilność kręgosłupa</string>
+    <string name="ex_h7_1_cue">Poczuj ruch kręg po kręgu.</string>
+    <string name="ex_h7_1_breath">Zsynchronizuj oddech z ruchem.</string>
+    <string name="ex_h7_1_mistake">Zbyt szybkie tempo.</string>
+    <string-array name="ex_h7_1_steps">
+        <item>W klęku podpartym dłonie pod barkami.</item>
+        <item>Wdech z otwarciem klatki, wydech z wypchnięciem pleców w górę.</item>
+    </string-array>
+    <string name="ex_h7_2_name">Najlepsze rozciąganie świata (WGS)</string>
+    <string name="ex_h7_2_muscle">Biodra i Odcinek piersiowy</string>
+    <string name="ex_h7_2_sets">3 x 6/stronę</string>
+    <string name="ex_h7_2_cue">Skutecznie uwalnia sztywność od biurka.</string>
+    <string name="ex_h7_2_breath">Wydech przy otwarciu klatki.</string>
+    <string name="ex_h7_2_mistake">Odkładanie tylnego kolana na podłogę.</string>
+    <string-array name="ex_h7_2_steps">
+        <item>Zrób głęboki wykrok z jedną dłonią na ziemi.</item>
+        <item>Skręć drugie ramię ku górze, otwierając klatkę.</item>
+    </string-array>
+    <string name="ex_h7_3_name">Głęboki przysiad izometryczny</string>
+    <string name="ex_h7_3_muscle">Biodra i Kostki</string>
+    <string name="ex_h7_3_sets">3 x 30 sek</string>
+    <string name="ex_h7_3_cue">Pięty muszą całą powierzchnią dotykać podłoża.</string>
+    <string name="ex_h7_3_breath">Oddychaj głęboko przeponą.</string>
+    <string name="ex_h7_3_mistake">Odrywanie pięt od ziemi.</string>
+    <string-array name="ex_h7_3_steps">
+        <item>Zejdź do pełnego głębokiego przysiadu.</item>
+        <item>Rozpychaj kolana łokciami na zewnątrz z prostą klatką.</item>
+    </string-array>
+    <string name="ex_h8_1_name">Pompki w pozycji V (Pike)</string>
+    <string name="ex_h8_1_muscle">Barki</string>
+    <string name="ex_h8_1_cue">Najlepszy domowy zamiennik wyciskania na barki.</string>
+    <string name="ex_h8_1_breath">Wydech przy wypychaniu.</string>
+    <string name="ex_h8_1_mistake">Zbyt szerokie rozstawianie łokci.</string>
+    <string-array name="ex_h8_1_steps">
+        <item>Unieś biodra w odwrócone V.</item>
+        <item>Opuść czubek głowy przed dłonie i wyciśnij.</item>
+    </string-array>
+    <string name="ex_h8_2_name">Pompki szwedzkie na krześle</string>
+    <string name="ex_h8_2_muscle">Triceps</string>
+    <string name="ex_h8_2_cue">Nie unoś barków do uszu.</string>
+    <string name="ex_h8_2_breath">Wydech przy wyjściu w górę.</string>
+    <string name="ex_h8_2_mistake">Zbyt dalekie odsuwanie się od krzesła.</string>
+    <string-array name="ex_h8_2_steps">
+        <item>Oprzyj dłonie na krawędzi stabilnego krzesła.</item>
+        <item>Plecy blisko krzesła, ugnij łokcie do 90° i wyciśnij.</item>
+    </string-array>
+    <string name="ex_h8_3_name">Superman</string>
+    <string name="ex_h8_3_muscle">Lędźwie i Postawa</string>
+    <string name="ex_h8_3_cue">Wzmacnia mięśnie grzbietu i postawę.</string>
+    <string name="ex_h8_3_breath">Wydech przy unoszeniu.</string>
+    <string name="ex_h8_3_mistake">Mocne zadzieranie głowy do tyłu.</string>
+    <string-array name="ex_h8_3_steps">
+        <item>Na brzuchu, wyprostowane ręce i nogi.</item>
+        <item>Unieś lekko klatkę i nogi na 2 sekundy.</item>
+    </string-array>
+</resources>

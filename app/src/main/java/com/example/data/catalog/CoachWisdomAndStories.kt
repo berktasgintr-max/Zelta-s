@@ -1,12 +1,14 @@
 package com.example.data.catalog
 
+import android.content.Context
+import com.example.R
 import com.example.data.model.SuccessStory
 
 object CoachWisdomAndStories {
 
-    // 40 tapping tips from Koç Tavuk (Turkish)
+    // 40 tapping tips from FitChicken (Turkish)
     val COACH_TIPS: List<String> = listOf(
-        "Gıdaklamayı bırak, demiri kaldır! Bugün setlerin son tekrarında pes etme; gerçek gelişim tam orada başlar.",
+        "Bahane üretmeyi bırak, demiri kaldır! Bugün setlerin son tekrarında pes etme; gerçek gelişim tam orada başlar.",
         "Kanatlarımı bu göğüs kafesiyle büyüttüm! Şınav ve bench press'te kürek kemiklerini geriye sık.",
         "Su içmeyi unutma şampiyon! Günde en az 2,5 - 3 litre su kas performansını %15 artırır.",
         "Tavuk göğsü yemekten ben bile çekiniyorum ama protein hedefin için her öğüne 25-35 g protein ekle!",
@@ -45,12 +47,12 @@ object CoachWisdomAndStories {
         "Sabah 5 dakikalık kedi-deve ve göğüs açma akışı gün boyu masa başı ağrılarını önler.",
         "Antrenman takvimine tik attıkça beynin ödül salgılar; haftalık serini sakın bozma!",
         "Zorlandığın hareket genellikle en çok gelişime açık olduğun noktadır. Üstüne git!",
-        "Ben Koç Tavuk'um: Kanatlarım küçük diye pes etseydim şimdi bu kollara sahip olamazdım. Sıra sende!"
+        "Ben FitChicken'ım: Kanatlarım küçük diye pes etseydim şimdi bu kollara sahip olamazdım. Sıra sende!"
     )
 
-    // 40 tapping tips from Koç Tavuk (English)
+    // 40 tapping tips from FitChicken (English)
     val COACH_TIPS_EN: List<String> = listOf(
-        "Quit clucking and lift the iron! Never quit on the last two reps—that is where growth lives.",
+        "Drop the excuses and lift the iron! Never quit on the last two reps—that is where real growth lives.",
         "I built these wings with a big chest! Pin your shoulder blades back on every push-up and bench press.",
         "Stay hydrated, champ! Drinking 2.5 to 3 liters of water daily boosts muscle output by up to 15%.",
         "Even I respect chicken breast—aim for 25-35g of quality protein in each main meal.",
@@ -89,10 +91,15 @@ object CoachWisdomAndStories {
         "Five minutes of cat-cow and chest openers each morning erases desk stiffness.",
         "Every completed calendar session wires a winning habit—protect your weekly streak!",
         "The movement you avoid is usually the exact weakness holding you back. Attack it!",
-        "I am Koç Tavuk: If I quit when my wings were tiny, I'd never have these biceps. Your turn!"
+        "I am FitChicken: If I quit when my wings were tiny, I'd never have these biceps. Your turn!"
     )
 
     fun tips(lang: String): List<String> = if (lang == "en") COACH_TIPS_EN else COACH_TIPS
+
+    fun tips(context: Context): List<String> {
+        val arr = context.resources.getStringArray(R.array.coach_tips)
+        return if (arr.isNotEmpty()) arr.toList() else COACH_TIPS_EN
+    }
 
     val SUCCESS_STORIES: List<SuccessStory> = listOf(
         SuccessStory(
@@ -100,7 +107,7 @@ object CoachWisdomAndStories {
             age = 27,
             badge = "4 Ayda -11.5 kg",
             resultSummary = "94 kg → 82.5 kg • Yağ Oranı %26 → %16",
-            quote = "Başta bana özel çıkan programı uyguladım, takvime sadık kaldım. Koç Tavuk'tan her gün tavsiye alıp görevleri tamamlamak sporu bırakmamamı sağladı!"
+            quote = "Başta bana özel çıkan programı uyguladım, takvime sadık kaldım. FitChicken'dan her gün tavsiye alıp görevleri tamamlamak sporu bırakmamamı sağladı!"
         ),
         SuccessStory(
             name = "Emre Taşkın",
@@ -121,7 +128,7 @@ object CoachWisdomAndStories {
             age = 31,
             badge = "Pro Hipertrofi",
             resultSummary = "+4.8 kg Temiz Kas Kütlesi",
-            quote = "Koç Tavuk AI'ya beslenme ve set aralarıyla ilgili aklıma takılan her şeyi sordum. Hem bilimsel hem de çok eğlenceli yanıtlarla antrenman kalitem ikiye katlandı."
+            quote = "FitChicken Koçuna beslenme ve set aralarıyla ilgili aklıma takılan her şeyi sordum. Hem bilimsel hem de çok eğlenceli yanıtlarla antrenman kalitem ikiye katlandı."
         )
     )
 
@@ -131,7 +138,7 @@ object CoachWisdomAndStories {
             age = 27,
             badge = "-11.5 kg in 4 Mos",
             resultSummary = "94 kg → 82.5 kg • Body Fat 26% → 16%",
-            quote = "I followed my custom plan and stayed loyal to the calendar. Tapping Koç Tavuk every day kept my streak alive!"
+            quote = "I followed my custom plan and stayed loyal to the calendar. Tapping FitChicken every day kept my streak alive!"
         ),
         SuccessStory(
             name = "Emre Taşkın",
@@ -152,9 +159,40 @@ object CoachWisdomAndStories {
             age = 31,
             badge = "Pro Hypertrophy",
             resultSummary = "+4.8 kg Lean Muscle",
-            quote = "Asked Koç Tavuk AI everything about nutrition and rest times. Clear science with great humor doubled my results."
+            quote = "Asked FitChicken Coach everything about nutrition and rest times. Clear science with great humor doubled my results."
         )
     )
 
     fun stories(lang: String): List<SuccessStory> = if (lang == "en") SUCCESS_STORIES_EN else SUCCESS_STORIES
+
+    fun stories(context: Context): List<SuccessStory> = listOf(
+        SuccessStory(
+            name = "Mehmet Karahan",
+            age = 27,
+            badge = context.getString(R.string.story_1_badge),
+            resultSummary = context.getString(R.string.story_1_result),
+            quote = context.getString(R.string.story_1_quote)
+        ),
+        SuccessStory(
+            name = "Emre Taşkın",
+            age = 16,
+            badge = context.getString(R.string.story_2_badge),
+            resultSummary = context.getString(R.string.story_2_result),
+            quote = context.getString(R.string.story_2_quote)
+        ),
+        SuccessStory(
+            name = "Selin Yıldız",
+            age = 24,
+            badge = context.getString(R.string.story_3_badge),
+            resultSummary = context.getString(R.string.story_3_result),
+            quote = context.getString(R.string.story_3_quote)
+        ),
+        SuccessStory(
+            name = "Burak Demir",
+            age = 31,
+            badge = context.getString(R.string.story_4_badge),
+            resultSummary = context.getString(R.string.story_4_result),
+            quote = context.getString(R.string.story_4_quote)
+        )
+    )
 }

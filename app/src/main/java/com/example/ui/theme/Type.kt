@@ -5,90 +5,136 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.em
 import androidx.compose.ui.unit.sp
 import com.example.R
 
-val BebasNeueFontFamily = FontFamily(
-    Font(R.font.bebas_neue, FontWeight.Normal),
-    Font(R.font.bebas_neue, FontWeight.Bold)
+val PlusJakartaSans = FontFamily(
+    Font(R.font.plus_jakarta_sans_light, FontWeight.Light),
+    Font(R.font.plus_jakarta_sans_regular, FontWeight.Normal),
+    Font(R.font.plus_jakarta_sans_medium, FontWeight.Medium),
+    Font(R.font.plus_jakarta_sans_semibold, FontWeight.SemiBold),
+    Font(R.font.plus_jakarta_sans_bold, FontWeight.Bold),
+    Font(R.font.plus_jakarta_sans_extrabold, FontWeight.ExtraBold)
 )
 
-val SpaceGroteskFontFamily = FontFamily(
-    Font(R.font.space_grotesk, FontWeight.Normal),
-    Font(R.font.space_grotesk, FontWeight.Medium),
-    Font(R.font.space_grotesk, FontWeight.SemiBold),
-    Font(R.font.space_grotesk, FontWeight.Bold)
-)
+val PlusJakartaFontFamily = PlusJakartaSans
 
-val PlusJakartaFontFamily = FontFamily(
-    Font(R.font.plus_jakarta_sans, FontWeight.Normal),
-    Font(R.font.plus_jakarta_sans, FontWeight.Medium),
-    Font(R.font.plus_jakarta_sans, FontWeight.SemiBold),
-    Font(R.font.plus_jakarta_sans, FontWeight.Bold)
-)
-
-val JetBrainsMonoFontFamily = FontFamily(
-    Font(R.font.jetbrains_mono, FontWeight.Medium),
-    Font(R.font.jetbrains_mono, FontWeight.Bold)
-)
-
-val Typography = Typography(
+val AppTypography = Typography(
     displayLarge = TextStyle(
-        fontFamily = BebasNeueFontFamily,
-        fontWeight = FontWeight.Bold,
-        fontSize = 42.sp,
-        lineHeight = 46.sp,
-        letterSpacing = 1.2.sp
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.ExtraBold,
+        fontSize = 36.sp,
+        lineHeight = 42.sp,
+        letterSpacing = (-0.02).em,
+        fontFeatureSettings = "tnum"
     ),
-    displaySmall = TextStyle(
-        fontFamily = BebasNeueFontFamily,
+    displayMedium = TextStyle(
+        fontFamily = PlusJakartaSans,
         fontWeight = FontWeight.Bold,
         fontSize = 32.sp,
-        lineHeight = 36.sp,
-        letterSpacing = 0.8.sp
+        lineHeight = 38.sp,
+        letterSpacing = (-0.02).em,
+        fontFeatureSettings = "tnum"
+    ),
+    displaySmall = TextStyle(
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Bold,
+        fontSize = 28.sp,
+        lineHeight = 34.sp,
+        letterSpacing = (-0.02).em,
+        fontFeatureSettings = "tnum"
+    ),
+    headlineLarge = TextStyle(
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Bold,
+        fontSize = 26.sp,
+        lineHeight = 32.sp,
+        letterSpacing = (-0.02).em,
+        fontFeatureSettings = "tnum"
     ),
     headlineMedium = TextStyle(
-        fontFamily = SpaceGroteskFontFamily,
-        fontWeight = FontWeight.ExtraBold,
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Bold,
         fontSize = 24.sp,
         lineHeight = 30.sp,
-        letterSpacing = (-0.3).sp
+        letterSpacing = (-0.02).em,
+        fontFeatureSettings = "tnum"
+    ),
+    headlineSmall = TextStyle(
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Bold,
+        fontSize = 22.sp,
+        lineHeight = 28.sp,
+        letterSpacing = (-0.02).em,
+        fontFeatureSettings = "tnum"
     ),
     titleLarge = TextStyle(
-        fontFamily = SpaceGroteskFontFamily,
-        fontWeight = FontWeight.ExtraBold,
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Bold,
         fontSize = 20.sp,
         lineHeight = 26.sp,
-        letterSpacing = (-0.2).sp
+        letterSpacing = (-0.02).em,
+        fontFeatureSettings = "tnum"
     ),
     titleMedium = TextStyle(
-        fontFamily = SpaceGroteskFontFamily,
-        fontWeight = FontWeight.Bold,
-        fontSize = 16.5.sp,
-        lineHeight = 22.sp
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 16.sp,
+        lineHeight = 22.sp,
+        letterSpacing = (-0.01).em,
+        fontFeatureSettings = "tnum"
+    ),
+    titleSmall = TextStyle(
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 14.sp,
+        lineHeight = 20.sp,
+        letterSpacing = (-0.01).em,
+        fontFeatureSettings = "tnum"
     ),
     bodyLarge = TextStyle(
-        fontFamily = PlusJakartaFontFamily,
-        fontWeight = FontWeight.Medium,
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Normal,
         fontSize = 15.sp,
-        lineHeight = 22.sp
+        lineHeight = 22.sp,
+        fontFeatureSettings = "tnum"
     ),
     bodyMedium = TextStyle(
-        fontFamily = PlusJakartaFontFamily,
-        fontWeight = FontWeight.Medium,
-        fontSize = 13.5.sp,
-        lineHeight = 19.sp
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp,
+        lineHeight = 20.sp,
+        fontFeatureSettings = "tnum"
+    ),
+    bodySmall = TextStyle(
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Normal,
+        fontSize = 12.sp,
+        lineHeight = 16.sp,
+        fontFeatureSettings = "tnum"
     ),
     labelLarge = TextStyle(
-        fontFamily = SpaceGroteskFontFamily,
-        fontWeight = FontWeight.Bold,
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Medium,
         fontSize = 14.sp,
-        lineHeight = 18.sp
+        lineHeight = 18.sp,
+        fontFeatureSettings = "tnum"
     ),
     labelMedium = TextStyle(
-        fontFamily = JetBrainsMonoFontFamily,
-        fontWeight = FontWeight.Bold,
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.SemiBold,
         fontSize = 12.sp,
-        lineHeight = 16.sp
+        lineHeight = 16.sp,
+        fontFeatureSettings = "tnum"
+    ),
+    labelSmall = TextStyle(
+        fontFamily = PlusJakartaSans,
+        fontWeight = FontWeight.Medium,
+        fontSize = 11.sp,
+        lineHeight = 14.sp,
+        fontFeatureSettings = "tnum"
     )
 )
+
+val Typography = AppTypography

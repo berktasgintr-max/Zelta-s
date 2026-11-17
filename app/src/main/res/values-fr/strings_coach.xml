@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Débutant</string>
+    <string name="diff_intermediate">Intermédiaire</string>
+    <string name="diff_advanced">Avancé</string>
+    <string name="diff_pro">Pro / Avancé</string>
+    <string name="story_1_badge">-11,5 kg en 4 mois</string>
+    <string name="story_1_result" formatted="false">94 kg → 82,5 kg • Masse grasse 26% → 16%</string>
+    <string name="story_1_quote">J\'ai suivi mon programme sur mesure et le calendrier. Les conseils quotidiens de FitChicken m\'ont gardé motivé sans jamais lâcher !</string>
+    <string name="story_2_badge">Mode Croissance 0-18</string>
+    <string name="story_2_result">+4 cm Posture • +12 cm Détente verticale</string>
+    <string name="story_2_quote">J\'ai suivi les séances détente et posture pour le basket. Mon dos s\'est redressé et je suis bien plus rapide sur le terrain.</string>
+    <string name="story_3_badge">90 jours à la maison</string>
+    <string name="story_3_result">Zéro matériel • 4 jours/semaine</string>
+    <string name="story_3_quote">Pas le temps d\'aller en salle : les séances à la maison avec les animations de technique sont aussi claires qu\'un coach privé !</string>
+    <string name="story_4_badge">Hypertrophie Pro</string>
+    <string name="story_4_result">+4,8 kg de muscle sec</string>
+    <string name="story_4_quote">J\'ai posé toutes mes questions sur la nutrition et les temps de repos à FitChicken Coach. Science claire et humour : résultats doublés.</string>
+    <string-array name="coach_tips">
+        <item>Arrête de caqueter et soulève la fonte ! Ne lâche jamais sur les deux dernières répétitions : c\'est là que tu progresses.</item>
+        <item>J\'ai forgé ces ailes avec un gros torse ! Serre tes omoplates en arrière à chaque pompe et développé couché.</item>
+        <item>Reste hydraté, champion ! Boire 2,5 à 3 L d\'eau par jour augmente la performance musculaire jusqu\'à 15 %.</item>
+        <item>Même moi je respecte le blanc de poulet : vise 25 à 35 g de protéines de qualité à chaque repas.</item>
+        <item>Pas de sommeil, pas de muscle ! L\'hormone de croissance culmine durant les 4 premières heures de sommeil profond.</item>
+        <item>Soulève pour sentir le muscle, pas pour ton ego. Une descente contrôlée de 3 secondes fait des miracles.</item>
+        <item>Ne saute jamais l\'échauffement ! 5 minutes de mobilité dynamique réduisent de moitié le risque de blessure.</item>
+        <item>Sauter le jour des jambes fait marcher comme un pigeon ! Squats et fentes propulsent tout le corps.</item>
+        <item>Ne bloque pas ta respiration ! Expire pendant l\'effort et inspire doucement en revenant.</item>
+        <item>De 0 à 18 ans : protège ta colonne et ta posture — suspension à la barre et maintien droit sont précieux.</item>
+        <item>Trois séances régulières par semaine battent toujours une séance héroïque une fois par mois.</item>
+        <item>Les abdos se révèlent en cuisine et se sculptent à l\'entraînement. Serre les fessiers en planche !</item>
+        <item>Ne scrolle pas 5 minutes entre les séries. Garde 60 à 90 secondes de repos pour rester dedans.</item>
+        <item>Épaules arrondies ? Double la dose de tirages : équilibre chaque poussée par un tirage propre.</item>
+        <item>Inutile d\'être parfait au premier jour ; lacer tes baskets aujourd\'hui est déjà une victoire.</item>
+        <item>La balance varie chaque jour avec l\'eau — regarde toujours ta moyenne sur 7 jours.</item>
+        <item>La caféine 30 min avant l\'entraînement aiguise le focus, mais évite-la après 18 h pour dormir.</item>
+        <item>Une séance ciblée de 20 min à la maison vaut toujours mieux qu\'une heure à la salle manquée.</item>
+        <item>Ne verrouille jamais brutalement coudes ou genoux — garde un léger contrôle en haut du mouvement.</item>
+        <item>Le cardio renforce ton cœur et accélère ta récupération entre les grosses séries.</item>
+        <item>Objectif sèche ? Compte tes pas ! 8 000 à 10 000 pas par jour sont ton super-pouvoir discret.</item>
+        <item>Il n\'y a pas de programme magique, seulement celui que tu suis. Planifie et coche tes jours !</item>
+        <item>Garde les coudes collés au corps pendant les curls — ne balance pas le bas du dos.</item>
+        <item>Sur les exercices du dos, imagine tirer avec tes coudes plutôt qu\'avec tes mains.</item>
+        <item>Recharge dans les 1 à 2 heures après l\'effort avec des protéines maigres et de bons glucides.</item>
+        <item>Consacre 5 minutes aux étirements après la séance : ton corps te remerciera demain.</item>
+        <item>Ados : vise la technique parfaite et l\'explosivité plutôt que les max à 1 répétition.</item>
+        <item>Une série s\'arrête dès que la forme se dégrade. 10 reps propres construisent plus que 15 bâclées.</item>
+        <item>Fatigué aujourd\'hui ? Baisse la charge de 20 % mais finis quand même. La discipline bat la motivation.</item>
+        <item>Vérifie ta posture : menton droit, poitrine ouverte, épaules relâchées vers l\'arrière.</item>
+        <item>Au soulevé de terre, garde la barre près des tibias — si le dos s\'arrondit, allège tout de suite.</item>
+        <item>Si le bas du dos creuse en planche, gaine plus fort ou passe proprement sur les genoux.</item>
+        <item>Surveille ton tour de taille autant que la balance : le muscle est plus dense que la graisse.</item>
+        <item>Remplacer les boissons sucrées par de l\'eau économise énormément de calories sans effort.</item>
+        <item>Surcharge progressive : vise juste +1 répétition ou +1 kg par rapport à la semaine passée.</item>
+        <item>Pas de poids à la maison ? Joue sur le tempo : 3 s en descente, 1 s de pause, montée explosive !</item>
+        <item>Cinq minutes de chat-vache et d\'ouverture thoracique chaque matin effacent la raideur du bureau.</item>
+        <item>Chaque séance cochée dans ton agenda renforce l\'habitude gagnante — protège ta série !</item>
+        <item>Le mouvement que tu évites est souvent le point faible qui te freine. Attaque-le !</item>
+        <item>Je suis FitChicken : si j\'avais abandonné avec mes petites ailes, je n\'aurais jamais ces bras. À toi !</item>
+    </string-array>
+</resources>

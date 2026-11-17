@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Жим штанги лёжа</string>
+    <string name="ex_g1_1_muscle">Грудь</string>
+    <string name="ex_g1_1_cue">Держите локти под ~45° к корпусу, а запястья прямыми.</string>
+    <string name="ex_g1_1_breath">Глубокий вдох при опускании, мощный выдох на жиме.</string>
+    <string name="ex_g1_1_mistake">Отбивать гриф от груди или отрывать таз от скамьи.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Лягте на скамью и плотно упритесь стопами в пол.</item>
+        <item>Возьмите штангу чуть шире плеч и сведите лопатки вместе.</item>
+        <item>Плавно опустите гриф к нижней-средней линии груди.</item>
+        <item>Мощно выжмите штангу вверх, сокращая грудные мышцы.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Жим гантелей на наклонной скамье</string>
+    <string name="ex_g1_2_muscle">Верх груди</string>
+    <string name="ex_g1_2_cue">Не стучите гантелями вверху — сохраняйте напряжение.</string>
+    <string name="ex_g1_2_breath">Вдох на опускании, выдох на подъёме.</string>
+    <string name="ex_g1_2_mistake">Ставить скамью выше 45°, перегружая передние дельты.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Установите угол скамьи на 30 градусов.</item>
+        <item>Выжмите гантели вверх над плечами.</item>
+        <item>Плавно опустите к верхней части груди, разводя локти.</item>
+        <item>Мощно выжмите вверх, прожимая верх груди.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Жим гантелей сидя на плечи</string>
+    <string name="ex_g1_3_muscle">Плечи</string>
+    <string name="ex_g1_3_cue">Не прогибайте сильно поясницу, держите рёбра собранными.</string>
+    <string name="ex_g1_3_breath">Выдох на жиме вверх, вдох при опускании.</string>
+    <string name="ex_g1_3_mistake">Выжимать гантели сильно вперёд перед собой.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Сядьте ровно и напрягите пресс.</item>
+        <item>Держите гантели на уровне ушей ладонями вперёд.</item>
+        <item>Плавно выжмите их над головой.</item>
+        <item>Медленно опустите обратно к уровню ушей.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Разгибание рук на блоке с канатом</string>
+    <string name="ex_g1_4_muscle">Трицепс</string>
+    <string name="ex_g1_4_cue">Работают только локти — плечи неподвижны.</string>
+    <string name="ex_g1_4_breath">Выдыхайте при разгибании вниз.</string>
+    <string name="ex_g1_4_mistake">Наваливаться корпусом сверху на канат.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Возьмите канат на уровне груди.</item>
+        <item>Прижмите локти плотно к рёбрам.</item>
+        <item>Полностью разогните руки вниз и разведите концы каната в стороны.</item>
+        <item>Плавно верните вверх, не двигая локтями.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Тяга верхнего блока широким хватом</string>
+    <string name="ex_g2_1_muscle">Широчайшие / Спина</string>
+    <string name="ex_g2_1_cue">Тяните локтями, а не кистями.</string>
+    <string name="ex_g2_1_breath">Выдох при тяге вниз, вдох при возврате.</string>
+    <string name="ex_g2_1_mistake">Сильно отклонять корпус назад рывком.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Возьмите гриф широким хватом и зафиксируйте колени валиком.</item>
+        <item>Чуть приподнимите грудь вверх.</item>
+        <item>Тяните локти вниз и назад к верхней части груди.</item>
+        <item>Плавно верните руки вверх под контролем.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Тяга горизонтального блока сидя</string>
+    <string name="ex_g2_2_muscle">Середина спины</string>
+    <string name="ex_g2_2_cue">Не тяните плечи вверх к ушам.</string>
+    <string name="ex_g2_2_breath">Выдыхайте при тяге на себя.</string>
+    <string name="ex_g2_2_mistake">Сутулиться и округлять спину вперёд.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Упритесь стопами, слегка согнув колени.</item>
+        <item>Держите спину ровно и тяните рукоять к животу.</item>
+        <item>Сведите лопатки на 1 секунду.</item>
+        <item>Плавно вернитесь вперёд.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Тяга каната к лицу (Face Pull)</string>
+    <string name="ex_g2_3_muscle">Задние дельты и осанка</string>
+    <string name="ex_g2_3_cue">Главное упражнение для защиты плеч и красивой осанки.</string>
+    <string name="ex_g2_3_breath">Выдыхайте на тяге к лицу.</string>
+    <string name="ex_g2_3_mistake">Брать лишний вес и отклоняться поясницей.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Установите блок на уровне глаз.</item>
+        <item>Тяните канат ко лбу, широко разводя локти.</item>
+        <item>В конце разверните кисти наружу, прожимая задние дельты.</item>
+        <item>Плавно верните обратно.</item>
+    </string-array>
+    <string name="ex_g2_4_name">Сгибания на бицепс с EZ-грифом</string>
+    <string name="ex_g2_4_muscle">Бицепс</string>
+    <string name="ex_g2_4_cue">Держите запястья ровно, не подворачивая внутрь.</string>
+    <string name="ex_g2_4_breath">Выдох при подъёме, вдох при опускании.</string>
+    <string name="ex_g2_4_mistake">Раскачивать спиной для заброса штанги.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>Возьмите EZ-гриф на ширине плеч.</item>
+        <item>Прижмите локти к бокам.</item>
+        <item>Поднимите к плечам и задержите на 1 секунду.</item>
+        <item>Опускайте медленно за 3 секунды.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Приседания со штангой на спине</string>
+    <string name="ex_g3_1_muscle">Квадрицепсы и ягодицы</string>
+    <string name="ex_g3_1_cue">Колени смотрят строго по линии носков, не заваливаются внутрь.</string>
+    <string name="ex_g3_1_breath">Вдох на опускании, выдох на подъёме.</string>
+    <string name="ex_g3_1_mistake">Отрывать пятки от пола или округлять поясницу.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Положите гриф на трапеции, стопы на ширине плеч.</item>
+        <item>Вдохните и жёстко зафиксируйте корпус.</item>
+        <item>Отведите таз назад и присядьте до параллели с полом.</item>
+        <item>Мощно встаньте, толкаясь пятками от пола.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Румынская тяга</string>
+    <string name="ex_g3_2_muscle">Бицепс бедра и ягодицы</string>
+    <string name="ex_g3_2_cue">Движение идёт за счёт тазобедренного сустава, а не сгибания спины.</string>
+    <string name="ex_g3_2_breath">Вдох на опускании, выдох на выпрямлении.</string>
+    <string name="ex_g3_2_mistake">Отводить гриф далеко от ног и округлять спину.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Возьмите штангу перед бёдрами, колени слегка мягкие.</item>
+        <item>С прямой спиной отводите таз назад, скользя грифом по ногам.</item>
+        <item>Почувствовав растяжение задней поверхности, выпрямитесь ягодицами.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Жим ногами в тренажёре</string>
+    <string name="ex_g3_3_muscle">Квадрицепсы</string>
+    <string name="ex_g3_3_cue">Не опускайте платформу так глубоко, чтобы таз отрывался от сиденья.</string>
+    <string name="ex_g3_3_breath">Выдыхайте при жиме платформы.</string>
+    <string name="ex_g3_3_mistake">Резко выщёлкивать колени в верхней точке.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Плотно прижмите спину и таз к спинке сиденья.</item>
+        <item>Поставьте стопы на платформу на ширине плеч.</item>
+        <item>Плавно опустите платформу с коленями к груди.</item>
+        <item>Выжмите вверх, не выключая колени полностью.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Подъёмы на носки стоя</string>
+    <string name="ex_g3_4_muscle">Икры</string>
+    <string name="ex_g3_4_cue">Работайте плавно без инерционных прыжков.</string>
+    <string name="ex_g3_4_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_g3_4_mistake">Прыгать слишком быстро, перегружая ахилл.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Встаньте носками на край подставки.</item>
+        <item>Опустите пятки вниз для полного растяжения.</item>
+        <item>Поднимитесь на носки максимально вверх на 1 секунду.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Гоблет-приседания</string>
+    <string name="ex_g4_1_muscle">Ноги и кор</string>
+    <string name="ex_g4_1_cue">Грудь смотрит вперёд, не заваливайтесь корпусом.</string>
+    <string name="ex_g4_1_breath">Вдох вниз, выдох вверх.</string>
+    <string name="ex_g4_1_mistake">Держать гантель на вытянутых руках далеко от тела.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Держите гантель вертикально у груди двумя руками.</item>
+        <item>С прямой спиной опуститесь в глубокий присед.</item>
+        <item>Когда локти коснутся внутренней части коленей, встаньте.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Жим от груди в тренажёре</string>
+    <string name="ex_g4_2_muscle">Грудь</string>
+    <string name="ex_g4_2_cue">Не заворачивайте плечи вперёд, держите грудь открытой.</string>
+    <string name="ex_g4_2_breath">Выдыхайте при жиме вперёд.</string>
+    <string name="ex_g4_2_mistake">Бросать вес в конце с ударом плит.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Отрегулируйте сиденье на уровне середины груди.</item>
+        <item>Прижмите спину и выжмите рукояти вперёд.</item>
+        <item>Плавно верните обратно.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Тяга в рычажном тренажёре сидя</string>
+    <string name="ex_g4_3_muscle">Спина</string>
+    <string name="ex_g4_3_cue">Не напрягайте шею, поднимая плечи.</string>
+    <string name="ex_g4_3_breath">Выдыхайте при тяге назад.</string>
+    <string name="ex_g4_3_mistake">Делать короткие половинчатые повторения.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Упритесь грудью в подушку и возьмите рукояти.</item>
+        <item>Отведите локти назад, сжимая спину.</item>
+        <item>Плавно верните руки вперёд.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Планка</string>
+    <string name="ex_g4_4_muscle">Пресс и кор</string>
+    <string name="ex_g4_4_sets">3 x 40 сек</string>
+    <string name="ex_g4_4_cue">Продолжайте дышать ровно, не замирайте.</string>
+    <string name="ex_g4_4_breath">Ровный вдох носом, выдох ртом.</string>
+    <string name="ex_g4_4_mistake">Поднимать таз высоко вверх или прогибать поясницу.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Встаньте в упор на предплечья.</item>
+        <item>Выстройте прямую линию от головы до пяток.</item>
+        <item>Крепко держите пресс и ягодицы до конца таймера.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Жим гантелей лёжа</string>
+    <string name="ex_g5_1_muscle">Грудь</string>
+    <string name="ex_g5_1_cue">Пауза 1 секунду внизу отлично развивает силу.</string>
+    <string name="ex_g5_1_breath">Выдыхайте при жиме вверх.</string>
+    <string name="ex_g5_1_mistake">Разводить локти под углом 90 градусов.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Закиньте гантели на уровень груди с помощью коленей.</item>
+        <item>Выжмите вверх и плавно опустите.</item>
+    </string-array>
+    <string name="ex_g5_2_name">Тяга гантели одной рукой в наклоне</string>
+    <string name="ex_g5_2_muscle">Спина</string>
+    <string name="ex_g5_2_sets">4 x 10/руку</string>
+    <string name="ex_g5_2_cue">Тяните спиной без скручивания корпуса.</string>
+    <string name="ex_g5_2_breath">Выдыхайте при тяге вверх.</string>
+    <string name="ex_g5_2_mistake">Тянуть гантель вверх прямо к плечу.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Упритесь рукой и коленом в скамью, спина параллельна полу.</item>
+        <item>Тяните гантель дугой к карману бедра.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Махи гантелями в стороны</string>
+    <string name="ex_g5_3_muscle">Средние дельты</string>
+    <string name="ex_g5_3_cue">Мизинец держите чуть выше большого пальца.</string>
+    <string name="ex_g5_3_breath">Выдыхайте на подъёме рук.</string>
+    <string name="ex_g5_3_mistake">Подбрасывать вес рывком корпуса.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Держите гантели по бокам, чуть согнув локти.</item>
+        <item>Поднимите руки через стороны до уровня плеч.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Сгибания «Молот»</string>
+    <string name="ex_g5_4_muscle">Бицепс и предплечья</string>
+    <string name="ex_g5_4_cue">Лучший хват для быстрого объёма рук и предплечий.</string>
+    <string name="ex_g5_4_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_g5_4_mistake">Задирать и выдвигать плечи вперёд.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Держите гантели нейтральным хватом ладонями друг к другу.</item>
+        <item>Зафиксировав локти, поочерёдно сгибайте руки.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Жим Арнольда</string>
+    <string name="ex_g6_1_muscle">Все пучки дельт</string>
+    <string name="ex_g6_1_cue">Одновременно включает передние и средние дельты.</string>
+    <string name="ex_g6_1_breath">Выдыхайте при жиме вверх.</string>
+    <string name="ex_g6_1_mistake">Сильно прогибать поясницу.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Начните с гантелями у плеч ладонями к лицу.</item>
+        <item>Разворачивайте кисти наружу во время жима вверх.</item>
+        <item>Плавно вернитесь обратным движением.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Сгибания рук с гантелями на наклонной скамье</string>
+    <string name="ex_g6_2_muscle">Длинная головка бицепса</string>
+    <string name="ex_g6_2_cue">Держите локти неподвижно чуть позади корпуса.</string>
+    <string name="ex_g6_2_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_g6_2_mistake">Выводить локти вперёд при сгибании.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Откиньтесь на спинку скамьи под 45°.</item>
+        <item>Опустите руки свободно вниз и сгибайте только в локтях.</item>
+    </string-array>
+    <string name="ex_g6_3_name">Французский жим с EZ-грифом</string>
+    <string name="ex_g6_3_muscle">Трицепс</string>
+    <string name="ex_g6_3_cue">Не разводите локти в стороны.</string>
+    <string name="ex_g6_3_breath">Выдыхайте при разгибании.</string>
+    <string name="ex_g6_3_mistake">Брать запредельный вес во вред локтям.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Лёжа на скамье держите гриф вертикально над глазами.</item>
+        <item>Сгибая только локти, опустите за лоб и разогните.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Отведение руки в сторону в блоке</string>
+    <string name="ex_g6_4_muscle">Средние дельты</string>
+    <string name="ex_g6_4_cue">Сохраняет постоянное натяжение даже в нижней точке.</string>
+    <string name="ex_g6_4_breath">Выдыхайте на отведении.</string>
+    <string name="ex_g6_4_mistake">Наклонять корпус в сторону.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Возьмите нижний трос спереди и отведите руку в сторону.</item>
+        <item>Поднимите до уровня плеча под контролем.</item>
+    </string-array>
+</resources>

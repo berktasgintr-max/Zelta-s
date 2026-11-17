@@ -91,7 +91,7 @@ fun attemptAutoSignIn(
 
 @Composable
 fun GoogleSignInButton(
-    label: String = "Google (E-posta) ile Giriş Yap / Kaydol",
+    label: String = "Sign In / Sign Up with Google",
     modifier: Modifier = Modifier,
     onAuthSuccess: () -> Unit,
     onAuthError: (String) -> Unit
@@ -155,7 +155,7 @@ fun onGoogleSignInClicked(
     val clientId = try {
         context.getString(R.string.default_web_client_id)
     } catch (e: Exception) {
-        onAuthError("Google Giriş yapılandırması bulunamadı: default_web_client_id eksik")
+        onAuthError("Google Sign-In configuration missing: default_web_client_id not found")
         return
     }
 
@@ -174,14 +174,14 @@ fun onGoogleSignInClicked(
                 Firebase.auth.signInWithCredential(authCredential).await()
                 onAuthSuccess()
             } else {
-                onAuthError("Beklenmeyen kimlik bilgisi türü")
+                onAuthError("Unexpected credential type returned")
             }
         } catch (e: GetCredentialCancellationException) {
             Log.w("Auth", "Google Sign-In flow cancelled or dismissed: ${e.message}", e)
             onAuthCancelled()
         } catch (e: Exception) {
             Log.e("Auth", "Google Sign-In failed", e)
-            onAuthError(e.localizedMessage ?: "Giriş başarısız oldu")
+            onAuthError(e.localizedMessage ?: "Sign-in failed")
         }
     }
 }

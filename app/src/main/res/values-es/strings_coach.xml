@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Principiante</string>
+    <string name="diff_intermediate">Intermedio</string>
+    <string name="diff_advanced">Avanzado</string>
+    <string name="diff_pro">Pro / Avanzado</string>
+    <string name="story_1_badge">-11,5 kg en 4 meses</string>
+    <string name="story_1_result" formatted="false">94 kg → 82,5 kg • Grasa 26% → 16%</string>
+    <string name="story_1_quote">Seguí mi plan personalizado y cumplí con el calendario. ¡Los consejos diarios de FitChicken mantuvieron viva mi racha!</string>
+    <string name="story_2_badge">Modo Crecimiento 0-18</string>
+    <string name="story_2_result">+4 cm Postura • +12 cm Salto vertical</string>
+    <string name="story_2_quote">Usé las rutinas de salto y postura para baloncesto. Corregí mi espalda y ahora soy mucho más rápido en la cancha.</string>
+    <string name="story_3_badge">90 días en casa</string>
+    <string name="story_3_result">Cero equipo • 4 días/semana</string>
+    <string name="story_3_quote">Sin tiempo para el gimnasio, las rutinas en casa y las animaciones se sintieron como tener un entrenador personal.</string>
+    <string name="story_4_badge">Hipertrofia Pro</string>
+    <string name="story_4_result">+4,8 kg de músculo magro</string>
+    <string name="story_4_quote">Le pregunté todo sobre nutrición y descansos a FitChicken Coach. Ciencia clara y buen humor duplicaron mi progreso.</string>
+    <string-array name="coach_tips">
+        <item>¡Deja de cacarear y levanta el hierro! No te rindas en las últimas dos repeticiones; ahí nace el progreso.</item>
+        <item>¡Construí estas alas con un gran pecho! Aprieta tus escápulas atrás en cada flexión y press de banca.</item>
+        <item>¡Hidrátate, campeón! Beber 2,5 a 3 litros de agua al día eleva el rendimiento muscular hasta un 15%.</item>
+        <item>Hasta yo respeto la pechuga de pollo: busca 25-35 g de proteína de calidad en cada comida.</item>
+        <item>¡Sin sueño no hay músculo! La hormona del crecimiento alcanza su pico en las primeras 4 horas de sueño profundo.</item>
+        <item>Levanta para sentir el músculo, no para alimentar tu ego. Bajar en 3 segundos controlados hace maravillas.</item>
+        <item>¡Nunca te saltes el calentamiento! 5 minutos de movilidad reducen a la mitad el riesgo de lesión.</item>
+        <item>¡Quien salta día de pierna camina raro! Sentadillas y zancadas impulsan todo tu cuerpo.</item>
+        <item>¡No contengas la respiración! Exhala al hacer fuerza e inhala suave al volver.</item>
+        <item>De 0 a 18 años: protege tu columna y postura — colgarse de barra y ejercicios erguidos son oro.</item>
+        <item>Tres entrenos constantes por semana superan siempre a una sesión heroica al mes.</item>
+        <item>Los abdominales se revelan en la cocina y se esculpen entrenando. ¡Aprieta glúteos en cada plancha!</item>
+        <item>No mires el móvil 5 minutos entre series. Mantén descansos de 60-90 segundos para foco total.</item>
+        <item>¿Hombros caídos? Duplica los remos y tracciones: compensa cada empuje con un tirón limpio.</item>
+        <item>No necesitas ser perfecto el primer día; atarte las zapatillas hoy ya es una gran victoria.</item>
+        <item>La báscula cambia cada día por el agua — mira siempre tu promedio de 7 días.</item>
+        <item>La cafeína 30 min antes enfoca tu mente, pero evítala tras las 18:00 para cuidar tu sueño.</item>
+        <item>Una sesión enfocada de 20 min en casa vence siempre a 1 hora en el gym a la que no fuiste.</item>
+        <item>Nunca bloquees de golpe codos o rodillas — mantén control suave arriba de cada repetición.</item>
+        <item>El cardio fortalece tu corazón para recuperarte más rápido entre series pesadas.</item>
+        <item>¿Buscas perder grasa? ¡Cuenta tus pasos! 8.000-10.000 pasos diarios son tu superpoder silencioso.</item>
+        <item>No existe rutina mágica, solo la que cumples. ¡Organiza tu calendario y marca cada día!</item>
+        <item>Pega los codos al costado al hacer curl — deja de balancear la zona lumbar.</item>
+        <item>En ejercicios de espalda, imagina tirar con los codos en lugar de con las manos.</item>
+        <item>Recarga energía dentro de 1-2 horas tras entrenar con proteína magra y carbohidratos de calidad.</item>
+        <item>Dedica solo 5 minutos a estirar al final; tu cuerpo de mañana te lo agradecerá.</item>
+        <item>Jóvenes: prioricen técnica impecable y explosividad en lugar de máximos arriesgados.</item>
+        <item>La serie termina cuando se rompe la técnica. 10 reps limpias construyen más que 15 mal hechas.</item>
+        <item>¿Poca energía hoy? Baja el peso un 20% y termina igual. La disciplina vence a la motivación.</item>
+        <item>Revisa tu postura ante el espejo: barbilla recta, pecho arriba y hombros relajados atrás.</item>
+        <item>En peso muerto pega la barra a las espinillas — si la espalda se redondea, baja peso ya.</item>
+        <item>Si se hunde tu lumbar en la plancha, aprieta más el abdomen o apoya las rodillas con control.</item>
+        <item>Mide cintura y energía además de la báscula: el músculo pesa más compacto que la grasa.</item>
+        <item>Cambiar bebidas azucaradas por agua ahorra miles de calorías al mes sin esfuerzo.</item>
+        <item>Sobrecarga progresiva: intenta sumar solo 1 repetición o 1 kg respecto a la semana pasada.</item>
+        <item>¿Sin pesas en casa? Usa el tempo: 3 segundos bajando, 1 pausa, ¡subida explosiva!</item>
+        <item>Cinco minutos de gato-vaca y apertura de pecho cada mañana quitan la rigidez de escritorio.</item>
+        <item>Cada sesión marcada en tu calendario refuerza el hábito ganador — ¡protege tu racha!</item>
+        <item>¡El ejercicio que más evitas suele ser justo la debilidad que te frena. A por él!</item>
+        <item>Soy FitChicken: si me hubiera rendido con alitas pequeñas, no tendría estos brazos. ¡Tu turno!</item>
+    </string-array>
+</resources>

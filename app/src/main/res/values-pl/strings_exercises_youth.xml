@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Zwis Pasywny na Drążku</string>
+    <string name="ex_y1_1_muscle">Dekompresja Kręgosłupa</string>
+    <string name="ex_y1_1_sets">3 x 30 s</string>
+    <string name="ex_y1_1_cue">Najbardziej naturalny sposób na odciążenie krążków kręgowych w okresie wzrostu.</string>
+    <string name="ex_y1_1_breath">Oddychaj głęboko przez nos.</string>
+    <string name="ex_y1_1_mistake">Wstrzymywać oddech i spinać barki.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Chwyć drążek prostymi rękami i oderwij stopy od podłoża.</item>
+        <item>Rozluźnij barki i lędźwia, pozwalając grawitacji delikatnie wydłużyć kręgosłup.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Rozciąganie Kobry</string>
+    <string name="ex_y1_2_muscle">Kręgosłup &amp; Klatka</string>
+    <string name="ex_y1_2_sets">3 x 30 s</string>
+    <string name="ex_y1_2_cue">Skutecznie odwraca zgarbioną sylwetkę.</string>
+    <string name="ex_y1_2_breath">Weź głęboki wdech u góry.</string>
+    <string name="ex_y1_2_mistake">Wyginanie lędźwi na siłę aż do bólu.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Połóż się na brzuchu z dłońmi pod barkami.</item>
+        <item>Biodra zostają na macie, unieś klatkę w górę i spójrz przed siebie.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Wyciągnięcie w Górę &amp; Skłon Boczny</string>
+    <string name="ex_y1_3_muscle">Taśma Boczna &amp; Postawa</string>
+    <string name="ex_y1_3_sets">3 x 10/stronę</string>
+    <string name="ex_y1_3_cue">Kształtuje nawyk wyprostowanej sylwetki.</string>
+    <string name="ex_y1_3_breath">Weź wdech podczas wyciągania.</string>
+    <string name="ex_y1_3_mistake">Przeprostowywać odcinek lędźwiowy w tył.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Spleć palce i wyciągnij się jak najwyżej do sufitu.</item>
+        <item>Wspnij się na palce na 5 s i delikatnie zegnij na boki.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Skoki Pogo (Sprężystość Kostek)</string>
+    <string name="ex_y2_1_muscle">Ścięgna &amp; Skoczność</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Wzmacnia ścięgno Achillesa jak sprężynę.</string>
+    <string name="ex_y2_1_breath">Oddychaj rytmicznie.</string>
+    <string name="ex_y2_1_mistake">Mocno uderzać piętami o podłogę.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Lekko ugnij kolana i skacz dynamicznie z samych stawów skokowych.</item>
+        <item>Odbijaj się natychmiast po kontakcie z podłożem jak sprężyna.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Wyskok z Przyciągnięciem Kolan</string>
+    <string name="ex_y2_2_muscle">Moc Eksplozywna</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Bezpośrednio poprawia wysokość wyskoku.</string>
+    <string name="ex_y2_2_breath">Wydychaj przy wyskoku.</string>
+    <string name="ex_y2_2_mistake">Lądować na sztywnych, zablokowanych kolanach.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Wyskocz maksymalnie w górę, przyciągając oba kolana do klatki w locie.</item>
+        <item>Ląduj miękko na lekko ugiętych kolanach.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Wspięcia na Palce Jednonóż</string>
+    <string name="ex_y2_3_muscle">Siła Łydek</string>
+    <string name="ex_y2_3_sets">3 x 15/nogę</string>
+    <string name="ex_y2_3_cue">Wzmacnia końcowe wybicie w każdym wyskoku.</string>
+    <string name="ex_y2_3_breath">Wydychaj przy wspięciu.</string>
+    <string name="ex_y2_3_mistake">Szybkie odbijanie bez kontroli.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Stań jedną stopą na krawędzi stopnia i opuść piętę w dół.</item>
+        <item>Wspnij się wysoko na palce z pełną kontrolą.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Przysiad w Tempie z Masą Ciała</string>
+    <string name="ex_y3_1_muscle">Nogi &amp; Technika</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Uczy idealnej techniki przysiadu bez obciążania kręgosłupa.</string>
+    <string name="ex_y3_1_breath">Wydychaj przy wstawaniu.</string>
+    <string name="ex_y3_1_mistake">Zapadanie się kolan do środka.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Opuszczaj biodra wolno przez pełne 3 sekundy.</item>
+        <item>Zatrzymaj na 1 s na dole i wstań czysto.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Pompki na Podwyższeniu</string>
+    <string name="ex_y3_2_muscle">Klatka &amp; Barki</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Bezpiecznie utrwala czystą technikę pompki.</string>
+    <string name="ex_y3_2_breath">Wydychaj wypychając.</string>
+    <string name="ex_y3_2_mistake">Opadanie bioder w dół.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Oprzyj dłonie na stabilnej ławce lub krawędzi stołu.</item>
+        <item>Z prostym ciałem opuść klatkę do krawędzi i wyciśnij w górę.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Podciąganie Australijskie</string>
+    <string name="ex_y3_3_muscle">Plecy &amp; Ramiona</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">Najbezpieczniejsze przygotowanie do pełnego podciągania.</string>
+    <string name="ex_y3_3_breath">Wydychaj przyciągając.</string>
+    <string name="ex_y3_3_mistake">Wysuwanie szyi do przodu.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Zawiśnij pod niskim drążkiem z ciałem w linii prostej.</item>
+        <item>Przyciągnij klatkę do drążka i opuść pod kontrolą.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Cofnięcie Brody (Chin Tuck)</string>
+    <string name="ex_y4_1_muscle">Szyja &amp; Postawa</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Naprawia tzw. szyję smartfonową.</string>
+    <string name="ex_y4_1_breath">Oddychaj swobodnie.</string>
+    <string name="ex_y4_1_mistake">Pochylać brodę w dół zamiast cofać.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Usiądź prosto lub oprzyj plecy o ścianę.</item>
+        <item>Bez pochylania głowy cofnij brodę poziomo i przytrzymaj 3 sekundy.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Rozciąganie Klatki w Futrynie</string>
+    <string name="ex_y4_2_muscle">Otwarcie Klatki</string>
+    <string name="ex_y4_2_sets">3 x 30 s</string>
+    <string name="ex_y4_2_cue">Cofa zaokrąglone barki na właściwe miejsce.</string>
+    <string name="ex_y4_2_breath">Oddychaj głęboko.</string>
+    <string name="ex_y4_2_mistake">Przesadne wyginanie lędźwi do przodu.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Oprzyj przedramiona pod kątem 90° o framugę drzwi.</item>
+        <item>Zrób lekki krok w przód, otwierając klatkę.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Pompki Łopatkowe</string>
+    <string name="ex_y4_3_muscle">Kontrola Łopatek</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Chroni barki i wspiera prostą postawę.</string>
+    <string name="ex_y4_3_breath">Wydychaj wypychając.</string>
+    <string name="ex_y4_3_mistake">Uginać łokcie.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>W planku na prostych rękach zbliżaj i oddalaj wyłącznie łopatki.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Szybki Krok Odstawny Boczny</string>
+    <string name="ex_y5_1_muscle">Zwinność Boczna</string>
+    <string name="ex_y5_1_sets">4 x 20 s</string>
+    <string name="ex_y5_1_cue">Utrzymuj niski środek ciężkości.</string>
+    <string name="ex_y5_1_breath">Oddychaj rytmicznie.</string>
+    <string name="ex_y5_1_mistake">Krzyżować stopy.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>Z półprzysiadu przemieszczaj się szybko 3 kroki w prawo i 3 w lewo.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Równowaga Jednonóż &amp; Sięgnięcie</string>
+    <string name="ex_y5_2_muscle">Staw Skokowy &amp; Równowaga</string>
+    <string name="ex_y5_2_sets">3 x 8/nogę</string>
+    <string name="ex_y5_2_cue">Zapobiega skręceniom kostki.</string>
+    <string name="ex_y5_2_breath">Skup się i oddychaj powoli.</string>
+    <string name="ex_y5_2_mistake">Uciekanie kolana nogi podporowej do środka.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Utrzymaj równowagę na jednej nodze, sięgając drugą w przód, bok i tył bez dotykania ziemi.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Chód Niedźwiedzia</string>
+    <string name="ex_y5_3_muscle">Koordynacja Całego Ciała</string>
+    <string name="ex_y5_3_sets">3 x 20 s</string>
+    <string name="ex_y5_3_cue">Trzymaj plecy płasko jak blat stołu.</string>
+    <string name="ex_y5_3_breath">Oddychaj równomiernie.</string>
+    <string name="ex_y5_3_mistake">Unoszenie bioder wysoko w górę.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>Na czworakach z kolanami 3 cm nad ziemią idź w przód naprzemiennie ręką i stopą.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Martwy Robak (Dead Bug)</string>
+    <string name="ex_y6_1_muscle">Mięśnie Głębokie</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Wzmacnia core bez żadnego obciążenia lędźwi.</string>
+    <string name="ex_y6_1_breath">Wydychaj prostując.</string>
+    <string name="ex_y6_1_mistake">Odrywanie lędźwi od podłoża.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Połóż się na plecach, ręce w górze, kolana pod kątem 90°.</item>
+        <item>Wklej lędźwia w podłogę i opuszczaj przeciwległą rękę oraz nogę.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Deska na Przedramionach</string>
+    <string name="ex_y6_2_muscle">Wytrzymałość Core</string>
+    <string name="ex_y6_2_sets">3 x 35 s</string>
+    <string name="ex_y6_2_cue">Idealna pozycja jest ważniejsza niż sam czas.</string>
+    <string name="ex_y6_2_breath">Oddychaj równo.</string>
+    <string name="ex_y6_2_mistake">Opadanie bioder.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Łokcie pod barkami, utrzymuj ciało w jednej prostej linii.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Mostek Pośladkowy z Marszem</string>
+    <string name="ex_y6_3_muscle">Pośladki &amp; Stabilność</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Utrzymuj biodra równo na jednej wysokości.</string>
+    <string name="ex_y6_3_breath">Wydychaj unosząc kolano.</string>
+    <string name="ex_y6_3_mistake">Opadanie biodra na bok.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Utrzymuj biodra w górze w mostku i naprzemiennie unoś kolana.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Skakanka (lub Skoki Bez Skakanki)</string>
+    <string name="ex_y7_1_muscle">Kondycja &amp; Rytm</string>
+    <string name="ex_y7_1_sets">4 x 45 s</string>
+    <string name="ex_y7_1_cue">Bezkonkurencyjne dla koordynacji i serca.</string>
+    <string name="ex_y7_1_breath">Oddychaj przez nos.</string>
+    <string name="ex_y7_1_mistake">Skakać zbyt wysoko.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Wykonuj lekkie, rytmiczne podskoki na przedniej części stóp.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Naprzemienne Wykroki w Tył</string>
+    <string name="ex_y7_2_muscle">Wytrzymałość Nóg</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Najbardziej przyjazna dla kolan odmiana wykroków.</string>
+    <string name="ex_y7_2_breath">Wydychaj wstając.</string>
+    <string name="ex_y7_2_mistake">Uciekanie przedniego kolana do środka.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Zrób krok w tył z prostym tułowiem i wróć w górę.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Oddech Pudełkowy Regeneracja</string>
+    <string name="ex_y7_3_muscle">Regeneracja</string>
+    <string name="ex_y7_3_sets">3 rundy</string>
+    <string name="ex_y7_3_cue">Szybko uspokaja tętno i wyostrza skupienie.</string>
+    <string name="ex_y7_3_breath">Oddychaj przeponowo.</string>
+    <string name="ex_y7_3_mistake">Unoszenie barków podczas wdechu.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>Wdech 4 s, zatrzymanie 4 s, wydech 4 s, pauza 4 s.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Zwis + Podciąganie Łopatkowe</string>
+    <string name="ex_yp1_1_muscle">Kręgosłup &amp; Plecy</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 s</string>
+    <string name="ex_yp1_1_cue">Poprawia postawę i buduje siłę do podciągania.</string>
+    <string name="ex_yp1_1_breath">Wydychaj przyciągając.</string>
+    <string name="ex_yp1_1_mistake">Bujanie ciałem.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>W zwisie bez uginania rąk ściągnij łopatki w dół, a następnie zawiśnij swobodnie.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Zeskoku z Wyskokiema</string>
+    <string name="ex_yp1_2_muscle">Elitarny Wyskok</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Rozwija reaktywną moc mięśni.</string>
+    <string name="ex_yp1_2_breath">Wydychaj przy wybiciu.</string>
+    <string name="ex_yp1_2_mistake">Twarde lądowanie na prostych kolanach.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Zeskocz miękko z niskiego podestu i natychmiast wystrzel w górę.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Pompki w Tempie + Plank</string>
+    <string name="ex_yp1_3_muscle">Góra Ciała &amp; Core</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 s</string>
+    <string name="ex_yp1_3_cue">Bezpiecznie buduje siłę góry ciała.</string>
+    <string name="ex_yp1_3_breath">Oddychaj równomiernie.</string>
+    <string name="ex_yp1_3_mistake">Psuć pozycję przy zmęczeniu.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Zrób 10 kontrolowanych pompek i od razu wytrzymaj 30 s w planku.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h1_1_name">Agachamento livre</string>
+    <string name="ex_h1_1_muscle">Pernas e Glúteos</string>
+    <string name="ex_h1_1_cue">Mantenha o peito erguido e os joelhos estáveis.</string>
+    <string name="ex_h1_1_breath">Inspire ao descer, expire ao subir.</string>
+    <string name="ex_h1_1_mistake">Deixar os joelhos fecharem para dentro.</string>
+    <string-array name="ex_h1_1_steps">
+        <item>Pés na largura dos ombros, braços à frente.</item>
+        <item>Sente o quadril para trás como em uma cadeira invisível.</item>
+        <item>Empurre pelos calcanhares para subir.</item>
+    </string-array>
+    <string name="ex_h1_2_name">Flexão clássica (ou de joelhos)</string>
+    <string name="ex_h1_2_muscle">Peito e Braços</string>
+    <string name="ex_h1_2_cue">Cotovelos a 45 graus para trás, não forme um T.</string>
+    <string name="ex_h1_2_breath">Inspire ao descer, expire ao empurrar.</string>
+    <string name="ex_h1_2_mistake">Deixar o quadril cair.</string>
+    <string-array name="ex_h1_2_steps">
+        <item>Posicione as mãos um pouco além dos ombros.</item>
+        <item>Mantenha o corpo reto como uma prancha e desça o peito.</item>
+        <item>Empurre o chão com as palmas para subir.</item>
+    </string-array>
+    <string name="ex_h1_3_name">Ponte de glúteos</string>
+    <string name="ex_h1_3_muscle">Glúteos e Lombar</string>
+    <string name="ex_h1_3_cue">Foque em contrair os glúteos, não a lombar.</string>
+    <string name="ex_h1_3_breath">Expire ao subir.</string>
+    <string name="ex_h1_3_mistake">Colocar os pés longe demais.</string>
+    <string-array name="ex_h1_3_steps">
+        <item>Deite de costas com joelhos dobrados e pés próximos.</item>
+        <item>Eleve o quadril alinhando ombros, quadril e joelhos.</item>
+        <item>Contraia por 2 segundos no topo e desça devagar.</item>
+    </string-array>
+    <string name="ex_h1_4_name">Alpinista (Mountain Climber)</string>
+    <string name="ex_h1_4_muscle">Abdômen e Cardio</string>
+    <string name="ex_h1_4_sets">3 x 30 seg</string>
+    <string name="ex_h1_4_cue">Mantenha o quadril firme sem quicar.</string>
+    <string name="ex_h1_4_breath">Respire ritmicamente.</string>
+    <string name="ex_h1_4_mistake">Subir o quadril alto demais.</string>
+    <string-array name="ex_h1_4_steps">
+        <item>Assuma a posição de prancha alta.</item>
+        <item>Traga os joelhos alternadamente rápido ao peito.</item>
+    </string-array>
+    <string name="ex_h2_1_name">Flexão declinada (pés elevados)</string>
+    <string name="ex_h2_1_muscle">Peito superior</string>
+    <string name="ex_h2_1_cue">Enfatiza o peito superior e os ombros.</string>
+    <string name="ex_h2_1_breath">Expire ao empurrar.</string>
+    <string name="ex_h2_1_mistake">Deixar a cabeça cair à frente.</string>
+    <string-array name="ex_h2_1_steps">
+        <item>Apoie os pés em um sofá ou banco.</item>
+        <item>Desça o peito em direção ao chão e empurre.</item>
+    </string-array>
+    <string name="ex_h2_2_name">Flexão diamante</string>
+    <string name="ex_h2_2_muscle">Miolo do peito e Tríceps</string>
+    <string name="ex_h2_2_cue">Gera forte ativação de tríceps e miolo do peito.</string>
+    <string name="ex_h2_2_breath">Expire ao empurrar.</string>
+    <string name="ex_h2_2_mistake">Colocar as mãos na altura do rosto.</string>
+    <string-array name="ex_h2_2_steps">
+        <item>Forme um diamante com as mãos sob o peito.</item>
+        <item>Desça sem abrir demais os cotovelos e empurre.</item>
+    </string-array>
+    <string name="ex_h2_3_name">Flexão excêntrica controlada</string>
+    <string name="ex_h2_3_muscle">Controle peitoral</string>
+    <string name="ex_h2_3_cue">A descida lenta estimula mais fibras musculares.</string>
+    <string name="ex_h2_3_breath">Inspire devagar na descida.</string>
+    <string name="ex_h2_3_mistake">Despencar no último segundo.</string>
+    <string-array name="ex_h2_3_steps">
+        <item>Desça devagar contando 4 segundos.</item>
+        <item>Toque leve o chão e empurre rápido para cima.</item>
+    </string-array>
+    <string name="ex_h3_1_name">Abdominal bicicleta</string>
+    <string name="ex_h3_1_muscle">Abdômen superior e oblíquos</string>
+    <string name="ex_h3_1_cue">Gire o ombro sem puxar o pescoço.</string>
+    <string name="ex_h3_1_breath">Expire a cada torção.</string>
+    <string name="ex_h3_1_mistake">Pedalar rápido demais sem amplitude.</string>
+    <string-array name="ex_h3_1_steps">
+        <item>Deite de costas com mãos nas têmporas.</item>
+        <item>Leve o cotovelo direito ao joelho esquerdo estendendo a outra perna e alterne.</item>
+    </string-array>
+    <string name="ex_h3_2_name">Elevação de pernas</string>
+    <string name="ex_h3_2_muscle">Abdômen inferior</string>
+    <string name="ex_h3_2_cue">Desça menos se a lombar sair do chão.</string>
+    <string name="ex_h3_2_breath">Inspire descendo, expire subindo.</string>
+    <string name="ex_h3_2_mistake">Deixar espaço sob a lombar.</string>
+    <string-array name="ex_h3_2_steps">
+        <item>Apoie as mãos sob os glúteos.</item>
+        <item>Eleve as pernas estendidas a 90° e desça sem tocar o chão.</item>
+    </string-array>
+    <string name="ex_h3_3_name">Prancha lateral</string>
+    <string name="ex_h3_3_muscle">Oblíquos e Cintura</string>
+    <string name="ex_h3_3_sets">3 x 30 seg/lado</string>
+    <string name="ex_h3_3_cue">Fortalece a cintura e os oblíquos.</string>
+    <string name="ex_h3_3_breath">Respire de forma constante.</string>
+    <string name="ex_h3_3_mistake">Girar o quadril para frente ou trás.</string>
+    <string-array name="ex_h3_3_steps">
+        <item>Apoie-se em um antebraço formando uma linha reta.</item>
+        <item>Segure sem deixar o quadril cair.</item>
+    </string-array>
+    <string name="ex_h4_1_name">Agachamento sumô</string>
+    <string name="ex_h4_1_muscle">Interno de coxa e Glúteos</string>
+    <string name="ex_h4_1_cue">Alvo intenso para adutores e glúteos.</string>
+    <string name="ex_h4_1_breath">Expire ao subir.</string>
+    <string name="ex_h4_1_mistake">Deixar os joelhos caírem para dentro.</string>
+    <string-array name="ex_h4_1_steps">
+        <item>Afaste bem os pés com pontas a 45°.</item>
+        <item>Agache com o tronco ereto e suba.</item>
+    </string-array>
+    <string name="ex_h4_2_name">Avanço reverso</string>
+    <string name="ex_h4_2_muscle">Quadríceps e Glúteos</string>
+    <string name="ex_h4_2_sets">3 x 12/perna</string>
+    <string name="ex_h4_2_cue">Mais confortável para os joelhos que o avanço frontal.</string>
+    <string name="ex_h4_2_breath">Expire ao subir.</string>
+    <string name="ex_h4_2_mistake">Inclinar demais o tronco à frente.</string>
+    <string-array name="ex_h4_2_steps">
+        <item>Dê um passo para trás.</item>
+        <item>Aproxime o joelho de trás do chão e suba pelo calcanhar da frente.</item>
+    </string-array>
+    <string name="ex_h4_3_name">Elevação pélvica unilateral</string>
+    <string name="ex_h4_3_muscle">Glúteo unilateral</string>
+    <string name="ex_h4_3_sets">3 x 12/perna</string>
+    <string name="ex_h4_3_cue">Dobra a ativação dos glúteos.</string>
+    <string name="ex_h4_3_breath">Expire ao empurrar.</string>
+    <string name="ex_h4_3_mistake">Deixar o quadril tombar para o lado.</string>
+    <string-array name="ex_h4_3_steps">
+        <item>Estenda uma perna para cima.</item>
+        <item>Empurre com o outro calcanhar e contraia 1 segundo.</item>
+    </string-array>
+    <string name="ex_h5_1_name">Polichinelos</string>
+    <string name="ex_h5_1_muscle">Aquecimento e Cardio</string>
+    <string name="ex_h5_1_sets">4 x 40 seg</string>
+    <string name="ex_h5_1_cue">Aterrisse leve nas pontas dos pés.</string>
+    <string name="ex_h5_1_breath">Respire ritmicamente.</string>
+    <string name="ex_h5_1_mistake">Pisar pesado nos calcanhares.</string>
+    <string-array name="ex_h5_1_steps">
+        <item>Salte abrindo as pernas e elevando os braços.</item>
+        <item>Retorne saltando suavemente.</item>
+    </string-array>
+    <string name="ex_h5_2_name">Burpee (com passo ou salto)</string>
+    <string name="ex_h5_2_muscle">Queima corpo inteiro</string>
+    <string name="ex_h5_2_sets">4 x 30 seg</string>
+    <string name="ex_h5_2_cue">Mude para passos se cansar.</string>
+    <string name="ex_h5_2_breath">Expire ao saltar.</string>
+    <string name="ex_h5_2_mistake">Deixar a lombar afundar.</string>
+    <string-array name="ex_h5_2_steps">
+        <item>Mãos no chão, jogue os pés para prancha.</item>
+        <item>Traga os pés de volta e salte.</item>
+    </string-array>
+    <string name="ex_h5_3_name">Corrida estacionária (joelhos altos)</string>
+    <string name="ex_h5_3_muscle">Cardio e Abdômen inferior</string>
+    <string name="ex_h5_3_sets">4 x 30 seg</string>
+    <string name="ex_h5_3_cue">Mova os braços no ritmo da corrida.</string>
+    <string name="ex_h5_3_breath">Expire de forma constante.</string>
+    <string name="ex_h5_3_mistake">Inclinar o corpo para trás.</string>
+    <string-array name="ex_h5_3_steps">
+        <item>Corra no lugar elevando os joelhos rápido até o quadril.</item>
+    </string-array>
+    <string name="ex_h6_1_name">Thruster com halteres</string>
+    <string name="ex_h6_1_muscle">Pernas e Ombros</string>
+    <string name="ex_h6_1_cue">Trabalha o corpo todo em um movimento fluido.</string>
+    <string name="ex_h6_1_breath">Expire ao empurrar para cima.</string>
+    <string name="ex_h6_1_mistake">Empurrar só com os braços sem impulso das pernas.</string>
+    <string-array name="ex_h6_1_steps">
+        <item>Agache com halteres nos ombros.</item>
+        <item>Use o impulso das pernas para empurrar acima da cabeça.</item>
+    </string-array>
+    <string name="ex_h6_2_name">Remada curvada com halteres</string>
+    <string name="ex_h6_2_muscle">Costas</string>
+    <string name="ex_h6_2_cue">Mantenha o pescoço alinhado com a coluna.</string>
+    <string name="ex_h6_2_breath">Expire ao puxar.</string>
+    <string name="ex_h6_2_mistake">Arredondar a lombar.</string>
+    <string-array name="ex_h6_2_steps">
+        <item>Incline o quadril a 45° com coluna reta.</item>
+        <item>Puxe os halteres até o quadril contraindo as escápulas.</item>
+    </string-array>
+    <string name="ex_h6_3_name">Supino no chão com halteres</string>
+    <string name="ex_h6_3_muscle">Peito e Tríceps</string>
+    <string name="ex_h6_3_cue">Ótimo exercício caseiro de peito que protege os ombros.</string>
+    <string name="ex_h6_3_breath">Expire ao empurrar.</string>
+    <string name="ex_h6_3_mistake">Bater os cotovelos com força no chão.</string>
+    <string-array name="ex_h6_3_steps">
+        <item>Deite de costas com os joelhos flexionados.</item>
+        <item>Toque o chão de leve com os cotovelos e empurre.</item>
+    </string-array>
+    <string name="ex_h7_1_name">Alongamento Gato-Vaca</string>
+    <string name="ex_h7_1_muscle">Mobilidade da coluna</string>
+    <string name="ex_h7_1_cue">Mova vértebra por vértebra.</string>
+    <string name="ex_h7_1_breath">Sincronize respiração e movimento.</string>
+    <string name="ex_h7_1_mistake">Fazer rápido demais.</string>
+    <string-array name="ex_h7_1_steps">
+        <item>Em quatro apoios com mãos sob os ombros.</item>
+        <item>Inspire abrindo o peito; expire arredondando a coluna.</item>
+    </string-array>
+    <string name="ex_h7_2_name">O maior alongamento do mundo</string>
+    <string name="ex_h7_2_muscle">Quadril e Torácica</string>
+    <string name="ex_h7_2_sets">3 x 6/lado</string>
+    <string name="ex_h7_2_cue">Solta a rigidez postural rapidamente.</string>
+    <string name="ex_h7_2_breath">Expire ao girar para cima.</string>
+    <string name="ex_h7_2_mistake">Deixar o joelho de trás cair no chão.</string>
+    <string-array name="ex_h7_2_steps">
+        <item>Entre em um afundo profundo com uma mão no chão.</item>
+        <item>Gire o outro braço para o alto abrindo o peito.</item>
+    </string-array>
+    <string name="ex_h7_3_name">Permanência no agachamento profundo</string>
+    <string name="ex_h7_3_muscle">Quadril e Tornozelos</string>
+    <string name="ex_h7_3_sets">3 x 30 seg</string>
+    <string name="ex_h7_3_cue">Mantenha os calcanhares totalmente apoiados.</string>
+    <string name="ex_h7_3_breath">Faça respirações profundas diafragmáticas.</string>
+    <string name="ex_h7_3_mistake">Levantar os calcanhares do chão.</string>
+    <string-array name="ex_h7_3_steps">
+        <item>Desça em um agachamento completo.</item>
+        <item>Empurre os joelhos para fora com os cotovelos mantendo o peito erguido.</item>
+    </string-array>
+    <string name="ex_h8_1_name">Flexão em V (Pike Push-Up)</string>
+    <string name="ex_h8_1_muscle">Ombros</string>
+    <string name="ex_h8_1_cue">Melhor substituto caseiro do desenvolvimento de ombros.</string>
+    <string name="ex_h8_1_breath">Expire ao empurrar.</string>
+    <string name="ex_h8_1_mistake">Abrir os cotovelos demais para os lados.</string>
+    <string-array name="ex_h8_1_steps">
+        <item>Eleve o quadril formando um V invertido.</item>
+        <item>Desça o topo da cabeça à frente das mãos e empurre.</item>
+    </string-array>
+    <string name="ex_h8_2_name">Mergulho de tríceps na cadeira</string>
+    <string name="ex_h8_2_muscle">Tríceps</string>
+    <string name="ex_h8_2_cue">Mantenha os ombros longe das orelhas.</string>
+    <string name="ex_h8_2_breath">Expire ao subir.</string>
+    <string name="ex_h8_2_mistake">Afastar muito o corpo da cadeira.</string>
+    <string-array name="ex_h8_2_steps">
+        <item>Apoie as mãos na borda de uma cadeira firme.</item>
+        <item>Costas próximas, flexione os cotovelos a 90° e empurre.</item>
+    </string-array>
+    <string name="ex_h8_3_name">Super-homem (isometria)</string>
+    <string name="ex_h8_3_muscle">Lombar e Postura</string>
+    <string name="ex_h8_3_cue">Fortalece costas, lombar e postura.</string>
+    <string name="ex_h8_3_breath">Expire ao elevar.</string>
+    <string name="ex_h8_3_mistake">Forçar o pescoço para trás.</string>
+    <string-array name="ex_h8_3_steps">
+        <item>De bruços, estenda braços e pernas.</item>
+        <item>Eleve peito e pernas por 2 segundos.</item>
+    </string-array>
+</resources>

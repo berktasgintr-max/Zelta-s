@@ -22,6 +22,6 @@ dependencyResolutionManagement {
   }
 }
 
-rootProject.name = "Koç Tavuk"
+rootProject.name = "FitChicken"
 
 include(":app")

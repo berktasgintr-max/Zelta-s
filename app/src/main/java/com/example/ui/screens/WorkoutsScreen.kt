@@ -1,9 +1,10 @@
 package com.example.ui.screens
 
-import androidx.compose.foundation.Image
+import androidx.annotation.StringRes
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.horizontalScroll
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -13,6 +14,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -22,19 +24,17 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.rounded.ArrowBack
-import androidx.compose.material.icons.rounded.Air
-import androidx.compose.material.icons.rounded.CheckCircle
+import androidx.compose.material.icons.rounded.AccessTime
+import androidx.compose.material.icons.rounded.AddCircleOutline
+import androidx.compose.material.icons.rounded.AutoAwesome
+import androidx.compose.material.icons.rounded.CalendarToday
+import androidx.compose.material.icons.rounded.Delete
 import androidx.compose.material.icons.rounded.FitnessCenter
+import androidx.compose.material.icons.rounded.LocalFireDepartment
 import androidx.compose.material.icons.rounded.Lock
 import androidx.compose.material.icons.rounded.PlayArrow
-import androidx.compose.material.icons.rounded.PlayCircle
-import androidx.compose.material.icons.rounded.Timer
-import androidx.compose.material.icons.rounded.Warning
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.FilterChip
@@ -45,11 +45,10 @@ import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableIntStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -57,78 +56,124 @@ import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.platform.LocalInspectionMode
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import coil.compose.AsyncImage
+import coil.request.ImageRequest
+import coil.size.Precision
 import com.example.R
 import com.example.data.catalog.WorkoutCatalogHomeAndYouth
+import com.example.data.catalog.localizedDifficulty
+import com.example.data.catalog.localizedName
+import com.example.data.catalog.localizedSubtitle
+import com.example.data.catalog.localizedTargetMuscle
+import com.example.data.catalog.localizedTitle
+import com.example.data.model.ExerciseItem
+import com.example.data.model.TargetGroup
+import com.example.data.model.UserProfile
 import com.example.data.model.WorkoutCategory
 import com.example.data.model.WorkoutProgram
-import com.example.ui.components.ExerciseFormVisualizer
-import com.example.ui.i18n.AppStrings
-import com.example.ui.i18n.LocalAppStrings
-import com.example.ui.theme.ElectricTeal
-import com.example.ui.theme.FlameOrange
-import com.example.ui.theme.LocalExtendedColors
-import com.example.ui.theme.MintVital
-import com.example.ui.theme.WarmGold
-import kotlinx.coroutines.delay
+import com.example.ui.components.AppImageLoader
+import com.example.ui.components.CleanTextField
+import com.example.ui.i18n.LocalAppLanguageCode
+import com.example.ui.i18n.LocalLocalizedContext
+import com.example.ui.i18n.strRes
 
-enum class WorkoutFilter {
-    ALL,
-    GYM,
-    HOME,
-    YOUTH,
-    PRO;
+private val HeroScrimBrush = Brush.verticalGradient(
+    colors = listOf(Color.Transparent, Color.Black.copy(alpha = 0.80f))
+)
 
-    fun label(strings: AppStrings): String = when (this) {
-        ALL -> strings.filterAll
-        GYM -> strings.filterGym
-        HOME -> strings.filterHome
-        YOUTH -> strings.filterYouth
-        PRO -> strings.filterPro
-    }
+enum class WorkoutFilter(@get:StringRes val labelRes: Int) {
+    ALL(R.string.filter_all),
+    GYM(R.string.filter_gym),
+    HOME(R.string.filter_home),
+    YOUTH(R.string.filter_youth),
+    PRO(R.string.filter_pro),
+    CUSTOM(R.string.filter_custom)
 }
 
 fun workoutPreviewDrawable(workout: WorkoutProgram): Int {
     val focus = workout.focusArea.lowercase()
     val title = workout.title.lowercase()
+    
+    if (workout.targetGroup == com.example.data.model.TargetGroup.MALE_ONLY) {
+        return when (workout.category) {
+            WorkoutCategory.HOME -> if (focus == "upper" || title.contains("şınav") || title.contains("push") || title.contains("göğüs")) R.drawable.img_preview_home_male_pushups else R.drawable.img_preview_home_male_cardio
+            WorkoutCategory.YOUTH -> R.drawable.img_preview_youth_male_athletic
+            WorkoutCategory.GYM -> if (focus == "lower") R.drawable.img_preview_lower_legs else R.drawable.img_preview_upper_chest
+        }
+    } else if (workout.targetGroup == com.example.data.model.TargetGroup.FEMALE_ONLY) {
+        return when (workout.category) {
+            WorkoutCategory.HOME -> R.drawable.img_preview_home_core_stretch
+            WorkoutCategory.YOUTH -> R.drawable.img_preview_youth_athletic
+            WorkoutCategory.GYM -> R.drawable.img_preview_gym_female_upper
+        }
+    }
+
     return when (workout.category) {
         WorkoutCategory.HOME -> when {
             focus == "core" || title.contains("karın") || title.contains("core") ||
-                title.contains("esneme") || title.contains("mobilite") ->
+                title.contains("esneme") || title.contains("mobilite") || title.contains("mobility") ->
                 R.drawable.img_preview_home_core_stretch
             focus == "lower" || title.contains("bacak") || title.contains("kalça") ||
                 title.contains("hiit") || title.contains("tabata") ||
-                title.contains("kardiyo") || title.contains("yağ yakım") ->
+                title.contains("kardiyo") || title.contains("yağ yakım") || title.contains("fat") ->
                 R.drawable.img_preview_home_legs_cardio
-            focus == "upper" || title.contains("şınav") || title.contains("göğüs") ||
-                title.contains("kalistenik") || title.contains("kol") ||
-                title.contains("omuz") || title.contains("duruş") ->
-                R.drawable.img_preview_home_pushups
-            else -> R.drawable.img_home_workout_banner
+            else -> R.drawable.img_preview_home_pushups
         }
-        WorkoutCategory.YOUTH -> when {
-            focus == "core" || focus == "upper" || title.contains("omurga") ||
-                title.contains("duruş") || title.contains("core") ->
-                R.drawable.img_preview_home_core_stretch
-            else -> R.drawable.img_preview_youth_athletic
-        }
+        WorkoutCategory.YOUTH -> R.drawable.img_preview_youth_athletic
         WorkoutCategory.GYM -> when {
-            focus == "lower" || title.contains("bacak") || title.contains("squat") ||
-                title.contains("quadriceps") || title.contains("deadlift") ->
-                R.drawable.img_preview_lower_legs
-            focus == "core" || title.contains("karın") || title.contains("core") ->
-                R.drawable.img_preview_core_abs
-            title.contains("sırt") || title.contains("pull") || title.contains("v-taper") ||
-                title.contains("trapez") || title.contains("kol") || title.contains("biceps") ->
-                R.drawable.img_preview_gym_back_arms
-            focus == "upper" || title.contains("göğüs") || title.contains("push") ||
-                title.contains("bench") || title.contains("omuz") ->
-                R.drawable.img_preview_upper_chest
-            else -> R.drawable.img_gym_workout_banner
+            focus == "lower" -> R.drawable.img_preview_lower_legs
+            focus == "core" -> R.drawable.img_preview_core_abs
+            else -> R.drawable.img_preview_upper_chest
         }
+    }
+}
+
+@Composable
+fun WorkoutHeroArtwork(
+    workout: WorkoutProgram,
+    contentDescription: String,
+    modifier: Modifier = Modifier
+) {
+    val context = LocalContext.current
+    val isPreview = LocalInspectionMode.current
+    val fallbackRes = remember(workout.id, workout.category, workout.focusArea) {
+        workoutPreviewDrawable(workout)
+    }
+    var useFallbackDrawable by remember(workout.id, workout.heroImageUrl, isPreview) {
+        mutableStateOf(isPreview || workout.heroImageUrl.isBlank())
+    }
+    val imageLoader = remember(context) { AppImageLoader.get(context) }
+    val modelData: Any = if (useFallbackDrawable) fallbackRes else workout.heroImageUrl
+    val request = remember(modelData) {
+        ImageRequest.Builder(context)
+            .data(modelData)
+            .size(560, 280)
+            .precision(Precision.INEXACT)
+            .crossfade(false)
+            .build()
+    }
+
+    Box(
+        modifier = modifier.background(MaterialTheme.colorScheme.primary.copy(alpha = 0.08f))
+    ) {
+        AsyncImage(
+            model = request,
+            imageLoader = imageLoader,
+            contentDescription = contentDescription,
+            contentScale = ContentScale.Crop,
+            onError = {
+                if (!useFallbackDrawable) {
+                    useFallbackDrawable = true
+                }
+            },
+            modifier = Modifier.fillMaxSize()
+        )
     }
 }
 
@@ -137,6 +182,10 @@ fun WorkoutsScreen(
     activeFilter: WorkoutFilter,
     onSelectFilter: (WorkoutFilter) -> Unit,
     gender: String,
+    userProfile: UserProfile = UserProfile(gender = gender),
+    customWorkouts: List<WorkoutProgram> = emptyList(),
+    weightUnit: String = "kg",
+    onWeightUnitChange: (String) -> Unit = {},
     isProActive: Boolean,
     isWorkoutAccessible: (WorkoutProgram) -> Boolean,
     adsWatchedForWorkout: (String) -> Int,
@@ -144,268 +193,618 @@ fun WorkoutsScreen(
     onUpgradePro: () -> Unit,
     onScheduleToday: (WorkoutProgram) -> Unit,
     onCompleteWorkout: (WorkoutProgram) -> Unit,
+    onSaveCustomWorkout: (String, WorkoutCategory, String, List<ExerciseItem>, String?) -> Unit = { _, _, _, _, _ -> },
+    onDeleteCustomWorkout: (String) -> Unit = {},
     selectedWorkout: WorkoutProgram?,
     onSelectWorkout: (WorkoutProgram?) -> Unit
 ) {
-    val strings = LocalAppStrings.current
-    val isEn = strings.langCode == "en"
-    val ext = LocalExtendedColors.current
+    val localizedCtx = LocalLocalizedContext.current
+    val langCode = LocalAppLanguageCode.current
 
-    val filtered = remember(activeFilter) {
-        val all = WorkoutCatalogHomeAndYouth.ALL_WORKOUTS
-        when (activeFilter) {
-            WorkoutFilter.ALL -> all
-            WorkoutFilter.GYM -> all.filter { it.category == WorkoutCategory.GYM }
-            WorkoutFilter.HOME -> all.filter { it.category == WorkoutCategory.HOME }
-            WorkoutFilter.YOUTH -> all.filter { it.isRecommendedForYouth }
-            WorkoutFilter.PRO -> all.filter { it.isProSpecial }
+    var applyGenderFilter by rememberSaveable(gender) { mutableStateOf(true) }
+    var applySmartMatch by rememberSaveable { mutableStateOf(true) }
+    var searchQuery by rememberSaveable { mutableStateOf("") }
+    var showCustomBuilder by rememberSaveable { mutableStateOf(false) }
+
+    val allCatalog = WorkoutCatalogHomeAndYouth.ALL_WORKOUTS
+    val filterCounts = remember(customWorkouts, allCatalog.size) {
+        mapOf(
+            WorkoutFilter.ALL to (allCatalog.size + customWorkouts.size),
+            WorkoutFilter.GYM to allCatalog.count { it.category == WorkoutCategory.GYM } +
+                customWorkouts.count { it.category == WorkoutCategory.GYM },
+            WorkoutFilter.HOME to allCatalog.count { it.category == WorkoutCategory.HOME } +
+                customWorkouts.count { it.category == WorkoutCategory.HOME },
+            WorkoutFilter.YOUTH to allCatalog.count { it.isRecommendedForYouth } +
+                customWorkouts.count { it.category == WorkoutCategory.YOUTH },
+            WorkoutFilter.PRO to allCatalog.count { it.isProSpecial },
+            WorkoutFilter.CUSTOM to customWorkouts.size
+        )
+    }
+
+    val filtered = remember(
+        activeFilter,
+        gender,
+        applyGenderFilter,
+        applySmartMatch,
+        searchQuery,
+        customWorkouts,
+        userProfile,
+        langCode
+    ) {
+        val combined = customWorkouts + allCatalog
+        val byCategory = when (activeFilter) {
+            WorkoutFilter.ALL -> combined
+            WorkoutFilter.GYM -> combined.filter { it.category == WorkoutCategory.GYM }
+            WorkoutFilter.HOME -> combined.filter { it.category == WorkoutCategory.HOME }
+            WorkoutFilter.YOUTH -> combined.filter { it.isRecommendedForYouth }
+            WorkoutFilter.PRO -> combined.filter { it.isProSpecial }
+            WorkoutFilter.CUSTOM -> customWorkouts
+        }
+        val byGender = if (applyGenderFilter && activeFilter != WorkoutFilter.CUSTOM) {
+            byCategory.filter { it.matchesGender(gender) }.ifEmpty { byCategory }
+        } else {
+            byCategory
+        }
+        val cleanSearch = searchQuery.trim().lowercase()
+        val bySearch = if (cleanSearch.isEmpty()) {
+            byGender
+        } else {
+            byGender.filter { w ->
+                w.localizedTitle(localizedCtx).lowercase().contains(cleanSearch) ||
+                    w.localizedSubtitle(localizedCtx).lowercase().contains(cleanSearch) ||
+                    w.title.lowercase().contains(cleanSearch) ||
+                    w.focusArea.lowercase().contains(cleanSearch) ||
+                    w.exercises.any { ex ->
+                        ex.localizedName(localizedCtx).lowercase().contains(cleanSearch) ||
+                            ex.localizedTargetMuscle(localizedCtx).lowercase().contains(cleanSearch)
+                    }
+            }
+        }
+        val focusTokens = userProfile.focusAreasCsv
+            .split(",")
+            .map { it.trim().lowercase() }
+            .filter { it.isNotEmpty() }
+            .toSet()
+
+        bySearch.sortedByDescending { w ->
+            var score = 0
+            if (w.isCustom) score += 200
+            if (gender == "female" && w.targetGroup == TargetGroup.FEMALE_ONLY) score += 25
+            if (gender == "male" && w.targetGroup == TargetGroup.MALE_ONLY) score += 25
+            if (applySmartMatch) {
+                if ((userProfile.environment == "home" || userProfile.environment == "outdoor") && w.category == WorkoutCategory.HOME) score += 18
+                if (userProfile.environment == "gym" && w.category == WorkoutCategory.GYM) score += 18
+                if (userProfile.isYouthGrowthMode && w.isRecommendedForYouth) score += 30
+                val diffLower = w.difficulty.lowercase()
+                when (userProfile.experienceLevel.lowercase()) {
+                    "beginner" -> if (diffLower.contains("beginner") || diffLower.contains("başlangıç")) score += 14
+                    "occasional" -> if (diffLower.contains("intermediate") || diffLower.contains("orta")) score += 12
+                    "regular" -> if (diffLower.contains("intermediate") || diffLower.contains("orta") || diffLower.contains("advanced") || diffLower.contains("zor")) score += 12
+                    "advanced" -> if (diffLower.contains("advanced") || diffLower.contains("pro") || diffLower.contains("zor") || diffLower.contains("ileri")) score += 14
+                }
+                val titleLower = "${w.title} ${w.titleTr}".lowercase()
+                if (focusTokens.contains("abs") && (w.focusArea == "core" || titleLower.contains("abs") || titleLower.contains("karın"))) score += 10
+                if (focusTokens.contains("chest") && (titleLower.contains("chest") || titleLower.contains("göğüs") || titleLower.contains("push"))) score += 10
+                if (focusTokens.contains("back") && (titleLower.contains("back") || titleLower.contains("sırt") || titleLower.contains("pull"))) score += 10
+                if (focusTokens.contains("legs") && (w.focusArea == "lower" || titleLower.contains("leg") || titleLower.contains("bacak") || titleLower.contains("glute"))) score += 10
+                if (focusTokens.contains("arms") && (titleLower.contains("arm") || titleLower.contains("kol") || titleLower.contains("biceps"))) score += 10
+                if (focusTokens.contains("shoulders") && (titleLower.contains("shoulder") || titleLower.contains("omuz"))) score += 10
+            }
+            score
         }
     }
 
-    if (selectedWorkout != null) {
-        WorkoutDetailView(
-            workout = selectedWorkout,
-            gender = gender,
-            onBack = { onSelectWorkout(null) },
-            onScheduleToday = { onScheduleToday(selectedWorkout) },
-            onCompleteWorkout = { onCompleteWorkout(selectedWorkout) }
+    if (showCustomBuilder) {
+        CustomWorkoutBuilderScreen(
+            onBack = { showCustomBuilder = false },
+            onSaveWorkout = { title, category, difficulty, exercises, scheduleDateKey ->
+                onSaveCustomWorkout(title, category, difficulty, exercises, scheduleDateKey)
+                onSelectFilter(WorkoutFilter.CUSTOM)
+            }
         )
         return
     }
 
-    Column(modifier = Modifier.fillMaxSize()) {
-        // Category Hero Banner Image
+    if (selectedWorkout != null && isWorkoutAccessible(selectedWorkout)) {
+        var isActiveSession by remember(selectedWorkout.id) { mutableStateOf(false) }
+        if (isActiveSession) {
+            ActiveWorkoutScreen(
+                workout = selectedWorkout,
+                weightUnit = weightUnit,
+                onWeightUnitChange = onWeightUnitChange,
+                onExitToPreview = { isActiveSession = false },
+                onCompleteWorkout = {
+                    isActiveSession = false
+                    onCompleteWorkout(selectedWorkout)
+                    onSelectWorkout(null)
+                }
+            )
+        } else {
+            WorkoutPreviewScreen(
+                workout = selectedWorkout,
+                onBack = { onSelectWorkout(null) },
+                onScheduleToday = { onScheduleToday(selectedWorkout) },
+                onStartWorkout = { isActiveSession = true }
+            )
+        }
+        return
+    }
+
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(MaterialTheme.colorScheme.background)
+    ) {
         val bannerRes = when (activeFilter) {
             WorkoutFilter.HOME -> R.drawable.img_home_workout_banner
             WorkoutFilter.YOUTH -> R.drawable.img_preview_youth_athletic
             WorkoutFilter.GYM -> R.drawable.img_gym_workout_banner
             else -> R.drawable.img_workouts_hero_arena
         }
+        val context = LocalContext.current
+        val imageLoader = remember(context) { AppImageLoader.get(context) }
+        val bannerRequest = remember(bannerRes) {
+            ImageRequest.Builder(context)
+                .data(bannerRes)
+                .size(720, 220)
+                .precision(Precision.INEXACT)
+                .crossfade(false)
+                .build()
+        }
         Box(
             modifier = Modifier
                 .fillMaxWidth()
-                .height(144.dp)
-                .padding(horizontal = 16.dp, vertical = 8.dp)
+                .height(106.dp)
+                .padding(horizontal = 16.dp, vertical = 4.dp)
                 .clip(MaterialTheme.shapes.large)
+                .background(MaterialTheme.colorScheme.surface)
         ) {
-            Image(
-                painter = painterResource(id = bannerRes),
-                contentDescription = strings.workoutsBannerTitle,
+            val bannerTitle = strRes(R.string.workouts_banner_title)
+            AsyncImage(
+                model = bannerRequest,
+                imageLoader = imageLoader,
+                contentDescription = bannerTitle,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.fillMaxSize()
             )
             Box(
                 modifier = Modifier
                     .fillMaxSize()
-                    .background(
-                        Brush.verticalGradient(
-                            colors = listOf(
-                                Color.Black.copy(alpha = 0.15f),
-                                Color.Black.copy(alpha = 0.78f)
-                            )
-                        )
-                    )
+                    .background(HeroScrimBrush)
                     .padding(16.dp),
                 contentAlignment = Alignment.BottomStart
             ) {
                 Column {
                     Text(
-                        text = strings.workoutsBannerTitle,
-                        style = MaterialTheme.typography.headlineMedium,
+                        text = bannerTitle,
+                        style = MaterialTheme.typography.titleLarge,
                         color = Color.White,
-                        fontWeight = FontWeight.Bold
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
                     Text(
-                        text = strings.workoutsBannerSub,
+                        text = strRes(R.string.workouts_banner_sub),
                         style = MaterialTheme.typography.bodyMedium,
-                        color = Color.White.copy(alpha = 0.9f)
+                        color = Color.White.copy(alpha = 0.86f),
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
                 }
             }
         }
 
-        // Filter Chips
+        // Search input across 200 workouts & custom routines
+        CleanTextField(
+            value = searchQuery,
+            onValueChange = { searchQuery = it },
+            placeholder = strRes(R.string.workouts_search_hint),
+            modifier = Modifier.padding(horizontal = 16.dp, vertical = 4.dp),
+            inputModifier = Modifier.testTag("workouts_search_input")
+        )
+
         LazyRow(
             contentPadding = PaddingValues(horizontal = 16.dp),
             horizontalArrangement = Arrangement.spacedBy(8.dp),
-            modifier = Modifier.padding(vertical = 6.dp)
+            modifier = Modifier.padding(vertical = 2.dp)
         ) {
-            items(WorkoutFilter.entries) { filter ->
+            item(key = "smart_match_chip", contentType = "filter_chip") {
+                FilterChip(
+                    selected = applySmartMatch,
+                    onClick = { applySmartMatch = !applySmartMatch },
+                    leadingIcon = {
+                        Icon(Icons.Rounded.AutoAwesome, contentDescription = null, modifier = Modifier.size(16.dp))
+                    },
+                    label = {
+                        Text(strRes(R.string.workouts_smart_match_chip), style = MaterialTheme.typography.labelLarge)
+                    },
+                    modifier = Modifier.testTag("workout_profile_match_filter")
+                )
+            }
+            item(key = "gender_tailored_chip", contentType = "filter_chip") {
+                FilterChip(
+                    selected = applyGenderFilter,
+                    onClick = { applyGenderFilter = !applyGenderFilter },
+                    label = {
+                        Text(
+                            text = strRes(
+                                if (gender == "female") R.string.filter_tailored_female
+                                else R.string.filter_tailored_male
+                            ),
+                            style = MaterialTheme.typography.labelLarge
+                        )
+                    },
+                    modifier = Modifier.testTag("workout_gender_tailored_filter")
+                )
+            }
+            items(WorkoutFilter.entries, key = { it.name }, contentType = { "filter_chip" }) { filter ->
+                val count = filterCounts[filter] ?: 0
                 FilterChip(
                     selected = activeFilter == filter,
                     onClick = { onSelectFilter(filter) },
-                    label = { Text(filter.label(strings), fontWeight = FontWeight.SemiBold) },
+                    label = {
+                        Text(
+                            text = "${strRes(filter.labelRes)} ($count)",
+                            style = MaterialTheme.typography.labelLarge
+                        )
+                    },
                     modifier = Modifier.testTag("workout_filter_${filter.name.lowercase()}")
                 )
             }
         }
 
+        val cardOutline = BorderStroke(1.dp, MaterialTheme.colorScheme.outline.copy(alpha = 0.45f))
+        val flatElevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+        val surfaceCardColors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+
         LazyColumn(
-            contentPadding = PaddingValues(horizontal = 16.dp, vertical = 10.dp),
+            contentPadding = PaddingValues(start = 16.dp, top = 8.dp, end = 16.dp, bottom = 96.dp),
             verticalArrangement = Arrangement.spacedBy(14.dp),
             modifier = Modifier.fillMaxSize()
         ) {
-            items(filtered, key = { it.id }) { workout ->
-                val accessible = isWorkoutAccessible(workout)
-                val adsWatched = adsWatchedForWorkout(workout.id)
-                val previewRes = workoutPreviewDrawable(workout)
-
+            // Dedicated "Create Your Own Workout" Entry Card
+            item(key = "custom_builder_entry_card", contentType = "builder_entry") {
                 Card(
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                    colors = surfaceCardColors,
                     shape = MaterialTheme.shapes.large,
+                    border = BorderStroke(1.2.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.42f)),
+                    elevation = flatElevation,
                     modifier = Modifier
                         .fillMaxWidth()
-                        .border(
-                            1.dp,
-                            when {
-                                !accessible -> ext.goldText.copy(alpha = 0.55f)
-                                workout.isRecommendedForYouth -> ext.purpleText.copy(alpha = 0.6f)
-                                else -> MaterialTheme.colorScheme.outline
-                            },
-                            MaterialTheme.shapes.large
-                        )
-                        .clickable {
-                            if (accessible) onSelectWorkout(workout) else onWatchAdForWorkout(workout)
-                        }
-                        .testTag("workout_card_${workout.id}")
+                        .clickable { showCustomBuilder = true }
+                        .testTag("open_custom_builder_button")
                 ) {
-                    Column {
-                        // Pre-workout Preview Image Banner on every card before opening
-                        Box(
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .height(126.dp)
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        modifier = Modifier.padding(16.dp)
+                    ) {
+                        Surface(
+                            color = MaterialTheme.colorScheme.primary,
+                            shape = RoundedCornerShape(14.dp),
+                            modifier = Modifier.size(48.dp)
                         ) {
-                            Image(
-                                painter = painterResource(id = previewRes),
-                                contentDescription = workout.title,
-                                contentScale = ContentScale.Crop,
-                                modifier = Modifier.fillMaxSize()
+                            Box(contentAlignment = Alignment.Center) {
+                                Icon(
+                                    imageVector = Icons.Rounded.AddCircleOutline,
+                                    contentDescription = strRes(R.string.builder_card_title),
+                                    tint = MaterialTheme.colorScheme.onPrimary,
+                                    modifier = Modifier.size(26.dp)
+                                )
+                            }
+                        }
+                        Spacer(modifier = Modifier.width(12.dp))
+                        Column(
+                            verticalArrangement = Arrangement.spacedBy(3.dp),
+                            modifier = Modifier.weight(1f)
+                        ) {
+                            Text(
+                                text = strRes(R.string.builder_card_title),
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.ExtraBold,
+                                color = MaterialTheme.colorScheme.onSurface
                             )
+                            Text(
+                                text = strRes(R.string.builder_card_sub),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
+                        }
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Button(
+                            onClick = { showCustomBuilder = true },
+                            shape = CircleShape,
+                            contentPadding = PaddingValues(horizontal = 14.dp, vertical = 10.dp),
+                            modifier = Modifier.heightIn(min = 48.dp)
+                        ) {
+                            Text(strRes(R.string.builder_card_cta), style = MaterialTheme.typography.labelMedium)
+                        }
+                    }
+                }
+            }
+
+            if (filtered.isEmpty()) {
+                item(key = "workouts_empty_state", contentType = "empty_state") {
+                    Card(
+                        colors = surfaceCardColors,
+                        shape = MaterialTheme.shapes.large,
+                        border = cardOutline,
+                        elevation = flatElevation,
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text(
+                            text = strRes(R.string.workouts_empty_search),
+                            style = MaterialTheme.typography.bodyMedium,
+                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                            modifier = Modifier.padding(20.dp)
+                        )
+                    }
+                }
+            } else {
+                items(
+                    items = filtered,
+                    key = { it.id },
+                    contentType = { "workout_card" }
+                ) { workout ->
+                    val accessible = isWorkoutAccessible(workout)
+                    val adsWatched = adsWatchedForWorkout(workout.id)
+                    val localizedTitle = workout.localizedTitle()
+
+                    Card(
+                        colors = surfaceCardColors,
+                        shape = MaterialTheme.shapes.large,
+                        border = cardOutline,
+                        elevation = flatElevation,
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .clickable {
+                                if (accessible) onSelectWorkout(workout) else onUpgradePro()
+                            }
+                            .testTag("workout_card_${workout.id}")
+                    ) {
+                        Column {
                             Box(
                                 modifier = Modifier
-                                    .fillMaxSize()
-                                    .background(
-                                        Brush.verticalGradient(
-                                            colors = listOf(
-                                                Color.Black.copy(alpha = 0.2f),
-                                                Color.Black.copy(alpha = 0.65f)
-                                            )
-                                        )
-                                    )
-                            )
-
-                            Row(
-                                horizontalArrangement = Arrangement.SpaceBetween,
-                                verticalAlignment = Alignment.CenterVertically,
-                                modifier = Modifier
                                     .fillMaxWidth()
-                                    .align(Alignment.TopCenter)
-                                    .padding(10.dp)
+                                    .height(152.dp)
                             ) {
-                                Row(horizontalArrangement = Arrangement.spacedBy(6.dp)) {
+                                WorkoutHeroArtwork(
+                                    workout = workout,
+                                    contentDescription = localizedTitle,
+                                    modifier = Modifier.fillMaxSize()
+                                )
+                                Box(
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .background(HeroScrimBrush)
+                                )
+
+                                Column(
+                                    verticalArrangement = Arrangement.SpaceBetween,
+                                    modifier = Modifier
+                                        .fillMaxSize()
+                                        .padding(12.dp)
+                                ) {
+                                    Row(
+                                        horizontalArrangement = Arrangement.SpaceBetween,
+                                        verticalAlignment = Alignment.CenterVertically,
+                                        modifier = Modifier.fillMaxWidth()
+                                    ) {
+                                        Row(
+                                            horizontalArrangement = Arrangement.spacedBy(6.dp),
+                                            modifier = Modifier
+                                                .weight(1f)
+                                                .horizontalScroll(rememberScrollState())
+                                        ) {
+                                            Surface(
+                                                color = MaterialTheme.colorScheme.primary,
+                                                shape = RoundedCornerShape(8.dp)
+                                            ) {
+                                                Text(
+                                                    text = strRes(workout.category.labelRes),
+                                                    style = MaterialTheme.typography.labelMedium,
+                                                    color = MaterialTheme.colorScheme.onPrimary,
+                                                    maxLines = 1,
+                                                    softWrap = false,
+                                                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                                                )
+                                            }
+                                            if (workout.isCustom) {
+                                                Surface(
+                                                    color = MaterialTheme.colorScheme.tertiary,
+                                                    shape = RoundedCornerShape(8.dp)
+                                                ) {
+                                                    Text(
+                                                        text = strRes(R.string.custom_badge),
+                                                        style = MaterialTheme.typography.labelMedium,
+                                                        color = MaterialTheme.colorScheme.onTertiary,
+                                                        maxLines = 1,
+                                                        softWrap = false,
+                                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                                                    )
+                                                }
+                                            }
+                                            if (workout.isProSpecial) {
+                                                Surface(
+                                                    color = MaterialTheme.colorScheme.surface,
+                                                    shape = RoundedCornerShape(8.dp)
+                                                ) {
+                                                    Text(
+                                                        text = strRes(if (isProActive) R.string.pro_open_badge else R.string.pro_badge),
+                                                        style = MaterialTheme.typography.labelMedium,
+                                                        color = MaterialTheme.colorScheme.primary,
+                                                        maxLines = 1,
+                                                        softWrap = false,
+                                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                                                    )
+                                                }
+                                            }
+                                            if (workout.targetGroup != TargetGroup.BOTH) {
+                                                Surface(
+                                                    color = MaterialTheme.colorScheme.surface.copy(alpha = 0.92f),
+                                                    shape = RoundedCornerShape(8.dp)
+                                                ) {
+                                                    Text(
+                                                        text = strRes(
+                                                            if (workout.targetGroup == TargetGroup.FEMALE_ONLY) R.string.target_group_female_badge
+                                                            else R.string.target_group_male_badge
+                                                        ),
+                                                        style = MaterialTheme.typography.labelMedium,
+                                                        color = MaterialTheme.colorScheme.onSurface,
+                                                        maxLines = 1,
+                                                        softWrap = false,
+                                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                                                    )
+                                                }
+                                            }
+                                        }
+                                        if (!accessible) {
+                                            Spacer(modifier = Modifier.width(6.dp))
+                                            Surface(
+                                                color = MaterialTheme.colorScheme.surface,
+                                                shape = CircleShape
+                                            ) {
+                                                Icon(
+                                                    Icons.Rounded.Lock,
+                                                    contentDescription = strRes(R.string.common_locked),
+                                                    tint = MaterialTheme.colorScheme.primary,
+                                                    modifier = Modifier
+                                                        .padding(6.dp)
+                                                        .size(18.dp)
+                                                )
+                                            }
+                                        }
+                                    }
+
+                                    Row(
+                                        horizontalArrangement = Arrangement.spacedBy(6.dp),
+                                        modifier = Modifier.horizontalScroll(rememberScrollState())
+                                    ) {
+                                        MetaChip(
+                                            icon = Icons.Rounded.AccessTime,
+                                            text = "${workout.durationMinutes} ${strRes(R.string.unit_min)}"
+                                        )
+                                        MetaChip(
+                                            icon = Icons.Rounded.LocalFireDepartment,
+                                            text = "~${workout.estimatedCalories} kcal"
+                                        )
+                                        MetaChip(
+                                            icon = Icons.Rounded.FitnessCenter,
+                                            text = "${workout.exercises.size} ${strRes(R.string.exercises_short)}"
+                                        )
+                                    }
+                                }
+                            }
+
+                            Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                                if (workout.isRecommendedForYouth) {
                                     Surface(
-                                        color = if (workout.category == WorkoutCategory.GYM) FlameOrange else ElectricTeal,
+                                        color = MaterialTheme.colorScheme.background,
                                         shape = RoundedCornerShape(8.dp)
                                     ) {
                                         Text(
-                                            text = workout.category.label(strings.langCode),
+                                            text = strRes(R.string.youth_recommended_badge),
                                             style = MaterialTheme.typography.labelMedium,
-                                            color = Color.White,
+                                            color = MaterialTheme.colorScheme.primary,
+                                            maxLines = 1,
+                                            overflow = TextOverflow.Ellipsis,
                                             modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
                                         )
                                     }
-                                    if (workout.isProSpecial) {
-                                        Surface(color = WarmGold, shape = RoundedCornerShape(8.dp)) {
+                                }
+
+                                Text(
+                                    text = localizedTitle,
+                                    style = MaterialTheme.typography.titleLarge,
+                                    color = MaterialTheme.colorScheme.onSurface,
+                                    maxLines = 2,
+                                    overflow = TextOverflow.Ellipsis
+                                )
+                                Text(
+                                    text = workout.localizedSubtitle(),
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                    maxLines = 2,
+                                    overflow = TextOverflow.Ellipsis
+                                )
+                                Text(
+                                    text = workout.localizedDifficulty(),
+                                    style = MaterialTheme.typography.labelMedium,
+                                    color = MaterialTheme.colorScheme.primary,
+                                    maxLines = 1,
+                                    overflow = TextOverflow.Ellipsis
+                                )
+
+                                if (!accessible) {
+                                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
+                                        Button(
+                                            onClick = { onWatchAdForWorkout(workout) },
+                                            shape = CircleShape,
+                                            modifier = Modifier
+                                                .weight(1f)
+                                                .height(48.dp)
+                                                .testTag("watch_ad_unlock_${workout.id}")
+                                        ) {
+                                            Icon(Icons.Rounded.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
+                                            Spacer(modifier = Modifier.width(6.dp))
                                             Text(
-                                                text = if (isProActive) strings.proOpenBadge else strings.proBadge,
-                                                style = MaterialTheme.typography.labelMedium,
-                                                color = Color(0xFF1A1000),
-                                                fontWeight = FontWeight.Bold,
-                                                modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                                                text = "${strRes(R.string.watch_ads_prefix)} ($adsWatched/3)",
+                                                maxLines = 1,
+                                                overflow = TextOverflow.Ellipsis
+                                            )
+                                        }
+                                        OutlinedButton(
+                                            onClick = onUpgradePro,
+                                            shape = CircleShape,
+                                            modifier = Modifier.height(48.dp)
+                                        ) {
+                                            Text(
+                                                text = strRes(R.string.unlock_with_pro),
+                                                maxLines = 1,
+                                                softWrap = false
                                             )
                                         }
                                     }
-                                }
-                                if (!accessible) {
-                                    Surface(
-                                        color = Color.Black.copy(alpha = 0.65f),
-                                        shape = CircleShape
-                                    ) {
-                                        Icon(
-                                            Icons.Rounded.Lock,
-                                            contentDescription = if (isEn) "Locked" else "Kilitli",
-                                            tint = WarmGold,
-                                            modifier = Modifier.padding(6.dp).size(18.dp)
-                                        )
-                                    }
-                                }
-                            }
-
-                            Text(
-                                text = "${workout.durationMinutes} ${if (isEn) "min" else "dk"} • ~${workout.estimatedCalories} kcal • ${workout.exercises.size} ${if (isEn) "Exercises" else "Egzersiz"}",
-                                style = MaterialTheme.typography.labelMedium,
-                                color = Color.White,
-                                modifier = Modifier
-                                    .align(Alignment.BottomStart)
-                                    .padding(12.dp)
-                            )
-                        }
-
-                        Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                            if (workout.isRecommendedForYouth) {
-                                Surface(color = ext.purpleContainer, shape = RoundedCornerShape(8.dp)) {
-                                    Text(
-                                        text = strings.youthRecommendedBadge,
-                                        style = MaterialTheme.typography.labelMedium,
-                                        fontWeight = FontWeight.Bold,
-                                        color = ext.purpleText,
-                                        modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
-                                    )
-                                }
-                            }
-
-                            Text(text = workout.title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                            Text(
-                                text = workout.subtitle,
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant
-                            )
-                            Text(
-                                text = workout.difficulty,
-                                style = MaterialTheme.typography.labelMedium,
-                                color = MaterialTheme.colorScheme.secondary
-                            )
-
-                            if (!accessible) {
-                                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                                    Button(
-                                        onClick = { onWatchAdForWorkout(workout) },
-                                        colors = ButtonDefaults.buttonColors(containerColor = FlameOrange),
-                                        modifier = Modifier
-                                            .weight(1f)
-                                            .testTag("watch_ad_unlock_${workout.id}")
-                                    ) {
-                                        Icon(Icons.Rounded.PlayCircle, contentDescription = null, modifier = Modifier.size(18.dp))
-                                        Spacer(modifier = Modifier.width(6.dp))
-                                        Text("${strings.watchAdsPrefix} ($adsWatched/3)")
-                                    }
-                                    OutlinedButton(onClick = onUpgradePro) {
-                                        Text(strings.unlockWithPro)
-                                    }
-                                }
-                            } else {
-                                Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
-                                    Button(
-                                        onClick = { onSelectWorkout(workout) },
-                                        modifier = Modifier.weight(1f)
-                                    ) {
-                                        Icon(Icons.Rounded.FitnessCenter, contentDescription = null, modifier = Modifier.size(18.dp))
-                                        Spacer(modifier = Modifier.width(6.dp))
-                                        Text(strings.viewAndStart)
-                                    }
-                                    OutlinedButton(onClick = { onScheduleToday(workout) }) {
-                                        Text(strings.addToCalendar)
+                                } else {
+                                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
+                                        Button(
+                                            onClick = { onSelectWorkout(workout) },
+                                            shape = CircleShape,
+                                            modifier = Modifier
+                                                .weight(1f)
+                                                .height(48.dp)
+                                        ) {
+                                            Icon(Icons.Rounded.PlayArrow, contentDescription = null, modifier = Modifier.size(18.dp))
+                                            Spacer(modifier = Modifier.width(6.dp))
+                                            Text(
+                                                text = strRes(R.string.start_workout),
+                                                maxLines = 1,
+                                                overflow = TextOverflow.Ellipsis
+                                            )
+                                        }
+                                        OutlinedButton(
+                                            onClick = { onScheduleToday(workout) },
+                                            shape = CircleShape,
+                                            modifier = Modifier.height(48.dp)
+                                        ) {
+                                            Icon(
+                                                Icons.Rounded.CalendarToday,
+                                                contentDescription = strRes(R.string.add_to_calendar),
+                                                modifier = Modifier.size(18.dp)
+                                            )
+                                        }
+                                        if (workout.isCustom) {
+                                            IconButton(
+                                                onClick = { onDeleteCustomWorkout(workout.id) },
+                                                modifier = Modifier
+                                                    .size(48.dp)
+                                                    .testTag("delete_custom_workout_${workout.id}")
+                                            ) {
+                                                Icon(
+                                                    Icons.Rounded.Delete,
+                                                    contentDescription = strRes(R.string.common_delete),
+                                                    tint = MaterialTheme.colorScheme.error
+                                                )
+                                            }
+                                        }
                                     }
                                 }
                             }
@@ -418,227 +817,30 @@ fun WorkoutsScreen(
 }
 
 @Composable
-private fun WorkoutDetailView(
-    workout: WorkoutProgram,
-    gender: String,
-    onBack: () -> Unit,
-    onScheduleToday: () -> Unit,
-    onCompleteWorkout: () -> Unit
+private fun MetaChip(
+    icon: androidx.compose.ui.graphics.vector.ImageVector,
+    text: String
 ) {
-    val strings = LocalAppStrings.current
-    val isEn = strings.langCode == "en"
-    val ext = LocalExtendedColors.current
-    var restSecondsLeft by remember { mutableIntStateOf(0) }
-    var timerRunning by remember { mutableStateOf(false) }
-
-    LaunchedEffect(timerRunning, restSecondsLeft) {
-        if (timerRunning && restSecondsLeft > 0) {
-            delay(1000L)
-            restSecondsLeft--
-            if (restSecondsLeft == 0) timerRunning = false
-        }
-    }
-
-    Column(modifier = Modifier.fillMaxSize()) {
+    Surface(
+        color = MaterialTheme.colorScheme.background,
+        shape = RoundedCornerShape(8.dp)
+    ) {
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            modifier = Modifier
-                .fillMaxWidth()
-                .padding(horizontal = 8.dp, vertical = 6.dp)
+            modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
         ) {
-            IconButton(onClick = onBack, modifier = Modifier.testTag("workout_detail_back")) {
-                Icon(Icons.AutoMirrored.Rounded.ArrowBack, contentDescription = if (isEn) "Back" else "Geri")
-            }
-            Column(modifier = Modifier.weight(1f)) {
-                Text(text = workout.title, style = MaterialTheme.typography.titleLarge, fontWeight = FontWeight.Bold)
-                Text(
-                    text = "${workout.durationMinutes} ${if (isEn) "min" else "dk"} • ${workout.exercises.size} ${if (isEn) "Exercises" else "Egzersiz"}",
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant
-                )
-            }
-            OutlinedButton(onClick = onScheduleToday) {
-                Text(strings.scheduleToday)
-            }
-        }
-
-        if (restSecondsLeft > 0) {
-            Surface(
-                color = ext.tealContainer,
-                shape = MaterialTheme.shapes.medium,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 16.dp, vertical = 4.dp)
-            ) {
-                Row(
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.SpaceBetween,
-                    modifier = Modifier.padding(12.dp)
-                ) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Icon(Icons.Rounded.Timer, contentDescription = null, tint = ext.tealText)
-                        Spacer(modifier = Modifier.width(8.dp))
-                        Text(
-                            text = if (isEn) "Rest Timer: ${restSecondsLeft}s" else "Dinlenme Sayacı: $restSecondsLeft sn",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = ext.tealText
-                        )
-                    }
-                    OutlinedButton(onClick = { timerRunning = false; restSecondsLeft = 0 }) {
-                        Text(if (isEn) "Reset" else "Sıfırla")
-                    }
-                }
-            }
-        }
-
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .verticalScroll(rememberScrollState())
-                .padding(horizontal = 16.dp, vertical = 10.dp),
-            verticalArrangement = Arrangement.spacedBy(16.dp)
-        ) {
-            if (workout.isRecommendedForYouth) {
-                Surface(
-                    color = ext.purpleContainer,
-                    shape = MaterialTheme.shapes.medium,
-                    modifier = Modifier.fillMaxWidth()
-                ) {
-                    Text(
-                        text = if (isEn) {
-                            "${strings.youthRecommendedBadge} • Safe, posture-building sequence for growing athletes."
-                        } else {
-                            "${strings.youthRecommendedBadge} • Büyüme çağındaki gençler için güvenli ve postür destekleyici egzersiz dizisi."
-                        },
-                        style = MaterialTheme.typography.bodyMedium,
-                        fontWeight = FontWeight.SemiBold,
-                        color = ext.purpleText,
-                        modifier = Modifier.padding(12.dp)
-                    )
-                }
-            }
-
-            workout.exercises.forEachIndexed { index, ex ->
-                Card(
-                    colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
-                    shape = MaterialTheme.shapes.large,
-                    modifier = Modifier.fillMaxWidth()
-                ) {
-                    Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                        Row(
-                            horizontalArrangement = Arrangement.SpaceBetween,
-                            verticalAlignment = Alignment.CenterVertically,
-                            modifier = Modifier.fillMaxWidth()
-                        ) {
-                            Text(
-                                text = "${index + 1}. ${ex.name}",
-                                style = MaterialTheme.typography.titleLarge,
-                                fontWeight = FontWeight.Bold,
-                                modifier = Modifier.weight(1f)
-                            )
-                            Surface(color = MaterialTheme.colorScheme.primary.copy(alpha = 0.16f), shape = RoundedCornerShape(8.dp)) {
-                                Text(
-                                    text = ex.setsReps,
-                                    style = MaterialTheme.typography.labelLarge,
-                                    fontWeight = FontWeight.Bold,
-                                    color = ext.orangeText,
-                                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
-                                )
-                            }
-                        }
-
-                        Text(
-                            text = if (isEn) "Target Muscle: ${ex.targetMuscle}" else "Hedef Kas: ${ex.targetMuscle}",
-                            style = MaterialTheme.typography.labelLarge,
-                            fontWeight = FontWeight.Bold,
-                            color = ext.goldText
-                        )
-
-                        // Sculpted Male / Female Animated Exercise Demonstration
-                        ExerciseFormVisualizer(exercise = ex, gender = gender)
-
-                        Text(
-                            text = if (isEn) "How to Perform (Step by Step)" else "Nasıl Yapılır? (Adım Adım)",
-                            style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold
-                        )
-                        ex.steps.forEachIndexed { stepIdx, stepText ->
-                            Row(verticalAlignment = Alignment.Top) {
-                                Box(
-                                    contentAlignment = Alignment.Center,
-                                    modifier = Modifier
-                                        .size(22.dp)
-                                        .clip(CircleShape)
-                                        .background(FlameOrange.copy(alpha = 0.2f))
-                                ) {
-                                    Text("${stepIdx + 1}", style = MaterialTheme.typography.labelMedium, fontWeight = FontWeight.Bold, color = ext.orangeText)
-                                }
-                                Spacer(modifier = Modifier.width(8.dp))
-                                Text(text = stepText, style = MaterialTheme.typography.bodyMedium, modifier = Modifier.weight(1f))
-                            }
-                        }
-
-                        Surface(color = ext.mintContainer, shape = RoundedCornerShape(10.dp)) {
-                            Row(modifier = Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {
-                                Icon(Icons.Rounded.CheckCircle, contentDescription = null, tint = ext.mintText, modifier = Modifier.size(18.dp))
-                                Spacer(modifier = Modifier.width(8.dp))
-                                Text("${if (isEn) "Form Tip" else "Form İpucu"}: ${ex.formCue}", style = MaterialTheme.typography.bodyMedium)
-                            }
-                        }
-
-                        Surface(color = ext.tealContainer, shape = RoundedCornerShape(10.dp)) {
-                            Row(modifier = Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {
-                                Icon(Icons.Rounded.Air, contentDescription = null, tint = ext.tealText, modifier = Modifier.size(18.dp))
-                                Spacer(modifier = Modifier.width(8.dp))
-                                Text("${if (isEn) "Breathing" else "Nefes"}: ${ex.breathingCue}", style = MaterialTheme.typography.bodyMedium)
-                            }
-                        }
-
-                        Surface(color = MaterialTheme.colorScheme.error.copy(alpha = 0.12f), shape = RoundedCornerShape(10.dp)) {
-                            Row(modifier = Modifier.padding(10.dp), verticalAlignment = Alignment.CenterVertically) {
-                                Icon(Icons.Rounded.Warning, contentDescription = null, tint = MaterialTheme.colorScheme.error, modifier = Modifier.size(18.dp))
-                                Spacer(modifier = Modifier.width(8.dp))
-                                Text("${if (isEn) "Avoid Mistake" else "Kaçınılacak Hata"}: ${ex.commonMistake}", style = MaterialTheme.typography.bodyMedium)
-                            }
-                        }
-
-                        if (ex.restSeconds > 0) {
-                            Button(
-                                onClick = {
-                                    restSecondsLeft = ex.restSeconds
-                                    timerRunning = true
-                                },
-                                colors = ButtonDefaults.buttonColors(containerColor = MaterialTheme.colorScheme.secondary, contentColor = MaterialTheme.colorScheme.onSecondary),
-                                modifier = Modifier.fillMaxWidth()
-                            ) {
-                                Icon(Icons.Rounded.PlayArrow, contentDescription = null)
-                                Spacer(modifier = Modifier.width(6.dp))
-                                Text(
-                                    if (isEn) "Set Done • Start ${ex.restSeconds}s Rest"
-                                    else "Set Tamamlandı • ${ex.restSeconds} sn Dinlenme Başlat"
-                                )
-                            }
-                        }
-                    }
-                }
-            }
-            Button(
-                onClick = onCompleteWorkout,
-                colors = ButtonDefaults.buttonColors(containerColor = MintVital, contentColor = Color(0xFF0A140F)),
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .height(52.dp)
-                    .testTag("complete_workout_xp_button")
-            ) {
-                Icon(Icons.Rounded.CheckCircle, contentDescription = null)
-                Spacer(modifier = Modifier.width(8.dp))
-                Text(
-                    text = if (isEn) "Complete Workout (+60 XP & Streak!)" else "Antrenmanı Tamamla (+60 XP & Seri!)",
-                    fontWeight = FontWeight.Bold
-                )
-            }
-            Spacer(modifier = Modifier.height(24.dp))
+            Icon(
+                imageVector = icon,
+                contentDescription = null,
+                tint = MaterialTheme.colorScheme.primary,
+                modifier = Modifier.size(13.dp)
+            )
+            Spacer(modifier = Modifier.width(4.dp))
+            Text(
+                text = text,
+                style = MaterialTheme.typography.labelMedium,
+                color = MaterialTheme.colorScheme.onSurface
+            )
         }
     }
 }

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g7_1_name">Soulevé de terre classique</string>
+    <string name="ex_g7_1_muscle">Chaîne postérieure complète</string>
+    <string name="ex_g7_1_cue">Ne jamais arrondir le dos ; la barre doit monter verticalement.</string>
+    <string name="ex_g7_1_breath">Inspirez profondément et gainez avant de tirer, expirez en haut.</string>
+    <string name="ex_g7_1_mistake">Tirer avec le bas du dos au lieu de pousser le sol.</string>
+    <string-array name="ex_g7_1_steps">
+        <item>Pieds largeur des hanches, barre au-dessus du milieu du pied.</item>
+        <item>Reculez les hanches pour saisir la barre, ouvrez la poitrine et gardez le dos plat.</item>
+        <item>Poussez dans le sol en gardant la barre près des jambes.</item>
+    </string-array>
+    <string name="ex_g7_2_name">Hip Thrust</string>
+    <string name="ex_g7_2_muscle">Fessiers</string>
+    <string name="ex_g7_2_cue">Rentrez légèrement le menton pour ne pas cambrer le bas du dos.</string>
+    <string name="ex_g7_2_breath">Expirez en poussant vers le haut.</string>
+    <string name="ex_g7_2_mistake">Cambrer excessivement le dos.</string>
+    <string-array name="ex_g7_2_steps">
+        <item>Omoplates appuyées sur le banc, barre dans le pli des hanches.</item>
+        <item>Poussez sur les talons pour monter les hanches et contractez fort en haut.</item>
+    </string-array>
+    <string name="ex_g7_3_name">Leg curl couché</string>
+    <string name="ex_g7_3_muscle">Ischio-jambiers</string>
+    <string name="ex_g7_3_cue">Gardez les hanches plaquées sur le banc.</string>
+    <string name="ex_g7_3_breath">Expirez en fléchissant.</string>
+    <string name="ex_g7_3_mistake">Lâcher la charge trop vite.</string>
+    <string-array name="ex_g7_3_steps">
+        <item>Allongez-vous face au sol, boudin juste au-dessus du tendon d\'Achille.</item>
+        <item>Ramenez les talons vers les fessiers et redescendez lentement.</item>
+    </string-array>
+    <string name="ex_g7_4_name">Relevé de genoux suspendu</string>
+    <string name="ex_g7_4_muscle">Bas des abdos &amp; Poigne</string>
+    <string name="ex_g7_4_cue">Freinez la descente pour éviter de balancer.</string>
+    <string name="ex_g7_4_breath">Expirez en montant les genoux.</string>
+    <string name="ex_g7_4_mistake">Utiliser l\'élan des jambes.</string>
+    <string-array name="ex_g7_4_steps">
+        <item>Suspendez-vous à une barre fixe.</item>
+        <item>Montez les genoux vers la poitrine sans élan.</item>
+        <item>Redescendez en gardant le contrôle.</item>
+    </string-array>
+    <string name="ex_g8_1_name">Sprint au rameur</string>
+    <string name="ex_g8_1_muscle">Cardio corps complet</string>
+    <string name="ex_g8_1_cue" formatted="false">Utilisez 60% jambes, 20% gainage, 20% bras.</string>
+    <string name="ex_g8_1_breath">Expirez sur chaque tirage.</string>
+    <string name="ex_g8_1_mistake">Tirer avec les bras avant de pousser avec les jambes.</string>
+    <string-array name="ex_g8_1_steps">
+        <item>Attachez bien vos pieds.</item>
+        <item>Poussez d\'abord avec les jambes, inclinez légèrement le buste puis tirez avec les bras.</item>
+    </string-array>
+    <string name="ex_g8_2_name">Kettlebell Swing</string>
+    <string name="ex_g8_2_muscle">Fessiers &amp; Conditionnement</string>
+    <string name="ex_g8_2_cue">Les bras sont passifs, toute la puissance vient des hanches.</string>
+    <string name="ex_g8_2_breath">Expirez lors de l\'impulsion.</string>
+    <string name="ex_g8_2_mistake">Squatter et lever avec les bras.</string>
+    <string-array name="ex_g8_2_steps">
+        <item>Pieds plus larges que les épaules.</item>
+        <item>Fléchissez les hanches et passez la kettlebell entre les jambes.</item>
+        <item>Projetez les hanches vers l\'avant pour monter la charge à hauteur de poitrine.</item>
+    </string-array>
+    <string name="ex_g8_3_name">Cordes ondulatoires</string>
+    <string name="ex_g8_3_muscle">Épaules &amp; Cardio</string>
+    <string name="ex_g8_3_sets">4 x 30 s</string>
+    <string name="ex_g8_3_cue">Gardez les abdos serrés et le dos droit.</string>
+    <string name="ex_g8_3_breath">Respirez de manière rythmée.</string>
+    <string name="ex_g8_3_mistake">Bouger uniquement les poignets.</string>
+    <string-array name="ex_g8_3_steps">
+        <item>Adoptez une posture athlétique genoux fléchis.</item>
+        <item>Faites onduler les cordes en alternance rapidement.</item>
+    </string-array>
+    <string name="ex_g8_4_name">Marche inclinée sur tapis</string>
+    <string name="ex_g8_4_muscle">Zone de brûlage des graisses</string>
+    <string name="ex_g8_4_sets">12 min</string>
+    <string name="ex_g8_4_cue">Brûle beaucoup de calories sans choc articulaire.</string>
+    <string name="ex_g8_4_breath">Inspirez profondément par le nez.</string>
+    <string name="ex_g8_4_mistake">S\'appuyer sur les poignées.</string>
+    <string-array name="ex_g8_4_steps">
+        <item>Marchez d\'un bon pas à 10–12% d\'inclinaison et 5,0–5,5 km/h.</item>
+        <item>Balancez les bras sans tenir les poignées.</item>
+    </string-array>
+    <string name="ex_g9_1_name">Développé couché avec pause</string>
+    <string name="ex_g9_1_muscle">Pectoraux</string>
+    <string name="ex_g9_1_cue">Gardez toute la tension pendant la pause.</string>
+    <string name="ex_g9_1_breath">Inspirez en haut, expirez en poussant.</string>
+    <string name="ex_g9_1_mistake">Faire rebondir la barre sur la poitrine.</string>
+    <string-array name="ex_g9_1_steps">
+        <item>Descendez la barre sous contrôle jusqu\'à la poitrine.</item>
+        <item>Faites une pause complète d\'1 seconde sur le torse.</item>
+        <item>Poussez de façon explosive.</item>
+    </string-array>
+    <string name="ex_g9_2_name">Dips lestés pour les pectoraux</string>
+    <string name="ex_g9_2_muscle">Bas des pectoraux &amp; Triceps</string>
+    <string name="ex_g9_2_cue">Se pencher augmente le recrutement des pectoraux.</string>
+    <string name="ex_g9_2_breath">Expirez en poussant.</string>
+    <string name="ex_g9_2_mistake">Enrouler les épaules vers l\'avant.</string>
+    <string-array name="ex_g9_2_steps">
+        <item>Saisissez les barres parallèles et penchez légèrement le buste.</item>
+        <item>Descendez à 90° aux coudes puis poussez fort.</item>
+    </string-array>
+    <string name="ex_g9_3_name">Écarté à la machine (Pec Deck)</string>
+    <string name="ex_g9_3_muscle">Milieu des pectoraux</string>
+    <string name="ex_g9_3_cue">Ouvrez largement pour bien étirer les pectoraux.</string>
+    <string name="ex_g9_3_breath">Expirez en fermant.</string>
+    <string name="ex_g9_3_mistake">Mettre trop lourd et plier excessivement les coudes.</string>
+    <string-array name="ex_g9_3_steps">
+        <item>Réglez la hauteur du siège, coudes légèrement fléchis.</item>
+        <item>Rapprochez les bras au centre et contractez 1 seconde.</item>
+    </string-array>
+    <string name="ex_g10_1_name">Rowing T-Bar</string>
+    <string name="ex_g10_1_muscle">Milieu du dos</string>
+    <string name="ex_g10_1_cue">Contractez le dos à chaque répétition.</string>
+    <string name="ex_g10_1_breath">Expirez en tirant.</string>
+    <string name="ex_g10_1_mistake">Donner des à-coups avec le bas du dos.</string>
+    <string-array name="ex_g10_1_steps">
+        <item>Penchez le buste à 45 degrés, dos plat verrouillé.</item>
+        <item>Tirez la charge vers le bas de la poitrine.</item>
+    </string-array>
+    <string name="ex_g10_2_name">Tirage vertical prise serrée</string>
+    <string name="ex_g10_2_muscle">Bas des dorsaux</string>
+    <string name="ex_g10_2_cue">Étire profondément le bas des dorsaux.</string>
+    <string name="ex_g10_2_breath">Expirez en tirant vers le bas.</string>
+    <string name="ex_g10_2_mistake">Hausser les épaules.</string>
+    <string-array name="ex_g10_2_steps">
+        <item>Saisissez la poignée en V en haut.</item>
+        <item>Gardez les coudes près du corps et tirez vers la poitrine.</item>
+    </string-array>
+    <string name="ex_g10_3_name">Shrugs aux haltères</string>
+    <string name="ex_g10_3_muscle">Trapèzes</string>
+    <string name="ex_g10_3_cue">Montez droit sans rouler les épaules.</string>
+    <string name="ex_g10_3_breath">Expirez en montant.</string>
+    <string name="ex_g10_3_mistake">Avancer la tête.</string>
+    <string-array name="ex_g10_3_steps">
+        <item>Haltères le long du corps.</item>
+        <item>Montez les épaules droit vers les oreilles et tenez 1 seconde.</item>
+    </string-array>
+    <string name="ex_g11_1_name">Hack Squat</string>
+    <string name="ex_g11_1_muscle">Quadriceps</string>
+    <string name="ex_g11_1_cue">Empêchez les genoux de rentrer.</string>
+    <string name="ex_g11_1_breath">Expirez en poussant.</string>
+    <string name="ex_g11_1_mistake">Faire des demi-répétitions.</string>
+    <string-array name="ex_g11_1_steps">
+        <item>Plaquez le dos sur le dossier, pieds légèrement avancés.</item>
+        <item>Descendez profondément et poussez sur les talons.</item>
+    </string-array>
+    <string name="ex_g11_2_name">Fentes marchées aux haltères</string>
+    <string name="ex_g11_2_muscle">Jambes &amp; Équilibre</string>
+    <string name="ex_g11_2_sets">3 x 20 pas</string>
+    <string name="ex_g11_2_cue">Buste droit, genoux à 90 degrés.</string>
+    <string name="ex_g11_2_breath">Expirez en vous redressant.</string>
+    <string name="ex_g11_2_mistake">Aligner les pieds sur une ligne étroite.</string>
+    <string-array name="ex_g11_2_steps">
+        <item>Faites un grand pas en avant, genou arrière près du sol.</item>
+        <item>Poussez sur le talon avant pour enchaîner le pas suivant.</item>
+    </string-array>
+    <string name="ex_g11_3_name">Leg extension</string>
+    <string name="ex_g11_3_muscle">Isolation quadriceps</string>
+    <string name="ex_g11_3_cue">Redescendez lentement pour garder la tension.</string>
+    <string name="ex_g11_3_breath">Expirez en tendant les jambes.</string>
+    <string name="ex_g11_3_mistake">Lancer la charge d\'un coup sec.</string>
+    <string-array name="ex_g11_3_steps">
+        <item>Placez le boudin juste au-dessus des chevilles.</item>
+        <item>Tendez complètement les jambes et contractez 1 seconde.</item>
+    </string-array>
+    <string name="ex_g12_1_name">Crunch à la poulie haute</string>
+    <string name="ex_g12_1_muscle">Haut &amp; milieu des abdos</string>
+    <string name="ex_g12_1_cue">Contractez les abdos, ne tirez pas avec les bras.</string>
+    <string name="ex_g12_1_breath">Expirez fort en contractant.</string>
+    <string name="ex_g12_1_mistake">Asseoir les hanches vers l\'arrière.</string>
+    <string-array name="ex_g12_1_steps">
+        <item>À genoux face à la poulie, corde près de la tête.</item>
+        <item>Gardez les hanches fixes et enroulez le buste vers les genoux.</item>
+    </string-array>
+    <string name="ex_g12_2_name">Relevé de buste décliné</string>
+    <string name="ex_g12_2_muscle">Abdominaux</string>
+    <string name="ex_g12_2_cue">Arrondissez légèrement le dos pour garder la tension.</string>
+    <string name="ex_g12_2_breath">Expirez en remontant.</string>
+    <string name="ex_g12_2_mistake">Tirer sur la nuque avec les mains.</string>
+    <string-array name="ex_g12_2_steps">
+        <item>Calez vos pieds sous les boudins du banc décliné.</item>
+        <item>Descendez et remontez sous contrôle.</item>
+    </string-array>
+    <string name="ex_g12_3_name">Pallof Press</string>
+    <string name="ex_g12_3_muscle">Obliques &amp; Anti-rotation</string>
+    <string name="ex_g12_3_sets">3 x 12/côté</string>
+    <string name="ex_g12_3_cue">Stabilise la colonne comme un roc.</string>
+    <string name="ex_g12_3_breath">Expirez en tendant les bras.</string>
+    <string name="ex_g12_3_mistake">Laisser les épaules tourner.</string>
+    <string-array name="ex_g12_3_steps">
+        <item>Placez-vous de profil à la poulie, poignée contre la poitrine.</item>
+        <item>Tendez les bras devant vous en résistant à la rotation.</item>
+    </string-array>
+    <string name="ex_gp1_1_name">Développé incliné à la Smith Machine</string>
+    <string name="ex_gp1_1_muscle">Haut des pectoraux</string>
+    <string name="ex_gp1_1_cue">Technique très sûre pour l\'hypertrophie du haut des pecs.</string>
+    <string name="ex_gp1_1_breath">Expirez en poussant.</string>
+    <string name="ex_gp1_1_mistake">Laisser les coudes partir trop en arrière.</string>
+    <string-array name="ex_gp1_1_steps">
+        <item>Sur un banc à 30°, alignez la barre sur le haut des pectoraux.</item>
+        <item>Descendez en 3 s, pause 1 s, poussez explosivement.</item>
+    </string-array>
+    <string name="ex_gp1_2_name">Superset Dips lestés + Écarté poulie</string>
+    <string name="ex_gp1_2_muscle">Pectoraux</string>
+    <string name="ex_gp1_2_cue">Les supersets doublent l\'afflux sanguin.</string>
+    <string name="ex_gp1_2_breath">Respirez de façon rythmée.</string>
+    <string name="ex_gp1_2_mistake">Prendre une pause avant le second exercice.</string>
+    <string-array name="ex_gp1_2_steps">
+        <item>Enchaînez immédiatement les écartés à la poulie après les dips.</item>
+        <item>Étirez et contractez pleinement les pectoraux.</item>
+    </string-array>
+    <string name="ex_gp1_3_name">Élévations latérales en drop set</string>
+    <string name="ex_gp1_3_muscle">Épaules</string>
+    <string name="ex_gp1_3_cue">Stimule au maximum le deltoïde latéral.</string>
+    <string name="ex_gp1_3_breath">Expirez en élevant.</string>
+    <string name="ex_gp1_3_mistake">Trop solliciter les trapèzes.</string>
+    <string-array name="ex_gp1_3_steps">
+        <item>Faites 12 reps, baissez la charge pour 10 reps, baissez encore pour 10 reps.</item>
+    </string-array>
+    <string name="ex_gp2_1_name">Tractions lestées</string>
+    <string name="ex_gp2_1_muscle">Largeur du dos</string>
+    <string name="ex_gp2_1_cue">Abaissez d\'abord les omoplates avant de tirer.</string>
+    <string name="ex_gp2_1_breath">Expirez en montant.</string>
+    <string name="ex_gp2_1_mistake">Donner des coups de pied.</string>
+    <string-array name="ex_gp2_1_steps">
+        <item>Suspendez-vous en prise large.</item>
+        <item>Tirez la poitrine vers la barre jusqu\'à passer le menton.</item>
+    </string-array>
+    <string name="ex_gp2_2_name">Rowing buste appuyé sur banc</string>
+    <string name="ex_gp2_2_muscle">Milieu du dos</string>
+    <string name="ex_gp2_2_cue">Isole l\'épaisseur du dos.</string>
+    <string name="ex_gp2_2_breath">Expirez en tirant.</string>
+    <string name="ex_gp2_2_mistake">Décoller la poitrine du banc.</string>
+    <string-array name="ex_gp2_2_steps">
+        <item>Appuyez la poitrine sur un banc incliné.</item>
+        <item>Tirez proprement sans solliciter les lombaires.</item>
+    </string-array>
+    <string name="ex_gp2_3_name">Curl pupitre + Marteau corde</string>
+    <string name="ex_gp2_3_muscle">Pic du biceps</string>
+    <string name="ex_gp2_3_cue">Développe les bras sous tension continue.</string>
+    <string name="ex_gp2_3_breath">Expirez en montant.</string>
+    <string name="ex_gp2_3_mistake">Verrouiller brusquement les coudes en bas.</string>
+    <string-array name="ex_gp2_3_steps">
+        <item>10 reps au pupitre puis enchaînez sans pause au marteau corde.</item>
+    </string-array>
+    <string name="ex_gp3_1_name">Squat avant</string>
+    <string name="ex_gp3_1_muscle">Quadriceps &amp; Gainage</string>
+    <string name="ex_gp3_1_cue">Si les coudes tombent, le buste bascule.</string>
+    <string name="ex_gp3_1_breath">Expirez en montant.</string>
+    <string name="ex_gp3_1_mistake">Forcer sur les poignets.</string>
+    <string-array name="ex_gp3_1_steps">
+        <item>Barre sur l\'avant des épaules, coudes hauts.</item>
+        <item>Descendez dos droit et remontez explosivement.</item>
+    </string-array>
+    <string name="ex_gp3_2_name">Squat bulgare</string>
+    <string name="ex_gp3_2_muscle">Fessiers &amp; Équilibre</string>
+    <string name="ex_gp3_2_sets">3 x 10/jambe</string>
+    <string name="ex_gp3_2_cue">Corrige les déséquilibres de force.</string>
+    <string name="ex_gp3_2_breath">Expirez en montant.</string>
+    <string name="ex_gp3_2_mistake">Trop pencher le buste en avant.</string>
+    <string-array name="ex_gp3_2_steps">
+        <item>Posez le pied arrière sur un banc.</item>
+        <item>Descendez sous contrôle et poussez avec la jambe avant.</item>
+    </string-array>
+    <string name="ex_gp3_3_name">Saut sur boîte</string>
+    <string name="ex_gp3_3_muscle">Puissance explosive</string>
+    <string name="ex_gp3_3_cue">Atterrissez en silence et en souplesse.</string>
+    <string name="ex_gp3_3_breath">Expirez au saut.</string>
+    <string name="ex_gp3_3_mistake">Sauter en arrière pour descendre (descendez en marchant).</string>
+    <string-array name="ex_gp3_3_steps">
+        <item>Adoptez une posture athlétique face à la boîte.</item>
+        <item>Balancez les bras et sautez souplement dessus.</item>
+    </string-array>
+    <string name="ex_gp4_1_name">Squat barre</string>
+    <string name="ex_gp4_1_muscle">Bas du corps</string>
+    <string name="ex_gp4_1_cue">Maintenez la pression abdominale.</string>
+    <string name="ex_gp4_1_breath">Expirez en montant.</string>
+    <string name="ex_gp4_1_mistake">Rentrer les genoux.</string>
+    <string-array name="ex_gp4_1_steps">
+        <item>Activez les grands groupes musculaires avec un squat profond et contrôlé.</item>
+    </string-array>
+    <string name="ex_gp4_2_name">Développé incliné barre</string>
+    <string name="ex_gp4_2_muscle">Haut des pectoraux</string>
+    <string name="ex_gp4_2_cue">Bloquez les omoplates sur le banc.</string>
+    <string name="ex_gp4_2_breath">Expirez en poussant.</string>
+    <string name="ex_gp4_2_mistake">Descendre la barre vers le cou.</string>
+    <string-array name="ex_gp4_2_steps">
+        <item>Descendez la barre juste sous les clavicules et poussez fort.</item>
+    </string-array>
+    <string name="ex_gp4_3_name">Rowing Pendlay</string>
+    <string name="ex_gp4_3_muscle">Dos explosif</string>
+    <string name="ex_gp4_3_cue">Développe épaisseur du dos et puissance.</string>
+    <string name="ex_gp4_3_breath">Expirez en tirant.</string>
+    <string name="ex_gp4_3_mistake">Se redresser avec le bas du dos.</string>
+    <string-array name="ex_gp4_3_steps">
+        <item>Dos parallèle au sol, tirez explosivement à chaque répétition depuis le sol.</item>
+    </string-array>
+    <string name="ex_gp4_4_name">Marche du fermier</string>
+    <string name="ex_gp4_4_muscle">Poigne &amp; Gainage</string>
+    <string name="ex_gp4_4_cue">Teste la stabilité globale du corps.</string>
+    <string name="ex_gp4_4_breath">Respirez régulièrement.</string>
+    <string name="ex_gp4_4_mistake">Osciller latéralement.</string>
+    <string-array name="ex_gp4_4_steps">
+        <item>Haltères lourds en main, épaules en arrière, marchez d\'un bon pas.</item>
+    </string-array>
+</resources>

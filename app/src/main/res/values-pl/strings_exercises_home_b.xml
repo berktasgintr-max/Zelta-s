@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h9_1_name">Przysiad z wyskokiem</string>
+    <string name="ex_h9_1_muscle">Nogi i Cardio</string>
+    <string name="ex_h9_1_sets">4 x 20 sek</string>
+    <string name="ex_h9_1_cue">Ląduj miękko bez blokowania kolan.</string>
+    <string name="ex_h9_1_breath">Wydech podczas wyskoku.</string>
+    <string name="ex_h9_1_mistake">Twarde lądowanie na piętach.</string>
+    <string-array name="ex_h9_1_steps">
+        <item>Zejdź do przysiadu i wyskocz eksplozywnie w górę.</item>
+        <item>Wyląduj miękko prosto w kolejny przysiad.</item>
+    </string-array>
+    <string name="ex_h9_2_name">Łyżwiarz (Skaters)</string>
+    <string name="ex_h9_2_muscle">Pośladki i Zwinność</string>
+    <string name="ex_h9_2_sets">4 x 20 sek</string>
+    <string name="ex_h9_2_cue">Wzmacnia pośladki boczne i równowagę.</string>
+    <string name="ex_h9_2_breath">Oddychaj rytmicznie.</string>
+    <string name="ex_h9_2_mistake">Prostowanie nóg i utrata niskiej pozycji.</string>
+    <string-array name="ex_h9_2_steps">
+        <item>Skacz na boki jak łyżwiarz szybki.</item>
+        <item>Zakładaj tylną stopę lekko za nogą postawną.</item>
+    </string-array>
+    <string name="ex_h9_3_name">Deska z dotykaniem barków</string>
+    <string name="ex_h9_3_muscle">Core i Barki</string>
+    <string name="ex_h9_3_sets">4 x 20 sek</string>
+    <string name="ex_h9_3_cue">Tułów musi być stabilny jak skała.</string>
+    <string name="ex_h9_3_breath">Oddychaj regularnie.</string>
+    <string name="ex_h9_3_mistake">Bujanie biodrami na boki.</string>
+    <string-array name="ex_h9_3_steps">
+        <item>Wysoka deska ze stopami szerzej niż barki.</item>
+        <item>Dotykaj naprzemiennie przeciwnego barku bez kołysania biodrami.</item>
+    </string-array>
+    <string name="ex_h10_1_name">Przysiad z krokiem w bok i wyciągnięciem</string>
+    <string name="ex_h10_1_muscle">Nogi i Barki</string>
+    <string name="ex_h10_1_cue">Spala dużo kalorii bez skakania i hałasu.</string>
+    <string name="ex_h10_1_breath">Wydech przy wyciągnięciu.</string>
+    <string name="ex_h10_1_mistake">Koślawienie kolan.</string>
+    <string-array name="ex_h10_1_steps">
+        <item>Zrób krok w bok do przysiadu, wstając wyciągnij ręce w górę.</item>
+        <item>Powtórz na drugą stronę.</item>
+    </string-array>
+    <string name="ex_h10_2_name">Gąsienica (Inchworm)</string>
+    <string name="ex_h10_2_muscle">Core i Elastyczność</string>
+    <string name="ex_h10_2_cue">Rozgrzewa tył ud i barki jednocześnie.</string>
+    <string name="ex_h10_2_breath">Wydech przy przejściu w przód.</string>
+    <string name="ex_h10_2_mistake">Zapadanie bioder w desce.</string>
+    <string-array name="ex_h10_2_steps">
+        <item>Skłoń się z dłońmi na ziemi i przejdź rękami do deski.</item>
+        <item>Wróć dłońmi do stóp i wstań.</item>
+    </string-array>
+    <string name="ex_h10_3_name">Walka z cieniem (Shadow Boxing)</string>
+    <string name="ex_h10_3_muscle">Ramiona i Cardio</string>
+    <string name="ex_h10_3_sets">3 x 45 sek</string>
+    <string name="ex_h10_3_cue">Świetne dla wytrzymałości górnych partii ciała.</string>
+    <string name="ex_h10_3_breath">Krótki wydech przy każdym ciosie.</string>
+    <string name="ex_h10_3_mistake">Spinać i podnosić barki.</string>
+    <string-array name="ex_h10_3_steps">
+        <item>Przyjmij gardę i zadawaj szybkie proste oraz sierpy.</item>
+        <item>Sprężynuj lekko na stopach.</item>
+    </string-array>
+    <string name="ex_h11_1_name">Aniołki przy ścianie</string>
+    <string name="ex_h11_1_muscle">Barki i Postawa</string>
+    <string name="ex_h11_1_cue">Trzymaj lędźwie blisko ściany.</string>
+    <string name="ex_h11_1_breath">Wydech przy przesuwaniu w górę.</string>
+    <string name="ex_h11_1_mistake">Odrywanie rąk od ściany.</string>
+    <string-array name="ex_h11_1_steps">
+        <item>Oprzyj plecy, pośladki i głowę o ścianę.</item>
+        <item>Przesuwaj ramiona po ścianie z pozycji W do Y.</item>
+    </string-array>
+    <string name="ex_h11_2_name">Wznosy Y-T-W leżąc na brzuchu</string>
+    <string name="ex_h11_2_muscle">Tył barków i Plecy</string>
+    <string name="ex_h11_2_sets">3 x 8/literę</string>
+    <string name="ex_h11_2_cue">Ściskaj łopatki podczas każdego powtórzenia.</string>
+    <string name="ex_h11_2_breath">Wydech przy unoszeniu.</string>
+    <string name="ex_h11_2_mistake">Szybkie machanie rękami.</string>
+    <string-array name="ex_h11_2_steps">
+        <item>Leżąc na brzuchu, unoś ramiona kolejno w kształt liter Y, T i W.</item>
+    </string-array>
+    <string name="ex_h11_3_name">Bird-Dog</string>
+    <string name="ex_h11_3_muscle">Lędźwie i Równowaga</string>
+    <string name="ex_h11_3_sets">3 x 10/stronę</string>
+    <string name="ex_h11_3_cue">Stabilizuje kręgosłup.</string>
+    <string name="ex_h11_3_breath">Wydech przy wyproście.</string>
+    <string name="ex_h11_3_mistake">Zbyt wysokie unoszenie nogi i wyginanie lędźwi.</string>
+    <string-array name="ex_h11_3_steps">
+        <item>W klęku podpartym wyprostuj prawą rękę w przód i lewą nogę w tył.</item>
+        <item>Przytrzymaj 2 sekundy i zmień stronę.</item>
+    </string-array>
+    <string name="ex_h12_1_name">Pozycja dziecka</string>
+    <string name="ex_h12_1_muscle">Plecy i Barki</string>
+    <string name="ex_h12_1_sets">3 x 45 sek</string>
+    <string name="ex_h12_1_cue">Wycisza układ nerwowy spokojnym oddechem.</string>
+    <string name="ex_h12_1_breath">Wdech 4 sek, wydech 6 sek.</string>
+    <string name="ex_h12_1_mistake">Napinanie barków zamiast rozluźnienia.</string>
+    <string-array name="ex_h12_1_steps">
+        <item>Usiądź na piętach, wyciągnij ręce w przód, oprzyj czoło na macie.</item>
+        <item>Poczuj rozluźnienie pleców z każdym oddechem.</item>
+    </string-array>
+    <string name="ex_h12_2_name">Pozycja gołębia</string>
+    <string name="ex_h12_2_muscle">Biodra i Gruszkowaty</string>
+    <string name="ex_h12_2_sets">2 x 45 sek/stronę</string>
+    <string name="ex_h12_2_cue">Uwalnia głębokie napięcie w biodrach.</string>
+    <string name="ex_h12_2_breath">Rozluźniaj się na głębokim wydechu.</string>
+    <string name="ex_h12_2_mistake">Zbyt duży kąt przy bólu kolana.</string>
+    <string-array name="ex_h12_2_steps">
+        <item>Ugnij jedną nogę z przodu, drugą wyprostuj w tył.</item>
+        <item>Opuść tułów łagodnie do przodu.</item>
+    </string-array>
+    <string name="ex_h12_3_name">Rozciąganie dwugłowych uda z ręcznikiem</string>
+    <string name="ex_h12_3_muscle">Dwugłowe uda</string>
+    <string name="ex_h12_3_sets">2 x 45 sek/stronę</string>
+    <string name="ex_h12_3_cue">Elastyczny tył uda zmniejsza ból lędźwi.</string>
+    <string name="ex_h12_3_breath">Pogłębiaj rozciąganie na wydechu.</string>
+    <string name="ex_h12_3_mistake">Przeciążanie stawu kolanowego.</string>
+    <string-array name="ex_h12_3_steps">
+        <item>Leżąc na plecach, unieś nogę i delikatnie przyciągaj ją ręcznikiem.</item>
+    </string-array>
+    <string name="ex_hp1_1_name">Przysiad 1.5 powtórzenia</string>
+    <string name="ex_hp1_1_muscle">Nogi i Pośladki</string>
+    <string name="ex_hp1_1_cue">Sekret rozwoju nóg bez sprzętu.</string>
+    <string name="ex_hp1_1_breath">Wydech przy pełnym wyproście.</string>
+    <string name="ex_hp1_1_mistake">Szybkie odbijanie na dole.</string>
+    <string-array name="ex_hp1_1_steps">
+        <item>Zejdź w dół, podnieś się do połowy, zejdź na dół i wstań całkowicie.</item>
+    </string-array>
+    <string name="ex_hp1_2_name">Pompki łucznika (Archer)</string>
+    <string name="ex_hp1_2_muscle">Klatka i Siła jednorącz</string>
+    <string name="ex_hp1_2_sets">4 x 8/stronę</string>
+    <string name="ex_hp1_2_cue">Najlepszy krok w stronę pompek na jednej ręce.</string>
+    <string name="ex_hp1_2_breath">Wydech przy wypychaniu.</string>
+    <string name="ex_hp1_2_mistake">Skręcanie bioder.</string>
+    <string-array name="ex_hp1_2_steps">
+        <item>Szeroki rozstaw dłoni, opuszczaj się do jednej ręki, prostując drugą.</item>
+    </string-array>
+    <string name="ex_hp1_3_name">Podciąganie australijskie pod stołem</string>
+    <string name="ex_hp1_3_muscle">Plecy</string>
+    <string name="ex_hp1_3_cue">Najlepsze domowe ćwiczenie na grubość pleców!</string>
+    <string name="ex_hp1_3_breath">Wydech przy podciąganiu.</string>
+    <string name="ex_hp1_3_mistake">Opuszczanie bioder.</string>
+    <string-array name="ex_hp1_3_steps">
+        <item>Połóż się pod solidnym stołem, chwyć krawędź i przyciągnij klatkę.</item>
+    </string-array>
+    <string name="ex_hp2_1_name">Burpee ze skokiem w dal</string>
+    <string name="ex_hp2_1_muscle">Całe ciało</string>
+    <string name="ex_hp2_1_cue">Łączy moc eksplozywną ze szczytowym tętnem.</string>
+    <string name="ex_hp2_1_breath">Wydech w wyskoku.</string>
+    <string name="ex_hp2_1_mistake">Twarde lądowanie na prostych nogach.</string>
+    <string-array name="ex_hp2_1_steps">
+        <item>Wykonaj burpee i skocz daleko w przód zamiast w górę.</item>
+    </string-array>
+    <string name="ex_hp2_2_name">Wyskoki ze zmianą nóg w wykroku</string>
+    <string name="ex_hp2_2_muscle">Nogi i Kondycja</string>
+    <string name="ex_hp2_2_cue">Utrzymuj prosty tułów.</string>
+    <string name="ex_hp2_2_breath">Wydech przy każdej zmianie.</string>
+    <string name="ex_hp2_2_mistake">Uderzanie kolanem o podłogę.</string>
+    <string-array name="ex_hp2_2_steps">
+        <item>Wyskocz z wykroku i zmień nogi w powietrzu.</item>
+    </string-array>
+    <string name="ex_hp2_3_name">Przejścia z łokci do wysokiej deski</string>
+    <string name="ex_hp2_3_muscle">Core i Barki</string>
+    <string name="ex_hp2_3_cue">Zmieniaj rękę prowadzącą w każdej serii.</string>
+    <string name="ex_hp2_3_breath">Wydech przy wyjściu w górę.</string>
+    <string name="ex_hp2_3_mistake">Mocne kołysanie biodrami.</string>
+    <string-array name="ex_hp2_3_steps">
+        <item>Przechodź z deski na przedramionach do wysokiej deski i z powrotem.</item>
+    </string-array>
+    <string name="ex_hp3_1_name">Pompki Pseudo Planche</string>
+    <string name="ex_hp3_1_muscle">Barki i Klatka</string>
+    <string name="ex_hp3_1_cue">Buduje zaawansowaną siłę barków.</string>
+    <string name="ex_hp3_1_breath">Wydech przy wypychaniu.</string>
+    <string name="ex_hp3_1_mistake">Zapadanie się odcinka lędźwiowego.</string>
+    <string-array name="ex_hp3_1_steps">
+        <item>Palce na boki/w tył, pochyl barki przed dłonie i wykonaj pompkę.</item>
+    </string-array>
+    <string name="ex_hp3_2_name">Tuck L-Sit (poziomka skulna)</string>
+    <string name="ex_hp3_2_muscle">Core i Triceps</string>
+    <string name="ex_hp3_2_sets">4 x 20 sek</string>
+    <string name="ex_hp3_2_cue">Odpychaj barki daleko od uszu.</string>
+    <string name="ex_hp3_2_breath">Oddychaj równomiernie zamiast krótkich wdechów.</string>
+    <string name="ex_hp3_2_mistake">Uginanie łokci.</string>
+    <string-array name="ex_hp3_2_steps">
+        <item>Usiądź z dłońmi przy biodrach, odepchnij się i unieś kolana do klatki.</item>
+    </string-array>
+    <string name="ex_hp3_3_name">Eksplozywne pompki z klaśnięciem</string>
+    <string name="ex_hp3_3_muscle">Moc eksplozywna</string>
+    <string name="ex_hp3_3_cue">Aktywuje szybkie włókna mięśniowe.</string>
+    <string name="ex_hp3_3_breath">Wydech przy wybiciu.</string>
+    <string name="ex_hp3_3_mistake">Kontynuowanie mimo dużego zmęczenia.</string>
+    <string-array name="ex_hp3_3_steps">
+        <item>Odepchnij się tak mocno, by oderwać dłonie od ziemi (opcjonalnie klaśnij).</item>
+    </string-array>
+    <string name="ex_hp4_1_name">Hollow Body (kołyska)</string>
+    <string name="ex_hp4_1_muscle">Cały core</string>
+    <string name="ex_hp4_1_sets">4 x 30 sek</string>
+    <string name="ex_hp4_1_cue">Lekko ugnij kolana, jeśli lędźwie odrywają się od ziemi.</string>
+    <string name="ex_hp4_1_breath">Oddychaj rytmicznie.</string>
+    <string name="ex_hp4_1_mistake">Zostawianie luki pod lędźwiami.</string>
+    <string-array name="ex_hp4_1_steps">
+        <item>Na plecach dociśnij mocno lędźwie do maty.</item>
+        <item>Unieś barki i proste nogi lekko nad ziemię.</item>
+    </string-array>
+    <string name="ex_hp4_2_name">Scyzoryki (V-Up)</string>
+    <string name="ex_hp4_2_muscle">Góra i dół brzucha</string>
+    <string name="ex_hp4_2_cue">Utwórz wyraźną literę V na górze.</string>
+    <string name="ex_hp4_2_breath">Wydech przy składaniu.</string>
+    <string name="ex_hp4_2_mistake">Ciężkie opadanie na podłogę.</string>
+    <string-array name="ex_hp4_2_steps">
+        <item>Z leżenia na płasko unieś jednocześnie ręce i nogi w górę.</item>
+    </string-array>
+    <string name="ex_hp4_3_name">Opuszczanie w Dragon Flag</string>
+    <string name="ex_hp4_3_muscle">Zaawansowany brzuch</string>
+    <string name="ex_hp4_3_cue">Jedno z najbardziej wymagających ćwiczeń na brzuch.</string>
+    <string name="ex_hp4_3_breath">Powolny wdech przy opuszczaniu.</string>
+    <string name="ex_hp4_3_mistake">Załamywanie sylwetki w biodrach.</string>
+    <string-array name="ex_hp4_3_steps">
+        <item>Chwyć stabilny punkt za głową, unieś ciało na barki i powoli opuszczaj w linii prostej.</item>
+    </string-array>
+</resources>

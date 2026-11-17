@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Пассивный вис на перекладине</string>
+    <string name="ex_y1_1_muscle">Декомпрессия позвоночника</string>
+    <string name="ex_y1_1_sets">3 x 30 сек</string>
+    <string name="ex_y1_1_cue">Самый естественный способ разгрузить межпозвоночные диски в период роста.</string>
+    <string name="ex_y1_1_breath">Дышите глубоко через нос.</string>
+    <string name="ex_y1_1_mistake">Задерживать дыхание и зажимать плечи.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Возьмитесь за турник прямыми руками и оторвите ноги от пола.</item>
+        <item>Расслабьте плечи и поясницу, позволяя силе тяжести мягко вытянуть позвоночник.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Растяжка «Кобра»</string>
+    <string name="ex_y1_2_muscle">Позвоночник и грудь</string>
+    <string name="ex_y1_2_sets">3 x 30 сек</string>
+    <string name="ex_y1_2_cue">Отлично исправляет сутулую осанку.</string>
+    <string name="ex_y1_2_breath">Глубоко вдохните в верхней точке.</string>
+    <string name="ex_y1_2_mistake">Сильно прогибаться в пояснице до боли.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Лягте на живот, ладони поставьте под плечами.</item>
+        <item>Не отрывая таз от коврика, поднимите грудь вверх и посмотрите вперёд.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Вытяжение вверх и наклон в сторону</string>
+    <string name="ex_y1_3_muscle">Боковая линия и рост</string>
+    <string name="ex_y1_3_sets">3 x 10/сторону</string>
+    <string name="ex_y1_3_cue">Формирует привычку держать спину ровно.</string>
+    <string name="ex_y1_3_breath">Вдохните во время вытяжения вверх.</string>
+    <string name="ex_y1_3_mistake">Сильно прогибать поясницу назад.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Сцепите пальцы и потянитесь максимально вверх к потолку.</item>
+        <item>Поднимитесь на носки на 5 секунд, затем плавно наклонитесь в стороны.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Прыжки «Пого» на стопах</string>
+    <string name="ex_y2_1_muscle">Сухожилия и прыгучесть</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Укрепляет ахиллово сухожилие как мощную пружину.</string>
+    <string name="ex_y2_1_breath">Дышите ритмично.</string>
+    <string name="ex_y2_1_mistake">Бить пятками об пол.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Слегка согните колени и быстро прыгайте за счёт голеностопа.</item>
+        <item>Отталкивайтесь вверх мгновенно при касании, как пружина.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Прыжок с подтягиванием коленей</string>
+    <string name="ex_y2_2_muscle">Взрывная сила</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Напрямую увеличивает высоту вертикального прыжка.</string>
+    <string name="ex_y2_2_breath">Выдохните на мощном толчке вверх.</string>
+    <string name="ex_y2_2_mistake">Приземляться на прямые жёсткие колени.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Максимально выпрыгните вверх, подтягивая колени к груди.</item>
+        <item>Мягко приземлитесь на согнутые ноги без удара.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Подъём на носок на одной ноге</string>
+    <string name="ex_y2_3_muscle">Сила икр</string>
+    <string name="ex_y2_3_sets">3 x 15/ногу</string>
+    <string name="ex_y2_3_cue">Усиливает финальный толчок каждого прыжка.</string>
+    <string name="ex_y2_3_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_y2_3_mistake">Пружинить слишком быстро без паузы.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Встаньте одной стопой на край ступеньки и опустите пятку вниз.</item>
+        <item>Плавно поднимитесь на носок до максимальной высоты.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Темповые приседания с весом тела</string>
+    <string name="ex_y3_1_muscle">Ноги и техника</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Ставит идеальную технику приседа без нагрузки на спину.</string>
+    <string name="ex_y3_1_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_y3_1_mistake">Сводить колени внутрь.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Медленно опускайтесь 3 секунды, удерживая грудь ровно.</item>
+        <item>Задержитесь внизу на 1 секунду и чётко поднимитесь.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Отжимания от возвышения</string>
+    <string name="ex_y3_2_muscle">Грудь и плечи</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Надёжно ставит правильную технику отжиманий.</string>
+    <string name="ex_y3_2_breath">Выдыхайте при жиме вверх.</string>
+    <string name="ex_y3_2_mistake">Провисать тазом вниз.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Упритесь ладонями в край прочного стола или скамьи.</item>
+        <item>Удерживая тело прямо, опустите грудь к краю и выжмите себя вверх.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Австралийские подтягивания</string>
+    <string name="ex_y3_3_muscle">Спина и руки</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">Лучшая безопасная подводка к полноценным подтягиваниям.</string>
+    <string name="ex_y3_3_breath">Выдыхайте при подтягивании.</string>
+    <string name="ex_y3_3_mistake">Тянуться к турнику подбородком, выдвигая шею.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Ухватитесь за низкую перекладину снизу, выпрямив тело в струну.</item>
+        <item>Подтяните грудь к перекладине и плавно опуститесь.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Выравнивание шеи (Chin Tuck)</string>
+    <string name="ex_y4_1_muscle">Шея и осанка</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Убирает «компьютерную шею».</string>
+    <string name="ex_y4_1_breath">Дышите спокойно.</string>
+    <string name="ex_y4_1_mistake">Опускать подбородок вниз к груди.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Сядьте прямо или прижмитесь спиной к стене.</item>
+        <item>Не наклоняя голову, сдвиньте подбородок строго назад на 3 секунды.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Растяжка груди в дверном проёме</string>
+    <string name="ex_y4_2_muscle">Раскрытие груди</string>
+    <string name="ex_y4_2_sets">3 x 30 сек</string>
+    <string name="ex_y4_2_cue">Разворачивает округлые плечи назад.</string>
+    <string name="ex_y4_2_breath">Дышите глубоко и ровно.</string>
+    <string name="ex_y4_2_mistake">Слишком сильно прогибать поясницу.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Упритесь предплечьями под 90° в косяки дверного проёма.</item>
+        <item>Сделайте небольшой шаг вперёд, мягко раскрывая грудную клетку.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Лопаточные отжимания</string>
+    <string name="ex_y4_3_muscle">Контроль лопаток</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Укрепляет плечи и держит спину прямо.</string>
+    <string name="ex_y4_3_breath">Выдыхайте при выталкивании лопаток.</string>
+    <string name="ex_y4_3_mistake">Сгибать локти.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>В планке на прямых руках сводите и разводите только лопатки.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Быстрые приставные шаги</string>
+    <string name="ex_y5_1_muscle">Боковая ловкость</string>
+    <string name="ex_y5_1_sets">4 x 20 сек</string>
+    <string name="ex_y5_1_cue">Держите центр тяжести низко.</string>
+    <string name="ex_y5_1_breath">Дышите ритмично.</string>
+    <string name="ex_y5_1_mistake">Перекрещивать ноги.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>В полуприседе быстро делайте 3 приставных шага вправо и 3 влево.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Баланс на одной ноге с вытяжением</string>
+    <string name="ex_y5_2_muscle">Голеностоп и баланс</string>
+    <string name="ex_y5_2_sets">3 x 8/ногу</string>
+    <string name="ex_y5_2_cue">Отличная профилактика вывихов голеностопа.</string>
+    <string name="ex_y5_2_breath">Сфокусируйтесь и дышите медленно.</string>
+    <string name="ex_y5_2_mistake">Заваливать опорное колено внутрь.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Стойте на одной ноге, вытягивая вторую вперёд, вбок и назад без касания пола.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Медвежья походка (Bear Crawl)</string>
+    <string name="ex_y5_3_muscle">Общая координация</string>
+    <string name="ex_y5_3_sets">3 x 20 сек</string>
+    <string name="ex_y5_3_cue">Держите спину ровной, как стол.</string>
+    <string name="ex_y5_3_breath">Дышите ровно на каждый шаг.</string>
+    <string name="ex_y5_3_mistake">Задирать таз высоко вверх.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>На четвереньках с коленями в 3 см от пола шагайте вперёд разноимённой рукой и ногой.</item>
+    </string-array>
+    <string name="ex_y6_1_name">«Мёртвый жук» (Dead Bug)</string>
+    <string name="ex_y6_1_muscle">Глубокий кор</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Укрепляет кор без нагрузки на поясницу.</string>
+    <string name="ex_y6_1_breath">Выдыхайте при вытяжении.</string>
+    <string name="ex_y6_1_mistake">Отрывать поясницу от пола.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Лягте на спину, руки вверх, колени согнуты под 90°.</item>
+        <item>Прижмите поясницу к полу и плавно опускайте разноимённые руку и ногу.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Планка на предплечьях</string>
+    <string name="ex_y6_2_muscle">Выносливость кора</string>
+    <string name="ex_y6_2_sets">3 x 35 сек</string>
+    <string name="ex_y6_2_cue">Безупречная форма важнее времени удержания.</string>
+    <string name="ex_y6_2_breath">Дышите равномерно.</string>
+    <string name="ex_y6_2_mistake">Опускать таз вниз.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Локти точно под плечами, удерживайте ровную линию от макушки до пяток.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Ягодичный мост с маршем ногами</string>
+    <string name="ex_y6_3_muscle">Ягодицы и стабильность</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Удерживайте таз строго на одном уровне.</string>
+    <string name="ex_y6_3_breath">Выдыхайте на каждом подъёме колена.</string>
+    <string name="ex_y6_3_mistake">Перекашивать таз набок.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Удерживайте верхнюю точку ягодичного моста, поочерёдно поднимая колени.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Прыжки со скакалкой (или без неё)</string>
+    <string name="ex_y7_1_muscle">Выносливость и ритм</string>
+    <string name="ex_y7_1_sets">4 x 45 сек</string>
+    <string name="ex_y7_1_cue">Незаменимо для координации и сердца.</string>
+    <string name="ex_y7_1_breath">Дышите ровно через нос.</string>
+    <string name="ex_y7_1_mistake">Прыгать слишком высоко.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Выполняйте лёгкие ритмичные прыжки на передней части стоп.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Попеременные выпады назад</string>
+    <string name="ex_y7_2_muscle">Выносливость ног</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Самый щадящий для коленей вариант выпадов.</string>
+    <string name="ex_y7_2_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_y7_2_mistake">Заваливание переднего колена внутрь.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Шагните назад с прямой спиной и вернитесь в исходную стойку.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Квадратное дыхание для восстановления</string>
+    <string name="ex_y7_3_muscle">Восстановление</string>
+    <string name="ex_y7_3_sets">3 круга</string>
+    <string name="ex_y7_3_cue">Быстро снижает пульс и усиливает концентрацию.</string>
+    <string name="ex_y7_3_breath">Дышите глубоко диафрагмой.</string>
+    <string name="ex_y7_3_mistake">Поднимать плечи к ушам на вдохе.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>Вдох 4 сек, задержка 4 сек, выдох 4 сек, пауза 4 сек.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Вис + лопаточное подтягивание</string>
+    <string name="ex_yp1_1_muscle">Позвоночник и спина</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 сек</string>
+    <string name="ex_yp1_1_cue">Даёт и осанку, и силу для подтягиваний.</string>
+    <string name="ex_yp1_1_breath">Выдыхайте на подтягивании лопаток.</string>
+    <string name="ex_yp1_1_mistake">Раскачиваться на турнике.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>В висе на прямых руках опускайте лопатки вниз, не сгибая локти, затем свободно висите.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Спрыгивание и взрывной прыжок</string>
+    <string name="ex_yp1_2_muscle">Элитная прыгучесть</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Развивает реактивную взрывную мощь.</string>
+    <string name="ex_yp1_2_breath">Выдыхайте в момент выпрыгивания.</string>
+    <string name="ex_yp1_2_mistake">Жёсткое приземление на прямые ноги.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Мягко сойдите с невысокой тумбы и мгновенно выпрыгните вверх.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Темповые отжимания + планка</string>
+    <string name="ex_yp1_3_muscle">Верх тела и кор</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 сек</string>
+    <string name="ex_yp1_3_cue">Безопасно укрепляет верх тела в подростковом возрасте.</string>
+    <string name="ex_yp1_3_breath">Дышите ровно.</string>
+    <string name="ex_yp1_3_mistake">Терять ровную линию тела при усталости.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Сделайте 10 контролируемых отжиманий и сразу держите планку 30 секунд.</item>
+    </string-array>
+</resources>

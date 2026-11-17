@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Supino Reto com Barra</string>
+    <string name="ex_g1_1_muscle">Peito</string>
+    <string name="ex_g1_1_cue">Mantenha os cotovelos a 45° do tronco e os punhos firmes.</string>
+    <string name="ex_g1_1_breath">Inspire descendo e expire forte ao empurrar.</string>
+    <string name="ex_g1_1_mistake">Quicar a barra no peito ou levantar o quadril do banco.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Deite no banco com os pés bem firmes no chão.</item>
+        <item>Segure a barra um pouco além da largura dos ombros e encaixe as escápulas.</item>
+        <item>Desça a barra com controle até o meio-baixo do peitoral.</item>
+        <item>Empurre forte para cima contraindo o peito.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Supino Inclinado com Halteres</string>
+    <string name="ex_g1_2_muscle">Peito Superior</string>
+    <string name="ex_g1_2_cue">Não bata os halteres no topo; mantenha a tensão contínua.</string>
+    <string name="ex_g1_2_breath">Inspire descendo, expire subindo.</string>
+    <string name="ex_g1_2_mistake">Inclinar acima de 45° jogando a carga nos ombros.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Ajuste o banco em 30 graus.</item>
+        <item>Eleve os halteres acima dos ombros.</item>
+        <item>Desça controlado abrindo os cotovelos até o peito superior.</item>
+        <item>Empurre contraindo o peito superior no topo.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Desenvolvimento de Ombros com Halteres</string>
+    <string name="ex_g1_3_muscle">Ombros</string>
+    <string name="ex_g1_3_cue">Evite arquear demais a lombar; mantenha as costelas alinhadas.</string>
+    <string name="ex_g1_3_breath">Expire subindo, inspire descendo.</string>
+    <string name="ex_g1_3_mistake">Empurrar os halteres muito à frente da cabeça.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Sente-se ereto com abdômen firme.</item>
+        <item>Halteres na altura das orelhas, palmas para frente.</item>
+        <item>Empurre controlado acima da cabeça.</item>
+        <item>Desça devagar de volta até as orelhas.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Tríceps Corda na Polia</string>
+    <string name="ex_g1_4_muscle">Tríceps</string>
+    <string name="ex_g1_4_cue">Apenas o cotovelo se move; ombros ficam fixos.</string>
+    <string name="ex_g1_4_breath">Expire ao empurrar para baixo.</string>
+    <string name="ex_g1_4_mistake">Inclinar o corpo para empurrar com o peso.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Segure a corda na altura do peito.</item>
+        <item>Trave os cotovelos junto às costelas.</item>
+        <item>Estenda totalmente para baixo abrindo as pontas da corda.</item>
+        <item>Retorne controlado sem soltar os cotovelos.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Puxada Frontal na Polia</string>
+    <string name="ex_g2_1_muscle">Dorsais / Costas</string>
+    <string name="ex_g2_1_cue">Puxe pelos cotovelos em vez das mãos.</string>
+    <string name="ex_g2_1_breath">Expire puxando, inspire subindo.</string>
+    <string name="ex_g2_1_mistake">Jogar o tronco para trás buscando embalo.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Pegue largo na barra e trave os joelhos sob o apoio.</item>
+        <item>Eleve levemente o peito.</item>
+        <item>Puxe os cotovelos para baixo e trás até o topo do peito.</item>
+        <item>Estenda os braços acima com controle.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Remada Sentada no Cabo</string>
+    <string name="ex_g2_2_muscle">Meio das Costas</string>
+    <string name="ex_g2_2_cue">Mantenha os ombros baixos, longe das orelhas.</string>
+    <string name="ex_g2_2_breath">Expire ao puxar.</string>
+    <string name="ex_g2_2_mistake">Arredondar a coluna para frente.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Apoie os pés com joelhos levemente dobrados.</item>
+        <item>Coluna ereta, puxe a pegada até o abdômen.</item>
+        <item>Contraia as escápulas por 1 segundo.</item>
+        <item>Estenda à frente com controle.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull na Polia</string>
+    <string name="ex_g2_3_muscle">Deltóide Post. e Postura</string>
+    <string name="ex_g2_3_cue">Exercício protetor essencial para postura ereta.</string>
+    <string name="ex_g2_3_breath">Expire ao puxar.</string>
+    <string name="ex_g2_3_mistake">Colocar carga alta e puxar com a lombar.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Ajuste a polia na altura dos olhos.</item>
+        <item>Puxe a corda em direção à testa abrindo os cotovelos.</item>
+        <item>Faça rotação externa no pico contraindo os posteriores de ombro.</item>
+        <item>Retorne devagar.</item>
+    </string-array>
+    <string name="ex_g2_4_name">Rosca Direta Barra W</string>
+    <string name="ex_g2_4_muscle">Bíceps</string>
+    <string name="ex_g2_4_cue">Punhos neutros, sem dobrar para dentro.</string>
+    <string name="ex_g2_4_breath">Expire subindo, inspire descendo.</string>
+    <string name="ex_g2_4_mistake">Balançar a lombar para jogar o peso.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>Segure a barra W na largura dos ombros.</item>
+        <item>Trave os cotovelos junto ao tronco.</item>
+        <item>Suba até a altura dos ombros e aperte 1 s.</item>
+        <item>Desça devagar em 3 segundos.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Agachamento Livre com Barra</string>
+    <string name="ex_g3_1_muscle">Pernas e Glúteos</string>
+    <string name="ex_g3_1_cue">Alinhe os joelhos com os dedos dos pés sem entrar.</string>
+    <string name="ex_g3_1_breath">Inspire descendo, expire subindo.</string>
+    <string name="ex_g3_1_mistake">Tirar os calcanhares do chão ou curvar a lombar.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Apoie a barra no trapézio, pés na largura dos ombros.</item>
+        <item>Inspire e trave bem o abdômen.</item>
+        <item>Desça o quadril para trás e para baixo até o paralelo.</item>
+        <item>Empurre o chão pelos calcanhares para subir.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Stiff / Terra Romeno</string>
+    <string name="ex_g3_2_muscle">Posteriores e Glúteos</string>
+    <string name="ex_g3_2_cue">É uma dobradiça de quadril, não dobra lombar.</string>
+    <string name="ex_g3_2_breath">Inspire descendo, expire subindo.</string>
+    <string name="ex_g3_2_mistake">Afastar a barra das pernas e curvar as costas.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Barra à frente do quadril, joelhos levemente destravados.</item>
+        <item>Com a coluna reta, empurre o quadril para trás deslizando a barra pelas pernas.</item>
+        <item>Ao sentir alongar o posterior, suba contraindo os glúteos.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Leg Press</string>
+    <string name="ex_g3_3_muscle">Quadríceps</string>
+    <string name="ex_g3_3_cue">Não desça a ponto de tirar os glúteos do banco.</string>
+    <string name="ex_g3_3_breath">Expire ao empurrar.</string>
+    <string name="ex_g3_3_mistake">Travar os joelhos bruscamente no topo.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Cole costas e glúteos no encosto.</item>
+        <item>Pés na largura dos ombros na plataforma.</item>
+        <item>Desça os joelhos em direção ao peito com controle.</item>
+        <item>Empurre sem travar os joelhos no topo.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Panturrilha em Pé</string>
+    <string name="ex_g3_4_muscle">Panturrilhas</string>
+    <string name="ex_g3_4_cue">Trabalhe em ritmo controlado sem quicar.</string>
+    <string name="ex_g3_4_breath">Expire ao subir.</string>
+    <string name="ex_g3_4_mistake">Quicar rápido sobrecarregando o tendão.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Pontas dos pés na borda de um degrau.</item>
+        <item>Desça bem os calcanhares alongando.</item>
+        <item>Suba ao máximo nas pontas e segure 1 s.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Agachamento Goblet</string>
+    <string name="ex_g4_1_muscle">Pernas e Core</string>
+    <string name="ex_g4_1_cue">Peito aberto à frente sem tombar.</string>
+    <string name="ex_g4_1_breath">Inspire descendo, expire subindo.</string>
+    <string name="ex_g4_1_mistake">Afastar o halter do tronco.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Segure um halter na vertical junto ao peito.</item>
+        <item>Agache com o tronco bem ereto.</item>
+        <item>Quando os cotovelos tocarem a parte interna dos joelhos, suba.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Supino na Máquina</string>
+    <string name="ex_g4_2_muscle">Peito</string>
+    <string name="ex_g4_2_cue">Não enrole os ombros para frente; peito aberto.</string>
+    <string name="ex_g4_2_breath">Expire ao empurrar.</string>
+    <string name="ex_g4_2_mistake">Deixar as placas baterem no final.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Ajuste o banco para alinhar as alças ao meio do peito.</item>
+        <item>Apoie as costas e empurre à frente.</item>
+        <item>Retorne devagar ao início.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Remada na Máquina</string>
+    <string name="ex_g4_3_muscle">Costas</string>
+    <string name="ex_g4_3_cue">Não encolha os ombros para o pescoço.</string>
+    <string name="ex_g4_3_breath">Expire ao puxar.</string>
+    <string name="ex_g4_3_mistake">Fazer meias repetições.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Apoie o peito no encosto e segure as alças.</item>
+        <item>Puxe os cotovelos atrás contraindo as costas.</item>
+        <item>Estenda à frente controlado.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Prancha</string>
+    <string name="ex_g4_4_muscle">Abdômen e Core</string>
+    <string name="ex_g4_4_sets">3 x 40 s</string>
+    <string name="ex_g4_4_cue">Continue respirando sem travar.</string>
+    <string name="ex_g4_4_breath">Inspire pelo nariz e expire pela boca.</string>
+    <string name="ex_g4_4_mistake">Subir demais o quadril ou afundar a lombar.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Apoie nos antebraços.</item>
+        <item>Forme uma linha reta da cabeça aos calcanhares.</item>
+        <item>Trave abdômen e glúteos até completar o tempo.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Supino Reto com Halteres</string>
+    <string name="ex_g5_1_muscle">Peito</string>
+    <string name="ex_g5_1_cue">Pausa de 1 s embaixo aumenta a força.</string>
+    <string name="ex_g5_1_breath">Expire ao empurrar.</string>
+    <string name="ex_g5_1_mistake">Abrir os cotovelos a 90 graus.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Leve os halteres ao peito usando os joelhos.</item>
+        <item>Empurre para cima e desça controlado.</item>
+    </string-array>
+    <string name="ex_g5_2_name">Remada Unilateral (Serrote)</string>
+    <string name="ex_g5_2_muscle">Costas</string>
+    <string name="ex_g5_2_sets">4 x 10/braço</string>
+    <string name="ex_g5_2_cue">Puxe pelas costas sem girar o tronco.</string>
+    <string name="ex_g5_2_breath">Expire ao puxar.</string>
+    <string name="ex_g5_2_mistake">Puxar o halter em direção ao ombro.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Apoie mão e joelho no banco com coluna reta.</item>
+        <item>Puxe o halter em direção ao bolso do quadril.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Elevação Lateral</string>
+    <string name="ex_g5_3_muscle">Ombro Lateral</string>
+    <string name="ex_g5_3_cue">Mantenha o dedo mindinho levemente acima.</string>
+    <string name="ex_g5_3_breath">Expire ao elevar.</string>
+    <string name="ex_g5_3_mistake">Dar impulso com o corpo.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Halteres ao lado do corpo, cotovelos leves.</item>
+        <item>Eleve os braços lateralmente até os ombros.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Rosca Martelo</string>
+    <string name="ex_g5_4_muscle">Bíceps e Antebraço</string>
+    <string name="ex_g5_4_cue">Pegada excelente para espessura do braço.</string>
+    <string name="ex_g5_4_breath">Expire ao subir.</string>
+    <string name="ex_g5_4_mistake">Projetar os ombros à frente.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Segure os halteres com as palmas voltadas uma para a outra.</item>
+        <item>Trave os cotovelos e suba alternando.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Desenvolvimento Arnold</string>
+    <string name="ex_g6_1_muscle">Ombro Completo</string>
+    <string name="ex_g6_1_cue">Ativa deltóide anterior e lateral juntos.</string>
+    <string name="ex_g6_1_breath">Expire ao empurrar.</string>
+    <string name="ex_g6_1_mistake">Arquear demais a lombar.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Comece com palmas voltadas para o rosto.</item>
+        <item>Gire os punhos para fora ao empurrar acima.</item>
+        <item>Inverta o movimento na descida.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Rosca Inclinada com Halteres</string>
+    <string name="ex_g6_2_muscle">Cabeça Longa Bíceps</string>
+    <string name="ex_g6_2_cue">Cotovelos fixos um pouco atrás do tronco.</string>
+    <string name="ex_g6_2_breath">Expire ao subir.</string>
+    <string name="ex_g6_2_mistake">Jogar os cotovelos para frente.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Encoste em um banco inclinado a 45°.</item>
+        <item>Deixe os braços soltos e flexione só pelo cotovelo.</item>
+    </string-array>
+    <string name="ex_g6_3_name">Tríceps Testa (Barra W)</string>
+    <string name="ex_g6_3_muscle">Tríceps</string>
+    <string name="ex_g6_3_cue">Não deixe os cotovelos abrirem para fora.</string>
+    <string name="ex_g6_3_breath">Expire ao estender.</string>
+    <string name="ex_g6_3_mistake">Usar carga excessiva machucando cotovelos.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Deitado, barra na vertical sobre os olhos.</item>
+        <item>Dobre só os cotovelos atrás da testa e estenda.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Elevação Lateral na Polia</string>
+    <string name="ex_g6_4_muscle">Ombro Lateral</string>
+    <string name="ex_g6_4_cue">Mantém tensão contínua desde o início.</string>
+    <string name="ex_g6_4_breath">Expire ao abrir.</string>
+    <string name="ex_g6_4_mistake">Inclinar o tronco para o lado.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Segure o cabo à frente do corpo.</item>
+        <item>Eleve controlado até a altura do ombro.</item>
+    </string-array>
+</resources>

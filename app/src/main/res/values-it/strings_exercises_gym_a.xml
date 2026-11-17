@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Panca Piana con Bilanciere</string>
+    <string name="ex_g1_1_muscle">Petto</string>
+    <string name="ex_g1_1_cue">Tieni i gomiti a ~45° dal busto e polsi dritti.</string>
+    <string name="ex_g1_1_breath">Inspira scendendo, espira forte spingendo.</string>
+    <string name="ex_g1_1_mistake">Far rimbalzare il bilanciere sul petto o alzare i glutei.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Sdraiati sulla panca con i piedi ben piantati a terra.</item>
+        <item>Afferra il bilanciere poco oltre le spalle e adduci le scapole.</item>
+        <item>Scendi controllato fino alla linea medio-bassa del petto.</item>
+        <item>Spingi con forza verso l\'alto contraendo il petto.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Spinte su Panca Inclinata Manubri</string>
+    <string name="ex_g1_2_muscle">Petto Alto</string>
+    <string name="ex_g1_2_cue">Non far sbattere i manubri in alto: mantieni tensione.</string>
+    <string name="ex_g1_2_breath">Inspira giù, espira spingendo.</string>
+    <string name="ex_g1_2_mistake">Inclinare oltre i 45° spostando il lavoro sulle spalle.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Imposta la panca a 30 gradi.</item>
+        <item>Porta i manubri sopra le spalle.</item>
+        <item>Scendi controllato ai lati del petto alto.</item>
+        <item>Spingi contraendo la parte alta del petto.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Military Press Manubri</string>
+    <string name="ex_g1_3_muscle">Spalle</string>
+    <string name="ex_g1_3_cue">Non inarcare la schiena, tieni compatta la gabbia toracica.</string>
+    <string name="ex_g1_3_breath">Espira spingendo, inspira scendendo.</string>
+    <string name="ex_g1_3_mistake">Spingere i manubri troppo in avanti.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Siediti dritto con addome contratto.</item>
+        <item>Manubri ad altezza orecchie, palmi avanti.</item>
+        <item>Spingi controllato sopra la testa.</item>
+        <item>Scendi lentamente all\'altezza delle orecchie.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Pushdown Tricipiti con Corda</string>
+    <string name="ex_g1_4_muscle">Tricipiti</string>
+    <string name="ex_g1_4_cue">Si muove solo il gomito, spalle fisse.</string>
+    <string name="ex_g1_4_breath">Espira spingendo giù.</string>
+    <string name="ex_g1_4_mistake">Piegarsi col busto per aiutarsi col peso.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Afferra la corda all\'altezza del petto.</item>
+        <item>Blocca i gomiti ai fianchi.</item>
+        <item>Estendi del tutto verso il basso allargando la corda.</item>
+        <item>Risali controllato mantenendo fermi i gomiti.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Lat Machine Presa Larga</string>
+    <string name="ex_g2_1_muscle">Dorsali / Schiena</string>
+    <string name="ex_g2_1_cue">Immagina di tirare dai gomiti, non dalle mani.</string>
+    <string name="ex_g2_1_breath">Espira tirando giù, inspira salendo.</string>
+    <string name="ex_g2_1_mistake">Dondolarsi indietro per slancio.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Afferra ampio e blocca le ginocchia sotto il cuscino.</item>
+        <item>Apri leggermente il petto verso l\'alto.</item>
+        <item>Tira i gomiti in basso fino al petto alto.</item>
+        <item>Ritorna su estendendo controllato.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Pulley Basso da Seduto</string>
+    <string name="ex_g2_2_muscle">Schiena Media</string>
+    <string name="ex_g2_2_cue">Tieni le spalle basse, lontane dalle orecchie.</string>
+    <string name="ex_g2_2_breath">Espira tirando verso di te.</string>
+    <string name="ex_g2_2_mistake">Curvare la schiena in avanti.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Piedi in appoggio, ginocchia morbide.</item>
+        <item>Schiena dritta, tira l\'impugnatura all\'addome.</item>
+        <item>Stringi le scapole per 1 secondo.</item>
+        <item>Allungati in avanti con controllo.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull ai Cavi</string>
+    <string name="ex_g2_3_muscle">Deltoidi Post. &amp; Postura</string>
+    <string name="ex_g2_3_cue">L\'esercizio chiave per proteggere spalle e postura.</string>
+    <string name="ex_g2_3_breath">Espira tirando.</string>
+    <string name="ex_g2_3_mistake">Caricare troppo usandol\'oscillazione lombare.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Imposta il cavo ad altezza occhi.</item>
+        <item>Tira verso la fronte aprendo bene i gomiti.</item>
+        <item>Extraruota in chiusura contraendo i deltoidi posteriori.</item>
+        <item>Torna lentamente.</item>
+    </string-array>
+    <string name="ex_g2_4_name">Curl Bicipiti Bilanciere EZ</string>
+    <string name="ex_g2_4_muscle">Bicipiti</string>
+    <string name="ex_g2_4_cue">Polsi neutri, non piegarli verso l\'interno.</string>
+    <string name="ex_g2_4_breath">Espira salendo, inspira scendendo.</string>
+    <string name="ex_g2_4_mistake">Oscillare con la schiena per slancio.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>Afferra il bilanciere EZ a larghezza spalle.</item>
+        <item>Fissa i gomiti ai fianchi.</item>
+        <item>Porta alle spalle e contrai per 1 sec.</item>
+        <item>Scendi lentamente in 3 secondi.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Back Squat con Bilanciere</string>
+    <string name="ex_g3_1_muscle">Quadricipiti &amp; Glutei</string>
+    <string name="ex_g3_1_cue">Ginocchia in linea con le punte, mai verso l\'interno.</string>
+    <string name="ex_g3_1_breath">Inspira scendendo, espira salendo.</string>
+    <string name="ex_g3_1_mistake">Alzare i talloni o curvare la bassa schiena.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Bilanciere sui trapezi, piedi larghezza spalle.</item>
+        <item>Inspira e compatta bene l\'addome.</item>
+        <item>Scendi coi fianchi indietro fino al parallelo.</item>
+        <item>Spingi forte dai talloni per risalire.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Stacco Rumeno</string>
+    <string name="ex_g3_2_muscle">Femorali &amp; Glutei</string>
+    <string name="ex_g3_2_cue">È un cardine dell\'anca, non una flessione lombare.</string>
+    <string name="ex_g3_2_breath">Inspira giù, espira salendo.</string>
+    <string name="ex_g3_2_mistake">Allontanare il bilanciere dalle gambe curvando la schiena.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Bilanciere avanti alle anche, ginocchia appena flesse.</item>
+        <item>Schiena piatta, spingi indietro i fianchi sfiorando le gambe.</item>
+        <item>Appena senti allungare i femorali, risali stringendo i glutei.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Leg Press</string>
+    <string name="ex_g3_3_muscle">Quadricipiti</string>
+    <string name="ex_g3_3_cue">Non scendere così tanto da staccare i glutei.</string>
+    <string name="ex_g3_3_breath">Espira spingendo.</string>
+    <string name="ex_g3_3_mistake">Bloccare di scatto le ginocchia in cima.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Tieni schiena e glutei ben incollati al sedile.</item>
+        <item>Piedi larghezza spalle sulla pedana.</item>
+        <item>Scendi portando le ginocchia al petto con controllo.</item>
+        <item>Spingi senza iperestendere le ginocchia.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Calf Raise in Piedi</string>
+    <string name="ex_g3_4_muscle">Polpacci</string>
+    <string name="ex_g3_4_cue">Lavora con ritmo controllato senza rimbalzi.</string>
+    <string name="ex_g3_4_breath">Espira salendo.</string>
+    <string name="ex_g3_4_mistake">Rimbalzare rapido stressando il tendine d\'Achille.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Avampiedi sul bordo di un gradino.</item>
+        <item>Allunga i talloni verso il basso.</item>
+        <item>Sali al massimo sulle punte per 1 secondo.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Goblet Squat</string>
+    <string name="ex_g4_1_muscle">Gambe &amp; Core</string>
+    <string name="ex_g4_1_cue">Petto aperto avanti senza sbilanciarti.</string>
+    <string name="ex_g4_1_breath">Inspira giù, espira su.</string>
+    <string name="ex_g4_1_mistake">Tenere il manubrio lontano dal petto.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Tieni un manubrio verticale al petto.</item>
+        <item>Scendi in squat mantenendo il busto eretto.</item>
+        <item>Quando i gomiti sfiorano l\'interno ginocchia, risali.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Chest Press alla Macchina</string>
+    <string name="ex_g4_2_muscle">Petto</string>
+    <string name="ex_g4_2_cue">Non chiudere le spalle avanti, tieni il petto aperto.</string>
+    <string name="ex_g4_2_breath">Espira spingendo.</string>
+    <string name="ex_g4_2_mistake">Far sbattere i pesi a fine serie.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Regola il sedile portando le maniglie a metà petto.</item>
+        <item>Appoggia la schiena e spingi avanti.</item>
+        <item>Torna lentamente alla partenza.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Rowing Machine da Seduto</string>
+    <string name="ex_g4_3_muscle">Schiena</string>
+    <string name="ex_g4_3_cue">Non alzare le spalle verso il collo.</string>
+    <string name="ex_g4_3_breath">Espira tirando.</string>
+    <string name="ex_g4_3_mistake">Fare mezze ripetizioni.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Appoggia il petto sul cuscino e afferra le maniglie.</item>
+        <item>Tira i gomiti indietro contraendo il dorso.</item>
+        <item>Distendi in avanti con controllo.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Plank</string>
+    <string name="ex_g4_4_muscle">Addome &amp; Core</string>
+    <string name="ex_g4_4_sets">3 x 40 sec</string>
+    <string name="ex_g4_4_cue">Continua a respirare senza irrigidirti.</string>
+    <string name="ex_g4_4_breath">Inspira dal naso, espira regolare dalla bocca.</string>
+    <string name="ex_g4_4_mistake">Alzare i glutei o inarcare la schiena.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Mettiti sugli avambracci.</item>
+        <item>Crea una linea retta dalla testa ai talloni.</item>
+        <item>Contrai addome e glutei per tutta la durata.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Panca Piana con Manubri</string>
+    <string name="ex_g5_1_muscle">Petto</string>
+    <string name="ex_g5_1_cue">1 secondo di fermo in basso aumenta la forza.</string>
+    <string name="ex_g5_1_breath">Espira spingendo.</string>
+    <string name="ex_g5_1_mistake">Aprire i gomiti a 90°.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Porta i manubri al petto aiutandoti con le ginocchia.</item>
+        <item>Spingi in alto e scendi controllato.</item>
+    </string-array>
+    <string name="ex_g5_2_name">Rematore a Un Braccio Manubrio</string>
+    <string name="ex_g5_2_muscle">Schiena</string>
+    <string name="ex_g5_2_sets">4 x 10/braccio</string>
+    <string name="ex_g5_2_cue">Tira solo col dorso senza ruotare il busto.</string>
+    <string name="ex_g5_2_breath">Espira tirando.</string>
+    <string name="ex_g5_2_mistake">Tirare il manubrio verso la spalla.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Appoggia mano e ginocchio su panca a schiena piatta.</item>
+        <item>Tira il manubrio verso l\'anca.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Alzate Laterali</string>
+    <string name="ex_g5_3_muscle">Deltoidi Laterali</string>
+    <string name="ex_g5_3_cue">Tieni il mignolo leggermente verso l\'alto.</string>
+    <string name="ex_g5_3_breath">Espira sollevando.</string>
+    <string name="ex_g5_3_mistake">Slanciarsi col busto.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Manubri ai lati, gomiti leggermente piegati.</item>
+        <item>Alza le braccia lateralmente fino alle spalle.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Hammer Curl</string>
+    <string name="ex_g5_4_muscle">Bicipiti &amp; Avambracci</string>
+    <string name="ex_g5_4_cue">La presa migliore per lo spessore del braccio.</string>
+    <string name="ex_g5_4_breath">Espira salendo.</string>
+    <string name="ex_g5_4_mistake">Portare le spalle avanti.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Palmi rivolti l\'uno verso l\'altro.</item>
+        <item>Gomiti fermi e sali alternando.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Arnold Press</string>
+    <string name="ex_g6_1_muscle">Spalle Complete</string>
+    <string name="ex_g6_1_cue">Stimola deltoide anteriore e laterale insieme.</string>
+    <string name="ex_g6_1_breath">Espira spingendo.</string>
+    <string name="ex_g6_1_mistake">Inarcare la bassa schiena.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Parti con i palmi verso il viso.</item>
+        <item>Ruota i polsi verso l\'esterno spingendo su.</item>
+        <item>Inverti il movimento scendendo.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Curl su Panca Inclinata</string>
+    <string name="ex_g6_2_muscle">Capo Lungo Bicipite</string>
+    <string name="ex_g6_2_cue">Gomiti fermi leggermente dietro il busto.</string>
+    <string name="ex_g6_2_breath">Espira salendo.</string>
+    <string name="ex_g6_2_mistake">Portare avanti i gomiti.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Appoggiati su panca a 45°.</item>
+        <item>Lascia scendere le braccia e fletti solo dal gomito.</item>
+    </string-array>
+    <string name="ex_g6_3_name">French Press Bilanciere EZ</string>
+    <string name="ex_g6_3_muscle">Tricipiti</string>
+    <string name="ex_g6_3_cue">Non far allargare i gomiti all\'esterno.</string>
+    <string name="ex_g6_3_breath">Espira estendendo.</string>
+    <string name="ex_g6_3_mistake">Caricare troppo stressando i gomiti.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Sdraiato, bilanciere verticale sopra gli occhi.</item>
+        <item>Piega solo i gomiti portando dietro la fronte ed estendi.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Alzate Laterali al Cavo</string>
+    <string name="ex_g6_4_muscle">Deltoidi Laterali</string>
+    <string name="ex_g6_4_cue">Mantiene tensione continua anche in basso.</string>
+    <string name="ex_g6_4_breath">Espira aprendo.</string>
+    <string name="ex_g6_4_mistake">Piegare il busto di lato.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Afferra il cavo incrociato davanti al corpo.</item>
+        <item>Alza controllato fino all\'altezza spalla.</item>
+    </string-array>
+</resources>

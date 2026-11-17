@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Dead Hang</string>
+    <string name="ex_y1_1_muscle">Spine Decompression</string>
+    <string name="ex_y1_1_sets">3 x 30 sec</string>
+    <string name="ex_y1_1_cue">The most natural way to relieve spinal discs during growth years.</string>
+    <string name="ex_y1_1_breath">Breathe deeply through your nose.</string>
+    <string name="ex_y1_1_mistake">Holding your breath and tensing your shoulders.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Grip a pull-up bar with straight arms and feet off the floor.</item>
+        <item>Relax your shoulders and lower back so gravity gently lengthens your spine.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Cobra Stretch</string>
+    <string name="ex_y1_2_muscle">Spine &amp; Chest</string>
+    <string name="ex_y1_2_sets">3 x 30 sec</string>
+    <string name="ex_y1_2_cue">Reverses slouched posture effectively.</string>
+    <string name="ex_y1_2_breath">Inhale deeply at the top.</string>
+    <string name="ex_y1_2_mistake">Forcing lower back past comfortable range.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Lie face down with palms placed flat beneath your shoulders.</item>
+        <item>Keeping hips on the mat, press your chest up and look forward.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Standing Overhead Reach &amp; Side Bend</string>
+    <string name="ex_y1_3_muscle">Lateral Chain &amp; Posture</string>
+    <string name="ex_y1_3_sets">3 x 10/side</string>
+    <string name="ex_y1_3_cue">Builds a tall, upright posture habit.</string>
+    <string name="ex_y1_3_breath">Inhale deeply as you reach up.</string>
+    <string name="ex_y1_3_mistake">Arching the lower back backward.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Interlace fingers and stretch as tall as possible toward the ceiling.</item>
+        <item>Rise onto tiptoes for 5 seconds, then gently bend side to side.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Pogo Jumps</string>
+    <string name="ex_y2_1_muscle">Tendons &amp; Elasticity</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Turns your Achilles tendon into a powerful spring.</string>
+    <string name="ex_y2_1_breath">Breathe in a steady rhythm.</string>
+    <string name="ex_y2_1_mistake">Slamming heels hard into the floor.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Keep knees slightly bent and bounce fast off the balls of your feet.</item>
+        <item>Spring upward immediately on contact like a coiled spring.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Tuck Jump</string>
+    <string name="ex_y2_2_muscle">Explosive Power</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Directly increases vertical leap height.</string>
+    <string name="ex_y2_2_breath">Exhale sharply as you jump.</string>
+    <string name="ex_y2_2_mistake">Landing stiff-legged with locked knees.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Jump maximally and tuck both knees up toward your chest mid-air.</item>
+        <item>Extend legs back down and land softly with bent knees.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Single-Leg Calf Raise</string>
+    <string name="ex_y2_3_muscle">Calf Power</string>
+    <string name="ex_y2_3_sets">3 x 15/leg</string>
+    <string name="ex_y2_3_cue">Powers the final push of every jump.</string>
+    <string name="ex_y2_3_breath">Exhale as you rise up.</string>
+    <string name="ex_y2_3_mistake">Bouncing fast without control.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Stand on one foot at the edge of a step, lowering the heel fully.</item>
+        <item>Drive up onto the ball of your foot to the highest peak.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Tempo Bodyweight Squat</string>
+    <string name="ex_y3_1_muscle">Legs &amp; Technique</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Grooves textbook squat form without heavy spinal load.</string>
+    <string name="ex_y3_1_breath">Exhale as you stand up.</string>
+    <string name="ex_y3_1_mistake">Letting knees cave inward.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Lower slowly over 3 full seconds with chest proud.</item>
+        <item>Pause 1 second at the bottom, then stand up cleanly.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Incline Push-Up</string>
+    <string name="ex_y3_2_muscle">Chest &amp; Shoulders</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Builds clean push-up form safely.</string>
+    <string name="ex_y3_2_breath">Exhale as you press up.</string>
+    <string name="ex_y3_2_mistake">Letting hips sag downward.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Place hands on a sturdy bench or table edge.</item>
+        <item>With a straight body line, lower chest toward the edge and press back.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Australian Pull-Up</string>
+    <string name="ex_y3_3_muscle">Back &amp; Arms</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">Safest progression toward full pull-ups during growth.</string>
+    <string name="ex_y3_3_breath">Exhale as you pull up.</string>
+    <string name="ex_y3_3_mistake">Jutting your head forward to touch the bar.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Hold a waist-high bar underneath with a rigid straight body.</item>
+        <item>Pull your chest up to meet the bar, then lower with control.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Chin Tuck</string>
+    <string name="ex_y4_1_muscle">Neck &amp; Posture</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Fixes tech neck from study &amp; screens.</string>
+    <string name="ex_y4_1_breath">Breathe naturally.</string>
+    <string name="ex_y4_1_mistake">Nodding your chin down toward the chest.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Sit upright or stand with your back against a wall.</item>
+        <item>Without tilting down, glide your chin straight back and hold 3 seconds.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Doorway Chest Stretch</string>
+    <string name="ex_y4_2_muscle">Chest Opener</string>
+    <string name="ex_y4_2_sets">3 x 30 sec</string>
+    <string name="ex_y4_2_cue">Pulls rounded shoulders back into alignment.</string>
+    <string name="ex_y4_2_breath">Take deep, relaxed breaths.</string>
+    <string name="ex_y4_2_mistake">Overarching your lower back forward.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Rest forearms vertically on a doorway frame at 90 degrees.</item>
+        <item>Step one foot gently forward to open the front of your chest.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Scapular Push-Up</string>
+    <string name="ex_y4_3_muscle">Scapular Control</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Protects shoulder health and builds upright posture.</string>
+    <string name="ex_y4_3_breath">Exhale as you push shoulders wide.</string>
+    <string name="ex_y4_3_mistake">Bending the elbows.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>In a plank position with straight arms, squeeze shoulder blades together then push apart.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Lateral Quick Shuffle</string>
+    <string name="ex_y5_1_muscle">Lateral Agility</string>
+    <string name="ex_y5_1_sets">4 x 20 sec</string>
+    <string name="ex_y5_1_cue">Keep your center of gravity low.</string>
+    <string name="ex_y5_1_breath">Breathe rhythmically.</string>
+    <string name="ex_y5_1_mistake">Crossing feet over one another.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>From an athletic half-squat, shuffle 3 steps right and 3 steps left quickly.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Single-Leg Balance &amp; Reach</string>
+    <string name="ex_y5_2_muscle">Ankle &amp; Balance</string>
+    <string name="ex_y5_2_sets">3 x 8/leg</string>
+    <string name="ex_y5_2_cue">Helps prevent ankle sprains.</string>
+    <string name="ex_y5_2_breath">Focus and breathe slowly.</string>
+    <string name="ex_y5_2_mistake">Letting the standing knee collapse inward.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Balance on one leg and tap/reach the other foot forward, sideways, and back without touching down.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Bear Crawl</string>
+    <string name="ex_y5_3_muscle">Full-Body Coordination</string>
+    <string name="ex_y5_3_sets">3 x 20 sec</string>
+    <string name="ex_y5_3_cue">Keep your back flat like a tabletop.</string>
+    <string name="ex_y5_3_breath">Exhale steadily as you crawl.</string>
+    <string name="ex_y5_3_mistake">Spiking your hips high in the air.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>Start on all fours with knees hovering 3 cm off the floor; crawl forward moving opposite hand and foot.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Dead Bug</string>
+    <string name="ex_y6_1_muscle">Deep Core</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Strengthens core with zero lower-back strain.</string>
+    <string name="ex_y6_1_breath">Exhale as you extend out.</string>
+    <string name="ex_y6_1_mistake">Letting lower back arch off the floor.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Lie on your back with arms straight up and knees bent at 90 degrees.</item>
+        <item>Press your lower back into the floor and lower opposite arm and leg smoothly.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Forearm Plank</string>
+    <string name="ex_y6_2_muscle">Core Endurance</string>
+    <string name="ex_y6_2_sets">3 x 35 sec</string>
+    <string name="ex_y6_2_cue">Clean form matters far more than duration.</string>
+    <string name="ex_y6_2_breath">Keep breathing steadily.</string>
+    <string name="ex_y6_2_mistake">Letting hips drop.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Elbows directly beneath shoulders, hold a straight line from head to heels.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Glute Bridge March</string>
+    <string name="ex_y6_3_muscle">Glutes &amp; Stability</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Keep hips level without tilting.</string>
+    <string name="ex_y6_3_breath">Exhale on each knee lift.</string>
+    <string name="ex_y6_3_mistake">Hips dipping to the lifted side.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Hold the top of a glute bridge and lift alternating knees cleanly.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Jump Rope (or Shadow Rope)</string>
+    <string name="ex_y7_1_muscle">Stamina &amp; Rhythm</string>
+    <string name="ex_y7_1_sets">4 x 45 sec</string>
+    <string name="ex_y7_1_cue">Unmatched for coordination and heart health.</string>
+    <string name="ex_y7_1_breath">Breathe in and out through your nose.</string>
+    <string name="ex_y7_1_mistake">Jumping unnecessarily high.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Perform light, rhythmic hops on the balls of your feet.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Alternating Reverse Lunge</string>
+    <string name="ex_y7_2_muscle">Leg Endurance</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Most knee-friendly lunge variation.</string>
+    <string name="ex_y7_2_breath">Exhale as you stand up.</string>
+    <string name="ex_y7_2_mistake">Front knee wobbling inward.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Step backward smoothly with torso tall, then drive up cleanly.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Box Breathing Recovery</string>
+    <string name="ex_y7_3_muscle">Recovery &amp; Focus</string>
+    <string name="ex_y7_3_sets">3 rounds</string>
+    <string name="ex_y7_3_cue">Quickly lowers heart rate and sharpens focus.</string>
+    <string name="ex_y7_3_breath">Breathe deep into your diaphragm.</string>
+    <string name="ex_y7_3_mistake">Shrugging shoulders up while inhaling.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>Inhale 4 sec, hold 4 sec, exhale 4 sec, hold 4 sec.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Dead Hang + Scapular Pull</string>
+    <string name="ex_yp1_1_muscle">Spine &amp; Back</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 sec</string>
+    <string name="ex_yp1_1_cue">Builds posture and real pull-up strength together.</string>
+    <string name="ex_yp1_1_breath">Exhale on each pull.</string>
+    <string name="ex_yp1_1_mistake">Swinging the legs.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>While hanging straight, depress shoulder blades downward without bending arms, then relax into a full hang.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Depth Drop to Squat Jump</string>
+    <string name="ex_yp1_2_muscle">Elite Jump Power</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Develops reactive athletic power.</string>
+    <string name="ex_yp1_2_breath">Exhale powerfully as you leap.</string>
+    <string name="ex_yp1_2_mistake">Landing stiff-legged on locked joints.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Step off a low box softly and immediately explode upward into a vertical jump.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Tempo Push-Up + Plank</string>
+    <string name="ex_yp1_3_muscle">Upper Body &amp; Core</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 sec</string>
+    <string name="ex_yp1_3_cue">Builds upper-body muscle safely during teen years.</string>
+    <string name="ex_yp1_3_breath">Breathe evenly throughout.</string>
+    <string name="ex_yp1_3_mistake">Breaking posture under fatigue.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Complete 10 controlled push-ups, then hold a plank for 30 seconds right away.</item>
+    </string-array>
+</resources>

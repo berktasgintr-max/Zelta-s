@@ -1,6 +1,6 @@
 {
-  "name": "Koç Tavuk",
-  "description": "Koç Tavuk eşliğinde kişiselleştirilmiş fitness, gym ve evde antrenmanlar, kilo takibi, takvim ve AI koçluk uygulaması.",
+  "name": "FitChicken",
+  "description": "FitChicken eşliğinde AI destekli kişiselleştirilmiş fitness, gym ve evde antrenmanlar, kilo takibi, takvim ve yemek tarama uygulaması.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

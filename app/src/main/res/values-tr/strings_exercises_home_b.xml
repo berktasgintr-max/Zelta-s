@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h9_1_name">Squat Jump</string>
+    <string name="ex_h9_1_muscle">Bacak &amp; Kardiyo</string>
+    <string name="ex_h9_1_sets">4 x 20 sn</string>
+    <string name="ex_h9_1_cue">Dizlerini kilitlemeden yumuşak iniş yap.</string>
+    <string name="ex_h9_1_breath">Sıçrarken nefes ver.</string>
+    <string name="ex_h9_1_mistake">Sert topuk inişi yapmak.</string>
+    <string-array name="ex_h9_1_steps">
+        <item>Squat pozisyonuna in ve yukarı patlayıcı sıçra.</item>
+        <item>Yumuşakça doğrudan bir sonraki squata in.</item>
+    </string-array>
+    <string name="ex_h9_2_name">Speed Skaters</string>
+    <string name="ex_h9_2_muscle">Kalça &amp; Çeviklik</string>
+    <string name="ex_h9_2_sets">4 x 20 sn</string>
+    <string name="ex_h9_2_cue">Denge ve yan kalça kaslarını yakar.</string>
+    <string name="ex_h9_2_breath">Ritmik nefes al.</string>
+    <string name="ex_h9_2_mistake">Dikleşip kalçayı kilitlemek.</string>
+    <string-array name="ex_h9_2_steps">
+        <item>Sağdan sola patenci gibi yan sıçrayışlar yap.</item>
+        <item>Arka ayağı diğerinin gerisine çapraz dokundur.</item>
+    </string-array>
+    <string name="ex_h9_3_name">Plank Shoulder Taps</string>
+    <string name="ex_h9_3_muscle">Core &amp; Omuz</string>
+    <string name="ex_h9_3_sets">4 x 20 sn</string>
+    <string name="ex_h9_3_cue">Gövden kaya gibi sabit kalmalı.</string>
+    <string name="ex_h9_3_breath">Düzenli nefes ver.</string>
+    <string name="ex_h9_3_mistake">Kalçayı sağa sola devirmek.</string>
+    <string-array name="ex_h9_3_steps">
+        <item>Yüksek plank pozisyonunda ayakları omuzdan geniş aç.</item>
+        <item>Kalçayı sallamadan sırayla karşı omza dokun.</item>
+    </string-array>
+    <string name="ex_h10_1_name">Step Squat to Reach</string>
+    <string name="ex_h10_1_muscle">Bacak &amp; Omuz</string>
+    <string name="ex_h10_1_cue">Komşuları rahatsız etmeden yüksek kalori yakar.</string>
+    <string name="ex_h10_1_breath">Uzanırken nefes ver.</string>
+    <string name="ex_h10_1_mistake">Dizleri içe bükmek.</string>
+    <string-array name="ex_h10_1_steps">
+        <item>Bir adım yana açıp squat yap, kalkarken kolları tavana uzat.</item>
+        <item>Diğer tarafa tekrarla.</item>
+    </string-array>
+    <string name="ex_h10_2_name">Inchworm Walkout</string>
+    <string name="ex_h10_2_muscle">Core &amp; Esneklik</string>
+    <string name="ex_h10_2_cue">Arka bacak ve omuzları aynı anda ısıtır.</string>
+    <string name="ex_h10_2_breath">İleri yürürken nefes ver.</string>
+    <string name="ex_h10_2_mistake">Plankta beli düşürmek.</string>
+    <string-array name="ex_h10_2_steps">
+        <item>Ayakta eğilip ellerini yere koy, plank pozisyonuna kadar ellerinle yürü.</item>
+        <item>Geri yürüyerek kalk.</item>
+    </string-array>
+    <string name="ex_h10_3_name">Shadow Boxing</string>
+    <string name="ex_h10_3_muscle">Kol &amp; Kardiyo</string>
+    <string name="ex_h10_3_sets">3 x 45 sn</string>
+    <string name="ex_h10_3_cue">Üst vücut dayanıklılığı için harikadır.</string>
+    <string name="ex_h10_3_breath">Her yumrukta kısa nefes ver.</string>
+    <string name="ex_h10_3_mistake">Omuzları sıkmak.</string>
+    <string-array name="ex_h10_3_steps">
+        <item>Boks gardı al, tempolu direkt ve kroşe yumruklar çıkar.</item>
+        <item>Ayaklarda hafif yaylan.</item>
+    </string-array>
+    <string name="ex_h11_1_name">Wall Angels</string>
+    <string name="ex_h11_1_muscle">Omuz &amp; Duruş</string>
+    <string name="ex_h11_1_cue">Bel boşluğunu duvara yakın tut.</string>
+    <string name="ex_h11_1_breath">Yukarı kaydırırken nefes ver.</string>
+    <string name="ex_h11_1_mistake">Kolların duvardan ayrılması.</string>
+    <string-array name="ex_h11_1_steps">
+        <item>Sırtını, kalçanı ve başını duvara yasla.</item>
+        <item>Kolları W şeklinde duvara temas ettirip yavaşça Y şekline yukarı kaydır.</item>
+    </string-array>
+    <string name="ex_h11_2_name">Prone Y-T-W Raises</string>
+    <string name="ex_h11_2_muscle">Arka Omuz &amp; Sırt</string>
+    <string name="ex_h11_2_sets">3 x 8/harf</string>
+    <string name="ex_h11_2_cue">Kürek kemiklerini sıkarak çalış.</string>
+    <string name="ex_h11_2_breath">Kaldırırken nefes ver.</string>
+    <string name="ex_h11_2_mistake">Hızlı sallamak.</string>
+    <string-array name="ex_h11_2_steps">
+        <item>Yüzüstü uzan, kolları sırasıyla Y, T ve W harfi şeklinde yerden kaldır.</item>
+    </string-array>
+    <string name="ex_h11_3_name">Bird-Dog</string>
+    <string name="ex_h11_3_muscle">Bel &amp; Core Dengesi</string>
+    <string name="ex_h11_3_sets">3 x 10/yan</string>
+    <string name="ex_h11_3_cue">Omurgayı stabilize eder.</string>
+    <string name="ex_h11_3_breath">Uzatırken nefes ver.</string>
+    <string name="ex_h11_3_mistake">Bacağı çok yukarı kaldırıp beli bükmek.</string>
+    <string-array name="ex_h11_3_steps">
+        <item>Dört ayak pozisyonunda sağ kolu öne, sol bacağı geriye paralel uzat.</item>
+        <item>2 saniye tutup değiştir.</item>
+    </string-array>
+    <string name="ex_h12_1_name">Child\'s Pose (Çocuk Pozu)</string>
+    <string name="ex_h12_1_muscle">Sırt &amp; Omuz</string>
+    <string name="ex_h12_1_sets">3 x 45 sn</string>
+    <string name="ex_h12_1_cue">Derin ve yavaş nefeslerle sinir sistemini sakinleştir.</string>
+    <string name="ex_h12_1_breath">4 sn al, 6 sn ver.</string>
+    <string name="ex_h12_1_mistake">Omuzları sıkmak.</string>
+    <string-array name="ex_h12_1_steps">
+        <item>Dizlerin üzerine otur, kolları öne uzatarak alnını mata koy.</item>
+        <item>Her nefeste sırtının açıldığını hisset.</item>
+    </string-array>
+    <string name="ex_h12_2_name">Pigeon Stretch</string>
+    <string name="ex_h12_2_muscle">Kalça &amp; Piriformis</string>
+    <string name="ex_h12_2_sets">2 x 45 sn/yan</string>
+    <string name="ex_h12_2_cue">Kalça sıkışıklığını çözer.</string>
+    <string name="ex_h12_2_breath">Derin nefesle gevşe.</string>
+    <string name="ex_h12_2_mistake">Dizde ağrı varsa büküyü azalt.</string>
+    <string-array name="ex_h12_2_steps">
+        <item>Bir bacağı önde bükülü yerleştir, diğer bacağı geriye düz uzat.</item>
+        <item>Gövdeni hafifçe öne bırak.</item>
+    </string-array>
+    <string name="ex_h12_3_name">Hamstring Doorway / Towel Stretch</string>
+    <string name="ex_h12_3_muscle">Arka Bacak</string>
+    <string name="ex_h12_3_sets">2 x 45 sn/yan</string>
+    <string name="ex_h12_3_cue">Arka bacak esnekliği bel ağrısını azaltır.</string>
+    <string name="ex_h12_3_breath">Nefes verirken esnet.</string>
+    <string name="ex_h12_3_mistake">Diz eklemini zorlamak.</string>
+    <string-array name="ex_h12_3_steps">
+        <item>Sırt üstü uzanıp bir bacağı yukarı uzat, havluyla kendine nazikçe çek.</item>
+    </string-array>
+    <string name="ex_hp1_1_name">1.5 Tekrar Tempo Squat</string>
+    <string name="ex_hp1_1_muscle">Bacak &amp; Kalça</string>
+    <string name="ex_hp1_1_cue">Ekipmansız bacak gelişiminin sırrıdır.</string>
+    <string name="ex_hp1_1_breath">Tam kalkarken nefes ver.</string>
+    <string name="ex_hp1_1_mistake">Hızlı zıplamak.</string>
+    <string-array name="ex_hp1_1_steps">
+        <item>Tam aşağı in, yarıya kadar kalk, tekrar dibe in ve tam kalk.</item>
+    </string-array>
+    <string name="ex_hp1_2_name">Archer Push-Up</string>
+    <string name="ex_hp1_2_muscle">Göğüs &amp; Tek Kol Gücü</string>
+    <string name="ex_hp1_2_sets">4 x 8/yan</string>
+    <string name="ex_hp1_2_cue">Tek kol şınava giden en güçlü basamaktır.</string>
+    <string name="ex_hp1_2_breath">İterken nefes ver.</string>
+    <string name="ex_hp1_2_mistake">Kalçayı döndürmek.</string>
+    <string-array name="ex_hp1_2_steps">
+        <item>Elleri geniş koy, bir kolu düz uzatırken diğer kola doğru şınav in.</item>
+    </string-array>
+    <string name="ex_hp1_3_name">Towel Doorframe / Table Row</string>
+    <string name="ex_hp1_3_muscle">Sırt</string>
+    <string name="ex_hp1_3_cue">Evde sırt kalınlığı için en iyi vücut ağırlığı çekişi!</string>
+    <string name="ex_hp1_3_breath">Çekerken nefes ver.</string>
+    <string name="ex_hp1_3_mistake">Kalçayı sarkıtmak.</string>
+    <string-array name="ex_hp1_3_steps">
+        <item>Sağlam masa altına uzanıp kenarından kavrayarak göğsünü masaya çek (Inverted Row).</item>
+    </string-array>
+    <string name="ex_hp2_1_name">Burpee Broad Jump</string>
+    <string name="ex_hp2_1_muscle">Tam Vücut</string>
+    <string name="ex_hp2_1_cue">Patlayıcı güç ve nabız zirvesi.</string>
+    <string name="ex_hp2_1_breath">Sıçrarken nefes ver.</string>
+    <string name="ex_hp2_1_mistake">Sert iniş yapmak.</string>
+    <string-array name="ex_hp2_1_steps">
+        <item>Burpee yapıp yukarı yerine ileriye doğru sıçra.</item>
+    </string-array>
+    <string name="ex_hp2_2_name">Plyo Lunge Switch</string>
+    <string name="ex_hp2_2_muscle">Bacak &amp; Kondisyon</string>
+    <string name="ex_hp2_2_cue">Gövde dik kalsın.</string>
+    <string name="ex_hp2_2_breath">Değişirken nefes ver.</string>
+    <string name="ex_hp2_2_mistake">Dizleri yere çarpmak.</string>
+    <string-array name="ex_hp2_2_steps">
+        <item>Lunge pozisyonundan sıçrayarak havada bacak değiştir.</item>
+    </string-array>
+    <string name="ex_hp2_3_name">Plank Up-Downs</string>
+    <string name="ex_hp2_3_muscle">Core &amp; Omuz</string>
+    <string name="ex_hp2_3_cue">Her sette başlangıç kolunu değiştir.</string>
+    <string name="ex_hp2_3_breath">Yükselirken nefes ver.</string>
+    <string name="ex_hp2_3_mistake">Kalçayı sallamak.</string>
+    <string-array name="ex_hp2_3_steps">
+        <item>Dirsek planktan sırayla avuç içi planka çık ve geri in.</item>
+    </string-array>
+    <string name="ex_hp3_1_name">Pseudo Planche Push-Up</string>
+    <string name="ex_hp3_1_muscle">Omuz &amp; Göğüs</string>
+    <string name="ex_hp3_1_cue">İleri seviye omuz gücü inşa eder.</string>
+    <string name="ex_hp3_1_breath">İterken nefes ver.</string>
+    <string name="ex_hp3_1_mistake">Beli düşürmek.</string>
+    <string-array name="ex_hp3_1_steps">
+        <item>Parmaklar yanlara/geriye dönük, omuzları ellerin önüne doğru eğip şınav çek.</item>
+    </string-array>
+    <string name="ex_hp3_2_name">Tuck L-Sit Hold</string>
+    <string name="ex_hp3_2_muscle">Core &amp; Triceps</string>
+    <string name="ex_hp3_2_sets">4 x 20 sn</string>
+    <string name="ex_hp3_2_cue">Omuzları kulaklardan uzaklaştır.</string>
+    <string name="ex_hp3_2_breath">Kısa kesik nefesler yerine düzenli nefes al.</string>
+    <string name="ex_hp3_2_mistake">Dirsekleri bükmek.</string>
+    <string-array name="ex_hp3_2_steps">
+        <item>Yere oturup elleri kalça yanına bas, kendini it ve dizleri göğse çekerek havada tut.</item>
+    </string-array>
+    <string name="ex_hp3_3_name">Explosive Clapping Push-Up</string>
+    <string name="ex_hp3_3_muscle">Patlayıcı Güç</string>
+    <string name="ex_hp3_3_cue">Hızlı kasılan kas liflerini ateşler.</string>
+    <string name="ex_hp3_3_breath">İterken nefes ver.</string>
+    <string name="ex_hp3_3_mistake">Yorgunken yapmaya devam etmek.</string>
+    <string-array name="ex_hp3_3_steps">
+        <item>Şınav dibinden eller yerden kesilecek kadar hızlı it (istersen el çırp).</item>
+    </string-array>
+    <string name="ex_hp4_1_name">Hollow Body Hold</string>
+    <string name="ex_hp4_1_muscle">Tüm Core</string>
+    <string name="ex_hp4_1_sets">4 x 30 sn</string>
+    <string name="ex_hp4_1_cue">Bel yerden kalkarsa dizleri hafifçe bük.</string>
+    <string name="ex_hp4_1_breath">Ritmik nefes al.</string>
+    <string name="ex_hp4_1_mistake">Bel boşluğu bırakmak.</string>
+    <string-array name="ex_hp4_1_steps">
+        <item>Sırt üstü uzan, belini yere tamamen yapıştır.</item>
+        <item>Omuzları ve düz bacakları yerden kaldırıp muz şekli al.</item>
+    </string-array>
+    <string name="ex_hp4_2_name">V-Up</string>
+    <string name="ex_hp4_2_muscle">Üst &amp; Alt Karın</string>
+    <string name="ex_hp4_2_cue">Tam bir V harfi oluştur.</string>
+    <string name="ex_hp4_2_breath">Kapanırken nefes ver.</string>
+    <string name="ex_hp4_2_mistake">Yere sert düşmek.</string>
+    <string-array name="ex_hp4_2_steps">
+        <item>Düz yatıştan eller ve ayakları aynı anda yukarıda buluştur.</item>
+    </string-array>
+    <string name="ex_hp4_3_name">Dragon Flag Negatives</string>
+    <string name="ex_hp4_3_muscle">İleri Karın</string>
+    <string name="ex_hp4_3_cue">En üst düzey karın egzersizlerinden biridir.</string>
+    <string name="ex_hp4_3_breath">İnerken yavaşça nefes al.</string>
+    <string name="ex_hp4_3_mistake">Belden kırılmak.</string>
+    <string-array name="ex_hp4_3_steps">
+        <item>Ağır bir koltuk/direk tut, vücudu omuzlara dik kaldır ve dümdüz yavaşça indir.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Dead Hang (Barfikste Asılma)</string>
+    <string name="ex_y1_1_muscle">Omurga Dekompresyonu</string>
+    <string name="ex_y1_1_sets">3 x 30 sn</string>
+    <string name="ex_y1_1_cue">Ergenlik çağında omurga disklerini rahatlatmanın en doğal yoludur.</string>
+    <string name="ex_y1_1_breath">Derin burun nefesi al.</string>
+    <string name="ex_y1_1_mistake">Nefes tutup omuzları sıkmak.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Barfiks barına ellerle asıl, ayakların yerden kesilsin.</item>
+        <item>Omuzları ve belini tamamen gevşeterek yerçekimiyle omurganın uzamasına izin ver.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Cobra Stretch (Kobra Esnemesi)</string>
+    <string name="ex_y1_2_muscle">Omurga &amp; Göğüs</string>
+    <string name="ex_y1_2_sets">3 x 30 sn</string>
+    <string name="ex_y1_2_cue">Kambur duruşu tersine çevirir.</string>
+    <string name="ex_y1_2_breath">Yukarıda derin nefes al.</string>
+    <string name="ex_y1_2_mistake">Beli acıtacak kadar zorlamak.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Yüzüstü uzan, elleri omuz altına koy.</item>
+        <item>Kalça yerde kalacak şekilde göğsü yukarı kaldırıp karşıya bak.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Baş Üstü Uzama &amp; Yan Esneme</string>
+    <string name="ex_y1_3_muscle">Yan Zincir &amp; Boy</string>
+    <string name="ex_y1_3_sets">3 x 10/yan</string>
+    <string name="ex_y1_3_cue">Dik duruş alışkanlığı kazandırır.</string>
+    <string name="ex_y1_3_breath">Uzanırken nefes al.</string>
+    <string name="ex_y1_3_mistake">Beli geriye bükmek.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Parmakları kenetleyip tavana doğru maksimum uzan.</item>
+        <item>Parmak ucuna yükselip 5 saniye tut ve yanlara nazikçe esne.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Pogo Jumps (Ayak Bileği Yaylanması)</string>
+    <string name="ex_y2_1_muscle">Tendon &amp; Sıçrama</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Aşil tendonunu yay gibi güçlendirir.</string>
+    <string name="ex_y2_1_breath">Ritmik nefes al.</string>
+    <string name="ex_y2_1_mistake">Topukları yere vurmak.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Dizleri çok az büküp sadece ayak bilekleriyle seri ve yüksek sıçra.</item>
+        <item>Yere değdiğin an yay gibi tekrar zıpla.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Tuck Jump (Dizi Çekerek Sıçrama)</string>
+    <string name="ex_y2_2_muscle">Patlayıcı Güç</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Sıçrama yüksekliğini doğrudan artırır.</string>
+    <string name="ex_y2_2_breath">Sıçrarken nefes ver.</string>
+    <string name="ex_y2_2_mistake">Sert dizlerle yere inmek.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Yukarı maksimum sıçrarken dizlerini göğsüne doğru çek.</item>
+        <item>Yumuşakça bacakları açıp dizleri bükerek in.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Tek Bacak Baldır Yükselme</string>
+    <string name="ex_y2_3_muscle">Baldır Gücü</string>
+    <string name="ex_y2_3_sets">3 x 15/bacak</string>
+    <string name="ex_y2_3_cue">Her sıçramanın son itişini güçlendirir.</string>
+    <string name="ex_y2_3_breath">Yükselirken nefes ver.</string>
+    <string name="ex_y2_3_mistake">Hızlı sallanmak.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Bir basamak kenarında tek ayakla topuğu aşağı indirip en tepeye çık.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Tempolu Vücut Ağırlığı Squat</string>
+    <string name="ex_y3_1_muscle">Bacak &amp; Teknik</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Ağır bar altına girmeden mükemmel squat tekniği öğretir.</string>
+    <string name="ex_y3_1_breath">Kalkarken nefes ver.</string>
+    <string name="ex_y3_1_mistake">Dizleri içe düşürmek.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>3 saniyede kontrollü aşağı in.</item>
+        <item>Alt noktada 1 saniye dur ve kalk.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Eğimli Şınav (Masa / Sehpa)</string>
+    <string name="ex_y3_2_muscle">Göğüs &amp; Omuz</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Temiz şınav formunu güvenle oturtur.</string>
+    <string name="ex_y3_2_breath">İterken nefes ver.</string>
+    <string name="ex_y3_2_mistake">Beli aşağı bırakmak.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Elleri sağlam bir masa veya bank üzerine koy.</item>
+        <item>Gövde düz iken göğsü kenara yaklaştırıp it.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Australian Pull-Up (Alçak Bar Çekişi)</string>
+    <string name="ex_y3_3_muscle">Sırt &amp; Kol</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">Büyüme çağında barfikse en güvenli hazırlıktır.</string>
+    <string name="ex_y3_3_breath">Çekerken nefes ver.</string>
+    <string name="ex_y3_3_mistake">Boynu öne uzatmak.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Alçak bir barın altında gövdeyi düz tutup göğsü bara çek.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Chin Tuck (Boyun Hizalama)</string>
+    <string name="ex_y4_1_muscle">Boyun &amp; Postür</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Teknoloji boynu problemini düzeltir.</string>
+    <string name="ex_y4_1_breath">Normal nefes al.</string>
+    <string name="ex_y4_1_mistake">Çeneyi aşağı eğmek.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Dik otur veya duvara yaslan.</item>
+        <item>Başını eğmeden çeneni geriye doğru (gıdı yapar gibi) çek ve 3 sn tut.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Kapı Çerçevesi Göğüs Açma</string>
+    <string name="ex_y4_2_muscle">Göğüs Açma</string>
+    <string name="ex_y4_2_sets">3 x 30 sn</string>
+    <string name="ex_y4_2_cue">Öne kapanan omuzları geriye açar.</string>
+    <string name="ex_y4_2_breath">Derin nefes al.</string>
+    <string name="ex_y4_2_mistake">Beli aşırı büküp öne zorlamak.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Ön kollarını kapı çerçevesine 90 derece koy.</item>
+        <item>Bir adım öne çıkarak göğsünün önünü aç.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Scapular Push-Up (Kürek Kemiği Şınavı)</string>
+    <string name="ex_y4_3_muscle">Kürek Kemiği Kontrolü</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Omuz sağlığını ve dik duruşu destekler.</string>
+    <string name="ex_y4_3_breath">İterken nefes ver.</string>
+    <string name="ex_y4_3_mistake">Dirsekleri bükmek.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>Plank pozisyonunda kolları bükmeden sadece kürek kemiklerini birbirine yaklaştırıp uzaklaştır.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Hızlı Yan Adımlama</string>
+    <string name="ex_y5_1_muscle">Yan Çeviklik</string>
+    <string name="ex_y5_1_sets">4 x 20 sn</string>
+    <string name="ex_y5_1_cue">Ağırlık merkezini alçak tut.</string>
+    <string name="ex_y5_1_breath">Ritmik nefes al.</string>
+    <string name="ex_y5_1_mistake">Ayakları birbirine çaprazlamak.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>Yarım squat pozisyonunda sağa 3 adım, sola 3 adım hızlıca kay.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Tek Ayak Denge &amp; Uzanma</string>
+    <string name="ex_y5_2_muscle">Ayak Bileği &amp; Denge</string>
+    <string name="ex_y5_2_sets">3 x 8/bacak</string>
+    <string name="ex_y5_2_cue">Bilek burkulmalarını önler.</string>
+    <string name="ex_y5_2_breath">Odaklanıp yavaş nefes al.</string>
+    <string name="ex_y5_2_mistake">Dizini içe düşürmek.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Tek ayak üzerinde dur ve diğer ayağını dokunmadan öne, yana ve arkaya uzat.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Bear Crawl (Ayı Yürüyüşü)</string>
+    <string name="ex_y5_3_muscle">Tüm Vücut Koordinasyon</string>
+    <string name="ex_y5_3_sets">3 x 20 sn</string>
+    <string name="ex_y5_3_cue">Sırtını düz bir masa gibi tut.</string>
+    <string name="ex_y5_3_breath">Düzenli nefes ver.</string>
+    <string name="ex_y5_3_mistake">Kalçayı tavana dikmek.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>Dizler yerden 3 cm yukarıda dört ayak pozisyonunda karşı el-karşı ayak ileri yürü.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Dead Bug</string>
+    <string name="ex_y6_1_muscle">Derin Core</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Bel ağrısı olmadan merkez bölgeyi güçlendirir.</string>
+    <string name="ex_y6_1_breath">Uzatırken nefes ver.</string>
+    <string name="ex_y6_1_mistake">Belin yerden kalkması.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Sırt üstü uzan, kollar tavana, dizler 90 derece havada.</item>
+        <item>Belini yere yapıştırıp karşı kol ve bacağı yere yaklaştır.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Ön Kol Plank</string>
+    <string name="ex_y6_2_muscle">Core Dayanıklılığı</string>
+    <string name="ex_y6_2_sets">3 x 35 sn</string>
+    <string name="ex_y6_2_cue">Süreden çok mükemmel form önemlidir.</string>
+    <string name="ex_y6_2_breath">Düzenli nefes al.</string>
+    <string name="ex_y6_2_mistake">Kalçayı düşürmek.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Dirsekler omuz altında, gövde düz çizgi halinde sabit tut.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Köprüde Yürüyüş (Glute Bridge March)</string>
+    <string name="ex_y6_3_muscle">Kalça &amp; Stabilite</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Kalça yüksekliğini sabit tutmaya çalış.</string>
+    <string name="ex_y6_3_breath">Kaldırırken nefes ver.</string>
+    <string name="ex_y6_3_mistake">Kalçanın yana düşmesi.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Köprü pozisyonundayken sırayla dizleri yukarı kaldır.</item>
+    </string-array>
+    <string name="ex_y7_1_name">İp Atlama (veya İpsiz)</string>
+    <string name="ex_y7_1_muscle">Kondisyon &amp; Ritim</string>
+    <string name="ex_y7_1_sets">4 x 45 sn</string>
+    <string name="ex_y7_1_cue">Koordinasyon ve kalp sağlığı için eşsizdir.</string>
+    <string name="ex_y7_1_breath">Burundan nefes alıp ver.</string>
+    <string name="ex_y7_1_mistake">Çok yüksek zıplamak.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Ayak uçlarında ritmik ve hafif sıçramalar yap.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Dönüşümlü Geri Lunge</string>
+    <string name="ex_y7_2_muscle">Bacak Dayanıklılığı</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Diz sağlığına en dost bacak egzersizidir.</string>
+    <string name="ex_y7_2_breath">Kalkarken nefes ver.</string>
+    <string name="ex_y7_2_mistake">Ön dizin içe kayması.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Geriye adımlayıp dik duruşla kalk.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Kutu Nefesi Toparlanma</string>
+    <string name="ex_y7_3_muscle">Toparlanma</string>
+    <string name="ex_y7_3_sets">3 tur</string>
+    <string name="ex_y7_3_cue">Nabzı hızlıca düşürür ve odaklanmayı artırır.</string>
+    <string name="ex_y7_3_breath">Diyaframdan nefes al.</string>
+    <string name="ex_y7_3_mistake">Omuzları yukarı çekmek.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>4 sn nefes al, 4 sn tut, 4 sn ver, 4 sn bekle.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Asılma + Kürek Kemiği Çekişi</string>
+    <string name="ex_yp1_1_muscle">Omurga &amp; Sırt</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 sn</string>
+    <string name="ex_yp1_1_cue">Hem postür hem barfiks gücü kazandırır.</string>
+    <string name="ex_yp1_1_breath">Çekerken nefes ver.</string>
+    <string name="ex_yp1_1_mistake">Sallanmak.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>Asılı pozisyonda kolları bükmeden kürek kemiklerini aşağı çek, sonra serbest asıl.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Basamaktan İn &amp; Patlayıcı Sıçra</string>
+    <string name="ex_yp1_2_muscle">Elit Sıçrama</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Reaktif güç geliştirir.</string>
+    <string name="ex_yp1_2_breath">Sıçrarken nefes ver.</string>
+    <string name="ex_yp1_2_mistake">Dizleri kilitleyip sert inmek.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Alçak basamaktan yumuşak inip anında yukarı patlayıcı sıçra.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Tempolu Şınav + Plank</string>
+    <string name="ex_yp1_3_muscle">Üst Vücut &amp; Core</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 sn</string>
+    <string name="ex_yp1_3_cue">Büyüme çağında güvenli üst vücut kası inşa eder.</string>
+    <string name="ex_yp1_3_breath">Düzenli nefes al.</string>
+    <string name="ex_yp1_3_mistake">Formu bozmak.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>10 kontrollü şınavın hemen ardından 30 sn plank tut.</item>
+    </string-array>
+</resources>

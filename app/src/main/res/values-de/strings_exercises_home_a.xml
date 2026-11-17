@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h1_1_name">Kniebeuge ohne Gewicht</string>
+    <string name="ex_h1_1_muscle">Beine &amp; Gesäß</string>
+    <string name="ex_h1_1_cue">Knie kontrolliert halten, Brust aufrecht.</string>
+    <string name="ex_h1_1_breath">Beim Senken einatmen, beim Aufstehen ausatmen.</string>
+    <string name="ex_h1_1_mistake">Knie nach innen fallen lassen.</string>
+    <string-array name="ex_h1_1_steps">
+        <item>Füße schulterbreit stellen, Arme nach vorn strecken.</item>
+        <item>Hüfte nach hinten absenken wie auf einen unsichtbaren Stuhl.</item>
+        <item>Über die Fersen aufrichten.</item>
+    </string-array>
+    <string name="ex_h1_2_name">Klassische Liegestütze (oder auf Knien)</string>
+    <string name="ex_h1_2_muscle">Brust &amp; Arme</string>
+    <string name="ex_h1_2_cue">Ellenbogen im 45°-Winkel nach hinten, kein T bilden.</string>
+    <string name="ex_h1_2_breath">Beim Senken einatmen, beim Drücken ausatmen.</string>
+    <string name="ex_h1_2_mistake">Hüfte durchhängen lassen.</string>
+    <string-array name="ex_h1_2_steps">
+        <item>Hände etwas weiter als schulterbreit aufsetzen.</item>
+        <item>Körper wie ein Brett gerade halten und Brust senken.</item>
+        <item>Kräftig nach oben abdrücken.</item>
+    </string-array>
+    <string name="ex_h1_3_name">Glute Bridge (Beckenheben)</string>
+    <string name="ex_h1_3_muscle">Gesäß &amp; unterer Rücken</string>
+    <string name="ex_h1_3_cue">Aufs Gesäß fokussieren, nicht ins Hohlkreuz gehen.</string>
+    <string name="ex_h1_3_breath">Beim Heben ausatmen.</string>
+    <string name="ex_h1_3_mistake">Füße zu weit vorn abstellen.</string>
+    <string-array name="ex_h1_3_steps">
+        <item>Auf dem Rücken liegen, Knie gebeugt, Füße nah am Gesäß.</item>
+        <item>Gesäß anspannen und Hüfte bis zur geraden Linie heben.</item>
+        <item>Oben 2 Sekunden halten und langsam senken.</item>
+    </string-array>
+    <string name="ex_h1_4_name">Mountain Climbers</string>
+    <string name="ex_h1_4_muscle">Rumpf &amp; Cardio</string>
+    <string name="ex_h1_4_sets">3 x 30 Sek</string>
+    <string name="ex_h1_4_cue">Hüfte ruhig halten, nicht wippen.</string>
+    <string name="ex_h1_4_breath">Rhythmisch atmen.</string>
+    <string name="ex_h1_4_mistake">Hüfte zu hoch schieben.</string>
+    <string-array name="ex_h1_4_steps">
+        <item>Stabile hohe Plank-Position einnehmen.</item>
+        <item>Knie abwechselnd zügig zur Brust ziehen.</item>
+    </string-array>
+    <string name="ex_h2_1_name">Decline-Liegestütze (Füße erhöht)</string>
+    <string name="ex_h2_1_muscle">Obere Brust</string>
+    <string name="ex_h2_1_cue">Betont obere Brust und vordere Schulter.</string>
+    <string name="ex_h2_1_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_h2_1_mistake">Kopf nach unten hängen lassen.</string>
+    <string-array name="ex_h2_1_steps">
+        <item>Füße auf Sofa oder Bank abstellen.</item>
+        <item>Brust kontrolliert Richtung Boden senken und hochdrücken.</item>
+    </string-array>
+    <string name="ex_h2_2_name">Diamant-Liegestütze</string>
+    <string name="ex_h2_2_muscle">Innere Brust &amp; Trizeps</string>
+    <string name="ex_h2_2_cue">Intensive Aktivierung für Trizeps und innere Brust.</string>
+    <string name="ex_h2_2_breath">Beim Drücken ausatmen.</string>
+    <string name="ex_h2_2_mistake">Hände direkt unter dem Gesicht platzieren.</string>
+    <string-array name="ex_h2_2_steps">
+        <item>Hände unter der Brust zum Diamanten formen.</item>
+        <item>Ellenbogen nah halten, absenken und hochdrücken.</item>
+    </string-array>
+    <string name="ex_h2_3_name">Negative Tempo-Liegestütze</string>
+    <string name="ex_h2_3_muscle">Brustkontrolle</string>
+    <string name="ex_h2_3_cue">Langsames Absenken reizt die Muskelfasern stärker.</string>
+    <string name="ex_h2_3_breath">Beim Senken langsam einatmen.</string>
+    <string name="ex_h2_3_mistake">Auf den letzten Zentimetern fallen lassen.</string>
+    <string-array name="ex_h2_3_steps">
+        <item>Aus der Liegestützposition 4 Sekunden langsam absenken.</item>
+        <item>Unten kurz berühren und zügig hochdrücken.</item>
+    </string-array>
+    <string name="ex_h3_1_name">Bicycle Crunches</string>
+    <string name="ex_h3_1_muscle">Oberer &amp; seitlicher Bauch</string>
+    <string name="ex_h3_1_cue">Schulter eindrehen, nicht am Nacken ziehen.</string>
+    <string name="ex_h3_1_breath">Bei jeder Drehung ausatmen.</string>
+    <string name="ex_h3_1_mistake">Zu hektisch und unsauber strampeln.</string>
+    <string-array name="ex_h3_1_steps">
+        <item>Rückenlage, Hände seitlich am Kopf.</item>
+        <item>Rechten Ellenbogen zum linken Knie führen, rechtes Bein strecken, wechseln.</item>
+    </string-array>
+    <string name="ex_h3_2_name">Beinheben liegend</string>
+    <string name="ex_h3_2_muscle">Unterer Bauch</string>
+    <string name="ex_h3_2_cue">Weniger tief senken, falls sich ein Hohlkreuz bildet.</string>
+    <string name="ex_h3_2_breath">Beim Senken einatmen, beim Heben ausatmen.</string>
+    <string name="ex_h3_2_mistake">Hohlkreuz bilden.</string>
+    <string-array name="ex_h3_2_steps">
+        <item>Hände unter das Gesäß legen.</item>
+        <item>Gestreckte Beine bis 90° heben und knapp über dem Boden halten.</item>
+    </string-array>
+    <string name="ex_h3_3_name">Seitstütz (Side Plank)</string>
+    <string name="ex_h3_3_muscle">Schräge Bauchmuskeln &amp; Taille</string>
+    <string name="ex_h3_3_sets">3 x 30 Sek/Seite</string>
+    <string name="ex_h3_3_cue">Strafft Taille und seitlichen Rumpf.</string>
+    <string name="ex_h3_3_breath">Gleichmäßig atmen.</string>
+    <string name="ex_h3_3_mistake">Hüfte nach vorn oder hinten kippen.</string>
+    <string-array name="ex_h3_3_steps">
+        <item>Auf einem Unterarm seitlich in eine gerade Linie stützen.</item>
+        <item>Position halten ohne abzusacken.</item>
+    </string-array>
+    <string name="ex_h4_1_name">Sumo-Kniebeuge</string>
+    <string name="ex_h4_1_muscle">Innenschenkel &amp; Gesäß</string>
+    <string name="ex_h4_1_cue">Zielt stark auf Innenschenkel und Gesäß.</string>
+    <string name="ex_h4_1_breath">Beim Aufstehen ausatmen.</string>
+    <string name="ex_h4_1_mistake">Knie nach innen kippen.</string>
+    <string-array name="ex_h4_1_steps">
+        <item>Breit stehen, Zehen 45° nach außen.</item>
+        <item>Aufrecht tief beugen und wieder aufrichten.</item>
+    </string-array>
+    <string name="ex_h4_2_name">Ausfallschritt rückwärts</string>
+    <string name="ex_h4_2_muscle">Oberschenkel &amp; Gesäß</string>
+    <string name="ex_h4_2_sets">3 x 12/Bein</string>
+    <string name="ex_h4_2_cue">Kniegelenkschonender als der Ausfallschritt nach vorn.</string>
+    <string name="ex_h4_2_breath">Beim Aufstehen ausatmen.</string>
+    <string name="ex_h4_2_mistake">Zu stark nach vorn lehnen.</string>
+    <string-array name="ex_h4_2_steps">
+        <item>Einen Fuß nach hinten setzen.</item>
+        <item>Hinteres Knie tief senken und über die vordere Ferse aufstehen.</item>
+    </string-array>
+    <string name="ex_h4_3_name">Einbeiniges Beckenheben</string>
+    <string name="ex_h4_3_muscle">Einseitiges Gesäß</string>
+    <string name="ex_h4_3_sets">3 x 12/Bein</string>
+    <string name="ex_h4_3_cue">Verdoppelt die Gesäßaktivierung.</string>
+    <string name="ex_h4_3_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_h4_3_mistake">Hüfte seitlich abkippen lassen.</string>
+    <string-array name="ex_h4_3_steps">
+        <item>Ein Bein gerade nach oben strecken.</item>
+        <item>Über die Standferse hochdrücken und 1 Sekunde halten.</item>
+    </string-array>
+    <string name="ex_h5_1_name">Hampelmänner (Jumping Jacks)</string>
+    <string name="ex_h5_1_muscle">Aufwärmen &amp; Cardio</string>
+    <string name="ex_h5_1_sets">4 x 40 Sek</string>
+    <string name="ex_h5_1_cue">Leicht und leise auf den Fußballen landen.</string>
+    <string name="ex_h5_1_breath">Rhythmisch atmen.</string>
+    <string name="ex_h5_1_mistake">Hart auf die Fersen aufkommen.</string>
+    <string-array name="ex_h5_1_steps">
+        <item>Beine auseinanderspringen und Arme über dem Kopf zusammenführen.</item>
+        <item>Locker zurückspringen.</item>
+    </string-array>
+    <string name="ex_h5_2_name">Burpees (Schritt oder Sprung)</string>
+    <string name="ex_h5_2_muscle">Ganzkörper-Fettverbrennung</string>
+    <string name="ex_h5_2_sets">4 x 30 Sek</string>
+    <string name="ex_h5_2_cue">Bei Müdigkeit sauber in die Schrittvariante wechseln.</string>
+    <string name="ex_h5_2_breath">Beim Sprung ausatmen.</string>
+    <string name="ex_h5_2_mistake">Im Stütz ins Hohlkreuz fallen.</string>
+    <string-array name="ex_h5_2_steps">
+        <item>Hände aufsetzen, Beine in den Stütz zurücksetzen.</item>
+        <item>Füße vorsetzen und nach oben springen.</item>
+    </string-array>
+    <string name="ex_h5_3_name">Kniehebelauf auf der Stelle</string>
+    <string name="ex_h5_3_muscle">Cardio &amp; unterer Bauch</string>
+    <string name="ex_h5_3_sets">4 x 30 Sek</string>
+    <string name="ex_h5_3_cue">Arme im Laufrhythmus mitschwingen.</string>
+    <string name="ex_h5_3_breath">Gleichmäßig ausatmen.</string>
+    <string name="ex_h5_3_mistake">Oberkörper nach hinten lehnen.</string>
+    <string-array name="ex_h5_3_steps">
+        <item>Auf der Stelle laufen und Knie zügig auf Hüfthöhe ziehen.</item>
+    </string-array>
+    <string name="ex_h6_1_name">Kurzhantel-Thruster</string>
+    <string name="ex_h6_1_muscle">Beine &amp; Schultern</string>
+    <string name="ex_h6_1_cue">Trainiert den gesamten Körper in einer flüssigen Bewegung.</string>
+    <string name="ex_h6_1_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_h6_1_mistake">Beinschwung abstoppen und nur aus den Armen drücken.</string>
+    <string-array name="ex_h6_1_steps">
+        <item>Mit Hanteln auf den Schultern beugen.</item>
+        <item>Schwung aus den Beinen nutzen und über Kopf drücken.</item>
+    </string-array>
+    <string name="ex_h6_2_name">Vorgebeugtes Kurzhantelrudern</string>
+    <string name="ex_h6_2_muscle">Rücken</string>
+    <string name="ex_h6_2_cue">Nacken in neutraler Verlängerung der Wirbelsäule halten.</string>
+    <string name="ex_h6_2_breath">Beim Ziehen ausatmen.</string>
+    <string name="ex_h6_2_mistake">Rücken krümmen.</string>
+    <string-array name="ex_h6_2_steps">
+        <item>45° aus der Hüfte vorbeugen, Rücken gerade.</item>
+        <item>Kurzhanteln zur Hüfte ziehen und Schulterblätter schließen.</item>
+    </string-array>
+    <string name="ex_h6_3_name">Kurzhantel-Floor-Press</string>
+    <string name="ex_h6_3_muscle">Brust &amp; Trizeps</string>
+    <string name="ex_h6_3_cue">Sehr schulterschonende Brustübung für zu Hause.</string>
+    <string name="ex_h6_3_breath">Beim Drücken ausatmen.</string>
+    <string name="ex_h6_3_mistake">Ellenbogen hart auf den Boden schlagen.</string>
+    <string-array name="ex_h6_3_steps">
+        <item>Auf dem Rücken liegen, Knie gebeugt.</item>
+        <item>Ellenbogen leicht am Boden absetzen, pausieren und hochdrücken.</item>
+    </string-array>
+    <string name="ex_h7_1_name">Katze-Kuh-Dehnung</string>
+    <string name="ex_h7_1_muscle">Wirbelsäulenmobilität</string>
+    <string name="ex_h7_1_cue">Wirbel für Wirbel bewusst bewegen.</string>
+    <string name="ex_h7_1_breath">Bewegung und Atmung synchronisieren.</string>
+    <string name="ex_h7_1_mistake">Zu hastig ausführen.</string>
+    <string-array name="ex_h7_1_steps">
+        <item>Im Vierfüßlerstand beginnen.</item>
+        <item>Einatmen: Brust öffnen; ausatmen: Rücken rund nach oben schieben.</item>
+    </string-array>
+    <string name="ex_h7_2_name">World\'s Greatest Stretch</string>
+    <string name="ex_h7_2_muscle">Hüfte &amp; Brustwirbelsäule</string>
+    <string name="ex_h7_2_sets">3 x 6/Seite</string>
+    <string name="ex_h7_2_cue">Löst Schreibtischtensionen sofort.</string>
+    <string name="ex_h7_2_breath">Beim Aufdrehen ausatmen.</string>
+    <string name="ex_h7_2_mistake">Hinteres Knie am Boden ablegen.</string>
+    <string-array name="ex_h7_2_steps">
+        <item>Tiefen Ausfallschritt einnehmen, eine Hand zum Boden.</item>
+        <item>Anderen Arm weit nach oben aufdrehen.</item>
+    </string-array>
+    <string name="ex_h7_3_name">Tiefe Hocke halten</string>
+    <string name="ex_h7_3_muscle">Hüfte &amp; Sprunggelenke</string>
+    <string name="ex_h7_3_sets">3 x 30 Sek</string>
+    <string name="ex_h7_3_cue">Fersen bleiben fest am Boden.</string>
+    <string name="ex_h7_3_breath">Tief in den Bauch atmen.</string>
+    <string name="ex_h7_3_mistake">Fersen vom Boden abheben.</string>
+    <string-array name="ex_h7_3_steps">
+        <item>Tief in die Hocke sinken.</item>
+        <item>Knie mit den Ellenbogen sanft nach außen drücken, Brust heben.</item>
+    </string-array>
+    <string name="ex_h8_1_name">Pike-Liegestütze</string>
+    <string name="ex_h8_1_muscle">Schultern</string>
+    <string name="ex_h8_1_cue">Bester Ersatz für Schulterdrücken ohne Gewichte.</string>
+    <string name="ex_h8_1_breath">Beim Drücken ausatmen.</string>
+    <string name="ex_h8_1_mistake">Ellenbogen zu weit zur Seite stellen.</string>
+    <string-array name="ex_h8_1_steps">
+        <item>Hüfte hoch zu einem umgekehrten V schieben.</item>
+        <item>Kopf vor die Hände absenken und hochdrücken.</item>
+    </string-array>
+    <string name="ex_h8_2_name">Trizeps-Dips am Stuhl</string>
+    <string name="ex_h8_2_muscle">Trizeps</string>
+    <string name="ex_h8_2_cue">Schultern tief halten.</string>
+    <string name="ex_h8_2_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_h8_2_mistake">Zu weit vom Stuhl wegrutschen.</string>
+    <string-array name="ex_h8_2_steps">
+        <item>An einer stabilen Stuhlkante abstützen.</item>
+        <item>Rücken nah am Stuhl lassen, 90° beugen und hochdrücken.</item>
+    </string-array>
+    <string name="ex_h8_3_name">Superman-Halten</string>
+    <string name="ex_h8_3_muscle">Unterer Rücken &amp; Haltung</string>
+    <string name="ex_h8_3_cue">Stärkt Rücken und aufrechte Haltung.</string>
+    <string name="ex_h8_3_breath">Beim Heben ausatmen.</string>
+    <string name="ex_h8_3_mistake">Kopf in den Nacken legen.</string>
+    <string-array name="ex_h8_3_steps">
+        <item>Bauchlage, Arme und Beine gestreckt.</item>
+        <item>Brust und Beine leicht anheben und 2 Sekunden halten.</item>
+    </string-array>
+</resources>

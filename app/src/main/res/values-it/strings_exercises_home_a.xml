@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h1_1_name">Squat a corpo libero</string>
+    <string name="ex_h1_1_muscle">Gambe e Glutei</string>
+    <string name="ex_h1_1_cue">Petto alto e ginocchia stabili.</string>
+    <string name="ex_h1_1_breath">Inspira scendendo, espira salendo.</string>
+    <string name="ex_h1_1_mistake">Avvicinare le ginocchia.</string>
+    <string-array name="ex_h1_1_steps">
+        <item>Piedi larghezza spalle, braccia avanti.</item>
+        <item>Siedi indietro sui fianchi come su una sedia invisibile.</item>
+        <item>Spingi sui talloni per rialzarti.</item>
+    </string-array>
+    <string name="ex_h1_2_name">Piegamenti classici (o sulle ginocchia)</string>
+    <string name="ex_h1_2_muscle">Petto e Braccia</string>
+    <string name="ex_h1_2_cue">Gomiti a 45 gradi indietro, mai a forma di T.</string>
+    <string name="ex_h1_2_breath">Inspira scendendo, espira spingendo.</string>
+    <string name="ex_h1_2_mistake">Far cedere i fianchi verso il basso.</string>
+    <string-array name="ex_h1_2_steps">
+        <item>Mani poco più larghe delle spalle.</item>
+        <item>Corpo dritto come una tavola, porta il petto verso il suolo.</item>
+        <item>Spingi con i palmi per risalire.</item>
+    </string-array>
+    <string name="ex_h1_3_name">Ponte glutei</string>
+    <string name="ex_h1_3_muscle">Glutei e Lombari</string>
+    <string name="ex_h1_3_cue">Concentrati sui glutei, non sulla schiena.</string>
+    <string name="ex_h1_3_breath">Espira sollevando.</string>
+    <string name="ex_h1_3_mistake">Mettere i piedi troppo avanti.</string>
+    <string-array name="ex_h1_3_steps">
+        <item>Sdraiati supino, ginocchia flesse e piedi vicini ai glutei.</item>
+        <item>Solleva i fianchi allineando spalle, bacino e ginocchia.</item>
+        <item>Stringi 2 secondi in cima e scendi piano.</item>
+    </string-array>
+    <string name="ex_h1_4_name">Mountain Climber</string>
+    <string name="ex_h1_4_muscle">Core e Cardio</string>
+    <string name="ex_h1_4_sets">3 x 30 sec</string>
+    <string name="ex_h1_4_cue">Mantieni i fianchi stabili senza rimbalzare.</string>
+    <string name="ex_h1_4_breath">Respira ritmicamente.</string>
+    <string name="ex_h1_4_mistake">Alzare troppo i fianchi.</string>
+    <string-array name="ex_h1_4_steps">
+        <item>Assumi una posizione di plank alto.</item>
+        <item>Porta velocemente le ginocchia al petto in alternanza.</item>
+    </string-array>
+    <string name="ex_h2_1_name">Piegamenti declinati (piedi rialzati)</string>
+    <string name="ex_h2_1_muscle">Petto alto</string>
+    <string name="ex_h2_1_cue">Carica petto alto e deltoidi anteriori.</string>
+    <string name="ex_h2_1_breath">Espira spingendo.</string>
+    <string name="ex_h2_1_mistake">Far cadere la testa in avanti.</string>
+    <string-array name="ex_h2_1_steps">
+        <item>Appoggia i piedi su un divano o panca.</item>
+        <item>Abbassa il petto verso terra e spingi.</item>
+    </string-array>
+    <string name="ex_h2_2_name">Piegamenti a diamante</string>
+    <string name="ex_h2_2_muscle">Petto interno e Tricipiti</string>
+    <string name="ex_h2_2_cue">Forte attivazione di tricipiti e petto interno.</string>
+    <string name="ex_h2_2_breath">Espira spingendo.</string>
+    <string name="ex_h2_2_mistake">Mettere le mani sotto il viso.</string>
+    <string-array name="ex_h2_2_steps">
+        <item>Forma un diamante con le mani sotto il petto.</item>
+        <item>Scendi tenendo i gomiti stretti e spingi.</item>
+    </string-array>
+    <string name="ex_h2_3_name">Piegamenti eccentrici lenti</string>
+    <string name="ex_h2_3_muscle">Controllo pettorali</string>
+    <string name="ex_h2_3_cue">La discesa lenta stimola di più le fibre.</string>
+    <string name="ex_h2_3_breath">Inspira lentamente scendendo.</string>
+    <string name="ex_h2_3_mistake">Lasciarsi cadere all\'ultimo secondo.</string>
+    <string-array name="ex_h2_3_steps">
+        <item>Scendi contando lentamente 4 secondi.</item>
+        <item>Sfiora il suolo e spingi su rapidamente.</item>
+    </string-array>
+    <string name="ex_h3_1_name">Crunch bicicletta</string>
+    <string name="ex_h3_1_muscle">Addome e Obliqui</string>
+    <string name="ex_h3_1_cue">Ruota la spalla senza tirare il collo.</string>
+    <string name="ex_h3_1_breath">Espira ad ogni torsione.</string>
+    <string name="ex_h3_1_mistake">Pedalare troppo veloce e a metà.</string>
+    <string-array name="ex_h3_1_steps">
+        <item>Supino con mani alle tempie.</item>
+        <item>Avvicina gomito destro al ginocchio sinistro stendendo l\'altra gamba, poi cambia.</item>
+    </string-array>
+    <string name="ex_h3_2_name">Sollevamento gambe a terra</string>
+    <string name="ex_h3_2_muscle">Addome inferiore</string>
+    <string name="ex_h3_2_cue">Scendi meno se i lombari si staccano da terra.</string>
+    <string name="ex_h3_2_breath">Inspira scendendo, espira salendo.</string>
+    <string name="ex_h3_2_mistake">Inarcare la zona lombare.</string>
+    <string-array name="ex_h3_2_steps">
+        <item>Mani sotto i glutei.</item>
+        <item>Alza le gambe tese a 90° e scendi senza toccare terra.</item>
+    </string-array>
+    <string name="ex_h3_3_name">Plank laterale</string>
+    <string name="ex_h3_3_muscle">Obliqui e Punto vita</string>
+    <string name="ex_h3_3_sets">3 x 30 sec/lato</string>
+    <string name="ex_h3_3_cue">Tonifica punto vita e obliqui.</string>
+    <string name="ex_h3_3_breath">Respira regolarmente.</string>
+    <string name="ex_h3_3_mistake">Ruotare i fianchi avanti o indietro.</string>
+    <string-array name="ex_h3_3_steps">
+        <item>Solleva i fianchi su un avambraccio in linea retta.</item>
+        <item>Mantieni senza far scendere il bacino.</item>
+    </string-array>
+    <string name="ex_h4_1_name">Sumo Squat</string>
+    <string name="ex_h4_1_muscle">Interno coscia e Glutei</string>
+    <string name="ex_h4_1_cue">Attiva interno coscia e glutei.</string>
+    <string name="ex_h4_1_breath">Espira salendo.</string>
+    <string name="ex_h4_1_mistake">Far cadere le ginocchia all\'interno.</string>
+    <string-array name="ex_h4_1_steps">
+        <item>Piedi larghi con punte a 45° verso l\'esterno.</item>
+        <item>Scendi col busto eretto e risali.</item>
+    </string-array>
+    <string name="ex_h4_2_name">Affondo indietro</string>
+    <string name="ex_h4_2_muscle">Quadricipiti e Glutei</string>
+    <string name="ex_h4_2_sets">3 x 12/gamba</string>
+    <string name="ex_h4_2_cue">Più delicato per le ginocchia rispetto all\'affondo avanti.</string>
+    <string name="ex_h4_2_breath">Espira risalendo.</string>
+    <string name="ex_h4_2_mistake">Piegarsi troppo in avanti.</string>
+    <string-array name="ex_h4_2_steps">
+        <item>Fai un passo indietro.</item>
+        <item>Porta il ginocchio dietro vicino al suolo e risali dal tallone avanti.</item>
+    </string-array>
+    <string name="ex_h4_3_name">Ponte glutei a una gamba</string>
+    <string name="ex_h4_3_muscle">Glutei unilaterali</string>
+    <string name="ex_h4_3_sets">3 x 12/gamba</string>
+    <string name="ex_h4_3_cue">Raddoppia la forza dei glutei.</string>
+    <string name="ex_h4_3_breath">Espira spingendo.</string>
+    <string name="ex_h4_3_mistake">Far cadere il bacino di lato.</string>
+    <string-array name="ex_h4_3_steps">
+        <item>Stendi una gamba verso l\'alto.</item>
+        <item>Spingi con l\'altro tallone e contrai 1 secondo.</item>
+    </string-array>
+    <string name="ex_h5_1_name">Jumping Jacks</string>
+    <string name="ex_h5_1_muscle">Riscaldamento e Cardio</string>
+    <string name="ex_h5_1_sets">4 x 40 sec</string>
+    <string name="ex_h5_1_cue">Atterra morbido sulle punte.</string>
+    <string name="ex_h5_1_breath">Respira ritmicamente.</string>
+    <string name="ex_h5_1_mistake">Sbattere i talloni a terra.</string>
+    <string-array name="ex_h5_1_steps">
+        <item>Salta aprendo le gambe e unendo le mani sopra la testa.</item>
+        <item>Torna alla posizione iniziale.</item>
+    </string-array>
+    <string name="ex_h5_2_name">Burpee (con passo o salto)</string>
+    <string name="ex_h5_2_muscle">Total body brucia grassi</string>
+    <string name="ex_h5_2_sets">4 x 30 sec</string>
+    <string name="ex_h5_2_cue">Passa alla versione camminata se sei stanco.</string>
+    <string name="ex_h5_2_breath">Espira saltando.</string>
+    <string name="ex_h5_2_mistake">Inarcare troppo i lombari.</string>
+    <string-array name="ex_h5_2_steps">
+        <item>Mani a terra, porta i piedi in plank.</item>
+        <item>Riporta i piedi avanti e salta.</item>
+    </string-array>
+    <string name="ex_h5_3_name">Corsa calciata alta (High Knees)</string>
+    <string name="ex_h5_3_muscle">Cardio e Addome basso</string>
+    <string name="ex_h5_3_sets">4 x 30 sec</string>
+    <string name="ex_h5_3_cue">Usa le braccia al ritmo della corsa.</string>
+    <string name="ex_h5_3_breath">Espira regolarmente.</string>
+    <string name="ex_h5_3_mistake">Inclinarsi all\'indietro.</string>
+    <string-array name="ex_h5_3_steps">
+        <item>Corri sul posto portando le ginocchia all\'altezza dei fianchi.</item>
+    </string-array>
+    <string name="ex_h6_1_name">Dumbbell Thruster</string>
+    <string name="ex_h6_1_muscle">Gambe e Spalle</string>
+    <string name="ex_h6_1_cue">Allena tutto il corpo in un unico movimento.</string>
+    <string name="ex_h6_1_breath">Espira spingendo sopra la testa.</string>
+    <string name="ex_h6_1_mistake">Spingere solo di braccia senza gambe.</string>
+    <string-array name="ex_h6_1_steps">
+        <item>Fai squat con i manubri alle spalle.</item>
+        <item>Sfrutta la spinta delle gambe per portare i pesi sopra la testa.</item>
+    </string-array>
+    <string name="ex_h6_2_name">Rematore con manubri</string>
+    <string name="ex_h6_2_muscle">Schiena</string>
+    <string name="ex_h6_2_cue">Collo neutro in linea con la colonna.</string>
+    <string name="ex_h6_2_breath">Espira tirando.</string>
+    <string name="ex_h6_2_mistake">Incurvare la schiena.</string>
+    <string-array name="ex_h6_2_steps">
+        <item>Piega a 45° dai fianchi con schiena piatta.</item>
+        <item>Tira i manubri ai fianchi stringendo le scapole.</item>
+    </string-array>
+    <string name="ex_h6_3_name">Floor press con manubri</string>
+    <string name="ex_h6_3_muscle">Petto e Tricipiti</string>
+    <string name="ex_h6_3_cue">Ottimo esercizio pettorale sicuro per le spalle.</string>
+    <string name="ex_h6_3_breath">Espira spingendo.</string>
+    <string name="ex_h6_3_mistake">Sbattere i gomiti a terra.</string>
+    <string-array name="ex_h6_3_steps">
+        <item>Sdraiati supino con ginocchia flesse.</item>
+        <item>Tocca leggermente terra coi gomiti, pausa e spingi.</item>
+    </string-array>
+    <string name="ex_h7_1_name">Stretching Gatto-Mucca</string>
+    <string name="ex_h7_1_muscle">Mobilità spinale</string>
+    <string name="ex_h7_1_cue">Muovi una vertebra alla volta.</string>
+    <string name="ex_h7_1_breath">Sincronizza respiro e movimento.</string>
+    <string name="ex_h7_1_mistake">Eseguirlo troppo velocemente.</string>
+    <string-array name="ex_h7_1_steps">
+        <item>A quattro zampe con mani sotto le spalle.</item>
+        <item>Inspira aprendo il petto; espira curvando la schiena in alto.</item>
+    </string-array>
+    <string name="ex_h7_2_name">World\'s Greatest Stretch</string>
+    <string name="ex_h7_2_muscle">Anca e Colonna toracica</string>
+    <string name="ex_h7_2_sets">3 x 6/lato</string>
+    <string name="ex_h7_2_cue">Scioglie la rigidità da scrivania.</string>
+    <string name="ex_h7_2_breath">Espira durante la rotazione.</string>
+    <string name="ex_h7_2_mistake">Appoggiare il ginocchio dietro a terra.</string>
+    <string-array name="ex_h7_2_steps">
+        <item>Affondo profondo con una mano a terra.</item>
+        <item>Ruota l\'altro braccio al cielo aprendo il petto.</item>
+    </string-array>
+    <string name="ex_h7_3_name">Squat profondo tenuto</string>
+    <string name="ex_h7_3_muscle">Anche e Caviglie</string>
+    <string name="ex_h7_3_sets">3 x 30 sec</string>
+    <string name="ex_h7_3_cue">Mantieni i talloni ben piantati a terra.</string>
+    <string name="ex_h7_3_breath">Respira profondamente col diaframma.</string>
+    <string name="ex_h7_3_mistake">Alzare i talloni.</string>
+    <string-array name="ex_h7_3_steps">
+        <item>Scendi in squat profondo.</item>
+        <item>Spingi dolcemente le ginocchia fuori coi gomiti e petto alto.</item>
+    </string-array>
+    <string name="ex_h8_1_name">Pike Push-Up</string>
+    <string name="ex_h8_1_muscle">Spalle</string>
+    <string name="ex_h8_1_cue">Miglior sostituto a corpo libero del lento avanti.</string>
+    <string name="ex_h8_1_breath">Espira spingendo.</string>
+    <string name="ex_h8_1_mistake">Allargare troppo i gomiti.</string>
+    <string-array name="ex_h8_1_steps">
+        <item>Alza i fianchi a V rovesciata.</item>
+        <item>Scendi col capo davanti alle mani e spingi su.</item>
+    </string-array>
+    <string name="ex_h8_2_name">Dip tricipiti su sedia</string>
+    <string name="ex_h8_2_muscle">Tricipiti</string>
+    <string name="ex_h8_2_cue">Tieni le spalle basse.</string>
+    <string name="ex_h8_2_breath">Espira salendo.</string>
+    <string name="ex_h8_2_mistake">Allontanarsi troppo dalla sedia.</string>
+    <string-array name="ex_h8_2_steps">
+        <item>Mani sul bordo di una sedia stabile.</item>
+        <item>Schiena vicina alla sedia, piega a 90° e spingi.</item>
+    </string-array>
+    <string name="ex_h8_3_name">Superman Hold</string>
+    <string name="ex_h8_3_muscle">Lombari e Postura</string>
+    <string name="ex_h8_3_cue">Rafforza schiena e postura.</string>
+    <string name="ex_h8_3_breath">Espira sollevando.</string>
+    <string name="ex_h8_3_mistake">Iperestendere il collo indietro.</string>
+    <string-array name="ex_h8_3_steps">
+        <item>Prono con braccia e gambe tese.</item>
+        <item>Solleva petto e gambe per 2 secondi.</item>
+    </string-array>
+</resources>

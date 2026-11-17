@@ -2,6 +2,7 @@ package com.example.data.catalog
 
 import com.example.data.model.ExerciseDemoType
 import com.example.data.model.ExerciseItem
+import com.example.data.model.TargetGroup
 import com.example.data.model.WorkoutCategory
 import com.example.data.model.WorkoutProgram
 
@@ -55,6 +56,7 @@ object WorkoutCatalogHomeAndYouth {
             difficulty = "Orta",
             durationMinutes = 30,
             estimatedCalories = 230,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("h2_1", "Decline Push-Up (Ayaklar Yüksekte)", "Üst Göğüs", "3 x 10", 60, ExerciseDemoType.PUSHUP,
                     listOf("Ayaklarını koltuk veya yatağın üstüne koy.", "Elleri yere yerleştir ve göğsü yere yaklaştırıp it."),
@@ -97,6 +99,7 @@ object WorkoutCatalogHomeAndYouth {
             difficulty = "Orta",
             durationMinutes = 35,
             estimatedCalories = 290,
+            targetGroup = TargetGroup.FEMALE_ONLY,
             exercises = listOf(
                 ex("h4_1", "Sumo Squat", "İç Bacak & Kalça", "4 x 15", 45, ExerciseDemoType.SQUAT,
                     listOf("Ayakları omuzdan geniş aç, parmak uçları 45 derece dışa baksın.", "Dik gövdeyle aşağı çömel ve kalk."),
@@ -181,6 +184,7 @@ object WorkoutCatalogHomeAndYouth {
             difficulty = "Başlangıç",
             durationMinutes = 30,
             estimatedCalories = 210,
+            targetGroup = TargetGroup.FEMALE_ONLY,
             exercises = listOf(
                 ex("h8_1", "Pike Push-Up", "Omuz", "3 x 8-10", 60, ExerciseDemoType.PUSHUP,
                     listOf("Kalçanı tavana kaldırarak ters V şekli al.", "Başının tepesini ellerinin hafif önüne indirip it."),
@@ -265,6 +269,7 @@ object WorkoutCatalogHomeAndYouth {
             difficulty = "Başlangıç",
             durationMinutes = 18,
             estimatedCalories = 70,
+            targetGroup = TargetGroup.FEMALE_ONLY,
             exercises = listOf(
                 ex("h12_1", "Child's Pose (Çocuk Pozu)", "Sırt & Omuz", "3 x 45 sn", 15, ExerciseDemoType.STRETCH,
                     listOf("Dizlerin üzerine otur, kolları öne uzatarak alnını mata koy.", "Her nefeste sırtının açıldığını hisset."),
@@ -332,6 +337,7 @@ object WorkoutCatalogHomeAndYouth {
             durationMinutes = 40,
             estimatedCalories = 300,
             isProSpecial = true,
+            targetGroup = TargetGroup.MALE_ONLY,
             exercises = listOf(
                 ex("hp3_1", "Pseudo Planche Push-Up", "Omuz & Göğüs", "4 x 8", 75, ExerciseDemoType.PUSHUP,
                     listOf("Parmaklar yanlara/geriye dönük, omuzları ellerin önüne doğru eğip şınav çek."),
@@ -354,6 +360,7 @@ object WorkoutCatalogHomeAndYouth {
             durationMinutes = 30,
             estimatedCalories = 250,
             isProSpecial = true,
+            targetGroup = TargetGroup.FEMALE_ONLY,
             exercises = listOf(
                 ex("hp4_1", "Hollow Body Hold", "Tüm Core", "4 x 30 sn", 45, ExerciseDemoType.PLANK,
                     listOf("Sırt üstü uzan, belini yere tamamen yapıştır.", "Omuzları ve düz bacakları yerden kaldırıp muz şekli al."),
@@ -549,6 +556,14 @@ object WorkoutCatalogHomeAndYouth {
         )
     )
 
-    val ALL_WORKOUTS: List<WorkoutProgram> =
+    val CORE_40_WORKOUTS: List<WorkoutProgram> =
         WorkoutCatalogGym.gymWorkouts + homeWorkouts + youthWorkouts
+
+    val ALL_WORKOUTS: List<WorkoutProgram> =
+        WorkoutCatalogVisuals.assignUniqueVisuals(
+            CORE_40_WORKOUTS +
+                WorkoutCatalogLibraryGym.workouts +
+                WorkoutCatalogLibraryHome.workouts +
+                WorkoutCatalogLibraryYouth.workouts
+        )
 }

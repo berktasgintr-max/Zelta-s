@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g7_1_name">Peso muerto convencional</string>
+    <string name="ex_g7_1_muscle">Cadena posterior completa</string>
+    <string name="ex_g7_1_cue">Nunca encorves la espalda; la barra debe subir en línea vertical.</string>
+    <string name="ex_g7_1_breath">Inhala profundo y bloquea el abdomen antes de subir, exhala arriba.</string>
+    <string name="ex_g7_1_mistake">Tirar con la zona lumbar en lugar de empujar el suelo.</string>
+    <string-array name="ex_g7_1_steps">
+        <item>Pies al ancho de cadera con la barra sobre el medio pie.</item>
+        <item>Empuja la cadera atrás para agarrar la barra, abre el pecho y bloquea la espalda.</item>
+        <item>Empuja el suelo manteniendo la barra pegada a las piernas.</item>
+    </string-array>
+    <string name="ex_g7_2_name">Hip Thrust</string>
+    <string name="ex_g7_2_muscle">Glúteos</string>
+    <string name="ex_g7_2_cue">Acerca ligeramente la barbilla al pecho para no arquear la lumbar.</string>
+    <string name="ex_g7_2_breath">Exhala al empujar arriba.</string>
+    <string name="ex_g7_2_mistake">Hiperextender la zona lumbar.</string>
+    <string-array name="ex_g7_2_steps">
+        <item>Apoya los omóplatos en el banco con la barra sobre la cadera.</item>
+        <item>Empuja con los talones para subir la cadera y aprieta fuerte arriba.</item>
+    </string-array>
+    <string name="ex_g7_3_name">Curl femoral tumbado</string>
+    <string name="ex_g7_3_muscle">Isquiotibiales</string>
+    <string name="ex_g7_3_cue">No despegues la cadera del banco.</string>
+    <string name="ex_g7_3_breath">Exhala al flexionar.</string>
+    <string name="ex_g7_3_mistake">Soltar el peso demasiado rápido.</string>
+    <string-array name="ex_g7_3_steps">
+        <item>Túmbate boca abajo con el rodillo sobre el tendón de Aquiles.</item>
+        <item>Lleva los talones hacia los glúteos y baja con control.</item>
+    </string-array>
+    <string name="ex_g7_4_name">Elevación de rodillas colgado</string>
+    <string name="ex_g7_4_muscle">Abdomen inferior y Agarre</string>
+    <string name="ex_g7_4_cue">Baja lento para evitar el balanceo.</string>
+    <string name="ex_g7_4_breath">Exhala al subir las rodillas.</string>
+    <string name="ex_g7_4_mistake">Tomar impulso balanceando las piernas.</string>
+    <string-array name="ex_g7_4_steps">
+        <item>Cuélgate de una barra fija.</item>
+        <item>Eleva las rodillas al pecho de forma controlada.</item>
+        <item>Baja sin balancearte.</item>
+    </string-array>
+    <string name="ex_g8_1_name">Sprint en remo</string>
+    <string name="ex_g8_1_muscle">Cardio cuerpo completo</string>
+    <string name="ex_g8_1_cue" formatted="false">Usa 60% piernas, 20% core, 20% brazos.</string>
+    <string name="ex_g8_1_breath">Exhala en cada tirón.</string>
+    <string name="ex_g8_1_mistake">Tirar solo de brazos y doblar piernas antes de tiempo.</string>
+    <string-array name="ex_g8_1_steps">
+        <item>Sujeta bien los pies.</item>
+        <item>Empuja primero con las piernas, inclina el torso atrás y tira con los brazos.</item>
+    </string-array>
+    <string name="ex_g8_2_name">Kettlebell Swing</string>
+    <string name="ex_g8_2_muscle">Glúteos y Acondicionamiento</string>
+    <string name="ex_g8_2_cue">Los brazos solo sujetan; toda la fuerza sale de la cadera.</string>
+    <string name="ex_g8_2_breath">Exhala al impulsar hacia arriba.</string>
+    <string name="ex_g8_2_mistake">Hacer sentadilla y subir con los brazos.</string>
+    <string-array name="ex_g8_2_steps">
+        <item>Pies más anchos que los hombros.</item>
+        <item>Haz bisagra de cadera llevando la pesa entre las piernas.</item>
+        <item>Empuja la cadera con potencia para llevarla al pecho.</item>
+    </string-array>
+    <string name="ex_g8_3_name">Cuerdas de batalla</string>
+    <string name="ex_g8_3_muscle">Hombros y Cardio</string>
+    <string name="ex_g8_3_sets">4 x 30 seg</string>
+    <string name="ex_g8_3_cue">Mantén el abdomen firme y la espalda erguida.</string>
+    <string name="ex_g8_3_breath">Respira de forma rítmica.</string>
+    <string name="ex_g8_3_mistake">Mover solo las muñecas.</string>
+    <string-array name="ex_g8_3_steps">
+        <item>Adopta postura atlética con rodillas semiflexionadas.</item>
+        <item>Agita las cuerdas de forma alterna creando ondas rápidas.</item>
+    </string-array>
+    <string name="ex_g8_4_name">Caminata inclinada en cinta</string>
+    <string name="ex_g8_4_muscle">Pulso quema grasa</string>
+    <string name="ex_g8_4_sets">12 min</string>
+    <string name="ex_g8_4_cue">Quema muchas calorías sin impacto articular.</string>
+    <string name="ex_g8_4_breath">Inhala profundo por la nariz.</string>
+    <string name="ex_g8_4_mistake">Apoyarse en las barras reduciendo el esfuerzo.</string>
+    <string-array name="ex_g8_4_steps">
+        <item>Camina a buen ritmo con 10–12% de inclinación a 5.0–5.5 km/h.</item>
+        <item>Balancea los brazos sin agarrarte a las barras.</item>
+    </string-array>
+    <string name="ex_g9_1_name">Press banca con pausa</string>
+    <string name="ex_g9_1_muscle">Pecho</string>
+    <string name="ex_g9_1_cue">No pierdas la tensión durante la pausa.</string>
+    <string name="ex_g9_1_breath">Inhala al inicio, exhala al empujar.</string>
+    <string name="ex_g9_1_mistake">Rebotar la barra en el pecho.</string>
+    <string-array name="ex_g9_1_steps">
+        <item>Baja la barra con control al pecho.</item>
+        <item>Haz una pausa completa de 1 segundo en el pecho.</item>
+        <item>Empuja de forma explosiva arriba.</item>
+    </string-array>
+    <string name="ex_g9_2_name">Fondos con lastre para pecho</string>
+    <string name="ex_g9_2_muscle">Pecho inferior y Tríceps</string>
+    <string name="ex_g9_2_cue">Inclinarse adelante activa más el pecho.</string>
+    <string name="ex_g9_2_breath">Exhala al subir.</string>
+    <string name="ex_g9_2_mistake">Dejar caer los hombros adelante.</string>
+    <string-array name="ex_g9_2_steps">
+        <item>Sujeta las barras paralelas e inclina el torso hacia adelante.</item>
+        <item>Baja hasta 90° en codos y empuja con fuerza.</item>
+    </string-array>
+    <string name="ex_g9_3_name">Aperturas en máquina Pec Deck</string>
+    <string name="ex_g9_3_muscle">Pecho interno</string>
+    <string name="ex_g9_3_cue">Traza un arco amplio abriendo bien el pecho.</string>
+    <string name="ex_g9_3_breath">Exhala al cerrar.</string>
+    <string name="ex_g9_3_mistake">Poner demasiado peso y doblar mucho los codos.</string>
+    <string-array name="ex_g9_3_steps">
+        <item>Ajusta el asiento con codos semiflexionados.</item>
+        <item>Junta los brazos al centro y aprieta 1 segundo.</item>
+    </string-array>
+    <string name="ex_g10_1_name">Remo en barra T</string>
+    <string name="ex_g10_1_muscle">Espalda media</string>
+    <string name="ex_g10_1_cue">Aprieta la espalda en cada repetición.</string>
+    <string name="ex_g10_1_breath">Exhala al tirar.</string>
+    <string name="ex_g10_1_mistake">Balancear la zona lumbar.</string>
+    <string-array name="ex_g10_1_steps">
+        <item>Inclina el torso a 45 grados con espalda recta.</item>
+        <item>Tira del peso hacia la parte baja del pecho.</item>
+    </string-array>
+    <string name="ex_g10_2_name">Jalón al pecho agarre cerrado</string>
+    <string name="ex_g10_2_muscle">Dorsal inferior</string>
+    <string name="ex_g10_2_cue">Estira profundamente el dorsal inferior.</string>
+    <string name="ex_g10_2_breath">Exhala al bajar.</string>
+    <string name="ex_g10_2_mistake">Encoger los hombros hacia arriba.</string>
+    <string-array name="ex_g10_2_steps">
+        <item>Sujeta el agarre en V cerrado.</item>
+        <item>Pega los codos a los costados y tira hacia el pecho.</item>
+    </string-array>
+    <string name="ex_g10_3_name">Encogimientos con mancuernas</string>
+    <string name="ex_g10_3_muscle">Trapecios</string>
+    <string name="ex_g10_3_cue">Sube recto, sin rotar los hombros.</string>
+    <string name="ex_g10_3_breath">Exhala al subir.</string>
+    <string name="ex_g10_3_mistake">Adelantar la cabeza.</string>
+    <string-array name="ex_g10_3_steps">
+        <item>Sostén mancuernas a los lados.</item>
+        <item>Sube los hombros recto hacia las orejas y mantén 1 segundo.</item>
+    </string-array>
+    <string name="ex_g11_1_name">Sentadilla Hack</string>
+    <string name="ex_g11_1_muscle">Cuádriceps</string>
+    <string name="ex_g11_1_cue">No dejes que las rodillas se metan hacia dentro.</string>
+    <string name="ex_g11_1_breath">Exhala al subir.</string>
+    <string name="ex_g11_1_mistake">Quedarse a media bajada.</string>
+    <string-array name="ex_g11_1_steps">
+        <item>Apoya toda la espalda en el respaldo y adelanta algo los pies.</item>
+        <item>Baja profundo y empuja con los talones.</item>
+    </string-array>
+    <string name="ex_g11_2_name">Zancadas caminando con mancuernas</string>
+    <string name="ex_g11_2_muscle">Piernas y Equilibrio</string>
+    <string name="ex_g11_2_sets">3 x 20 pasos</string>
+    <string name="ex_g11_2_cue">Torso erguido, rodillas a 90 grados.</string>
+    <string name="ex_g11_2_breath">Exhala al subir.</string>
+    <string name="ex_g11_2_mistake">Pisar en línea estrecha perdiendo equilibrio.</string>
+    <string-array name="ex_g11_2_steps">
+        <item>Da un paso largo adelante bajando la rodilla trasera.</item>
+        <item>Empuja con el talón delantero para dar el siguiente paso.</item>
+    </string-array>
+    <string name="ex_g11_3_name">Extensión de cuádriceps</string>
+    <string name="ex_g11_3_muscle">Aislamiento cuádriceps</string>
+    <string name="ex_g11_3_cue">Baja lento para sentir la quemazón.</string>
+    <string name="ex_g11_3_breath">Exhala al extender.</string>
+    <string name="ex_g11_3_mistake">Dar patadas para lanzar el peso.</string>
+    <string-array name="ex_g11_3_steps">
+        <item>Coloca el rodillo encima de los tobillos.</item>
+        <item>Extiende por completo y aprieta 1 segundo arriba.</item>
+    </string-array>
+    <string name="ex_g12_1_name">Crunch abdominal en polea</string>
+    <string name="ex_g12_1_muscle">Abdomen superior y medio</string>
+    <string name="ex_g12_1_cue">Flexiona con el abdomen, no con los brazos.</string>
+    <string name="ex_g12_1_breath">Exhala al contraer.</string>
+    <string name="ex_g12_1_mistake">Sentar la cadera hacia atrás.</string>
+    <string-array name="ex_g12_1_steps">
+        <item>Arrodíllate ante la polea sujetando la cuerda junto a la cabeza.</item>
+        <item>Fija la cadera y flexiona el pecho hacia las rodillas.</item>
+    </string-array>
+    <string name="ex_g12_2_name">Abdominales en banco declinado</string>
+    <string name="ex_g12_2_muscle">Abdomen</string>
+    <string name="ex_g12_2_cue">Mantén tensión abdominal curvando levemente la espalda.</string>
+    <string name="ex_g12_2_breath">Exhala al subir.</string>
+    <string name="ex_g12_2_mistake">Tirar del cuello con las manos.</string>
+    <string-array name="ex_g12_2_steps">
+        <item>Sujeta los pies en el banco declinado.</item>
+        <item>Baja y sube de forma controlada.</item>
+    </string-array>
+    <string name="ex_g12_3_name">Press Pallof</string>
+    <string name="ex_g12_3_muscle">Oblicuos y Antirrotación</string>
+    <string name="ex_g12_3_sets">3 x 12/lado</string>
+    <string name="ex_g12_3_cue">Estabiliza la columna como una roca.</string>
+    <string name="ex_g12_3_breath">Exhala al extender adelante.</string>
+    <string name="ex_g12_3_mistake">Dejar girar los hombros.</string>
+    <string-array name="ex_g12_3_steps">
+        <item>Colócate de lado a la polea con el agarre en el pecho.</item>
+        <item>Extiende los brazos al frente resistiendo el giro.</item>
+    </string-array>
+    <string name="ex_gp1_1_name">Press inclinado en multipower</string>
+    <string name="ex_gp1_1_muscle">Pecho superior</string>
+    <string name="ex_gp1_1_cue">Técnica muy segura para hipertrofia superior.</string>
+    <string name="ex_gp1_1_breath">Exhala al empujar.</string>
+    <string name="ex_gp1_1_mistake">Dejar los codos muy atrás.</string>
+    <string-array name="ex_gp1_1_steps">
+        <item>En banco a 30°, alinea la barra con la parte alta del pecho.</item>
+        <item>Baja en 3 s, pausa 1 s, empuja explosivo.</item>
+    </string-array>
+    <string name="ex_gp1_2_name">Superserie Fondos lastrados + Cruce en polea</string>
+    <string name="ex_gp1_2_muscle">Pecho</string>
+    <string name="ex_gp1_2_cue">La superserie duplica la congestión muscular.</string>
+    <string name="ex_gp1_2_breath">Respira con ritmo.</string>
+    <string name="ex_gp1_2_mistake">Descansar demasiado entre ambos ejercicios.</string>
+    <string-array name="ex_gp1_2_steps">
+        <item>Inmediatamente después de fondos, haz cruces en polea.</item>
+        <item>Estira y contrae al máximo el pecho.</item>
+    </string-array>
+    <string name="ex_gp1_3_name">Elevaciones laterales en drop set</string>
+    <string name="ex_gp1_3_muscle">Hombros</string>
+    <string name="ex_gp1_3_cue">Estimula al máximo el deltoides lateral.</string>
+    <string name="ex_gp1_3_breath">Exhala al subir.</string>
+    <string name="ex_gp1_3_mistake">Activar demasiado los trapecios.</string>
+    <string-array name="ex_gp1_3_steps">
+        <item>Haz 12 reps, baja el peso para 10 reps, baja de nuevo para otras 10.</item>
+    </string-array>
+    <string name="ex_gp2_1_name">Dominadas con lastre</string>
+    <string name="ex_gp2_1_muscle">Dorsal ancho</string>
+    <string name="ex_gp2_1_cue">Desciende las escápulas antes de tirar.</string>
+    <string name="ex_gp2_1_breath">Exhala al subir.</string>
+    <string name="ex_gp2_1_mistake">Patear con las piernas para subir.</string>
+    <string-array name="ex_gp2_1_steps">
+        <item>Cuélgate con agarre ancho prono.</item>
+        <item>Tira el pecho hacia la barra hasta pasar la barbilla.</item>
+    </string-array>
+    <string name="ex_gp2_2_name">Remo con pecho apoyado</string>
+    <string name="ex_gp2_2_muscle">Espalda media</string>
+    <string name="ex_gp2_2_cue">Aísla la densidad de la espalda.</string>
+    <string name="ex_gp2_2_breath">Exhala al tirar.</string>
+    <string name="ex_gp2_2_mistake">Despegar el pecho del banco.</string>
+    <string-array name="ex_gp2_2_steps">
+        <item>Apoya el pecho en un banco inclinado.</item>
+        <item>Rema aislando la espalda sin cargar la lumbar.</item>
+    </string-array>
+    <string name="ex_gp2_3_name">Curl predicador + Martillo cuerda</string>
+    <string name="ex_gp2_3_muscle">Pico del bíceps</string>
+    <string name="ex_gp2_3_cue">Construye brazos bajo tensión continua.</string>
+    <string name="ex_gp2_3_breath">Exhala al subir.</string>
+    <string name="ex_gp2_3_mistake">Bloquear los codos abajo.</string>
+    <string-array name="ex_gp2_3_steps">
+        <item>Haz 10 reps en banco Scott y pasa sin pausa a martillo con cuerda.</item>
+    </string-array>
+    <string name="ex_gp3_1_name">Sentadilla frontal</string>
+    <string name="ex_gp3_1_muscle">Cuádriceps y Core</string>
+    <string name="ex_gp3_1_cue">Si bajan los codos, el torso se inclinará.</string>
+    <string name="ex_gp3_1_breath">Exhala al subir.</string>
+    <string name="ex_gp3_1_mistake">Forzar las muñecas.</string>
+    <string-array name="ex_gp3_1_steps">
+        <item>Apoya la barra en hombros frontales con codos altos.</item>
+        <item>Baja profundo con torso erguido y sube potente.</item>
+    </string-array>
+    <string name="ex_gp3_2_name">Sentadilla búlgara</string>
+    <string name="ex_gp3_2_muscle">Glúteos y Equilibrio</string>
+    <string name="ex_gp3_2_sets">3 x 10/pierna</string>
+    <string name="ex_gp3_2_cue">Corrige desequilibrios entre piernas.</string>
+    <string name="ex_gp3_2_breath">Exhala al subir.</string>
+    <string name="ex_gp3_2_mistake">Inclinarse demasiado adelante.</string>
+    <string-array name="ex_gp3_2_steps">
+        <item>Apoya el empeine trasero en un banco.</item>
+        <item>Baja controlado y empuja con la pierna delantera.</item>
+    </string-array>
+    <string name="ex_gp3_3_name">Salto al cajón</string>
+    <string name="ex_gp3_3_muscle">Potencia explosiva</string>
+    <string name="ex_gp3_3_cue">Aterriza suave y sin ruido.</string>
+    <string name="ex_gp3_3_breath">Exhala al saltar.</string>
+    <string name="ex_gp3_3_mistake">Saltar hacia atrás al bajar (baja dando un paso).</string>
+    <string-array name="ex_gp3_3_steps">
+        <item>Colócate en postura atlética frente al cajón.</item>
+        <item>Impúlsate con brazos y aterriza suave encima.</item>
+    </string-array>
+    <string name="ex_gp4_1_name">Sentadilla con barra</string>
+    <string name="ex_gp4_1_muscle">Tren inferior</string>
+    <string name="ex_gp4_1_cue">Mantén la presión intraabdominal.</string>
+    <string name="ex_gp4_1_breath">Exhala al subir.</string>
+    <string name="ex_gp4_1_mistake">Meter las rodillas hacia dentro.</string>
+    <string-array name="ex_gp4_1_steps">
+        <item>Activa los grandes músculos con sentadilla profunda y controlada.</item>
+    </string-array>
+    <string name="ex_gp4_2_name">Press inclinado con barra</string>
+    <string name="ex_gp4_2_muscle">Pecho superior</string>
+    <string name="ex_gp4_2_cue">Fija los omóplatos al banco.</string>
+    <string name="ex_gp4_2_breath">Exhala al empujar.</string>
+    <string name="ex_gp4_2_mistake">Bajar la barra hacia el cuello.</string>
+    <string-array name="ex_gp4_2_steps">
+        <item>Baja la barra justo debajo de la clavícula y empuja fuerte.</item>
+    </string-array>
+    <string name="ex_gp4_3_name">Remo Pendlay</string>
+    <string name="ex_gp4_3_muscle">Espalda explosiva</string>
+    <string name="ex_gp4_3_cue">Desarrolla grosor de espalda y potencia.</string>
+    <string name="ex_gp4_3_breath">Exhala al tirar.</string>
+    <string name="ex_gp4_3_mistake">Levantarse con la lumbar.</string>
+    <string-array name="ex_gp4_3_steps">
+        <item>Espalda paralela al suelo, apoya la barra y tira explosivo cada vez.</item>
+    </string-array>
+    <string name="ex_gp4_4_name">Paseo del granjero</string>
+    <string name="ex_gp4_4_muscle">Agarre y Core</string>
+    <string name="ex_gp4_4_cue">Desafía toda la estabilidad corporal.</string>
+    <string name="ex_gp4_4_breath">Respira constante, no entrecortado.</string>
+    <string name="ex_gp4_4_mistake">Balancearse hacia los lados.</string>
+    <string-array name="ex_gp4_4_steps">
+        <item>Sujeta mancuernas pesadas, hombros atrás y camina con paso firme.</item>
+    </string-array>
+</resources>

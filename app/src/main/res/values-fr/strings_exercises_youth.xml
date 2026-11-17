@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Suspension Passive à la Barre</string>
+    <string name="ex_y1_1_muscle">Décompression Vertébrale</string>
+    <string name="ex_y1_1_sets">3 x 30 s</string>
+    <string name="ex_y1_1_cue">La façon la plus naturelle de soulager les disques vertébraux pendant la croissance.</string>
+    <string name="ex_y1_1_breath">Respire profondément par le nez.</string>
+    <string name="ex_y1_1_mistake">Bloquer la respiration et crisper les épaules.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Saisis une barre fixe bras tendus, pieds décollés du sol.</item>
+        <item>Relâche les épaules et le bas du dos pour laisser la gravité étirer la colonne.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Étirement du Cobra</string>
+    <string name="ex_y1_2_muscle">Colonne &amp; Pectoraux</string>
+    <string name="ex_y1_2_sets">3 x 30 s</string>
+    <string name="ex_y1_2_cue">Corrige efficacement le dos voûté.</string>
+    <string name="ex_y1_2_breath">Inspire profondément en haut.</string>
+    <string name="ex_y1_2_mistake">Forcer sur les lombaires jusqu\'à la douleur.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Allonge-toi sur le ventre, mains sous les épaules.</item>
+        <item>Garde les hanches au sol, redresse le buste et regarde devant toi.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Extension Bras Hauts &amp; Inclinaison</string>
+    <string name="ex_y1_3_muscle">Chaîne Latérale &amp; Posture</string>
+    <string name="ex_y1_3_sets">3 x 10/côté</string>
+    <string name="ex_y1_3_cue">Ancre l\'habitude d\'une posture élancée.</string>
+    <string name="ex_y1_3_breath">Inspire en t\'étirant vers le haut.</string>
+    <string name="ex_y1_3_mistake">Cambrer excessivement le bas du dos.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Croise les doigts et grandis-toi au maximum vers le plafond.</item>
+        <item>Monte sur la pointe des pieds 5 s puis incline-toi doucement sur chaque côté.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Sauts Pogo (Rebond Cheville)</string>
+    <string name="ex_y2_1_muscle">Tendons &amp; Élasticité</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Transforme les tendons en ressorts réactifs.</string>
+    <string name="ex_y2_1_breath">Respire à un rythme régulier.</string>
+    <string name="ex_y2_1_mistake">Taper fort avec les talons au sol.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Genoux à peine fléchis, rebondis vite sur l\'avant du pied.</item>
+        <item>Repars vers le haut dès le contact avec le sol comme un ressort.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Saut Groupé (Tuck Jump)</string>
+    <string name="ex_y2_2_muscle">Puissance Explosive</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Augmente directement la détente verticale.</string>
+    <string name="ex_y2_2_breath">Expire au moment de sauter.</string>
+    <string name="ex_y2_2_mistake">Atterrir jambes tendues sans amortir.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Saute au maximum et ramène les deux genoux vers la poitrine en l\'air.</item>
+        <item>Rallonge les jambes et amortis en douceur genoux fléchis.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Extension Mollet sur Une Jambe</string>
+    <string name="ex_y2_3_muscle">Puissance Mollets</string>
+    <string name="ex_y2_3_sets">3 x 15/jambe</string>
+    <string name="ex_y2_3_cue">Renforce la poussée finale de chaque saut.</string>
+    <string name="ex_y2_3_breath">Expire en montant.</string>
+    <string name="ex_y2_3_mistake">Rebondir vite sans contrôler la descente.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Place l\'avant d\'un pied sur une marche, descends bien le talon.</item>
+        <item>Pousse jusqu\'en haut sur la pointe avec contrôle.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Squat Poids du Corps Tempo</string>
+    <string name="ex_y3_1_muscle">Jambes &amp; Technique</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Ancré une technique parfaite sans charge sur la colonne.</string>
+    <string name="ex_y3_1_breath">Expire en remontant.</string>
+    <string name="ex_y3_1_mistake">Laisser les genoux rentrer vers l\'intérieur.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Descends lentement sur 3 secondes complètes, buste fier.</item>
+        <item>Marque 1 seconde de pause en bas puis remonte nettement.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Pompes Inclinées</string>
+    <string name="ex_y3_2_muscle">Pectoraux &amp; Épaules</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Construit une technique de pompe propre.</string>
+    <string name="ex_y3_2_breath">Expire en repoussant.</string>
+    <string name="ex_y3_2_mistake">Laisser le bassin s\'affaisser.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Pose les mains sur un banc solide ou le bord d\'une table.</item>
+        <item>Corps bien droit, descends la poitrine vers le bord et repousse.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Traction Australienne</string>
+    <string name="ex_y3_3_muscle">Dos &amp; Bras</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">Meilleure progression sûre vers les tractions complètes.</string>
+    <string name="ex_y3_3_breath">Expire en tirant.</string>
+    <string name="ex_y3_3_mistake">Tendre le cou vers l\'avant.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Sous une barre basse, garde le corps gainé en ligne droite.</item>
+        <item>Tire la poitrine vers la barre puis redescends doucement.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Rétroversion Cervicale (Chin Tuck)</string>
+    <string name="ex_y4_1_muscle">Nuque &amp; Posture</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Corrige le cou projeté vers les écrans.</string>
+    <string name="ex_y4_1_breath">Respire normalement.</string>
+    <string name="ex_y4_1_mistake">Baisser le menton vers le torse.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Assieds-toi droit ou appuie le dos contre un mur.</item>
+        <item>Sans baisser la tête, recule le menton à l\'horizontale 3 s.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Étirement Pectoraux au Chambranle</string>
+    <string name="ex_y4_2_muscle">Ouverture Pectorale</string>
+    <string name="ex_y4_2_sets">3 x 30 s</string>
+    <string name="ex_y4_2_cue">Ouvre les épaules enroulées vers l\'arrière.</string>
+    <string name="ex_y4_2_breath">Respire profondément.</string>
+    <string name="ex_y4_2_mistake">Cambrer les lombaires en forçant.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Pose tes avant-bras à 90° contre les montants d\'une porte.</item>
+        <item>Avance un pied doucement pour ouvrir la poitrine.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Pompes Scapulaires</string>
+    <string name="ex_y4_3_muscle">Contrôle Scapulaire</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Protège les épaules et améliore la posture.</string>
+    <string name="ex_y4_3_breath">Expire en repoussant.</string>
+    <string name="ex_y4_3_mistake">Plier les coudes.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>En planche bras tendus, rapproche puis écarte uniquement les omoplates.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Pas Chassés Latéraux Rapides</string>
+    <string name="ex_y5_1_muscle">Agilité Latérale</string>
+    <string name="ex_y5_1_sets">4 x 20 s</string>
+    <string name="ex_y5_1_cue">Garde le centre de gravité bas.</string>
+    <string name="ex_y5_1_breath">Respire en rythme.</string>
+    <string name="ex_y5_1_mistake">Croiser les pieds l\'un devant l\'autre.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>En demi-squat athlétique, enchaîne rapidement 3 pas à droite et 3 à gauche.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Équilibre Unipodal &amp; Extension</string>
+    <string name="ex_y5_2_muscle">Cheville &amp; Équilibre</string>
+    <string name="ex_y5_2_sets">3 x 8/jambe</string>
+    <string name="ex_y5_2_cue">Prévient les entorses de cheville.</string>
+    <string name="ex_y5_2_breath">Concentre-toi et respire lentement.</string>
+    <string name="ex_y5_2_mistake">Laisser le genou d\'appui rentrer dedans.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Tiens en équilibre sur une jambe et tends l\'autre devant, sur le côté et derrière sans poser.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Marche de l\'Ours (Bear Crawl)</string>
+    <string name="ex_y5_3_muscle">Coordination Globale</string>
+    <string name="ex_y5_3_sets">3 x 20 s</string>
+    <string name="ex_y5_3_cue">Garde le dos plat comme une table.</string>
+    <string name="ex_y5_3_breath">Respire régulièrement.</string>
+    <string name="ex_y5_3_mistake">Lever les fesses vers le plafond.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>À quatre pattes genoux à 3 cm du sol, avance main et pied opposés simultanément.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Dead Bug</string>
+    <string name="ex_y6_1_muscle">Gainage Profond</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Renforce le centre sans aucune tension lombaire.</string>
+    <string name="ex_y6_1_breath">Expire en allongeant.</string>
+    <string name="ex_y6_1_mistake">Décoller les lombaires du tapis.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Sur le dos, bras tendus vers le haut, genoux à 90°.</item>
+        <item>Plaque les lombaires au sol et abaisse bras et jambe opposés.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Planche sur Avant-Bras</string>
+    <string name="ex_y6_2_muscle">Endurance Gainage</string>
+    <string name="ex_y6_2_sets">3 x 35 s</string>
+    <string name="ex_y6_2_cue">La forme parfaite prime sur la durée.</string>
+    <string name="ex_y6_2_breath">Respire régulièrement.</string>
+    <string name="ex_y6_2_mistake">Laisser tomber le bassin.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Coudes sous les épaules, maintiens une ligne droite de la tête aux talons.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Pont Fessier Alterné</string>
+    <string name="ex_y6_3_muscle">Fessiers &amp; Stabilité</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Garde le bassin parfaitement stable.</string>
+    <string name="ex_y6_3_breath">Expire à chaque levée.</string>
+    <string name="ex_y6_3_mistake">Basculer la hanche sur le côté.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Maintiens le pont fessier en haut et lève un genou après l\'autre.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Corde à Sauter (ou Simulé)</string>
+    <string name="ex_y7_1_muscle">Cardio &amp; Rythme</string>
+    <string name="ex_y7_1_sets">4 x 45 s</string>
+    <string name="ex_y7_1_cue">Inégalé pour la coordination et le cœur.</string>
+    <string name="ex_y7_1_breath">Respire par le nez.</string>
+    <string name="ex_y7_1_mistake">Sauter inutilement trop haut.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Enchaîne de petits sauts légers et rythmés sur la pointe des pieds.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Fentes Arrière Alternées</string>
+    <string name="ex_y7_2_muscle">Endurance Jambes</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Variation de fente la plus douce pour les genoux.</string>
+    <string name="ex_y7_2_breath">Expire en remontant.</string>
+    <string name="ex_y7_2_mistake">Genou avant qui rentre vers l\'intérieur.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Recule un pied, buste droit, puis remonte fermement.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Respiration Carrée Récupération</string>
+    <string name="ex_y7_3_muscle">Récupération</string>
+    <string name="ex_y7_3_sets">3 tours</string>
+    <string name="ex_y7_3_cue">Fait redescendre le rythme cardiaque rapidement.</string>
+    <string name="ex_y7_3_breath">Respire par le diaphragme.</string>
+    <string name="ex_y7_3_mistake">Hausser les épaules en inspirant.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>Inspire 4 s, bloque 4 s, expire 4 s, bloque 4 s.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Suspension + Traction Scapulaire</string>
+    <string name="ex_yp1_1_muscle">Colonne &amp; Dos</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 s</string>
+    <string name="ex_yp1_1_cue">Développe posture et force aux tractions.</string>
+    <string name="ex_yp1_1_breath">Expire en tirant.</string>
+    <string name="ex_yp1_1_mistake">Balancer les jambes.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>En suspension bras tendus, abaisse les omoplates vers le bas puis relâche complètement.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Chute + Saut Squat Explosif</string>
+    <string name="ex_yp1_2_muscle">Détente Élite</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Développe la puissance réactive.</string>
+    <string name="ex_yp1_2_breath">Expire au décollage.</string>
+    <string name="ex_yp1_2_mistake">Atterrir genoux verrouillés.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Descends d\'une marche basse en souplesse et explose aussitôt vers le haut.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Pompes Tempo + Planche</string>
+    <string name="ex_yp1_3_muscle">Haut du Corps &amp; Gainage</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 s</string>
+    <string name="ex_yp1_3_cue">Développe le haut du corps en sécurité.</string>
+    <string name="ex_yp1_3_breath">Respire régulièrement.</string>
+    <string name="ex_yp1_3_mistake">Casser l\'alignement sous la fatigue.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Enchaîne 10 pompes contrôlées puis tiens la planche 30 s sans pause.</item>
+    </string-array>
+</resources>

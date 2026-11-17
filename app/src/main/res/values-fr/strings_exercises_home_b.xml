@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h9_1_name">Squat sauté</string>
+    <string name="ex_h9_1_muscle">Jambes &amp; Cardio</string>
+    <string name="ex_h9_1_sets">4 x 20 s</string>
+    <string name="ex_h9_1_cue">Atterrissez souplement sans verrouiller les genoux.</string>
+    <string name="ex_h9_1_breath">Expirez au saut.</string>
+    <string name="ex_h9_1_mistake">Atterrir lourdement sur les talons.</string>
+    <string-array name="ex_h9_1_steps">
+        <item>Descendez en squat puis sautez de manière explosive.</item>
+        <item>Atterrissez en douceur directement dans le squat suivant.</item>
+    </string-array>
+    <string name="ex_h9_2_name">Patineurs (Speed Skaters)</string>
+    <string name="ex_h9_2_muscle">Fessiers &amp; Agilité</string>
+    <string name="ex_h9_2_sets">4 x 20 s</string>
+    <string name="ex_h9_2_cue">Brûle les fessiers latéraux et travaille l\'équilibre.</string>
+    <string name="ex_h9_2_breath">Respirez en rythme.</string>
+    <string name="ex_h9_2_mistake">Rester trop droit.</string>
+    <string-array name="ex_h9_2_steps">
+        <item>Bondissez latéralement comme un patineur.</item>
+        <item>Croisez et touchez légèrement le pied arrière derrière la jambe d\'appui.</item>
+    </string-array>
+    <string name="ex_h9_3_name">Planche touche-épaules</string>
+    <string name="ex_h9_3_muscle">Gainage &amp; Épaules</string>
+    <string name="ex_h9_3_sets">4 x 20 s</string>
+    <string name="ex_h9_3_cue">Gardez le buste immobile comme un roc.</string>
+    <string name="ex_h9_3_breath">Expirez régulièrement.</string>
+    <string name="ex_h9_3_mistake">Laisser les hanches basculer.</string>
+    <string-array name="ex_h9_3_steps">
+        <item>Planche haute, pieds plus larges que les épaules.</item>
+        <item>Touchez l\'épaule opposée sans faire pivoter les hanches.</item>
+    </string-array>
+    <string name="ex_h10_1_name">Squat latéral bras tendus</string>
+    <string name="ex_h10_1_muscle">Jambes &amp; Épaules</string>
+    <string name="ex_h10_1_cue">Brûle beaucoup de calories sans bruit ni sauts.</string>
+    <string name="ex_h10_1_breath">Expirez en tendant les bras.</string>
+    <string name="ex_h10_1_mistake">Rentrer les genoux.</string>
+    <string-array name="ex_h10_1_steps">
+        <item>Faites un pas de côté en squat, tendez les bras vers le haut en remontant.</item>
+        <item>Alternez de côté.</item>
+    </string-array>
+    <string name="ex_h10_2_name">Marche de la chenille (Inchworm)</string>
+    <string name="ex_h10_2_muscle">Gainage &amp; Souplesse</string>
+    <string name="ex_h10_2_cue">Échauffe ischios et épaules ensemble.</string>
+    <string name="ex_h10_2_breath">Expirez en avançant.</string>
+    <string name="ex_h10_2_mistake">Laisser le bassin s\'affaisser en planche.</string>
+    <string-array name="ex_h10_2_steps">
+        <item>Penchez-vous mains au sol, avancez sur les mains jusqu\'en planche.</item>
+        <item>Revenez vers les pieds et redressez-vous.</item>
+    </string-array>
+    <string name="ex_h10_3_name">Shadow Boxing</string>
+    <string name="ex_h10_3_muscle">Bras &amp; Cardio</string>
+    <string name="ex_h10_3_sets">3 x 45 s</string>
+    <string name="ex_h10_3_cue">Idéal pour l\'endurance du haut du corps.</string>
+    <string name="ex_h10_3_breath">Courte expiration à chaque coup.</string>
+    <string name="ex_h10_3_mistake">Crisper les épaules.</string>
+    <string-array name="ex_h10_3_steps">
+        <item>Prenez la garde et enchaînez directs et crochets rythmés.</item>
+        <item>Restez léger sur vos appuis.</item>
+    </string-array>
+    <string name="ex_h11_1_name">Anges au mur (Wall Angels)</string>
+    <string name="ex_h11_1_muscle">Épaules &amp; Posture</string>
+    <string name="ex_h11_1_cue">Gardez les lombaires proches du mur.</string>
+    <string name="ex_h11_1_breath">Expirez en montant.</string>
+    <string name="ex_h11_1_mistake">Décoller les bras du mur.</string>
+    <string-array name="ex_h11_1_steps">
+        <item>Appuyez dos, fessiers et tête contre le mur.</item>
+        <item>Faites glisser les bras d\'un W vers un Y le long du mur.</item>
+    </string-array>
+    <string name="ex_h11_2_name">Élévations Y-T-W au sol</string>
+    <string name="ex_h11_2_muscle">Deltoïdes postérieurs &amp; Dos</string>
+    <string name="ex_h11_2_sets">3 x 8/lettre</string>
+    <string name="ex_h11_2_cue">Serrez bien les omoplates.</string>
+    <string name="ex_h11_2_breath">Expirez en levant.</string>
+    <string name="ex_h11_2_mistake">Donner des à-coups rapides.</string>
+    <string-array name="ex_h11_2_steps">
+        <item>Allongé face au sol, levez les bras en forme de Y, T puis W.</item>
+    </string-array>
+    <string name="ex_h11_3_name">Bird-Dog</string>
+    <string name="ex_h11_3_muscle">Lombaires &amp; Équilibre</string>
+    <string name="ex_h11_3_sets">3 x 10/côté</string>
+    <string name="ex_h11_3_cue">Stabilise la colonne vertébrale.</string>
+    <string name="ex_h11_3_breath">Expirez en tendant.</string>
+    <string name="ex_h11_3_mistake">Lever la jambe trop haut en cambrant le dos.</string>
+    <string-array name="ex_h11_3_steps">
+        <item>À quatre pattes, tendez bras droit devant et jambe gauche derrière.</item>
+        <item>Tenez 2 secondes puis changez.</item>
+    </string-array>
+    <string name="ex_h12_1_name">Posture de l\'enfant</string>
+    <string name="ex_h12_1_muscle">Dos &amp; Épaules</string>
+    <string name="ex_h12_1_sets">3 x 45 s</string>
+    <string name="ex_h12_1_cue">Apaise le système nerveux par une respiration lente.</string>
+    <string name="ex_h12_1_breath">Inspirez 4 s, expirez 6 s.</string>
+    <string name="ex_h12_1_mistake">Crisper les épaules.</string>
+    <string-array name="ex_h12_1_steps">
+        <item>Asseyez-vous sur les talons, bras tendus devant, front au sol.</item>
+        <item>Sentez votre dos s\'ouvrir à chaque souffle.</item>
+    </string-array>
+    <string name="ex_h12_2_name">Étirement du pigeon</string>
+    <string name="ex_h12_2_muscle">Hanches &amp; Piriforme</string>
+    <string name="ex_h12_2_sets">2 x 45 s/côté</string>
+    <string name="ex_h12_2_cue">Libère les tensions profondes des hanches.</string>
+    <string name="ex_h12_2_breath">Détendez-vous en respirant profondément.</string>
+    <string name="ex_h12_2_mistake">Forcer si le genou est douloureux.</string>
+    <string-array name="ex_h12_2_steps">
+        <item>Pliez une jambe devant vous et tendez l\'autre derrière.</item>
+        <item>Relâchez doucement le buste vers l\'avant.</item>
+    </string-array>
+    <string name="ex_h12_3_name">Étirement des ischios avec serviette</string>
+    <string name="ex_h12_3_muscle">Ischio-jambiers</string>
+    <string name="ex_h12_3_sets">2 x 45 s/côté</string>
+    <string name="ex_h12_3_cue">Des ischios souples soulagent le bas du dos.</string>
+    <string name="ex_h12_3_breath">Étirez en expirant.</string>
+    <string name="ex_h12_3_mistake">Forcer sur l\'articulation du genou.</string>
+    <string-array name="ex_h12_3_steps">
+        <item>Sur le dos, levez une jambe et tirez-la doucement avec une serviette.</item>
+    </string-array>
+    <string name="ex_hp1_1_name">Squat tempo 1,5 répétition</string>
+    <string name="ex_hp1_1_muscle">Jambes &amp; Fessiers</string>
+    <string name="ex_hp1_1_cue">Le secret du développement des jambes sans matériel.</string>
+    <string name="ex_hp1_1_breath">Expirez sur la remontée complète.</string>
+    <string name="ex_hp1_1_mistake">Rebondir vite en bas.</string>
+    <string-array name="ex_hp1_1_steps">
+        <item>Descendez tout en bas, remontez à mi-hauteur, redescendez puis remontez complètement.</item>
+    </string-array>
+    <string name="ex_hp1_2_name">Pompes archer</string>
+    <string name="ex_hp1_2_muscle">Pectoraux &amp; Force unilatérale</string>
+    <string name="ex_hp1_2_sets">4 x 8/côté</string>
+    <string name="ex_hp1_2_cue">Meilleure étape vers la pompe à un bras.</string>
+    <string name="ex_hp1_2_breath">Expirez en poussant.</string>
+    <string name="ex_hp1_2_mistake">Tourner les hanches.</string>
+    <string-array name="ex_hp1_2_steps">
+        <item>Mains larges, tendez un bras en descendant vers l\'autre main.</item>
+    </string-array>
+    <string name="ex_hp1_3_name">Rowing inversé sous table</string>
+    <string name="ex_hp1_3_muscle">Dos</string>
+    <string name="ex_hp1_3_cue">Meilleur tirage au poids du corps pour le dos à la maison !</string>
+    <string name="ex_hp1_3_breath">Expirez en tirant.</string>
+    <string name="ex_hp1_3_mistake">Laisser les hanches tomber.</string>
+    <string-array name="ex_hp1_3_steps">
+        <item>Allongez-vous sous une table solide, saisissez le bord et tirez la poitrine.</item>
+    </string-array>
+    <string name="ex_hp2_1_name">Burpee saut en longueur</string>
+    <string name="ex_hp2_1_muscle">Corps complet</string>
+    <string name="ex_hp2_1_cue">Allie puissance explosive et pic cardio.</string>
+    <string name="ex_hp2_1_breath">Expirez au saut.</string>
+    <string name="ex_hp2_1_mistake">Atterrir durement jambes raides.</string>
+    <string-array name="ex_hp2_1_steps">
+        <item>Faites un burpee puis sautez vers l\'avant plutôt que vers le haut.</item>
+    </string-array>
+    <string name="ex_hp2_2_name">Fentes sautées alternées</string>
+    <string name="ex_hp2_2_muscle">Jambes &amp; Conditionnement</string>
+    <string name="ex_hp2_2_cue">Gardez le buste droit.</string>
+    <string name="ex_hp2_2_breath">Expirez à chaque changement.</string>
+    <string name="ex_hp2_2_mistake">Heurter le sol avec le genou.</string>
+    <string-array name="ex_hp2_2_steps">
+        <item>Sautez depuis une fente et inversez les jambes en l\'air.</item>
+    </string-array>
+    <string name="ex_hp2_3_name">Planche commando (Up-Down)</string>
+    <string name="ex_hp2_3_muscle">Gainage &amp; Épaules</string>
+    <string name="ex_hp2_3_cue">Alternez le bras moteur à chaque série.</string>
+    <string name="ex_hp2_3_breath">Expirez en montant.</string>
+    <string name="ex_hp2_3_mistake">Dandiner excessivement les hanches.</string>
+    <string-array name="ex_hp2_3_steps">
+        <item>Passez de la planche sur avant-bras à la planche haute bras par bras.</item>
+    </string-array>
+    <string name="ex_hp3_1_name">Pompes pseudo-planche</string>
+    <string name="ex_hp3_1_muscle">Épaules &amp; Pectoraux</string>
+    <string name="ex_hp3_1_cue">Développe une force avancée des épaules.</string>
+    <string name="ex_hp3_1_breath">Expirez en poussant.</string>
+    <string name="ex_hp3_1_mistake">Creuser le bas du dos.</string>
+    <string-array name="ex_hp3_1_steps">
+        <item>Doigts vers l\'extérieur/arrière, avancez les épaules devant les mains et fléchissez.</item>
+    </string-array>
+    <string name="ex_hp3_2_name">Tuck L-Sit maintenu</string>
+    <string name="ex_hp3_2_muscle">Gainage &amp; Triceps</string>
+    <string name="ex_hp3_2_sets">4 x 20 s</string>
+    <string name="ex_hp3_2_cue">Éloignez fermement les épaules des oreilles.</string>
+    <string name="ex_hp3_2_breath">Respirez régulièrement.</string>
+    <string name="ex_hp3_2_mistake">Plier les coudes.</string>
+    <string-array name="ex_hp3_2_steps">
+        <item>Assis mains au sol près des hanches, poussez fort et gardez les genoux groupés en l\'air.</item>
+    </string-array>
+    <string name="ex_hp3_3_name">Pompes explosives claquées</string>
+    <string name="ex_hp3_3_muscle">Puissance explosive</string>
+    <string name="ex_hp3_3_cue">Recrute les fibres musculaires rapides.</string>
+    <string name="ex_hp3_3_breath">Expirez à la poussée.</string>
+    <string name="ex_hp3_3_mistake">Continuer en état de fatigue avancée.</string>
+    <string-array name="ex_hp3_3_steps">
+        <item>Poussez assez fort pour décoller les mains du sol (claquez si possible).</item>
+    </string-array>
+    <string name="ex_hp4_1_name">Hollow Body Hold</string>
+    <string name="ex_hp4_1_muscle">Gainage complet</string>
+    <string name="ex_hp4_1_sets">4 x 30 s</string>
+    <string name="ex_hp4_1_cue">Pliez un peu les genoux si le dos se décolle.</string>
+    <string name="ex_hp4_1_breath">Respirez en rythme.</string>
+    <string name="ex_hp4_1_mistake">Laisser un espace sous les lombaires.</string>
+    <string-array name="ex_hp4_1_steps">
+        <item>Sur le dos, plaquez fermement les lombaires au sol.</item>
+        <item>Soulevez épaules et jambes tendues en forme de banane.</item>
+    </string-array>
+    <string name="ex_hp4_2_name">V-Ups (Relevés en V)</string>
+    <string name="ex_hp4_2_muscle">Haut &amp; Bas des abdos</string>
+    <string name="ex_hp4_2_cue">Formez un V net en haut.</string>
+    <string name="ex_hp4_2_breath">Expirez en fermant.</string>
+    <string name="ex_hp4_2_mistake">Retomber lourdement au sol.</string>
+    <string-array name="ex_hp4_2_steps">
+        <item>Allongé à plat, montez simultanément mains et jambes tendues.</item>
+    </string-array>
+    <string name="ex_hp4_3_name">Dragon Flag négatif</string>
+    <string name="ex_hp4_3_muscle">Abdos avancés</string>
+    <string name="ex_hp4_3_cue">L\'un des exercices abdominaux les plus exigeants.</string>
+    <string name="ex_hp4_3_breath">Inspirez lentement en descendant.</string>
+    <string name="ex_hp4_3_mistake">Casser au niveau des hanches.</string>
+    <string-array name="ex_hp4_3_steps">
+        <item>Tenez un support lourd derrière la tête, montez sur les épaules et descendez corps droit.</item>
+    </string-array>
+</resources>

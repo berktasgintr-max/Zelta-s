@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Beginner</string>
+    <string name="diff_intermediate">Intermediate</string>
+    <string name="diff_advanced">Advanced</string>
+    <string name="diff_pro">Pro / Advanced</string>
+    <string name="story_1_badge">-11.5 kg in 4 Mos</string>
+    <string name="story_1_result" formatted="false">94 kg → 82.5 kg • Body Fat 26% → 16%</string>
+    <string name="story_1_quote">I followed my custom plan and stayed loyal to the calendar. Tapping FitChicken every day kept my streak alive!</string>
+    <string name="story_2_badge">0-18 Growth Mode</string>
+    <string name="story_2_result">+4 cm Posture Lift • +12 cm Vertical Jump</string>
+    <string name="story_2_quote">Used the teen growth &amp; jump mobility tracks for basketball. Fixed my posture and got noticeably faster on court.</string>
+    <string name="story_3_badge">90 Days at Home</string>
+    <string name="story_3_result">Zero Equipment • 4 Days/Week</string>
+    <string name="story_3_quote">No time for a gym, so the home track and form animations felt like having a real personal trainer at home!</string>
+    <string name="story_4_badge">Pro Hypertrophy</string>
+    <string name="story_4_result">+4.8 kg Lean Muscle</string>
+    <string name="story_4_quote">Asked the FitChicken Coach everything about nutrition and rest times. Clear science with great humor doubled my results.</string>
+    <string-array name="coach_tips">
+        <item>Drop the excuses and lift the iron! Never quit on the last two reps—that is where real growth lives.</item>
+        <item>I built these wings with a big chest! Pin your shoulder blades back on every push-up and bench press.</item>
+        <item>Stay hydrated, champ! Drinking 2.5 to 3 liters of water daily boosts muscle output by up to 15%.</item>
+        <item>Even I respect chicken breast—aim for 25-35g of quality protein in each main meal.</item>
+        <item>No sleep, no muscle! Growth hormone peaks during the first 4 hours of deep sleep.</item>
+        <item>Lift to feel the muscle, not to feed your ego. A slow 3-second lowering phase works wonders.</item>
+        <item>Never skip warm-ups! Just 5 minutes of dynamic mobility cuts injury risk in half.</item>
+        <item>Skip leg day and you\'ll walk like a pigeon! Squats and lunges power your whole body.</item>
+        <item>Don\'t hold your breath! Exhale during exertion and inhale smoothly as you reset.</item>
+        <item>Ages 0-18: Protect your spine and posture—dead hangs and upright posture drills are gold.</item>
+        <item>Three consistent workouts a week beat one heroic gym session once a month every single time.</item>
+        <item>Abs are revealed in the kitchen and sculpted in training. Squeeze your glutes on every plank!</item>
+        <item>Don\'t scroll your phone for 5 minutes between sets. Keep rest at 60-90 seconds for peak focus.</item>
+        <item>Rounded shoulders? Double down on rowing and pull-aparts—match every push with a clean pull.</item>
+        <item>You don\'t need to be perfect on day one; lacing up your shoes today is already a win.</item>
+        <item>The scale fluctuates daily from water and glycogen—always track your 7-day average trend.</item>
+        <item>Caffeine 30 minutes before training sharpens focus, but avoid it after 6 PM to guard your sleep.</item>
+        <item>A focused 20-minute home session always beats a 60-minute gym session you skipped.</item>
+        <item>Never slam your elbows or knees into hard lockout—keep slight control at the top of each rep.</item>
+        <item>Cardio strengthens your heart so you recover faster between heavy strength sets.</item>
+        <item>Chasing fat loss? Count your steps! 8,000-10,000 daily steps are your silent superpower.</item>
+        <item>There is no magic routine—only the routine you stick to. Plan your calendar and check off days!</item>
+        <item>Keep your elbows glued to your sides during curls—stop swinging your lower back.</item>
+        <item>On back exercises, imagine pulling through your elbows rather than your hands.</item>
+        <item>Refuel within 1-2 hours post-workout with lean protein and quality carbs.</item>
+        <item>Spend just 5 minutes stretching afterward—your future self tomorrow will thank you.</item>
+        <item>Teens: Chase flawless form and explosive athleticism instead of risky one-rep max lifts.</item>
+        <item>A set ends the second your form breaks down. Clean 10 reps build more muscle than sloppy 15.</item>
+        <item>Low energy today? Drop the weight by 20% and finish anyway. Discipline beats motivation.</item>
+        <item>Check your posture in the mirror: chin level, chest proud, shoulders relaxed and back.</item>
+        <item>Keep the bar close to your shins on deadlifts—if your back rounds, lighten the load immediately.</item>
+        <item>If your lower back sags in a plank, brace harder or drop to your knees cleanly.</item>
+        <item>Measure waist size and energy alongside scale weight—muscle is denser than fat.</item>
+        <item>Swapping sugary drinks for water or sparkling water saves massive calories effortlessly.</item>
+        <item>Progressive overload: try adding just 1 rep or 1 kg compared to last week.</item>
+        <item>No home weights? Manipulate tempo: 3 seconds down, 1-second pause, explosive drive up.</item>
+        <item>Five minutes of cat-cow and chest openers each morning erases desk stiffness.</item>
+        <item>Every completed calendar session wires a winning habit—protect your weekly streak!</item>
+        <item>The movement you avoid is usually the exact weakness holding you back. Attack it!</item>
+        <item>I am FitChicken: If I quit when my wings were tiny, I\'d never have these biceps. Your turn!</item>
+    </string-array>
+</resources>

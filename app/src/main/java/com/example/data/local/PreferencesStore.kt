@@ -9,6 +9,7 @@ import androidx.datastore.preferences.core.longPreferencesKey
 import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import com.example.data.model.UserProfile
+import com.example.ui.i18n.AppLanguage
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import java.util.UUID
@@ -16,6 +17,17 @@ import java.util.UUID
 private val Context.dataStore by preferencesDataStore(name = "tavuk_koc_prefs")
 
 class PreferencesStore(private val context: Context) {
+
+    private val syncPrefs by lazy {
+        context.getSharedPreferences("tavuk_koc_theme_sync", Context.MODE_PRIVATE)
+    }
+
+    fun getCachedThemeId(): String =
+        syncPrefs.getString("theme_id", "light_orange") ?: "light_orange"
+
+    fun cacheThemeSync(themeId: String) {
+        syncPrefs.edit().putString("theme_id", themeId).apply()
+    }
 
     private object Keys {
         val DISPLAY_NAME = stringPreferencesKey("display_name")
@@ -53,14 +65,33 @@ class PreferencesStore(private val context: Context) {
         val WORKOUTS_COMPLETED_COUNT = intPreferencesKey("workouts_completed_count")
         val GENDER = stringPreferencesKey("gender")
         val APP_LANGUAGE = stringPreferencesKey("app_language")
+        val IS_LANGUAGE_SELECTED = booleanPreferencesKey("is_language_selected")
         val LAST_WHEEL_SPIN_DATE = stringPreferencesKey("last_wheel_spin_date")
         val BEST_STREAK_DAYS = intPreferencesKey("best_streak_days")
+        val FOCUS_AREAS_CSV = stringPreferencesKey("focus_areas_csv")
+        val BODY_FAT_CURRENT = intPreferencesKey("body_fat_current")
+        val BODY_FAT_TARGET = intPreferencesKey("body_fat_target")
+        val DAILY_CALORIE_TARGET = intPreferencesKey("daily_calorie_target")
+        val STRESS_LEVEL = stringPreferencesKey("stress_level")
+        val BAD_HABITS_CSV = stringPreferencesKey("bad_habits_csv")
+        val SQUAT_CAPACITY = stringPreferencesKey("squat_capacity")
+        val WANT_BETTER_SLEEP = booleanPreferencesKey("want_better_sleep")
+        val WANT_LESS_STRESS = booleanPreferencesKey("want_less_stress")
+        val MOTIVATION_LEVEL = stringPreferencesKey("motivation_level")
+        val PLAN_PACE = stringPreferencesKey("plan_pace")
+        val TRAINING_DAYS_CSV = stringPreferencesKey("training_days_csv")
+        val NOTIFICATIONS_ENABLED = booleanPreferencesKey("notifications_enabled")
+        val TARGET_DATE_ISO = stringPreferencesKey("target_date_iso")
+        val WEIGHT_UNIT = stringPreferencesKey("weight_unit")
+        val MEAL_SCANS_COUNT = intPreferencesKey("meal_scans_count")
+        val DAILY_SPIN_COUNT = intPreferencesKey("daily_spin_count")
     }
 
     val profileFlow: Flow<UserProfile> = context.dataStore.data.map { prefs ->
         val existingCode = prefs[Keys.INVITE_CODE] ?: generateDefaultCode()
+        val onboardingDone = prefs[Keys.ONBOARDING_COMPLETED] ?: false
         UserProfile(
-            displayName = prefs[Keys.DISPLAY_NAME] ?: "Sporcu",
+            displayName = prefs[Keys.DISPLAY_NAME] ?: "Athlete",
             age = prefs[Keys.AGE] ?: 22,
             heightCm = prefs[Keys.HEIGHT_CM] ?: 175,
             startWeightKg = prefs[Keys.START_WEIGHT] ?: 75.0,
@@ -83,8 +114,8 @@ class PreferencesStore(private val context: Context) {
             referredByCode = prefs[Keys.REFERRED_BY_CODE] ?: "",
             aiQuestionsUsedToday = prefs[Keys.AI_USED_TODAY] ?: 0,
             aiQuotaDate = prefs[Keys.AI_QUOTA_DATE] ?: "",
-            onboardingCompleted = prefs[Keys.ONBOARDING_COMPLETED] ?: false,
-            themeId = prefs[Keys.THEME_ID] ?: "fire_arena",
+            onboardingCompleted = onboardingDone,
+            themeId = prefs[Keys.THEME_ID] ?: "light_orange",
             streakDays = prefs[Keys.STREAK_DAYS] ?: 0,
             lastCheckInDate = prefs[Keys.LAST_CHECK_IN_DATE] ?: "",
             totalXp = prefs[Keys.TOTAL_XP] ?: 0,
@@ -94,13 +125,32 @@ class PreferencesStore(private val context: Context) {
             questHydrationDone = prefs[Keys.QUEST_HYDRATION_DONE] ?: false,
             workoutsCompletedCount = prefs[Keys.WORKOUTS_COMPLETED_COUNT] ?: 0,
             gender = prefs[Keys.GENDER] ?: "male",
-            appLanguage = prefs[Keys.APP_LANGUAGE] ?: "tr",
+            appLanguage = prefs[Keys.APP_LANGUAGE] ?: AppLanguage.systemDefaultCode(),
+            isLanguageSelected = true,
             lastWheelSpinDate = prefs[Keys.LAST_WHEEL_SPIN_DATE] ?: "",
-            bestStreakDays = prefs[Keys.BEST_STREAK_DAYS] ?: 0
+            bestStreakDays = prefs[Keys.BEST_STREAK_DAYS] ?: 0,
+            focusAreasCsv = prefs[Keys.FOCUS_AREAS_CSV] ?: "",
+            bodyFatCurrentPct = prefs[Keys.BODY_FAT_CURRENT] ?: 22,
+            bodyFatTargetPct = prefs[Keys.BODY_FAT_TARGET] ?: 15,
+            dailyCalorieTarget = prefs[Keys.DAILY_CALORIE_TARGET] ?: 2100,
+            stressLevel = prefs[Keys.STRESS_LEVEL] ?: "moderate",
+            badHabitsCsv = prefs[Keys.BAD_HABITS_CSV] ?: "",
+            squatCapacity = prefs[Keys.SQUAT_CAPACITY] ?: "10_20",
+            wantBetterSleep = prefs[Keys.WANT_BETTER_SLEEP] ?: true,
+            wantLessStress = prefs[Keys.WANT_LESS_STRESS] ?: true,
+            motivationLevel = prefs[Keys.MOTIVATION_LEVEL] ?: "high",
+            planPace = prefs[Keys.PLAN_PACE] ?: "balanced",
+            trainingDaysCsv = prefs[Keys.TRAINING_DAYS_CSV] ?: "mon,wed,fri,sat",
+            notificationsEnabled = prefs[Keys.NOTIFICATIONS_ENABLED] ?: false,
+            targetDateIso = prefs[Keys.TARGET_DATE_ISO] ?: "",
+            weightUnit = prefs[Keys.WEIGHT_UNIT] ?: "kg",
+            mealScansCount = prefs[Keys.MEAL_SCANS_COUNT] ?: 0,
+            dailySpinCount = prefs[Keys.DAILY_SPIN_COUNT] ?: 0
         )
     }
 
     suspend fun saveProfile(profile: UserProfile) {
+        cacheThemeSync(profile.themeId)
         context.dataStore.edit { prefs ->
             prefs[Keys.DISPLAY_NAME] = profile.displayName
             prefs[Keys.AGE] = profile.age
@@ -137,8 +187,26 @@ class PreferencesStore(private val context: Context) {
             prefs[Keys.WORKOUTS_COMPLETED_COUNT] = profile.workoutsCompletedCount
             prefs[Keys.GENDER] = profile.gender
             prefs[Keys.APP_LANGUAGE] = profile.appLanguage
+            prefs[Keys.IS_LANGUAGE_SELECTED] = true
             prefs[Keys.LAST_WHEEL_SPIN_DATE] = profile.lastWheelSpinDate
             prefs[Keys.BEST_STREAK_DAYS] = profile.bestStreakDays
+            prefs[Keys.FOCUS_AREAS_CSV] = profile.focusAreasCsv
+            prefs[Keys.BODY_FAT_CURRENT] = profile.bodyFatCurrentPct
+            prefs[Keys.BODY_FAT_TARGET] = profile.bodyFatTargetPct
+            prefs[Keys.DAILY_CALORIE_TARGET] = profile.dailyCalorieTarget
+            prefs[Keys.STRESS_LEVEL] = profile.stressLevel
+            prefs[Keys.BAD_HABITS_CSV] = profile.badHabitsCsv
+            prefs[Keys.SQUAT_CAPACITY] = profile.squatCapacity
+            prefs[Keys.WANT_BETTER_SLEEP] = profile.wantBetterSleep
+            prefs[Keys.WANT_LESS_STRESS] = profile.wantLessStress
+            prefs[Keys.MOTIVATION_LEVEL] = profile.motivationLevel
+            prefs[Keys.PLAN_PACE] = profile.planPace
+            prefs[Keys.TRAINING_DAYS_CSV] = profile.trainingDaysCsv
+            prefs[Keys.NOTIFICATIONS_ENABLED] = profile.notificationsEnabled
+            prefs[Keys.TARGET_DATE_ISO] = profile.targetDateIso
+            prefs[Keys.WEIGHT_UNIT] = profile.weightUnit
+            prefs[Keys.MEAL_SCANS_COUNT] = profile.mealScansCount
+            prefs[Keys.DAILY_SPIN_COUNT] = profile.dailySpinCount
         }
     }
 
@@ -159,6 +227,6 @@ class PreferencesStore(private val context: Context) {
 
     private fun generateDefaultCode(): String {
         val suffix = UUID.randomUUID().toString().replace("-", "").take(5).uppercase()
-        return "TAVUK-$suffix"
+        return "FIT-$suffix"
     }
 }

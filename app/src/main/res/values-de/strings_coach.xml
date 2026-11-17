@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Anfänger</string>
+    <string name="diff_intermediate">Mittel</string>
+    <string name="diff_advanced">Fortgeschritten</string>
+    <string name="diff_pro">Pro / Fortgeschr.</string>
+    <string name="story_1_badge">-11,5 kg in 4 Mon.</string>
+    <string name="story_1_result" formatted="false">94 kg → 82,5 kg • Körperfett 26% → 16%</string>
+    <string name="story_1_quote">Ich bin meinem Plan treu geblieben und habe den Kalender genutzt. Die täglichen Tipps von FitChicken haben meine Serie am Leben gehalten!</string>
+    <string name="story_2_badge">0–18 Wachstumsmodus</string>
+    <string name="story_2_result">+4 cm Haltung • +12 cm Sprungkraft</string>
+    <string name="story_2_quote">Ich habe die Sprung- und Haltungsdrills für Basketball genutzt. Meine Haltung wurde aufrechter und auf dem Feld bin ich viel explosiver.</string>
+    <string name="story_3_badge">90 Tage zu Hause</string>
+    <string name="story_3_result">Ohne Geräte • 4 Tage/Woche</string>
+    <string name="story_3_quote">Keine Zeit fürs Studio – die Heimworkouts mit klaren Schritt-für-Schritt-Animationen waren wie ein Personal Trainer im Wohnzimmer!</string>
+    <string name="story_4_badge">Pro Hypertrophie</string>
+    <string name="story_4_result">+4,8 kg reine Muskelmasse</string>
+    <string name="story_4_quote">Ich habe FitChicken Coach alles zu Ernährung und Satzpausen gefragt. Klare Wissenschaft mit Humor hat meine Ergebnisse verdoppelt.</string>
+    <string-array name="coach_tips">
+        <item>Hör auf zu gackern und heb das Eisen! Gib bei den letzten zwei Wiederholungen nie auf – dort beginnt das Wachstum.</item>
+        <item>Mit breiter Brust habe ich diese Flügel gebaut! Zieh bei jedem Liegestütz und Bankdrücken die Schulterblätter zusammen.</item>
+        <item>Trink genug, Champion! 2,5 bis 3 Liter Wasser täglich steigern deine Muskelleistung um bis zu 15%.</item>
+        <item>Sogar ich respektiere Hähnchenbrust – peile 25–35 g hochwertiges Protein pro Hauptmahlzeit an.</item>
+        <item>Ohne Schlaf keine Muskeln! Das Wachstumshormon erreicht in den ersten 4 Stunden Tiefschlaf seinen Höhepunkt.</item>
+        <item>Trainiere den Muskel, nicht dein Ego. Eine kontrollierte 3-Sekunden-Absenkung wirkt Wunder.</item>
+        <item>Nie ohne Warm-up! Nur 5 Minuten dynamische Mobilität halbieren dein Verletzungsrisiko.</item>
+        <item>Wer das Beintraining auslässt, watschelt! Squats und Lunges sind der Motor deines ganzen Körpers.</item>
+        <item>Halte nie die Luft an! Atme bei der Anstrengung aus und beim Zurückkehren ruhig ein.</item>
+        <item>Für 0–18 Jahre: Schütze deine Wirbelsäule – Dead Hangs und aufrechte Haltungsübungen sind Gold wert.</item>
+        <item>Dreimal pro Woche konstant moderat zu trainieren schlägt eine einzige Helden-Einheit im Monat.</item>
+        <item>Bauchmuskeln entstehen in der Küche und werden im Training geformt. Spanne beim Plank das Gesäß an!</item>
+        <item>Starr nicht 5 Minuten aufs Handy zwischen Sätzen. 60–90 Sekunden Pause halten den Fokus scharf.</item>
+        <item>Schultern fallen nach vorn? Steigere Ruderübungen – zu jedem Drücken gehört ein sauberes Ziehen.</item>
+        <item>Du musst am ersten Tag nicht perfekt sein; allein heute die Sportschuhe zu schnüren ist ein Sieg!</item>
+        <item>Das Gewicht schwankt täglich durch Wasser – bewerte immer deinen 7-Tage-Durchschnitt.</item>
+        <item>Koffein 30 Min. vor dem Training schärft den Fokus, aber vermeide es nach 18 Uhr für guten Schlaf.</item>
+        <item>Ein fokussiertes 20-Minuten-Heimtraining schlägt immer ein verpasstes 60-Minuten-Studio-Workout.</item>
+        <item>Knalle Ellbogen oder Knie nie hart ins Gelenk – behalte oben immer leichte Kontrolle.</item>
+        <item>Cardio stärkt dein Herz, sodass du dich zwischen schweren Kraftsätzen schneller erholst.</item>
+        <item>Fettabbau als Ziel? Zähle deine Schritte! 8.000–10.000 Schritte täglich sind deine geheime Superkraft.</item>
+        <item>Es gibt keinen magischen Plan – nur den, den du durchziehst. Plane im Kalender und hake ab!</item>
+        <item>Halte bei Curls die Ellbogen fest am Körper – schwinge nicht mit dem unteren Rücken.</item>
+        <item>Stell dir bei Rückenübungen vor, du ziehst aus den Ellbogen statt aus den Händen.</item>
+        <item>Tanke 1–2 Stunden nach dem Training mageres Protein und komplexe Kohlenhydrate.</item>
+        <item>Nimm dir danach 5 Minuten zum Dehnen – dein Körper wird es dir morgen danken.</item>
+        <item>Jugendliche: Strebt nach sauberer Technik und Athletik statt riskanten Maximalgewichten.</item>
+        <item>Ein Satz endet, sobald die Technik leidet. Saubere 10 Wdh. bauen mehr auf als unsaubere 15.</item>
+        <item>Wenig Energie heute? Reduziere das Gewicht um 20%, aber zieh es durch. Disziplin schlägt Motivation.</item>
+        <item>Prüfe im Spiegel deine Haltung: Kinn gerade, Brust stolz, Schultern locker nach hinten.</item>
+        <item>Halte beim Kreuzheben die Stange nah am Schienbein – rundet der Rücken, reduziere sofort.</item>
+        <item>Hängt die Hüfte beim Plank durch? Spanne Rumpf und Gesäß fester an oder geh auf die Knie.</item>
+        <item>Miss Taillenumfang und Energie statt nur Gewicht – Muskeln sind dichter als Fett.</item>
+        <item>Zuckergetränke durch Wasser zu ersetzen spart mühelos viele Kalorien im Monat.</item>
+        <item>Progressive Überlastung: Versuche jede Woche 1 Wiederholung oder 1 kg mehr.</item>
+        <item>Keine Gewichte zu Hause? Nutze Tempo: 3 Sek. runter, 1 Sek. halten, explosiv hoch!</item>
+        <item>Fünf Minuten Katze-Kuh und Brustöffner am Morgen vertreiben Schreibtischnacken.</item>
+        <item>Jeder abgehakte Kalendertag stärkt deine Siegergewohnheit – schütze deine Serie!</item>
+        <item>Die Übung, die du meidest, ist meist genau deine größte Chance zur Verbesserung!</item>
+        <item>Ich bin FitChicken: Hätte ich mit kleinen Flügeln aufgegeben, hätte ich heute keine solchen Arme!</item>
+    </string-array>
+</resources>

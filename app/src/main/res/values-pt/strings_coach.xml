@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Iniciante</string>
+    <string name="diff_intermediate">Intermediário</string>
+    <string name="diff_advanced">Avançado</string>
+    <string name="diff_pro">Pro / Avançado</string>
+    <string name="story_1_badge">-11,5 kg em 4 meses</string>
+    <string name="story_1_result" formatted="false">94 kg → 82,5 kg • Gordura 26% → 16%</string>
+    <string name="story_1_quote">Segui meu plano personalizado e o calendário. As dicas diárias do FitChicken mantiveram minha sequência firme!</string>
+    <string name="story_2_badge">Modo Crescimento 0-18</string>
+    <string name="story_2_result">+4 cm Postura • +12 cm Salto vertical</string>
+    <string name="story_2_quote">Usei os treinos de salto e postura para o basquete. Melhorei a postura e fiquei muito mais ágil em quadra.</string>
+    <string name="story_3_badge">90 dias em casa</string>
+    <string name="story_3_result">Zero equipamento • 4 dias/sem.</string>
+    <string name="story_3_quote">Sem tempo para academia, os treinos em casa com animações pareceram ter um personal trainer comigo!</string>
+    <string name="story_4_badge">Hipertrofia Pro</string>
+    <string name="story_4_result">+4,8 kg de massa magra</string>
+    <string name="story_4_quote">Perguntei tudo sobre nutrição e descanso ao FitChicken Coach. Ciência clara com bom humor dobrou meus resultados.</string>
+    <string-array name="coach_tips">
+        <item>Para de cacarejar e levanta o ferro! Não desista nas duas últimas repetições — é ali que você cresce.</item>
+        <item>Construí essas asas com um peitoral forte! Encaixe as escápulas atrás em toda flexão e supino.</item>
+        <item>Hidrate-se, campeão! Beber 2,5 a 3 litros de água por dia melhora o desempenho muscular em até 15%.</item>
+        <item>Até eu respeito peito de frango — busque 25 a 35 g de proteína de qualidade em cada refeição.</item>
+        <item>Sem sono, sem músculo! O hormônio do crescimento tem seu pico nas primeiras 4 horas de sono profundo.</item>
+        <item>Treine para sentir o músculo, não para o ego. Uma descida controlada de 3 segundos faz milagres.</item>
+        <item>Nunca pule o aquecimento! 5 minutos de mobilidade dinâmica cortam o risco de lesão pela metade.</item>
+        <item>Quem pula dia de perna anda desengonçado! Agachamentos e avanços dão potência ao corpo todo.</item>
+        <item>Não prenda a respiração! Solte o ar no esforço e inspire suave ao retornar.</item>
+        <item>De 0 a 18 anos: proteja sua coluna e postura — pendurar na barra e exercícios eretos valem ouro.</item>
+        <item>Três treinos consistentes por semana vencem sempre uma sessão heroica por mês.</item>
+        <item>Abdômen aparece na cozinha e se define no treino. Contraia os glúteos em toda prancha!</item>
+        <item>Não fique 5 minutos no celular entre séries. 60 a 90 s de descanso mantêm o foco e o pump.</item>
+        <item>Ombros caídos à frente? Dobre as remadas — equilibre cada empurrada com uma puxada limpa.</item>
+        <item>Você não precisa ser perfeito no primeiro dia; calçar o tênis hoje já é uma grande vitória!</item>
+        <item>A balança oscila todo dia com água — acompanhe sempre a sua média de 7 dias.</item>
+        <item>Cafeína 30 min antes do treino aguça o foco, mas evite após as 18h para proteger o sono.</item>
+        <item>Um treino focado de 20 min em casa vale muito mais que 1 hora de academia a que você faltou.</item>
+        <item>Nunca trave cotovelos ou joelhos com impacto no topo — mantenha controle suave.</item>
+        <item>O cardio fortalece o coração para você se recuperar mais rápido entre séries pesadas.</item>
+        <item>Quer secar gordura? Conte os passos! 8.000 a 10.000 passos diários são seu superpoder discreto.</item>
+        <item>Não existe treino mágico, só o treino que você mantém. Planeje na agenda e marque cada dia!</item>
+        <item>Mantenha os cotovelos colados ao tronco na rosca — pare de balançar a lombar.</item>
+        <item>Nos treinos de costas, imagine puxar pelos cotovelos em vez das mãos.</item>
+        <item>Reabasteça em 1 a 2 horas após o treino com proteína magra e bons carboidratos.</item>
+        <item>Reserve apenas 5 minutos para alongar depois — seu corpo amanhã vai agradecer.</item>
+        <item>Jovens: busquem técnica perfeita e explosão atlética em vez de cargas máximas arriscadas.</item>
+        <item>A série termina quando a postura quebra. 10 reps limpas constroem mais que 15 tortas.</item>
+        <item>Pouca energia hoje? Reduza a carga em 20%, mas conclua o treino. Disciplina vence motivação.</item>
+        <item>Confira sua postura no espelho: queixo alinhado, peito aberto e ombros relaxados para trás.</item>
+        <item>No levantamento terra mantenha a barra perto das canelas — se a coluna curvar, reduza o peso.</item>
+        <item>Se a lombar afundar na prancha, trave mais o abdômen ou apoie os joelhos com controle.</item>
+        <item>Meça cintura e energia além da balança: o músculo é mais denso do que a gordura.</item>
+        <item>Trocar bebidas açucaradas por água economiza muitas calorias no mês sem esforço.</item>
+        <item>Sobrecarga progressiva: tente somar apenas 1 repetição ou 1 kg em relação à semana passada.</item>
+        <item>Sem pesos em casa? Controle o tempo: 3 s descendo, 1 s de pausa, subida explosiva!</item>
+        <item>Cinco minutos de gato-vaca e abertura peitoral de manhã tiram a rigidez do trabalho sentado.</item>
+        <item>Cada treino marcado na agenda fortalece o hábito vencedor — proteja sua sequência!</item>
+        <item>O movimento que você evita costuma ser justamente o ponto fraco que te trava. Ataque-o!</item>
+        <item>Eu sou o FitChicken: se tivesse desistido por ter asas pequenas, hoje não teria esses braços. Sua vez!</item>
+    </string-array>
+</resources>

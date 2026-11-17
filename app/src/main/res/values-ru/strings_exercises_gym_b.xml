@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g7_1_name">Классическая становая тяга</string>
+    <string name="ex_g7_1_muscle">Вся задняя цепь</string>
+    <string name="ex_g7_1_cue">Никогда не округляйте спину; гриф должен двигаться строго вертикально.</string>
+    <string name="ex_g7_1_breath">Глубоко вдохните и напрягите кор перед подъёмом, выдохните наверху.</string>
+    <string name="ex_g7_1_mistake">Тянуть поясницей вместо жима ногами от пола.</string>
+    <string-array name="ex_g7_1_steps">
+        <item>Стопы на ширине таза, гриф над серединой стопы.</item>
+        <item>Отведите таз назад, возьмите гриф, раскройте грудь и выпрямите спину.</item>
+        <item>Оттолкнитесь ногами от пола, ведя гриф вдоль ног.</item>
+    </string-array>
+    <string name="ex_g7_2_name">Ягодичный мост со штангой</string>
+    <string name="ex_g7_2_muscle">Ягодицы</string>
+    <string name="ex_g7_2_cue">Слегка прижмите подбородок к груди, чтобы не прогибать поясницу.</string>
+    <string name="ex_g7_2_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_g7_2_mistake">Чрезмерно прогибать поясницу.</string>
+    <string-array name="ex_g7_2_steps">
+        <item>Обопритесь лопатками о скамью, штанга на сгибе бёдер.</item>
+        <item>Толкнитесь пятками, поднимите таз вверх и сильно сожмите ягодицы.</item>
+    </string-array>
+    <string name="ex_g7_3_name">Сгибание ног лёжа</string>
+    <string name="ex_g7_3_muscle">Бицепс бедра</string>
+    <string name="ex_g7_3_cue">Не отрывайте таз от скамьи.</string>
+    <string name="ex_g7_3_breath">Выдыхайте при сгибании.</string>
+    <string name="ex_g7_3_mistake">Слишком быстро бросать вес.</string>
+    <string-array name="ex_g7_3_steps">
+        <item>Лягте на тренажёр лицом вниз, валик над ахилловым сухожилием.</item>
+        <item>Согните ноги к ягодицам и плавно опустите.</item>
+    </string-array>
+    <string name="ex_g7_4_name">Подъём коленей в висе</string>
+    <string name="ex_g7_4_muscle">Низ пресса и Хват</string>
+    <string name="ex_g7_4_cue">Опускайте медленно, чтобы не раскачиваться.</string>
+    <string name="ex_g7_4_breath">Выдыхайте при подъёме коленей.</string>
+    <string name="ex_g7_4_mistake">Раскачиваться для инерции.</string>
+    <string-array name="ex_g7_4_steps">
+        <item>Повисните на турнике.</item>
+        <item>Подтяните колени к груди под контролем.</item>
+        <item>Плавно опустите без раскачки.</item>
+    </string-array>
+    <string name="ex_g8_1_name">Спринт на гребном тренажёре</string>
+    <string name="ex_g8_1_muscle">Кардио на всё тело</string>
+    <string name="ex_g8_1_cue" formatted="false">60% усилия ногами, 20% корпусом, 20% руками.</string>
+    <string name="ex_g8_1_breath">Выдыхайте на каждом гребке.</string>
+    <string name="ex_g8_1_mistake">Тянуть только руками, рано сгибая ноги.</string>
+    <string-array name="ex_g8_1_steps">
+        <item>Зафиксируйте стопы ремнями.</item>
+        <item>Сначала толкнитесь ногами, слегка отклонитесь и дотяните руками.</item>
+    </string-array>
+    <string name="ex_g8_2_name">Махи гирей</string>
+    <string name="ex_g8_2_muscle">Ягодицы и Выносливость</string>
+    <string name="ex_g8_2_cue">Руки как верёвки — вся сила идёт от толчка тазом.</string>
+    <string name="ex_g8_2_breath">Выдыхайте при махе вверх.</string>
+    <string name="ex_g8_2_mistake">Приседать и поднимать руками.</string>
+    <string-array name="ex_g8_2_steps">
+        <item>Стопы шире плеч.</item>
+        <item>Отведите таз назад, замахнитесь гирей между ног.</item>
+        <item>Мощно выпрямите таз, вынося гирю на уровень груди.</item>
+    </string-array>
+    <string name="ex_g8_3_name">Канаты (Battle Ropes)</string>
+    <string name="ex_g8_3_muscle">Плечи и Кардио</string>
+    <string name="ex_g8_3_sets">4 x 30 сек</string>
+    <string name="ex_g8_3_cue">Держите пресс напряжённым и спину прямой.</string>
+    <string name="ex_g8_3_breath">Дышите ритмично.</string>
+    <string name="ex_g8_3_mistake">Двигать только кистями.</string>
+    <string-array name="ex_g8_3_steps">
+        <item>Примите атлетическую стойку, чуть согнув колени.</item>
+        <item>Создавайте быстрые попеременные волны канатами.</item>
+    </string-array>
+    <string name="ex_g8_4_name">Ходьба в гору на дорожке</string>
+    <string name="ex_g8_4_muscle">Пульс для жиросжигания</string>
+    <string name="ex_g8_4_sets">12 мин</string>
+    <string name="ex_g8_4_cue">Сжигает много калорий без ударной нагрузки на суставы.</string>
+    <string name="ex_g8_4_breath">Глубоко дышите через нос.</string>
+    <string name="ex_g8_4_mistake">Держаться за поручни и облегчать нагрузку.</string>
+    <string-array name="ex_g8_4_steps">
+        <item>Идите бодро при наклоне 10–12% и скорости 5,0–5,5 км/ч.</item>
+        <item>Работайте руками естественно, не держась за поручни.</item>
+    </string-array>
+    <string name="ex_g9_1_name">Жим лёжа с паузой</string>
+    <string name="ex_g9_1_muscle">Грудь</string>
+    <string name="ex_g9_1_cue">Не расслабляйтесь во время паузы.</string>
+    <string name="ex_g9_1_breath">Вдох перед опусканием, выдох на жиме.</string>
+    <string name="ex_g9_1_mistake">Отбивать штангу от груди.</string>
+    <string-array name="ex_g9_1_steps">
+        <item>Плавно опустите штангу на грудь.</item>
+        <item>Сделайте чёткую паузу 1 секунду на груди.</item>
+        <item>Мощно выжмите вверх.</item>
+    </string-array>
+    <string name="ex_g9_2_name">Отжимания на брусьях с весом</string>
+    <string name="ex_g9_2_muscle">Низ груди и Трицепс</string>
+    <string name="ex_g9_2_cue">Наклон вперёд усиливает работу грудных мышц.</string>
+    <string name="ex_g9_2_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_g9_2_mistake">Заваливать плечи вперёд.</string>
+    <string-array name="ex_g9_2_steps">
+        <item>Возьмитесь за брусья и слегка наклоните корпус вперёд.</item>
+        <item>Опуститесь до 90° в локтях и мощно выжмитесь вверх.</item>
+    </string-array>
+    <string name="ex_g9_3_name">Сведения рук в тренажёре (Бабочка)</string>
+    <string name="ex_g9_3_muscle">Внутренняя часть груди</string>
+    <string name="ex_g9_3_cue">Двигайтесь по широкой дуге, растягивая грудь.</string>
+    <string name="ex_g9_3_breath">Выдыхайте при сведении.</string>
+    <string name="ex_g9_3_mistake">Ставить лишний вес и сильно сгибать локти.</string>
+    <string-array name="ex_g9_3_steps">
+        <item>Отрегулируйте сиденье, локти слегка согнуты.</item>
+        <item>Сведите руки перед собой и сожмите на 1 секунду.</item>
+    </string-array>
+    <string name="ex_g10_1_name">Тяга Т-грифа</string>
+    <string name="ex_g10_1_muscle">Середина спины</string>
+    <string name="ex_g10_1_cue">Сжимайте мышцы спины в каждом повторении.</string>
+    <string name="ex_g10_1_breath">Выдыхайте при тяге.</string>
+    <string name="ex_g10_1_mistake">Подбрасывать вес поясницей.</string>
+    <string-array name="ex_g10_1_steps">
+        <item>Наклонитесь на 45 градусов, зафиксировав прямую спину.</item>
+        <item>Тяните вес к нижней части груди.</item>
+    </string-array>
+    <string name="ex_g10_2_name">Тяга верхнего блока узким хватом</string>
+    <string name="ex_g10_2_muscle">Низ широчайших</string>
+    <string name="ex_g10_2_cue">Глубоко растягивает низ широчайших мышц.</string>
+    <string name="ex_g10_2_breath">Выдыхайте при тяге вниз.</string>
+    <string name="ex_g10_2_mistake">Поднимать плечи к ушам.</string>
+    <string-array name="ex_g10_2_steps">
+        <item>Возьмитесь за узкую V-рукоять.</item>
+        <item>Прижмите локти к бокам и тяните к груди.</item>
+    </string-array>
+    <string name="ex_g10_3_name">Шраги с гантелями</string>
+    <string name="ex_g10_3_muscle">Трапеции</string>
+    <string name="ex_g10_3_cue">Тяните строго вверх, не вращайте плечами.</string>
+    <string name="ex_g10_3_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_g10_3_mistake">Выдвигать голову вперёд.</string>
+    <string-array name="ex_g10_3_steps">
+        <item>Держите гантели по бокам.</item>
+        <item>Поднимите плечи строго вверх к ушам и задержитесь на 1 секунду.</item>
+    </string-array>
+    <string name="ex_g11_1_name">Гакк-приседания</string>
+    <string name="ex_g11_1_muscle">Квадрицепсы</string>
+    <string name="ex_g11_1_cue">Не сводите колени внутрь.</string>
+    <string name="ex_g11_1_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_g11_1_mistake">Делать полуприседы.</string>
+    <string-array name="ex_g11_1_steps">
+        <item>Плотно прижмите спину к спинке, стопы слегка вперёд.</item>
+        <item>Присядьте глубоко и выжмитесь пятками.</item>
+    </string-array>
+    <string name="ex_g11_2_name">Выпады в ходьбе с гантелями</string>
+    <string name="ex_g11_2_muscle">Ноги и Баланс</string>
+    <string name="ex_g11_2_sets">3 x 20 шагов</string>
+    <string name="ex_g11_2_cue">Корпус прямой, углы в коленях около 90 градусов.</string>
+    <string name="ex_g11_2_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_g11_2_mistake">Ставить стопы на одну линию (теряя баланс).</string>
+    <string-array name="ex_g11_2_steps">
+        <item>Сделайте широкий шаг вперёд, опустите заднее колено к полу.</item>
+        <item>Толкнитесь передней пяткой в следующий шаг.</item>
+    </string-array>
+    <string name="ex_g11_3_name">Разгибание ног сидя</string>
+    <string name="ex_g11_3_muscle">Изоляция квадрицепса</string>
+    <string name="ex_g11_3_cue">Опускайте медленно, чувствуя жжение в мышцах.</string>
+    <string name="ex_g11_3_breath">Выдыхайте при разгибании.</string>
+    <string name="ex_g11_3_mistake">Рывком подбрасывать вес.</string>
+    <string-array name="ex_g11_3_steps">
+        <item>Установите валик над щиколотками.</item>
+        <item>Полностью выпрямите ноги и сожмите на 1 секунду.</item>
+    </string-array>
+    <string name="ex_g12_1_name">Скручивания с канатом на блоке</string>
+    <string name="ex_g12_1_muscle">Верх и середина пресса</string>
+    <string name="ex_g12_1_cue">Скручивайтесь прессом, а не руками.</string>
+    <string name="ex_g12_1_breath">Выдыхайте при скручивании.</string>
+    <string name="ex_g12_1_mistake">Садиться тазом назад к пяткам.</string>
+    <string-array name="ex_g12_1_steps">
+        <item>Встаньте на колени у блока, канат у головы.</item>
+        <item>Зафиксируйте таз и скручивайтесь грудью к коленям.</item>
+    </string-array>
+    <string name="ex_g12_2_name">Подъём туловища на наклонной скамье</string>
+    <string name="ex_g12_2_muscle">Пресс</string>
+    <string name="ex_g12_2_cue">Держите спину чуть скруглённой для нагрузки на пресс.</string>
+    <string name="ex_g12_2_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_g12_2_mistake">Тянуть себя руками за шею.</string>
+    <string-array name="ex_g12_2_steps">
+        <item>Закрепите ноги на наклонной скамье.</item>
+        <item>Плавно опускайтесь и поднимайтесь.</item>
+    </string-array>
+    <string name="ex_g12_3_name">Жим Паллофа</string>
+    <string name="ex_g12_3_muscle">Косые мышцы и Антиротация</string>
+    <string name="ex_g12_3_sets">3 x 12/сторона</string>
+    <string name="ex_g12_3_cue">Делает стабилизацию позвоночника железной.</string>
+    <string name="ex_g12_3_breath">Выдыхайте при выпрямлении рук.</string>
+    <string name="ex_g12_3_mistake">Разворачивать плечи к блоку.</string>
+    <string-array name="ex_g12_3_steps">
+        <item>Встаньте боком к блоку, рукоять у груди.</item>
+        <item>Выжмите руки вперёд, сопротивляясь скручиванию.</item>
+    </string-array>
+    <string name="ex_gp1_1_name">Жим в наклоне в машине Смита</string>
+    <string name="ex_gp1_1_muscle">Верх груди</string>
+    <string name="ex_gp1_1_cue">Один из самых безопасных методов для гипертрофии верха груди.</string>
+    <string name="ex_gp1_1_breath">Выдыхайте на жиме.</string>
+    <string name="ex_gp1_1_mistake">Слишком сильно уводить локти назад.</string>
+    <string-array name="ex_gp1_1_steps">
+        <item>На скамье 30° выровняйте гриф над верхом груди.</item>
+        <item>Опускайте 3 сек, пауза 1 сек, жмите мощно.</item>
+    </string-array>
+    <string name="ex_gp1_2_name">Суперсет: Брусья с весом + Сведения в кроссовере</string>
+    <string name="ex_gp1_2_muscle">Грудь</string>
+    <string name="ex_gp1_2_cue">Суперсет удваивает кровенаполнение мышц.</string>
+    <string name="ex_gp1_2_breath">Дышите ритмично.</string>
+    <string name="ex_gp1_2_mistake">Отдыхать между двумя упражнениями суперсета.</string>
+    <string-array name="ex_gp1_2_steps">
+        <item>Сразу после брусьев выполните сведения в кроссовере.</item>
+        <item>Максимально растяните и сожмите грудь.</item>
+    </string-array>
+    <string name="ex_gp1_3_name">Махи в стороны дроп-сетом</string>
+    <string name="ex_gp1_3_muscle">Плечи</string>
+    <string name="ex_gp1_3_cue">Максимально нагружает средний пучок дельт.</string>
+    <string name="ex_gp1_3_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_gp1_3_mistake">Сильно задействовать трапеции.</string>
+    <string-array name="ex_gp1_3_steps">
+        <item>Сделайте 12 повторений, снизьте вес на 10 повторений и ещё раз на 10.</item>
+    </string-array>
+    <string name="ex_gp2_1_name">Подтягивания с отягощением</string>
+    <string name="ex_gp2_1_muscle">Ширина спины</string>
+    <string name="ex_gp2_1_cue">Сначала опустите лопатки вниз, затем подтягивайтесь.</string>
+    <string name="ex_gp2_1_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_gp2_1_mistake">Помогать себе рывками ног.</string>
+    <string-array name="ex_gp2_1_steps">
+        <item>Возьмитесь широким хватом за турник.</item>
+        <item>Подтяните грудь к перекладине выше подбородка.</item>
+    </string-array>
+    <string name="ex_gp2_2_name">Тяга с упором грудью</string>
+    <string name="ex_gp2_2_muscle">Середина спины</string>
+    <string name="ex_gp2_2_cue">Изолированно развивает толщину спины.</string>
+    <string name="ex_gp2_2_breath">Выдыхайте на тяге.</string>
+    <string name="ex_gp2_2_mistake">Отрывать грудь от скамьи.</string>
+    <string-array name="ex_gp2_2_steps">
+        <item>Лягте грудью на наклонную скамью.</item>
+        <item>Тяните спиной, полностью сняв нагрузку с поясницы.</item>
+    </string-array>
+    <string name="ex_gp2_3_name">Скамья Скотта + Молот с канатом</string>
+    <string name="ex_gp2_3_muscle">Пик бицепса</string>
+    <string name="ex_gp2_3_cue">Растит руки под постоянным напряжением.</string>
+    <string name="ex_gp2_3_breath">Выдыхайте при сгибании.</string>
+    <string name="ex_gp2_3_mistake">Резко выпрямлять локти внизу.</string>
+    <string-array name="ex_gp2_3_steps">
+        <item>Сделайте 10 повторений на скамье Скотта и сразу молот с канатом.</item>
+    </string-array>
+    <string name="ex_gp3_1_name">Фронтальные приседания</string>
+    <string name="ex_gp3_1_muscle">Квадрицепсы и Кор</string>
+    <string name="ex_gp3_1_cue">Опустите локти — и корпус завалится вперёд.</string>
+    <string name="ex_gp3_1_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_gp3_1_mistake">Перегружать запястья.</string>
+    <string-array name="ex_gp3_1_steps">
+        <item>Положите штангу на передние дельты, подняв локти высоко.</item>
+        <item>Присядьте глубоко с прямой спиной и мощно встаньте.</item>
+    </string-array>
+    <string name="ex_gp3_2_name">Болгарские приседания</string>
+    <string name="ex_gp3_2_muscle">Ягодицы и Баланс</string>
+    <string name="ex_gp3_2_sets">3 x 10/нога</string>
+    <string name="ex_gp3_2_cue">Устраняет дисбаланс силы ног.</string>
+    <string name="ex_gp3_2_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_gp3_2_mistake">Чрезмерно наклоняться вперёд.</string>
+    <string-array name="ex_gp3_2_steps">
+        <item>Положите заднюю ногу подъёмом на скамью.</item>
+        <item>Опуститесь под контролем и поднимитесь передней ногой.</item>
+    </string-array>
+    <string name="ex_gp3_3_name">Запрыгивания на тумбу</string>
+    <string name="ex_gp3_3_muscle">Взрывная сила</string>
+    <string name="ex_gp3_3_cue">Приземляйтесь бесшумно и мягко.</string>
+    <string name="ex_gp3_3_breath">Выдыхайте в прыжке.</string>
+    <string name="ex_gp3_3_mistake">Спрыгивать назад (спускайтесь шагом).</string>
+    <string-array name="ex_gp3_3_steps">
+        <item>Встаньте перед тумбой в атлетической стойке.</item>
+        <item>С махом рук мягко запрыгните на тумбу.</item>
+    </string-array>
+    <string name="ex_gp4_1_name">Приседания со штангой</string>
+    <string name="ex_gp4_1_muscle">Нижняя часть тела</string>
+    <string name="ex_gp4_1_cue">Удерживайте внутрибрюшное давление.</string>
+    <string name="ex_gp4_1_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_gp4_1_mistake">Заваливать колени внутрь.</string>
+    <string-array name="ex_gp4_1_steps">
+        <item>Проработайте крупные группы мышц глубокими подконтрольными приседаниями.</item>
+    </string-array>
+    <string name="ex_gp4_2_name">Жим штанги на наклонной скамье</string>
+    <string name="ex_gp4_2_muscle">Верх груди</string>
+    <string name="ex_gp4_2_cue">Прижмите лопатки к скамье.</string>
+    <string name="ex_gp4_2_breath">Выдыхайте на жиме.</string>
+    <string name="ex_gp4_2_mistake">Опускать гриф к шее.</string>
+    <string-array name="ex_gp4_2_steps">
+        <item>Опустите штангу чуть ниже ключиц и мощно выжмите.</item>
+    </string-array>
+    <string name="ex_gp4_3_name">Тяга Пендли</string>
+    <string name="ex_gp4_3_muscle">Взрывная тяга спиной</string>
+    <string name="ex_gp4_3_cue">Даёт мощь и толщину спины.</string>
+    <string name="ex_gp4_3_breath">Выдыхайте на рывке.</string>
+    <string name="ex_gp4_3_mistake">Выпрямляться поясницей.</string>
+    <string-array name="ex_gp4_3_steps">
+        <item>Корпус параллельно полу, каждый повтор взрывно с пола.</item>
+    </string-array>
+    <string name="ex_gp4_4_name">Прогулка фермера</string>
+    <string name="ex_gp4_4_muscle">Хват и Кор</string>
+    <string name="ex_gp4_4_cue">Тренирует стабилизацию всего тела.</string>
+    <string name="ex_gp4_4_breath">Дышите ровно и глубоко.</string>
+    <string name="ex_gp4_4_mistake">Раскачиваться из стороны в сторону.</string>
+    <string-array name="ex_gp4_4_steps">
+        <item>Возьмите тяжёлые гантели, отведите плечи назад и бодро идите.</item>
+    </string-array>
+</resources>

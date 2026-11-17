@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h9_1_name">Squat Jump</string>
+    <string name="ex_h9_1_muscle">Legs &amp; Cardio</string>
+    <string name="ex_h9_1_sets">4 x 20 sec</string>
+    <string name="ex_h9_1_cue">Land softly without locking knees.</string>
+    <string name="ex_h9_1_breath">Exhale on the jump.</string>
+    <string name="ex_h9_1_mistake">Landing harshly on stiff heels.</string>
+    <string-array name="ex_h9_1_steps">
+        <item>Drop into a squat and explode upward into a jump.</item>
+        <item>Land softly straight into your next squat.</item>
+    </string-array>
+    <string name="ex_h9_2_name">Speed Skaters</string>
+    <string name="ex_h9_2_muscle">Glutes &amp; Agility</string>
+    <string name="ex_h9_2_sets">4 x 20 sec</string>
+    <string name="ex_h9_2_cue">Fires up lateral glutes and balance.</string>
+    <string name="ex_h9_2_breath">Breathe rhythmically.</string>
+    <string name="ex_h9_2_mistake">Standing straight up and losing hip hinge.</string>
+    <string-array name="ex_h9_2_steps">
+        <item>Bound laterally from side to side like a speed skater.</item>
+        <item>Tap the trailing foot lightly behind the standing leg.</item>
+    </string-array>
+    <string name="ex_h9_3_name">Plank Shoulder Taps</string>
+    <string name="ex_h9_3_muscle">Core &amp; Shoulders</string>
+    <string name="ex_h9_3_sets">4 x 20 sec</string>
+    <string name="ex_h9_3_cue">Keep torso rock-solid.</string>
+    <string name="ex_h9_3_breath">Exhale steadily.</string>
+    <string name="ex_h9_3_mistake">Rocking hips side to side.</string>
+    <string-array name="ex_h9_3_steps">
+        <item>Set a high plank with feet wider than shoulder-width.</item>
+        <item>Tap opposite shoulders alternately without swaying your hips.</item>
+    </string-array>
+    <string name="ex_h10_1_name">Step Squat to Reach</string>
+    <string name="ex_h10_1_muscle">Legs &amp; Shoulders</string>
+    <string name="ex_h10_1_cue">Burns high calories quietly without jumping.</string>
+    <string name="ex_h10_1_breath">Exhale as you reach up.</string>
+    <string name="ex_h10_1_mistake">Letting knees cave inward.</string>
+    <string-array name="ex_h10_1_steps">
+        <item>Step out sideways into a squat, then reach arms skyward as you stand.</item>
+        <item>Repeat on the opposite side.</item>
+    </string-array>
+    <string name="ex_h10_2_name">Inchworm Walkout</string>
+    <string name="ex_h10_2_muscle">Core &amp; Flexibility</string>
+    <string name="ex_h10_2_cue">Warms up hamstrings and shoulders together.</string>
+    <string name="ex_h10_2_breath">Exhale as you walk forward.</string>
+    <string name="ex_h10_2_mistake">Sagging hips when reaching plank.</string>
+    <string-array name="ex_h10_2_steps">
+        <item>Hinge down from standing, hands to floor, and walk hands forward into plank.</item>
+        <item>Walk hands back to feet and stand.</item>
+    </string-array>
+    <string name="ex_h10_3_name">Shadow Boxing</string>
+    <string name="ex_h10_3_muscle">Arms &amp; Cardio</string>
+    <string name="ex_h10_3_sets">3 x 45 sec</string>
+    <string name="ex_h10_3_cue">Fantastic for upper-body endurance.</string>
+    <string name="ex_h10_3_breath">Short crisp exhale with every punch.</string>
+    <string name="ex_h10_3_mistake">Tensing shoulders up tightly.</string>
+    <string-array name="ex_h10_3_steps">
+        <item>Take a boxing guard and throw brisk jabs, crosses, and hooks.</item>
+        <item>Stay light bouncing on your feet.</item>
+    </string-array>
+    <string name="ex_h11_1_name">Wall Angels</string>
+    <string name="ex_h11_1_muscle">Shoulders &amp; Posture</string>
+    <string name="ex_h11_1_cue">Keep lower back close to the wall.</string>
+    <string name="ex_h11_1_breath">Exhale as you slide up.</string>
+    <string name="ex_h11_1_mistake">Wrists and elbows lifting off the wall.</string>
+    <string-array name="ex_h11_1_steps">
+        <item>Press back, glutes, and head gently against a wall.</item>
+        <item>Slide arms from a W shape up into a Y keeping contact with the wall.</item>
+    </string-array>
+    <string name="ex_h11_2_name">Prone Y-T-W Raises</string>
+    <string name="ex_h11_2_muscle">Rear Delts &amp; Upper Back</string>
+    <string name="ex_h11_2_sets">3 x 8/letter</string>
+    <string name="ex_h11_2_cue">Focus on squeezing your shoulder blades.</string>
+    <string name="ex_h11_2_breath">Exhale as you lift.</string>
+    <string name="ex_h11_2_mistake">Swinging arms rapidly.</string>
+    <string-array name="ex_h11_2_steps">
+        <item>Lie face down and lift arms successively in Y, T, and W shapes off the floor.</item>
+    </string-array>
+    <string name="ex_h11_3_name">Bird-Dog</string>
+    <string name="ex_h11_3_muscle">Lower Back &amp; Core Balance</string>
+    <string name="ex_h11_3_sets">3 x 10/side</string>
+    <string name="ex_h11_3_cue">Stabilizes the spine symmetrically.</string>
+    <string name="ex_h11_3_breath">Exhale as you reach out.</string>
+    <string name="ex_h11_3_mistake">Kicking the leg too high and arching the lower back.</string>
+    <string-array name="ex_h11_3_steps">
+        <item>From all fours, extend right arm forward and left leg straight back.</item>
+        <item>Hold 2 seconds and switch sides.</item>
+    </string-array>
+    <string name="ex_h12_1_name">Child\'s Pose</string>
+    <string name="ex_h12_1_muscle">Back &amp; Shoulders</string>
+    <string name="ex_h12_1_sets">3 x 45 sec</string>
+    <string name="ex_h12_1_cue">Calms the nervous system with slow breaths.</string>
+    <string name="ex_h12_1_breath">Inhale 4 sec, exhale 6 sec.</string>
+    <string name="ex_h12_1_mistake">Tensing the shoulders instead of relaxing.</string>
+    <string-array name="ex_h12_1_steps">
+        <item>Sit hips back onto your heels, reach arms forward, and rest forehead on the mat.</item>
+        <item>Feel your back lengthen with each breath.</item>
+    </string-array>
+    <string name="ex_h12_2_name">Pigeon Stretch</string>
+    <string name="ex_h12_2_muscle">Hips &amp; Piriformis</string>
+    <string name="ex_h12_2_sets">2 x 45 sec/side</string>
+    <string name="ex_h12_2_cue">Releases deep hip tightness.</string>
+    <string name="ex_h12_2_breath">Melt deeper on each exhale.</string>
+    <string name="ex_h12_2_mistake">Forcing a painful knee bend angle.</string>
+    <string-array name="ex_h12_2_steps">
+        <item>Bend one leg in front of you and extend the other straight behind.</item>
+        <item>Relax your torso gently forward.</item>
+    </string-array>
+    <string name="ex_h12_3_name">Hamstring Towel Stretch</string>
+    <string name="ex_h12_3_muscle">Hamstrings</string>
+    <string name="ex_h12_3_sets">2 x 45 sec/side</string>
+    <string name="ex_h12_3_cue">Flexible hamstrings relieve lower-back tightness.</string>
+    <string name="ex_h12_3_breath">Ease into the stretch as you exhale.</string>
+    <string name="ex_h12_3_mistake">Forcing or hyperextending the knee joint.</string>
+    <string-array name="ex_h12_3_steps">
+        <item>Lie on your back, raise one leg upward, and gently pull toward you with a towel.</item>
+    </string-array>
+    <string name="ex_hp1_1_name">1.5-Rep Tempo Squat</string>
+    <string name="ex_hp1_1_muscle">Legs &amp; Glutes</string>
+    <string name="ex_hp1_1_cue">The secret to equipment-free leg growth.</string>
+    <string name="ex_hp1_1_breath">Exhale on the final stand up.</string>
+    <string name="ex_hp1_1_mistake">Bouncing fast at the bottom.</string>
+    <string-array name="ex_hp1_1_steps">
+        <item>Squat all the way down, rise halfway, sink back to the bottom, then stand all the way up.</item>
+    </string-array>
+    <string name="ex_hp1_2_name">Archer Push-Up</string>
+    <string name="ex_hp1_2_muscle">Chest &amp; Single-Arm Power</string>
+    <string name="ex_hp1_2_sets">4 x 8/side</string>
+    <string name="ex_hp1_2_cue">Top stepping stone toward one-arm push-ups.</string>
+    <string name="ex_hp1_2_breath">Exhale as you press up.</string>
+    <string name="ex_hp1_2_mistake">Twisting hips sideways.</string>
+    <string-array name="ex_hp1_2_steps">
+        <item>Set hands wide, straighten one arm out while lowering your chest toward the other hand.</item>
+    </string-array>
+    <string name="ex_hp1_3_name">Table / Towel Inverted Row</string>
+    <string name="ex_hp1_3_muscle">Back</string>
+    <string name="ex_hp1_3_cue">Best bodyweight pull for home back thickness!</string>
+    <string name="ex_hp1_3_breath">Exhale as you pull up.</string>
+    <string name="ex_hp1_3_mistake">Letting hips sag toward the floor.</string>
+    <string-array name="ex_hp1_3_steps">
+        <item>Lie beneath a sturdy table, grip the edge, and pull your chest cleanly toward it.</item>
+    </string-array>
+    <string name="ex_hp2_1_name">Burpee Broad Jump</string>
+    <string name="ex_hp2_1_muscle">Full Body</string>
+    <string name="ex_hp2_1_cue">Combines explosive power with peak heart rate.</string>
+    <string name="ex_hp2_1_breath">Exhale on the broad jump.</string>
+    <string name="ex_hp2_1_mistake">Landing stiffly without absorbing through knees.</string>
+    <string-array name="ex_hp2_1_steps">
+        <item>Perform a burpee and leap forward instead of straight up.</item>
+    </string-array>
+    <string name="ex_hp2_2_name">Plyo Lunge Switch</string>
+    <string name="ex_hp2_2_muscle">Legs &amp; Conditioning</string>
+    <string name="ex_hp2_2_cue">Keep torso upright throughout.</string>
+    <string name="ex_hp2_2_breath">Exhale on every switch.</string>
+    <string name="ex_hp2_2_mistake">Banging the back knee onto the floor.</string>
+    <string-array name="ex_hp2_2_steps">
+        <item>Jump out of a lunge and switch legs cleanly in mid-air.</item>
+    </string-array>
+    <string name="ex_hp2_3_name">Plank Up-Downs</string>
+    <string name="ex_hp2_3_muscle">Core &amp; Shoulders</string>
+    <string name="ex_hp2_3_cue">Alternate your leading arm each set.</string>
+    <string name="ex_hp2_3_breath">Exhale as you press up.</string>
+    <string name="ex_hp2_3_mistake">Swaying hips wildly side to side.</string>
+    <string-array name="ex_hp2_3_steps">
+        <item>Transition from forearm plank up onto palms one arm at a time, then back down.</item>
+    </string-array>
+    <string name="ex_hp3_1_name">Pseudo Planche Push-Up</string>
+    <string name="ex_hp3_1_muscle">Shoulders &amp; Chest</string>
+    <string name="ex_hp3_1_cue">Builds serious advanced front-delt strength.</string>
+    <string name="ex_hp3_1_breath">Exhale as you press.</string>
+    <string name="ex_hp3_1_mistake">Letting your lower back sag.</string>
+    <string-array name="ex_hp3_1_steps">
+        <item>Turn fingers out/back, lean shoulders well ahead of your hands, and perform push-ups.</item>
+    </string-array>
+    <string name="ex_hp3_2_name">Tuck L-Sit Hold</string>
+    <string name="ex_hp3_2_muscle">Core &amp; Triceps</string>
+    <string name="ex_hp3_2_sets">4 x 20 sec</string>
+    <string name="ex_hp3_2_cue">Push shoulders firmly away from ears.</string>
+    <string name="ex_hp3_2_breath">Breathe smoothly without holding breath.</string>
+    <string name="ex_hp3_2_mistake">Bending the elbows.</string>
+    <string-array name="ex_hp3_2_steps">
+        <item>Sit with palms pressed beside hips, push shoulders down, and tuck knees up into the air.</item>
+    </string-array>
+    <string name="ex_hp3_3_name">Explosive Clapping Push-Up</string>
+    <string name="ex_hp3_3_muscle">Explosive Power</string>
+    <string name="ex_hp3_3_cue">Fires up fast-twitch upper-body fibers.</string>
+    <string name="ex_hp3_3_breath">Exhale sharply on the push.</string>
+    <string name="ex_hp3_3_mistake">Continuing explosive reps when already fatigued.</string>
+    <string-array name="ex_hp3_3_steps">
+        <item>Drive explosively from the bottom so hands clear the floor (optional clap).</item>
+    </string-array>
+    <string name="ex_hp4_1_name">Hollow Body Hold</string>
+    <string name="ex_hp4_1_muscle">Full Core</string>
+    <string name="ex_hp4_1_sets">4 x 30 sec</string>
+    <string name="ex_hp4_1_cue">Slightly bend knees if your lower back lifts.</string>
+    <string name="ex_hp4_1_breath">Breathe rhythmically.</string>
+    <string name="ex_hp4_1_mistake">Arching lower back off the floor.</string>
+    <string-array name="ex_hp4_1_steps">
+        <item>Lie supine and glue your lower back firmly into the floor.</item>
+        <item>Lift shoulder blades and straight legs slightly into a shallow banana shape.</item>
+    </string-array>
+    <string name="ex_hp4_2_name">V-Up</string>
+    <string name="ex_hp4_2_muscle">Upper &amp; Lower Abs</string>
+    <string name="ex_hp4_2_cue">Form a crisp V shape at the top.</string>
+    <string name="ex_hp4_2_breath">Exhale as you fold up.</string>
+    <string name="ex_hp4_2_mistake">Dropping heavily back onto the floor.</string>
+    <string-array name="ex_hp4_2_steps">
+        <item>From a flat lie, snap hands and straight legs up together at the top.</item>
+    </string-array>
+    <string name="ex_hp4_3_name">Dragon Flag Negatives</string>
+    <string name="ex_hp4_3_muscle">Advanced Abs</string>
+    <string name="ex_hp4_3_cue">One of the elite abdominal strength movements.</string>
+    <string name="ex_hp4_3_breath">Inhale slowly on the descent.</string>
+    <string name="ex_hp4_3_mistake">Bending at the hips instead of staying rigid.</string>
+    <string-array name="ex_hp4_3_steps">
+        <item>Anchor hands on a heavy sofa or pole behind your head, raise your body vertical onto your shoulders, and lower straight as a board.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Başlangıç</string>
+    <string name="diff_intermediate">Orta</string>
+    <string name="diff_advanced">Zor</string>
+    <string name="diff_pro">İleri</string>
+    <string name="story_1_badge">4 Ayda -11.5 kg</string>
+    <string name="story_1_result" formatted="false">94 kg → 82.5 kg • Yağ Oranı %26 → %16</string>
+    <string name="story_1_quote">Başta bana özel çıkan programı uyguladım, takvime sadık kaldım. FitChicken\'dan her gün tavsiye alıp görevleri tamamlamak sporu bırakmamamı sağladı!</string>
+    <string name="story_2_badge">0-18 Büyüme Modu</string>
+    <string name="story_2_result">+4 cm Postür Açılması • +12 cm Sıçrama</string>
+    <string name="story_2_quote">Basketbol için büyüme çağı modundaki sıçrama ve postür esnemelerini yaptım. Hem kambur duruşum düzeldi hem maçlarda çok daha hızlıyım.</string>
+    <string name="story_3_badge">Evde 90 Gün</string>
+    <string name="story_3_result">Sıfır Ekipman • Haftada 4 Gün</string>
+    <string name="story_3_quote">Salona gidecek vaktim yoktu. Evde antrenman kategorisindeki hareketlerin adımları ve animasyonları o kadar net ki sanki yanımda özel hoca varmış gibi!</string>
+    <string name="story_4_badge">Pro Hipertrofi</string>
+    <string name="story_4_result">+4.8 kg Temiz Kas Kütlesi</string>
+    <string name="story_4_quote">FitChicken Koçuna beslenme ve set aralarıyla ilgili aklıma takılan her şeyi sordum. Hem bilimsel hem de çok eğlenceli yanıtlarla antrenman kalitem ikiye katlandı.</string>
+    <string-array name="coach_tips">
+        <item>Bahane üretmeyi bırak, demiri kaldır! Bugün setlerin son tekrarında pes etme; gerçek gelişim tam orada başlar.</item>
+        <item>Kanatlarımı bu göğüs kafesiyle büyüttüm! Şınav ve bench press\'te kürek kemiklerini geriye sık.</item>
+        <item>Su içmeyi unutma şampiyon! Günde en az 2,5 - 3 litre su kas performansını %15 artırır.</item>
+        <item>Tavuk göğsü yemekten ben bile çekiniyorum ama protein hedefin için her öğüne 25-35 g protein ekle!</item>
+        <item>Uyku yoksa kas da yok! Büyüme hormonu en çok derin uykunun ilk 4 saatinde salgılanır.</item>
+        <item>Ağırlığı egon için değil, hedef kası hissetmek için seç. 3 saniyelik kontrollü iniş mucize yaratır.</item>
+        <item>Isınmadan barın altına girme! 5 dakikalık dinamik ısınma sakatlık riskini yarı yarıya azaltır.</item>
+        <item>Bacak gününü atlayan, salonda eksik yürür! Squat ve lunge tüm vücudun güç motorudur.</item>
+        <item>Nefesini tutma! Zorlanırken nefes ver, başlangıca dönerken nefes al.</item>
+        <item>0-18 yaş arasındaysan omurga sağlığın altın değerinde: Barfikste asılma ve dik duruş egzersizlerini aksatma.</item>
+        <item>Haftada 3 gün düzenli yapılan orta seviye antrenman, ayda 1 gün yapılan ağır antrenmanı her zaman yener.</item>
+        <item>Karın kası mutfakta belirginleşir, salonda şekillenir! Plank yaparken kalçanı sıkmayı unutma.</item>
+        <item>Set aralarında telefona dalıp 5 dakika bekleme; 60-90 saniyelik dinlenme kas pompasını zirvede tutar.</item>
+        <item>Omuzların öne düşüyorsa sırt çekişlerini artır! Her itiş hareketine karşılık en az 1 çekiş yap.</item>
+        <item>Başlangıçta mükemmel olman gerekmiyor; sadece bugün spor ayakkabını bağlaman bile büyük zafer!</item>
+        <item>Tartıdaki rakam her sabah aynı çıkmaz; ödem ve su tutumu normaldir, 7 günlük ortalamaya bak.</item>
+        <item>Kafein antrenmandan 30 dakika önce odaklanmanı artırır ama saat 18:00\'den sonra uykunu bozabilir.</item>
+        <item>Kısa ve odaklı 20 dakikalık bir ev antrenmanı, hiç gidilmemiş 1 saatlik salondan kat kat iyidir.</item>
+        <item>Bileklerini ve dirseklerini sertçe kilitleme! Her itişin sonunda eklemlerinde kontrollü pay bırak.</item>
+        <item>Kardiyo kalbini güçlendirir; nabzını koruyarak ağırlık çalışırken setler arası toparlanmanı hızlandırır.</item>
+        <item>Hedefin yağ yakımıysa adımlarını say! Günlük 8.000 - 10.000 adım gizli süper gücündür.</item>
+        <item>Mükemmel program yoktur, sürdürdüğün program vardır. Takvimini oluştur ve her seansa tik at!</item>
+        <item>Biceps curl yaparken dirseklerini gövdene sabitle, belinle ağırlığı savurma!</item>
+        <item>Sırt çalışırken ağırlığı ellerinle değil, dirseklerinle geriye çektiğini hayal et; kanatların alev alacak!</item>
+        <item>Antrenman sonrası 1-2 saat içinde kaliteli protein ve kompleks karbonhidrat almayı ihmal etme.</item>
+        <item>Esneme sıkıcı geliyorsa sadece 5 dakika ayır; yarınki kas ağrını ciddi oranda azaltır.</item>
+        <item>Ergenlik çağında aşırı tek tekrar rekoru yerine teknik ustalık ve patlayıcı çeviklik kazan!</item>
+        <item>Formun bozulduğu an set bitmiştir. Temiz 10 tekrar, bozuk 15 tekrardan daha fazla kas inşa eder.</item>
+        <item>Bugün enerjin düşükse ağırlığı %20 azalt ama antrenmanı yine yap. Disiplin, motivasyondan büyüktür!</item>
+        <item>Ayna karşısında postürünü kontrol et: Baş dik, çene paralel, göğüs açık, omuzlar rahat geride.</item>
+        <item>Deadlift\'te barı kaval kemiğine yakın tut; sırtın düz kalmıyorsa ağırlığı hemen düşür!</item>
+        <item>Plank\'ta belin çukurlaşıyorsa karnını ve kalçanı daha sıkı kilitle ya da dizlerini yere koy.</item>
+        <item>Sadece tartıdaki kiloya değil, bel çevrene ve enerjine bak; kas dokusu yağdan daha yoğundur!</item>
+        <item>Şekerli içecekleri su veya sade maden suyuyla değiştirmek ayda ortalama 1,5 kg yağ kaybı sağlar.</item>
+        <item>Her hafta bir önceki haftaya göre sadece 1 tekrar veya 1 kg artırmaya çalış.</item>
+        <item>Evde ekipmanın yoksa tempoyu kullan: 3 saniye in, 1 saniye bekle, patlayıcı kalk!</item>
+        <item>Sabah 5 dakikalık kedi-deve ve göğüs açma akışı gün boyu masa başı ağrılarını önler.</item>
+        <item>Antrenman takvimine tik attıkça beynin ödül salgılar; haftalık serini sakın bozma!</item>
+        <item>Zorlandığın hareket genellikle en çok gelişime açık olduğun noktadır. Üstüne git!</item>
+        <item>Ben FitChicken\'ım: Kanatlarım küçük diye pes etseydim şimdi bu kollara sahip olamazdım. Sıra sende!</item>
+    </string-array>
+</resources>

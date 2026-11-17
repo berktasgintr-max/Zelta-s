@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Sospensione Passiva alla Sbarra</string>
+    <string name="ex_y1_1_muscle">Decompressione Spinale</string>
+    <string name="ex_y1_1_sets">3 x 30 sec</string>
+    <string name="ex_y1_1_cue">Il modo più naturale per decomprimere i dischi vertebrali in crescita.</string>
+    <string name="ex_y1_1_breath">Respira profondamente dal naso.</string>
+    <string name="ex_y1_1_mistake">Trattenere il respiro e contrarre le spalle.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Afferra la sbarra a braccia tese sollevando i piedi da terra.</item>
+        <item>Rilassa spalle e zona lombare lasciando che la gravità allunghi la colonna.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Allungamento Cobra</string>
+    <string name="ex_y1_2_muscle">Colonna &amp; Petto</string>
+    <string name="ex_y1_2_sets">3 x 30 sec</string>
+    <string name="ex_y1_2_cue">Inverte la postura curva in modo sicuro.</string>
+    <string name="ex_y1_2_breath">Respira profondamente in alto.</string>
+    <string name="ex_y1_2_mistake">Forzare la zona lombare oltre il comfort.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Sdraiati a pancia in giù con le mani sotto le spalle.</item>
+        <item>Con i fianchi a terra, solleva il petto guardando avanti.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Allungamento in Alto &amp; Flessione Laterale</string>
+    <string name="ex_y1_3_muscle">Catena Laterale &amp; Postura</string>
+    <string name="ex_y1_3_sets">3 x 10/lato</string>
+    <string name="ex_y1_3_cue">Allena l\'abitudine a una postura eretta.</string>
+    <string name="ex_y1_3_breath">Inspira mentre ti allunghi in alto.</string>
+    <string name="ex_y1_3_mistake">Inarcare la zona lombare all\'indietro.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Intreccia le dita e allungati verso il soffitto al massimo.</item>
+        <item>Sali sulle punte per 5 secondi poi fletti piano di lato.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Saltelli Pogo (Rimbalzo Caviglie)</string>
+    <string name="ex_y2_1_muscle">Tendini &amp; Reattività</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Rende reattivo il tendine d\'Achille.</string>
+    <string name="ex_y2_1_breath">Respira con ritmo regolare.</string>
+    <string name="ex_y2_1_mistake">Battere forte i talloni a terra.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Ginocchia appena piegate, rimbalza rapido sugli avampiedi.</item>
+        <item>Risali subito appena tocchi terra come una molla.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Salto con Ginocchia al Petto</string>
+    <string name="ex_y2_2_muscle">Potenza Esplosiva</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Migliora direttamente l\'elevazione verticale.</string>
+    <string name="ex_y2_2_breath">Espira allo stacco.</string>
+    <string name="ex_y2_2_mistake">Atterrare con le ginocchia bloccate.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Salta al massimo portando entrambe le ginocchia al petto in volo.</item>
+        <item>Atterra morbido piegando leggermente le ginocchia.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Calf Raise Monopodalico</string>
+    <string name="ex_y2_3_muscle">Forza Polpacci</string>
+    <string name="ex_y2_3_sets">3 x 15/gamba</string>
+    <string name="ex_y2_3_cue">Potenzia la spinta finale di ogni salto.</string>
+    <string name="ex_y2_3_breath">Espira salendo.</string>
+    <string name="ex_y2_3_mistake">Rimbalzare velocemente senza controllo.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Appoggia la punta di un piede su un gradino scendendo col tallone.</item>
+        <item>Spingi fino alla massima contrazione in alto.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Squat a Corpo Libero in Tempo</string>
+    <string name="ex_y3_1_muscle">Gambe &amp; Tecnica</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Insegna una tecnica perfetta senza caricare la schiena.</string>
+    <string name="ex_y3_1_breath">Espira risalendo.</string>
+    <string name="ex_y3_1_mistake">Far cedere le ginocchia verso l\'interno.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Scendi lentamente in 3 secondi tenendo il petto alto.</item>
+        <item>Fermati 1 secondo in basso e risali pulito.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Piegamenti Inclinati</string>
+    <string name="ex_y3_2_muscle">Petto &amp; Spalle</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Costruisce un piegamento pulito in sicurezza.</string>
+    <string name="ex_y3_2_breath">Espira spingendo.</string>
+    <string name="ex_y3_2_mistake">Far cedere i fianchi verso il basso.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Appoggia le mani su una panca o tavolo stabile.</item>
+        <item>Tieni il corpo in linea, scendi col petto verso il bordo e spingi.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Trazione Australiana</string>
+    <string name="ex_y3_3_muscle">Schiena &amp; Braccia</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">La preparazione più sicura alle trazioni complete.</string>
+    <string name="ex_y3_3_breath">Espira tirando.</string>
+    <string name="ex_y3_3_mistake">Sporgere il collo in avanti.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Posizionati sotto una sbarra bassa a corpo teso.</item>
+        <item>Tira il petto verso la sbarra e scendi con controllo.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Chin Tuck (Allineamento Collo)</string>
+    <string name="ex_y4_1_muscle">Collo &amp; Postura</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Risolve il collo in avanti da schermi.</string>
+    <string name="ex_y4_1_breath">Respira normalmente.</string>
+    <string name="ex_y4_1_mistake">Piegare il mento verso il basso.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Siediti dritto o appoggia la schiena al muro.</item>
+        <item>Senza chinare il capo, arretra il mento orizzontalmente per 3 sec.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Allungamento Petto alla Porta</string>
+    <string name="ex_y4_2_muscle">Apertura Petto</string>
+    <string name="ex_y4_2_sets">3 x 30 sec</string>
+    <string name="ex_y4_2_cue">Riapre le spalle chiuse in avanti.</string>
+    <string name="ex_y4_2_breath">Fai respiri profondi.</string>
+    <string name="ex_y4_2_mistake">Inarcare troppo i lombari spingendo.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Appoggia gli avambracci a 90° sullo stipite della porta.</item>
+        <item>Fai un piccolo passo avanti per aprire bene il petto.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Piegamento Scapolare</string>
+    <string name="ex_y4_3_muscle">Controllo Scapolare</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Protegge le spalle e sostiene la postura.</string>
+    <string name="ex_y4_3_breath">Espira spingendo via.</string>
+    <string name="ex_y4_3_mistake">Piegare i gomiti.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>In plank a braccia tese, avvicina e allontana solo le scapole.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Shuffle Laterale Veloce</string>
+    <string name="ex_y5_1_muscle">Agilità Laterale</string>
+    <string name="ex_y5_1_sets">4 x 20 sec</string>
+    <string name="ex_y5_1_cue">Tieni basso il baricentro.</string>
+    <string name="ex_y5_1_breath">Respira con ritmo.</string>
+    <string name="ex_y5_1_mistake">Incrociare i piedi.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>In mezzo squat atletico, scivola rapido 3 passi a destra e 3 a sinistra.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Equilibrio su Una Gamba &amp; Reach</string>
+    <string name="ex_y5_2_muscle">Caviglia &amp; Equilibrio</string>
+    <string name="ex_y5_2_sets">3 x 8/gamba</string>
+    <string name="ex_y5_2_cue">Previene le distorsioni alla caviglia.</string>
+    <string name="ex_y5_2_breath">Concentrati e respira piano.</string>
+    <string name="ex_y5_2_mistake">Far piegare il ginocchio verso l\'interno.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Stai in equilibrio su una gamba e allunga l\'altra avanti, lato e dietro senza poggiarla.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Bear Crawl (Camminata dell\'Orso)</string>
+    <string name="ex_y5_3_muscle">Coordinazione Totale</string>
+    <string name="ex_y5_3_sets">3 x 20 sec</string>
+    <string name="ex_y5_3_cue">Tieni la schiena piatta come un tavolo.</string>
+    <string name="ex_y5_3_breath">Respira regolarmente.</string>
+    <string name="ex_y5_3_mistake">Alzare troppo i fianchi.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>In quadrupedia con ginocchia a 3 cm da terra, avanza mano e piede opposti.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Dead Bug</string>
+    <string name="ex_y6_1_muscle">Core Profondo</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Rinforza il core senza gravare sulla schiena.</string>
+    <string name="ex_y6_1_breath">Espira estendendo.</string>
+    <string name="ex_y6_1_mistake">Staccare la zona lombare da terra.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Supino, braccia in alto e ginocchia a 90°.</item>
+        <item>Schiaccia i lombari a terra e abbassa braccio e gamba opposti.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Plank sugli Avambracci</string>
+    <string name="ex_y6_2_muscle">Resistenza Core</string>
+    <string name="ex_y6_2_sets">3 x 35 sec</string>
+    <string name="ex_y6_2_cue">La forma pulita conta più del tempo.</string>
+    <string name="ex_y6_2_breath">Respira regolarmente.</string>
+    <string name="ex_y6_2_mistake">Far scendere il bacino.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Gomiti sotto le spalle, mantieni il corpo in linea retta.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Ponte Glutei con Marcia</string>
+    <string name="ex_y6_3_muscle">Glutei &amp; Stabilità</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Tieni il bacino fermo e livellato.</string>
+    <string name="ex_y6_3_breath">Espira a ogni alzata.</string>
+    <string name="ex_y6_3_mistake">Far cedere l\'anca di lato.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Tieni la posizione di ponte e solleva le ginocchia in modo alternato.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Salto della Corda (o Simulato)</string>
+    <string name="ex_y7_1_muscle">Resistenza &amp; Ritmo</string>
+    <string name="ex_y7_1_sets">4 x 45 sec</string>
+    <string name="ex_y7_1_cue">Ottimo per coordinazione e cuore.</string>
+    <string name="ex_y7_1_breath">Respira dal naso.</string>
+    <string name="ex_y7_1_mistake">Saltare troppo in alto inutilmente.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Esegui saltelli leggeri e ritmati sugli avampiedi.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Affondi Indietro Alternati</string>
+    <string name="ex_y7_2_muscle">Resistenza Gambe</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Variante più delicata sulle ginocchia.</string>
+    <string name="ex_y7_2_breath">Espira risalendo.</string>
+    <string name="ex_y7_2_mistake">Ginocchio anteriore che cede interno.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Fai un passo indietro con busto dritto e risali.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Respirazione Quadrata (Box Breathing)</string>
+    <string name="ex_y7_3_muscle">Recupero</string>
+    <string name="ex_y7_3_sets">3 giri</string>
+    <string name="ex_y7_3_cue">Abbassa subito i battiti e aumenta il focus.</string>
+    <string name="ex_y7_3_breath">Respira con il diaframma.</string>
+    <string name="ex_y7_3_mistake">Alzare le spalle inspirando.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>Inspira 4 sec, trattieni 4 sec, espira 4 sec, attendi 4 sec.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Sospensione + Trazione Scapolare</string>
+    <string name="ex_yp1_1_muscle">Colonna &amp; Schiena</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 sec</string>
+    <string name="ex_yp1_1_cue">Dà postura e forza per le trazioni.</string>
+    <string name="ex_yp1_1_breath">Espira tirando.</string>
+    <string name="ex_yp1_1_mistake">Oscillare con le gambe.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>Appeso a braccia tese, abbassa le scapole senza piegare i gomiti e poi rilassa.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Drop &amp; Squat Jump Esplosivo</string>
+    <string name="ex_yp1_2_muscle">Elevazione Elite</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Sviluppa forza reattiva.</string>
+    <string name="ex_yp1_2_breath">Espira staccando.</string>
+    <string name="ex_yp1_2_mistake">Atterrare rigidi a gambe tese.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Scendi morbido da un rialzo basso ed esplodi subito in alto.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Piegamenti Tempo + Plank</string>
+    <string name="ex_yp1_3_muscle">Parte Alta &amp; Core</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 sec</string>
+    <string name="ex_yp1_3_cue">Sviluppa la parte alta in totale sicurezza.</string>
+    <string name="ex_yp1_3_breath">Respira regolarmente.</string>
+    <string name="ex_yp1_3_mistake">Perdere l\'allineamento per fatica.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Esegui 10 piegamenti controllati e subito 30 sec di plank.</item>
+    </string-array>
+</resources>

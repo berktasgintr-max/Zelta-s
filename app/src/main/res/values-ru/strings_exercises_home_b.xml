@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h9_1_name">Выпрыгивания из приседа</string>
+    <string name="ex_h9_1_muscle">Ноги и Кардио</string>
+    <string name="ex_h9_1_sets">4 x 20 сек</string>
+    <string name="ex_h9_1_cue">Приземляйтесь мягко, не блокируя колени.</string>
+    <string name="ex_h9_1_breath">Выдыхайте в прыжке.</string>
+    <string name="ex_h9_1_mistake">Жёстко приземляться на пятки.</string>
+    <string-array name="ex_h9_1_steps">
+        <item>Опуститесь в присед и взрывно выпрыгните вверх.</item>
+        <item>Мягко приземлитесь сразу в следующий присед.</item>
+    </string-array>
+    <string name="ex_h9_2_name">Конькобежец (боковые прыжки)</string>
+    <string name="ex_h9_2_muscle">Ягодицы и Ловкость</string>
+    <string name="ex_h9_2_sets">4 x 20 сек</string>
+    <string name="ex_h9_2_cue">Отлично нагружает средние ягодицы и баланс.</string>
+    <string name="ex_h9_2_breath">Дышите ритмично.</string>
+    <string name="ex_h9_2_mistake">Выпрямляться и терять полуприсед.</string>
+    <string-array name="ex_h9_2_steps">
+        <item>Прыгайте из стороны в сторону как конькобежец.</item>
+        <item>Заводите заднюю ногу в перехлёст с лёгким касанием.</item>
+    </string-array>
+    <string name="ex_h9_3_name">Планка с касанием плеч</string>
+    <string name="ex_h9_3_muscle">Кор и Плечи</string>
+    <string name="ex_h9_3_sets">4 x 20 сек</string>
+    <string name="ex_h9_3_cue">Корпус должен быть неподвижным, как скала.</string>
+    <string name="ex_h9_3_breath">Дышите ровно.</string>
+    <string name="ex_h9_3_mistake">Раскачивать таз из стороны в сторону.</string>
+    <string-array name="ex_h9_3_steps">
+        <item>Примите высокую планку, поставив ноги шире плеч.</item>
+        <item>Поочерёдно касайтесь противоположного плеча, не раскачивая таз.</item>
+    </string-array>
+    <string name="ex_h10_1_name">Присед с шагом и вытяжением вверх</string>
+    <string name="ex_h10_1_muscle">Ноги и Плечи</string>
+    <string name="ex_h10_1_cue">Сжигает много калорий бесшумно и без прыжков.</string>
+    <string name="ex_h10_1_breath">Выдыхайте при вытяжении вверх.</string>
+    <string name="ex_h10_1_mistake">Заваливать колени внутрь.</string>
+    <string-array name="ex_h10_1_steps">
+        <item>Сделайте шаг в сторону и присед, вставая вытяните руки вверх.</item>
+        <item>Повторите в другую сторону.</item>
+    </string-array>
+    <string name="ex_h10_2_name">Червячок (проходка на руках)</string>
+    <string name="ex_h10_2_muscle">Кор и Гибкость</string>
+    <string name="ex_h10_2_cue">Одновременно разогревает заднюю поверхность бедра и плечи.</string>
+    <string name="ex_h10_2_breath">Выдыхайте при движении вперёд.</string>
+    <string name="ex_h10_2_mistake">Провисать поясницей в планке.</string>
+    <string-array name="ex_h10_2_steps">
+        <item>Наклонитесь, поставьте ладони на пол и пройдите руками в планку.</item>
+        <item>Вернитесь руками к стопам и выпрямитесь.</item>
+    </string-array>
+    <string name="ex_h10_3_name">Бой с тенью</string>
+    <string name="ex_h10_3_muscle">Руки и Кардио</string>
+    <string name="ex_h10_3_sets">3 x 45 сек</string>
+    <string name="ex_h10_3_cue">Отлично развивает выносливость верхней части тела.</string>
+    <string name="ex_h10_3_breath">Короткий выдох с каждым ударом.</string>
+    <string name="ex_h10_3_mistake">Зажимать и поднимать плечи.</string>
+    <string-array name="ex_h10_3_steps">
+        <item>Встаньте в боксёрскую стойку, выбрасывайте прямые и боковые удары.</item>
+        <item>Пружиньте на ногах.</item>
+    </string-array>
+    <string name="ex_h11_1_name">Ангел у стены</string>
+    <string name="ex_h11_1_muscle">Плечи и Осанка</string>
+    <string name="ex_h11_1_cue">Не отрывайте поясницу далеко от стены.</string>
+    <string name="ex_h11_1_breath">Выдыхайте при скольжении вверх.</string>
+    <string name="ex_h11_1_mistake">Отрывать руки от стены.</string>
+    <string-array name="ex_h11_1_steps">
+        <item>Прижмите к стене таз, спину и затылок.</item>
+        <item>Скользите руками по стене из положения W вверх в Y.</item>
+    </string-array>
+    <string name="ex_h11_2_name">Подъёмы рук Y-T-W лёжа на животе</string>
+    <string name="ex_h11_2_muscle">Задние дельты и Верх спины</string>
+    <string name="ex_h11_2_sets">3 x 8/буква</string>
+    <string name="ex_h11_2_cue">Работайте за счёт сведения лопаток.</string>
+    <string name="ex_h11_2_breath">Выдыхайте на подъёме.</string>
+    <string name="ex_h11_2_mistake">Резко махать руками.</string>
+    <string-array name="ex_h11_2_steps">
+        <item>Лёжа на животе, поочерёдно поднимайте руки в форме букв Y, T и W.</item>
+    </string-array>
+    <string name="ex_h11_3_name">Бёрд-дог (Птица-собака)</string>
+    <string name="ex_h11_3_muscle">Поясница и Баланс кора</string>
+    <string name="ex_h11_3_sets">3 x 10/сторона</string>
+    <string name="ex_h11_3_cue">Стабилизирует позвоночник.</string>
+    <string name="ex_h11_3_breath">Выдыхайте при вытяжении.</string>
+    <string name="ex_h11_3_mistake">Задирать ногу высоко, прогибая поясницу.</string>
+    <string-array name="ex_h11_3_steps">
+        <item>На четвереньках вытяните правую руку вперёд, левую ногу назад.</item>
+        <item>Удержите 2 секунды и смените сторону.</item>
+    </string-array>
+    <string name="ex_h12_1_name">Поза ребёнка</string>
+    <string name="ex_h12_1_muscle">Спина и Плечи</string>
+    <string name="ex_h12_1_sets">3 x 45 сек</string>
+    <string name="ex_h12_1_cue">Успокаивает нервную систему глубоким дыханием.</string>
+    <string name="ex_h12_1_breath">Вдох 4 сек, выдох 6 сек.</string>
+    <string name="ex_h12_1_mistake">Напрягать плечи вместо расслабления.</string>
+    <string-array name="ex_h12_1_steps">
+        <item>Сядьте на пятки, вытяните руки вперёд, лоб на коврик.</item>
+        <item>С каждым вдохом чувствуйте, как раскрывается спина.</item>
+    </string-array>
+    <string name="ex_h12_2_name">Поза голубя</string>
+    <string name="ex_h12_2_muscle">Тазобедренные и Грушевидная</string>
+    <string name="ex_h12_2_sets">2 x 45 сек/сторона</string>
+    <string name="ex_h12_2_cue">Снимает глубокий зажим в тазобедренных суставах.</string>
+    <string name="ex_h12_2_breath">Расслабляйтесь на глубоком выдохе.</string>
+    <string name="ex_h12_2_mistake">Терпеть боль в колене (уменьшите угол сгиба).</string>
+    <string-array name="ex_h12_2_steps">
+        <item>Согните одну ногу перед собой, другую вытяните назад.</item>
+        <item>Мягко опустите корпус вперёд.</item>
+    </string-array>
+    <string name="ex_h12_3_name">Растяжка задней поверхности бедра с полотенцем</string>
+    <string name="ex_h12_3_muscle">Задняя поверхность бедра</string>
+    <string name="ex_h12_3_sets">2 x 45 сек/сторона</string>
+    <string name="ex_h12_3_cue">Гибкость задней поверхности бедра снимает нагрузку с поясницы.</string>
+    <string name="ex_h12_3_breath">Тяните мягче на выдохе.</string>
+    <string name="ex_h12_3_mistake">Переразгибать и перегружать коленный сустав.</string>
+    <string-array name="ex_h12_3_steps">
+        <item>Лёжа на спине, поднимите ногу вверх и мягко потяните полотенцем к себе.</item>
+    </string-array>
+    <string name="ex_hp1_1_name">Приседания 1.5 повторения в темпе</string>
+    <string name="ex_hp1_1_muscle">Ноги и Ягодицы</string>
+    <string name="ex_hp1_1_cue">Секрет роста ног без тренажёров.</string>
+    <string name="ex_hp1_1_breath">Выдыхайте при полном подъёме.</string>
+    <string name="ex_hp1_1_mistake">Быстро пружинить в нижней точке.</string>
+    <string-array name="ex_hp1_1_steps">
+        <item>Присядьте до конца, поднимитесь до середины, снова вниз и затем полностью вверх.</item>
+    </string-array>
+    <string name="ex_hp1_2_name">Отжимания лучника</string>
+    <string name="ex_hp1_2_muscle">Грудь и Сила одной руки</string>
+    <string name="ex_hp1_2_sets">4 x 8/сторона</string>
+    <string name="ex_hp1_2_cue">Лучшая подводка к отжиманиям на одной руке.</string>
+    <string name="ex_hp1_2_breath">Выдыхайте при жиме вверх.</string>
+    <string name="ex_hp1_2_mistake">Перекручивать таз.</string>
+    <string-array name="ex_hp1_2_steps">
+        <item>Поставьте руки широко, опускаясь к одной руке, выпрямляя другую.</item>
+    </string-array>
+    <string name="ex_hp1_3_name">Австралийские подтягивания под столом</string>
+    <string name="ex_hp1_3_muscle">Спина</string>
+    <string name="ex_hp1_3_cue">Лучшее домашнее упражнение с весом тела для спины!</string>
+    <string name="ex_hp1_3_breath">Выдыхайте при подъёме.</string>
+    <string name="ex_hp1_3_mistake">Провисать тазом вниз.</string>
+    <string-array name="ex_hp1_3_steps">
+        <item>Лягте под крепкий стол, возьмитесь за край и тяните грудь вверх.</item>
+    </string-array>
+    <string name="ex_hp2_1_name">Бёрпи с прыжком в длину</string>
+    <string name="ex_hp2_1_muscle">Всё тело</string>
+    <string name="ex_hp2_1_cue">Сочетает взрывную силу и пиковый пульс.</string>
+    <string name="ex_hp2_1_breath">Выдыхайте в прыжке.</string>
+    <string name="ex_hp2_1_mistake">Жёстко приземляться на прямые ноги.</string>
+    <string-array name="ex_hp2_1_steps">
+        <item>Выполните бёрпи и прыгните вперёд вместо прыжка вверх.</item>
+    </string-array>
+    <string name="ex_hp2_2_name">Выпрыгивания со сменой ног в выпаде</string>
+    <string name="ex_hp2_2_muscle">Ноги и Выносливость</string>
+    <string name="ex_hp2_2_cue">Держите корпус вертикально.</string>
+    <string name="ex_hp2_2_breath">Выдыхайте при смене ног.</string>
+    <string name="ex_hp2_2_mistake">Ударяться коленом об пол.</string>
+    <string-array name="ex_hp2_2_steps">
+        <item>Выпрыгните из выпада и поменяйте ноги в воздухе.</item>
+    </string-array>
+    <string name="ex_hp2_3_name">Переходы планка–упор лёжа</string>
+    <string name="ex_hp2_3_muscle">Кор и Плечи</string>
+    <string name="ex_hp2_3_cue">Меняйте ведущую руку в каждом подходе.</string>
+    <string name="ex_hp2_3_breath">Выдыхайте при подъёме на руки.</string>
+    <string name="ex_hp2_3_mistake">Сильно раскачивать таз.</string>
+    <string-array name="ex_hp2_3_steps">
+        <item>Из планки на локтях поочерёдно поднимитесь на ладони и вернитесь вниз.</item>
+    </string-array>
+    <string name="ex_hp3_1_name">Псевдо-горизонт отжимания</string>
+    <string name="ex_hp3_1_muscle">Плечи и Грудь</string>
+    <string name="ex_hp3_1_cue">Развивает мощную силу передних дельт.</string>
+    <string name="ex_hp3_1_breath">Выдыхайте при жиме.</string>
+    <string name="ex_hp3_1_mistake">Провисать в пояснице.</string>
+    <string-array name="ex_hp3_1_steps">
+        <item>Разверните пальцы в стороны/назад, подайте плечи вперёд за ладони и отожмитесь.</item>
+    </string-array>
+    <string name="ex_hp3_2_name">Уголок в группировке (Tuck L-Sit)</string>
+    <string name="ex_hp3_2_muscle">Кор и Трицепс</string>
+    <string name="ex_hp3_2_sets">4 x 20 сек</string>
+    <string name="ex_hp3_2_cue">Максимально опустите плечи от ушей.</string>
+    <string name="ex_hp3_2_breath">Дышите ровно, не задерживайте дыхание.</string>
+    <string name="ex_hp3_2_mistake">Сгибать локти.</string>
+    <string-array name="ex_hp3_2_steps">
+        <item>Сядьте, упритесь ладонями у таза, оттолкнитесь от пола и подтяните колени к груди.</item>
+    </string-array>
+    <string name="ex_hp3_3_name">Взрывные отжимания с хлопком</string>
+    <string name="ex_hp3_3_muscle">Взрывная сила</string>
+    <string name="ex_hp3_3_cue">Активирует быстрые мышечные волокна.</string>
+    <string name="ex_hp3_3_breath">Резкий выдох при толчке.</string>
+    <string name="ex_hp3_3_mistake">Продолжать делать при сильной усталости.</string>
+    <string-array name="ex_hp3_3_steps">
+        <item>Толкнитесь от пола так мощно, чтобы ладони оторвались (по желанию хлопните).</item>
+    </string-array>
+    <string name="ex_hp4_1_name">Лодочка на спине (Hollow Hold)</string>
+    <string name="ex_hp4_1_muscle">Весь кор</string>
+    <string name="ex_hp4_1_sets">4 x 30 сек</string>
+    <string name="ex_hp4_1_cue">Чуть согните колени, если поясница отрывается от пола.</string>
+    <string name="ex_hp4_1_breath">Дышите ритмично.</string>
+    <string name="ex_hp4_1_mistake">Оставлять зазор под поясницей.</string>
+    <string-array name="ex_hp4_1_steps">
+        <item>Лёжа на спине, плотно прижмите поясницу к полу.</item>
+        <item>Приподнимите плечи и прямые ноги дугой.</item>
+    </string-array>
+    <string name="ex_hp4_2_name">Складочка (V-Up)</string>
+    <string name="ex_hp4_2_muscle">Верх и низ пресса</string>
+    <string name="ex_hp4_2_cue">Образуйте чёткую букву V в верхней точке.</string>
+    <string name="ex_hp4_2_breath">Выдыхайте при складывании.</string>
+    <string name="ex_hp4_2_mistake">Больно падать на пол.</string>
+    <string-array name="ex_hp4_2_steps">
+        <item>Из положения лёжа одновременно поднимите руки и ноги навстречу друг другу.</item>
+    </string-array>
+    <string name="ex_hp4_3_name">Негативный флаг дракона</string>
+    <string name="ex_hp4_3_muscle">Продвинутый пресс</string>
+    <string name="ex_hp4_3_cue">Одно из самых мощных упражнений для пресса.</string>
+    <string name="ex_hp4_3_breath">Медленно вдыхайте при опускании.</string>
+    <string name="ex_hp4_3_mistake">Сгибаться в тазу.</string>
+    <string-array name="ex_hp4_3_steps">
+        <item>Ухватитесь за прочную опору за головой, поднимите тело на плечи и медленно опустите прямой линией.</item>
+    </string-array>
+</resources>

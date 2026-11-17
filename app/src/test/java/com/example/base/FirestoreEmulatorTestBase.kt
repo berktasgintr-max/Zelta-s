@@ -32,6 +32,11 @@ abstract class FirestoreEmulatorTestBase {
 
     @Before
     open fun setUpFirebase() {
+        org.junit.Assume.assumeTrue(
+            "Firebase emulators (Auth/Firestore) are not running on localhost. Skipping emulator integration test.",
+            isEmulatorRunning()
+        )
+
         val context = ApplicationProvider.getApplicationContext<Context>()
         val resId = context.resources.getIdentifier("firestore_database_id", "string", context.packageName)
         databaseId = if (resId != 0) {
@@ -66,9 +71,23 @@ abstract class FirestoreEmulatorTestBase {
         auth = FirebaseAuth.getInstance(app)
     }
 
+    private fun isEmulatorRunning(): Boolean {
+        return try {
+            java.net.Socket(EMULATOR_HOST, AUTH_PORT).use { true }
+        } catch (e: Exception) {
+            false
+        }
+    }
+
     @After
     open fun tearDownFirebase() {
-        auth.signOut()
+        if (::auth.isInitialized) {
+            try {
+                auth.signOut()
+            } catch (e: Exception) {
+                // ignore if uninitialized or signed out
+            }
+        }
     }
 
     protected suspend fun signInTestUser(email: String): String = withContext(Dispatchers.IO) {

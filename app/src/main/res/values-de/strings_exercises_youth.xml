@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Aushängen an der Klimmzugstange</string>
+    <string name="ex_y1_1_muscle">Wirbelsäulen-Entlastung</string>
+    <string name="ex_y1_1_sets">3 x 30 Sek.</string>
+    <string name="ex_y1_1_cue">Der natürlichste Weg, Bandscheiben in der Wachstumsphase zu entlasten.</string>
+    <string name="ex_y1_1_breath">Atme tief durch die Nase ein.</string>
+    <string name="ex_y1_1_mistake">Luft anhalten und Schultern hochziehen.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Greife die Klimmzugstange mit gestreckten Armen und löse die Füße vom Boden.</item>
+        <item>Entspanne Schultern und unteren Rücken, damit die Schwerkraft deine Wirbelsäule sanft streckt.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Kobra-Dehnung</string>
+    <string name="ex_y1_2_muscle">Wirbelsäule &amp; Brust</string>
+    <string name="ex_y1_2_sets">3 x 30 Sek.</string>
+    <string name="ex_y1_2_cue">Wirkt Rundrücken gezielt entgegen.</string>
+    <string name="ex_y1_2_breath">Atme oben tief ein.</string>
+    <string name="ex_y1_2_mistake">Den unteren Rücken ins Schmerzgefühl überstrecken.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Lege dich auf den Bauch, Hände flach unter die Schultern.</item>
+        <item>Lass die Hüfte am Boden, hebe die Brust an und schau nach vorn.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Überkopf-Streckung &amp; Seitbeuge</string>
+    <string name="ex_y1_3_muscle">Seitkette &amp; Haltung</string>
+    <string name="ex_y1_3_sets">3 x 10/Seite</string>
+    <string name="ex_y1_3_cue">Trainiert eine aufrechte Alltagshaltung.</string>
+    <string name="ex_y1_3_breath">Atme beim Strecken tief ein.</string>
+    <string name="ex_y1_3_mistake">Starkes Hohlkreuz nach hinten bilden.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Verschränke die Finger und strecke dich maximal zur Decke.</item>
+        <item>Geh 5 Sek. auf die Zehenspitzen und neige dich sanft zur Seite.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Pogo-Sprünge (Fußgelenk-Rebound)</string>
+    <string name="ex_y2_1_muscle">Sehnen &amp; Sprungkraft</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Macht die Achillessehne reaktionsstark wie eine Feder.</string>
+    <string name="ex_y2_1_breath">Rhythmisch weiteratmen.</string>
+    <string name="ex_y2_1_mistake">Hart auf den Fersen landen.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Beuge die Knie minimal und federe schnell über den Fußballen hoch.</item>
+        <item>Springe bei jedem Bodenkontakt sofort wie eine Feder ab.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Hocksprung (Tuck Jump)</string>
+    <string name="ex_y2_2_muscle">Explosivkraft</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Steigert direkt deine vertikale Sprunghöhe.</string>
+    <string name="ex_y2_2_breath">Beim Absprung ausatmen.</string>
+    <string name="ex_y2_2_mistake">Mit steifen, durchgedrückten Knien landen.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Springe maximal hoch und ziehe beide Knie in der Luft zur Brust.</item>
+        <item>Lande weich und abfedernd mit gebeugten Knien.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Einbeiniges Wadenheben</string>
+    <string name="ex_y2_3_muscle">Wadenkraft</string>
+    <string name="ex_y2_3_sets">3 x 15/Bein</string>
+    <string name="ex_y2_3_cue">Stärkt den finalen Abdruck jedes Sprungs.</string>
+    <string name="ex_y2_3_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_y2_3_mistake">Schwungvolles Wippen ohne Kontrolle.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Stelle einen Fußballen auf eine Stufe und senke die Ferse voll ab.</item>
+        <item>Drücke dich kontrolliert so hoch wie möglich ab.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Tempo-Kniebeuge ohne Gewicht</string>
+    <string name="ex_y3_1_muscle">Beine &amp; Technik</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Perfektioniert die Kniebeugentechnik ohne Wirbelsäulenlast.</string>
+    <string name="ex_y3_1_breath">Beim Aufstehen ausatmen.</string>
+    <string name="ex_y3_1_mistake">Knie nach innen fallen lassen.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Senke dich langsam über 3 volle Sekunden ab.</item>
+        <item>Halte unten 1 Sekunde und stehe sauber auf.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Erhöhte Liegestütze</string>
+    <string name="ex_y3_2_muscle">Brust &amp; Schultern</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Schult saubere Liegestütz-Technik sicher ein.</string>
+    <string name="ex_y3_2_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_y3_2_mistake">Hüfte nach unten durchhängen lassen.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Stütze die Hände auf eine stabile Bank oder Tischkante.</item>
+        <item>Körper gerade halten, Brust zur Kante senken und hochdrücken.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Australisches Rudern an der Stange</string>
+    <string name="ex_y3_3_muscle">Rücken &amp; Arme</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">Sicherste Vorbereitung auf echte Klimmzüge im Wachstum.</string>
+    <string name="ex_y3_3_breath">Beim Hochziehen ausatmen.</string>
+    <string name="ex_y3_3_mistake">Kopf und Nacken nach vorn strecken.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Hänge dich mit geradem Körper unter eine hüfthohe Stange.</item>
+        <item>Ziehe die Brust zur Stange hoch und senke kontrolliert.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Kinn-Einziehen (Chin Tuck)</string>
+    <string name="ex_y4_1_muscle">Nacken &amp; Haltung</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Korrigiert Handy- und Schreibtisch-Nacken.</string>
+    <string name="ex_y4_1_breath">Ganz ruhig weiteratmen.</string>
+    <string name="ex_y4_1_mistake">Das Kinn nach unten nicken statt zurückschieben.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Sitze aufrecht oder lehne dich gerade an eine Wand.</item>
+        <item>Schiebe das Kinn horizontal zurück (ohne Nicken) und halte 3 Sek.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Türrahmen-Brustdehnung</string>
+    <string name="ex_y4_2_muscle">Brustöffnung</string>
+    <string name="ex_y4_2_sets">3 x 30 Sek.</string>
+    <string name="ex_y4_2_cue">Öffnet nach vorn gezogene Schultern.</string>
+    <string name="ex_y4_2_breath">Tief und ruhig atmen.</string>
+    <string name="ex_y4_2_mistake">Starkes Hohlkreuz beim Vorlehnen.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Lege Unterarme im 90-Grad-Winkel an den Türrahmen.</item>
+        <item>Tritt einen Schritt sanft vor, bis sich die Brust weit öffnet.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Schulterblatt-Liegestütze</string>
+    <string name="ex_y4_3_muscle">Schulterblatt-Kontrolle</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Fördert Schultergesundheit und aufrechte Haltung.</string>
+    <string name="ex_y4_3_breath">Beim Wegdrücken ausatmen.</string>
+    <string name="ex_y4_3_mistake">Die Ellbogen mitbeugen.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>In Plank-Position Arme gestreckt lassen; Schulterblätter zusammenziehen und wieder wegdrücken.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Schneller Seitwärts-Shuffle</string>
+    <string name="ex_y5_1_muscle">Seitliche Agilität</string>
+    <string name="ex_y5_1_sets">4 x 20 Sek.</string>
+    <string name="ex_y5_1_cue">Schwerpunkt tief und stabil halten.</string>
+    <string name="ex_y5_1_breath">Rhythmisch atmen.</string>
+    <string name="ex_y5_1_mistake">Die Füße überkreuzen.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>Aus athletischer Halb-Kniebeuge flink 3 Schritte rechts und 3 links shuffeln.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Einbein-Balance &amp; Reichweite</string>
+    <string name="ex_y5_2_muscle">Sprunggelenk &amp; Balance</string>
+    <string name="ex_y5_2_sets">3 x 8/Bein</string>
+    <string name="ex_y5_2_cue">Beugt Umknicken des Sprunggelenks vor.</string>
+    <string name="ex_y5_2_breath">Fokussiert und langsam atmen.</string>
+    <string name="ex_y5_2_mistake">Das Standknie nach innen knicken lassen.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Stehe auf einem Bein und strecke das andere Bein vor, seitwärts und zurück ohne abzusetzen.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Bärengang (Bear Crawl)</string>
+    <string name="ex_y5_3_muscle">Ganzkörper-Koordination</string>
+    <string name="ex_y5_3_sets">3 x 20 Sek.</string>
+    <string name="ex_y5_3_cue">Rücken flach wie eine Tischplatte halten.</string>
+    <string name="ex_y5_3_breath">Gleichmäßig ausatmen.</string>
+    <string name="ex_y5_3_mistake">Die Hüfte hoch zur Decke strecken.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>Knie 3 cm über dem Boden halten; mit gegengleicher Hand und Fuß vorwärts krabbeln.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Dead Bug (Käferübung)</string>
+    <string name="ex_y6_1_muscle">Tiefe Rumpfmuskulatur</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Stärkt den Rumpf komplett rückenschonend.</string>
+    <string name="ex_y6_1_breath">Beim Strecken ausatmen.</string>
+    <string name="ex_y6_1_mistake">Den unteren Rücken vom Boden abheben.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Auf den Rücken legen, Arme senkrecht hoch, Knie im 90°-Winkel.</item>
+        <item>Unteren Rücken fest an den Boden drücken und gegengleichen Arm und Bein absenken.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Unterarm-Plank</string>
+    <string name="ex_y6_2_muscle">Rumpf-Ausdauer</string>
+    <string name="ex_y6_2_sets">3 x 35 Sek.</string>
+    <string name="ex_y6_2_cue">Saubere Haltung zählt mehr als reine Haltezeit.</string>
+    <string name="ex_y6_2_breath">Gleichmäßig weiteratmen.</string>
+    <string name="ex_y6_2_mistake">Hüfte absacken lassen.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Ellbogen unter den Schultern, Körper als gerade Linie stabil halten.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Beckenheben im Marsch</string>
+    <string name="ex_y6_3_muscle">Gesäß &amp; Stabilität</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Hüfte absolut waagerecht halten.</string>
+    <string name="ex_y6_3_breath">Beim Knieheben ausatmen.</string>
+    <string name="ex_y6_3_mistake">Zur Seite wegkippen mit dem Becken.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>In der oberen Brücke abwechselnd ein Knie stabil anheben.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Seilspringen (auch ohne Seil)</string>
+    <string name="ex_y7_1_muscle">Ausdauer &amp; Rhythmus</string>
+    <string name="ex_y7_1_sets">4 x 45 Sek.</string>
+    <string name="ex_y7_1_cue">Top für Koordination und Herz-Kreislauf.</string>
+    <string name="ex_y7_1_breath">Durch die Nase atmen.</string>
+    <string name="ex_y7_1_mistake">Unnötig hoch abspringen.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Leichte, rhythmische Sprünge auf dem Fußballen ausführen.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Wechselseitige Ausfallschritte zurück</string>
+    <string name="ex_y7_2_muscle">Beinausdauer</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Gelenkschonendste Ausfallschritt-Variante.</string>
+    <string name="ex_y7_2_breath">Beim Hochkommen ausatmen.</string>
+    <string name="ex_y7_2_mistake">Vorderes Knie kippt nach innen.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Einen Schritt zurücksetzen, Oberkörper aufrecht halten und hochdrücken.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Box-Atmung zur Erholung</string>
+    <string name="ex_y7_3_muscle">Regeneration &amp; Fokus</string>
+    <string name="ex_y7_3_sets">3 Runden</string>
+    <string name="ex_y7_3_cue">Senkt den Puls schnell und schärft den Fokus.</string>
+    <string name="ex_y7_3_breath">Tief in den Bauch atmen.</string>
+    <string name="ex_y7_3_mistake">Schultern beim Einatmen hochziehen.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>4 Sek. einatmen, 4 Sek. halten, 4 Sek. ausatmen, 4 Sek. halten.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Aushängen + Schulterblatt-Zug</string>
+    <string name="ex_yp1_1_muscle">Wirbelsäule &amp; Rücken</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 Sek.</string>
+    <string name="ex_yp1_1_cue">Stärkt zugleich Haltung und Klimmzug-Kraft.</string>
+    <string name="ex_yp1_1_breath">Beim Ziehen ausatmen.</string>
+    <string name="ex_yp1_1_mistake">Mit dem Körper schaukeln.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>Im Hang die Schulterblätter ohne Armbeugen nach unten ziehen, danach locker aushängen.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Tiefsprung zu Strecksprung</string>
+    <string name="ex_yp1_2_muscle">Elite-Sprungkraft</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Entwickelt reaktive Schnellkraft.</string>
+    <string name="ex_yp1_2_breath">Beim Absprung ausatmen.</string>
+    <string name="ex_yp1_2_mistake">Hart auf gestreckten Beinen landen.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Weich von einer niedrigen Box steigen und sofort explosiv hochspringen.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Tempo-Liegestütze + Plank</string>
+    <string name="ex_yp1_3_muscle">Oberkörper &amp; Core</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 Sek.</string>
+    <string name="ex_yp1_3_cue">Baut im Jugendalter sicher Oberkörperkraft auf.</string>
+    <string name="ex_yp1_3_breath">Gleichmäßig atmen.</string>
+    <string name="ex_yp1_3_mistake">Körperspannung bei Müdigkeit verlieren.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Direkt nach 10 kontrollierten Liegestützen 30 Sek. Plank halten.</item>
+    </string-array>
+</resources>

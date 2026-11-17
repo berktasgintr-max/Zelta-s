@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Barbell Bench Press</string>
+    <string name="ex_g1_1_muscle">Göğüs</string>
+    <string name="ex_g1_1_cue">Dirseklerin gövdenle 45 derece açı yapsın, bileklerin dik kalsın.</string>
+    <string name="ex_g1_1_breath">İnerken derin nefes al, iterken güçlüce nefes ver.</string>
+    <string name="ex_g1_1_mistake">Barı göğsünden sektirmek ve kalçayı sehpadan kaldırmak.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Sehpaya sırt üstü uzan, ayaklarını yere sağlam bas.</item>
+        <item>Barı omuz genişliğinden biraz geniş kavra ve kürek kemiklerini birbirine yaklaştır.</item>
+        <item>Barı kontrollü şekilde göğsünün alt-orta çizgisine indir.</item>
+        <item>Göğsünü sıkarak barı yukarı güçlüce it.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Incline Dumbbell Press</string>
+    <string name="ex_g1_2_muscle">Üst Göğüs</string>
+    <string name="ex_g1_2_cue">Dambılları tepede birbirine çarptırma, gerilimi koru.</string>
+    <string name="ex_g1_2_breath">İnerken nefes al, yukarı iterken ver.</string>
+    <string name="ex_g1_2_mistake">Sehpayı 45 dereceden fazla dik tutup yükü ön omuza kaçırmak.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Sehpayı 30 derece eğime ayarla.</item>
+        <item>Dambılları omuz hizasında yukarı kaldır.</item>
+        <item>Dirsekleri yanlara kontrollü açarak dambılları göğüs üstüne indir.</item>
+        <item>Üst göğsünü hissederek tepe noktada sıkıştır.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Dambıl Omuz Press</string>
+    <string name="ex_g1_3_muscle">Omuz</string>
+    <string name="ex_g1_3_cue">Belini aşırı geriye bükme, göğüs kafesini kontrol et.</string>
+    <string name="ex_g1_3_breath">Yukarı iterken nefes ver, inerken al.</string>
+    <string name="ex_g1_3_mistake">Ağırlığı başın çok önüne doğru itmek.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Dik otur ve karnını sıkı tut.</item>
+        <item>Dambılları kulak hizasında avuçlar öne bakacak şekilde tut.</item>
+        <item>Başının üstüne doğru kontrollü it.</item>
+        <item>Kulak hizasına yavaşça geri indir.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Halatla Arka Kol İtişi (Pushdown)</string>
+    <string name="ex_g1_4_muscle">Arka Kol</string>
+    <string name="ex_g1_4_cue">Sadece dirsek eklemin hareket etsin, omuzlar sabit kalsın.</string>
+    <string name="ex_g1_4_breath">Aşağı bastırırken nefes ver.</string>
+    <string name="ex_g1_4_mistake">Gövdenle öne eğilip ağırlığa abanmak.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Halat aparatını göğüs hizasında kavra.</item>
+        <item>Dirseklerini kaburgalarına sabitle.</item>
+        <item>Ön kollarını aşağı doğru tamamen aç ve halatı yanlara ayır.</item>
+        <item>Kontrollü şekilde dirsekleri bozmadan başlangıç pozisyonuna dön.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Lat Pulldown (Geniş Sırt Çekişi)</string>
+    <string name="ex_g2_1_muscle">Kanat / Sırt</string>
+    <string name="ex_g2_1_cue">Ağırlığı ellerinle değil dirseklerinle çektiğini hisset.</string>
+    <string name="ex_g2_1_breath">Çekerken nefes ver, bırakırken al.</string>
+    <string name="ex_g2_1_mistake">Gövdeyi aşırı geriye sallayarak ivme kullanmak.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Geniş tutuşla barı kavra ve dizlerini pedin altına sabitle.</item>
+        <item>Göğsünü hafifçe yukarı çıkar.</item>
+        <item>Dirseklerini aşağı ve geriye çekerek barı üst göğsüne indir.</item>
+        <item>Kontrollü şekilde kollarını yukarı uzat.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Seated Cable Row (Oturarak Kürek)</string>
+    <string name="ex_g2_2_muscle">Orta Sırt</string>
+    <string name="ex_g2_2_cue">Omuzlarını kulaklarına doğru kaldırma, aşağıda tut.</string>
+    <string name="ex_g2_2_breath">Kendine çekerken nefes ver.</string>
+    <string name="ex_g2_2_mistake">Sırtını kamburlaştırarak öne kapanmak.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Ayaklarını platforma daya, dizlerini hafif bükülü tut.</item>
+        <item>Omurganı dikleştir ve aparatı karnına doğru çek.</item>
+        <item>Kürek kemiklerini sırtında 1 saniye sıkıştır.</item>
+        <item>Kontrollü ileri uzan.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull</string>
+    <string name="ex_g2_3_muscle">Arka Omuz &amp; Duruş</string>
+    <string name="ex_g2_3_cue">Duruşunu dik tutan en önemli koruyucu harekettir.</string>
+    <string name="ex_g2_3_breath">Çekerken nefes ver.</string>
+    <string name="ex_g2_3_mistake">Çok ağır takıp belden destek almak.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Halatı göz hizasına ayarla.</item>
+        <item>Halatı alnına/yüzüne doğru çekerken dirsekleri dışarı aç.</item>
+        <item>Tepe noktada dış rotasyon yapıp arka omuzu sık.</item>
+        <item>Yavaşça geri bırak.</item>
+    </string-array>
+    <string name="ex_g2_4_name">EZ-Bar Biceps Curl</string>
+    <string name="ex_g2_4_muscle">Biceps</string>
+    <string name="ex_g2_4_cue">Bileklerini içe bükme, nötr tut.</string>
+    <string name="ex_g2_4_breath">Kaldırırken nefes ver, inerken al.</string>
+    <string name="ex_g2_4_mistake">Belden savurarak ağırlığı fırlatmak.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>EZ barı omuz genişliğinde kavra.</item>
+        <item>Dirsekleri yanlara sabitle.</item>
+        <item>Barı omuz hizasına kaldır ve tepe noktada 1 saniye sık.</item>
+        <item>3 saniyede yavaşça indir.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Barbell Back Squat</string>
+    <string name="ex_g3_1_muscle">Ön Bacak &amp; Kalça</string>
+    <string name="ex_g3_1_cue">Dizlerin ayak parmak uçlarınla aynı yöne baksın, içe çökmesin.</string>
+    <string name="ex_g3_1_breath">İnerken nefes al, kalkarken ver.</string>
+    <string name="ex_g3_1_mistake">Topukları yerden kaldırmak veya beli yuvarlamak.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Barı trapez kaslarının üzerine yerleştir, ayakları omuz genişliğinde aç.</item>
+        <item>Nefes alıp karnını kilitle.</item>
+        <item>Kalçayı geriye ve aşağı doğru paralel seviyeye indir.</item>
+        <item>Topuklarından yeri iterek güçlüce kalk.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Romanian Deadlift</string>
+    <string name="ex_g3_2_muscle">Arka Bacak &amp; Kalça</string>
+    <string name="ex_g3_2_cue">Hareket bel bükülmesi değil kalça menteşesidir.</string>
+    <string name="ex_g3_2_breath">İnerken nefes al, kalkarken ver.</string>
+    <string name="ex_g3_2_mistake">Barı bacaklardan uzaklaştırmak ve sırtı bükmek.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Barı kalça önünde kavra, dizleri çok hafif bük.</item>
+        <item>Sırtını düz tutarak kalçanı geriye it ve barı bacaklarına sıyırarak indir.</item>
+        <item>Arka bacakta gerilme hissedince kalçayı sıkarak doğrul.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Leg Press</string>
+    <string name="ex_g3_3_muscle">Quadriceps</string>
+    <string name="ex_g3_3_cue">Kalçan koltuktan kalkacak kadar aşağı indirme.</string>
+    <string name="ex_g3_3_breath">İterken nefes ver.</string>
+    <string name="ex_g3_3_mistake">Tepe noktada diz eklemlerini sertçe kilitlemek.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Sırtını ve kalçanı koltuğa tam yapıştır.</item>
+        <item>Ayakları omuz genişliğinde platforma yerleştir.</item>
+        <item>Kilidi aç ve dizleri göğsüne kontrollü yaklaştır.</item>
+        <item>Dizleri tamamen kilitlemeden platformu it.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Standing Calf Raise</string>
+    <string name="ex_g3_4_muscle">Baldır</string>
+    <string name="ex_g3_4_cue">Zıplamadan kontrollü tempo ile çalış.</string>
+    <string name="ex_g3_4_breath">Yükselirken nefes ver.</string>
+    <string name="ex_g3_4_mistake">Çok hızlı zıplayıp aşil tendonuna yük bindirmek.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Ayak uçlarını basamağa yerleştir.</item>
+        <item>Topuklarını aşağı doğru tam esnet.</item>
+        <item>Parmak ucunda en tepeye yüksel ve 1 saniye bekle.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Goblet Squat</string>
+    <string name="ex_g4_1_muscle">Bacak &amp; Core</string>
+    <string name="ex_g4_1_cue">Göğsün karşıya baksın, öne devrilme.</string>
+    <string name="ex_g4_1_breath">İnerken nefes al, kalkarken ver.</string>
+    <string name="ex_g4_1_mistake">Ağırlığı vücuttan uzağa tutmak.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Dambılı dikey olarak göğsünün önünde tut.</item>
+        <item>Dik duruşla kalçayı aşağı indir.</item>
+        <item>Dirsekler dizlerin iç kısmına değince yukarı kalk.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Chest Press Machine</string>
+    <string name="ex_g4_2_muscle">Göğüs</string>
+    <string name="ex_g4_2_cue">Omuzlarını öne yuvarlama, göğsünü açık tut.</string>
+    <string name="ex_g4_2_breath">İterken nefes ver.</string>
+    <string name="ex_g4_2_mistake">Ağırlığı son anda bırakıp çarptırmak.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Koltuk yüksekliğini tutamaklar orta göğüs hizasına gelecek şekilde ayarla.</item>
+        <item>Sırtını yasla ve kolları ileri it.</item>
+        <item>Yavaşça başlangıç noktasına getir.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Seated Row Machine</string>
+    <string name="ex_g4_3_muscle">Sırt</string>
+    <string name="ex_g4_3_cue">Boynunu kasarak omuzlarını yukarı çekme.</string>
+    <string name="ex_g4_3_breath">Çekerken nefes ver.</string>
+    <string name="ex_g4_3_mistake">Yarım tekrar yapmak.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Göğsünü pede yasla ve tutamakları kavra.</item>
+        <item>Dirsekleri geriye çekerek sırtını sık.</item>
+        <item>Kontrollü uzan.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Plank</string>
+    <string name="ex_g4_4_muscle">Karın &amp; Core</string>
+    <string name="ex_g4_4_sets">3 x 40 sn</string>
+    <string name="ex_g4_4_cue">Nefes alıp vermeye devam et, donma.</string>
+    <string name="ex_g4_4_breath">Düzenli burundan nefes al ağızdan ver.</string>
+    <string name="ex_g4_4_mistake">Kalçayı tavana kaldırmak veya bel çukuru oluşturmak.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Ön kolların üzerinde şınav pozisyonu al.</item>
+        <item>Başından topuklarına düz bir çizgi oluştur.</item>
+        <item>Karnını ve kalçanı sıkı tutarak süreyi tamamla.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Dambıl Bench Press</string>
+    <string name="ex_g5_1_muscle">Göğüs</string>
+    <string name="ex_g5_1_cue">Alt noktada 1 saniye bekleme gücünü artırır.</string>
+    <string name="ex_g5_1_breath">İterken nefes ver.</string>
+    <string name="ex_g5_1_mistake">Dirsekleri 90 derece dışa açmak.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Dambılları dizlerinden destekle göğüs hizasına al.</item>
+        <item>Yukarı it ve kontrollü indir.</item>
+    </string-array>
+    <string name="ex_g5_2_name">Tek Kol Dambıl Row</string>
+    <string name="ex_g5_2_muscle">Sırt</string>
+    <string name="ex_g5_2_sets">4 x 10/kol</string>
+    <string name="ex_g5_2_cue">Gövdeni döndürmeden sadece sırtınla çek.</string>
+    <string name="ex_g5_2_breath">Çekerken nefes ver.</string>
+    <string name="ex_g5_2_mistake">Dambılı omza doğru çekmek.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Bir elini ve dizini sehpaya koy, sırtı yere paralel tut.</item>
+        <item>Dambılı kalça cebine doğru çek.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Yan Omuz Açış (Lateral Raise)</string>
+    <string name="ex_g5_3_muscle">Yan Omuz</string>
+    <string name="ex_g5_3_cue">Serçe parmak hafifçe yukarıda olsun.</string>
+    <string name="ex_g5_3_breath">Kaldırırken nefes ver.</string>
+    <string name="ex_g5_3_mistake">Vücutla zıplayıp ağırlığı savurmak.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Dambılları yanlarda tut, dirsekleri hafif bük.</item>
+        <item>Kolları omuz hizasına kadar yanlara aç.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Hammer Curl (Çekiç Tutuş)</string>
+    <string name="ex_g5_4_muscle">Biceps &amp; Ön Kol</string>
+    <string name="ex_g5_4_cue">Kol kalınlığını en hızlı artıran tutuştur.</string>
+    <string name="ex_g5_4_breath">Kaldırırken nefes ver.</string>
+    <string name="ex_g5_4_mistake">Omuzları öne çekmek.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Avuç içleri birbirine bakacak şekilde dambılları tut.</item>
+        <item>Dirsekleri sabit tutup sırayla kaldır.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Arnold Press</string>
+    <string name="ex_g6_1_muscle">Tüm Omuz</string>
+    <string name="ex_g6_1_cue">Ön ve yan omuzu aynı anda uyarır.</string>
+    <string name="ex_g6_1_breath">Yukarı iterken nefes ver.</string>
+    <string name="ex_g6_1_mistake">Bel boşluğunu artırmak.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Avuç içleri yüzüne dönük başla.</item>
+        <item>Yukarı iterken bileklerini dışa döndür.</item>
+        <item>Ters sırayla başlangıç pozisyonuna in.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Eğik Sehpa Biceps Curl</string>
+    <string name="ex_g6_2_muscle">Uzun Baş Biceps</string>
+    <string name="ex_g6_2_cue">Dirseklerin gövdenin hafif gerisinde sabit kalsın.</string>
+    <string name="ex_g6_2_breath">Kaldırırken nefes ver.</string>
+    <string name="ex_g6_2_mistake">Dirsekleri öne savurmak.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>45 derece eğik sehpaya yaslan.</item>
+        <item>Kolları serbest bırakıp sadece dirsekten bük.</item>
+    </string-array>
+    <string name="ex_g6_3_name">Alna İndiriş (EZ Bar Skull Crusher)</string>
+    <string name="ex_g6_3_muscle">Triceps</string>
+    <string name="ex_g6_3_cue">Dirseklerin dışa açılmasına izin verme.</string>
+    <string name="ex_g6_3_breath">İterken nefes ver.</string>
+    <string name="ex_g6_3_mistake">Çok ağır kullanıp dirsek ağrıtmak.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Sehpaya uzan, barı göz hizasında dik tut.</item>
+        <item>Dirsekleri sabit tutup barı alnının gerisine indir ve it.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Kablo Yan Omuz Açış</string>
+    <string name="ex_g6_4_muscle">Yan Omuz</string>
+    <string name="ex_g6_4_cue">Başlangıç noktasında bile kası gergin tutar.</string>
+    <string name="ex_g6_4_breath">Açarken nefes ver.</string>
+    <string name="ex_g6_4_mistake">Gövdeyi yana eğmek.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Kabloyu vücudunun önünden çapraz kavra.</item>
+        <item>Omuz hizasına kontrollü aç.</item>
+    </string-array>
+</resources>

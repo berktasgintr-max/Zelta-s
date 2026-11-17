@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h9_1_name">Sprungkniebeuge (Squat Jump)</string>
+    <string name="ex_h9_1_muscle">Beine &amp; Cardio</string>
+    <string name="ex_h9_1_sets">4 x 20 Sek</string>
+    <string name="ex_h9_1_cue">Weich landen ohne die Knie durchzustrecken.</string>
+    <string name="ex_h9_1_breath">Beim Absprung ausatmen.</string>
+    <string name="ex_h9_1_mistake">Hart auf den Fersen landen.</string>
+    <string-array name="ex_h9_1_steps">
+        <item>In die Kniebeuge gehen und explosiv abspringen.</item>
+        <item>Weich direkt in die nächste Kniebeuge landen.</item>
+    </string-array>
+    <string name="ex_h9_2_name">Eisschnellläufer-Sprünge (Skaters)</string>
+    <string name="ex_h9_2_muscle">Gesäß &amp; Agilität</string>
+    <string name="ex_h9_2_sets">4 x 20 Sek</string>
+    <string name="ex_h9_2_cue">Trainiert Balance und seitliches Gesäß.</string>
+    <string name="ex_h9_2_breath">Rhythmisch atmen.</string>
+    <string name="ex_h9_2_mistake">Zu aufrecht stehen ohne Hüftbeugung.</string>
+    <string-array name="ex_h9_2_steps">
+        <item>Wie ein Eisschnellläufer seitlich hin und her springen.</item>
+        <item>Hinteres Bein leicht kreuzend hinter dem Standbein antippen.</item>
+    </string-array>
+    <string name="ex_h9_3_name">Plank mit Schultertippen</string>
+    <string name="ex_h9_3_muscle">Rumpf &amp; Schultern</string>
+    <string name="ex_h9_3_sets">4 x 20 Sek</string>
+    <string name="ex_h9_3_cue">Rumpf felsenfest stabil halten.</string>
+    <string name="ex_h9_3_breath">Gleichmäßig ausatmen.</string>
+    <string name="ex_h9_3_mistake">Hüfte zur Seite kippen.</string>
+    <string-array name="ex_h9_3_steps">
+        <item>Hohe Plank mit etwas breiteren Füßen.</item>
+        <item>Ohne Hüftwackeln abwechselnd an die gegenüberliegende Schulter tippen.</item>
+    </string-array>
+    <string name="ex_h10_1_name">Seitlicher Squat mit Armstrecken</string>
+    <string name="ex_h10_1_muscle">Beine &amp; Schultern</string>
+    <string name="ex_h10_1_cue">Hoher Kalorienverbrauch ganz ohne Sprünge.</string>
+    <string name="ex_h10_1_breath">Beim Hochstrecken ausatmen.</string>
+    <string name="ex_h10_1_mistake">Knie nach innen fallen lassen.</string>
+    <string-array name="ex_h10_1_steps">
+        <item>Einen Schritt zur Seite squatten, beim Aufstehen Arme hochstrecken.</item>
+        <item>Zur anderen Seite wiederholen.</item>
+    </string-array>
+    <string name="ex_h10_2_name">Raupengang (Inchworm)</string>
+    <string name="ex_h10_2_muscle">Rumpf &amp; Flexibilität</string>
+    <string name="ex_h10_2_cue">Wärmt Beinrückseite und Schultern gleichzeitig auf.</string>
+    <string name="ex_h10_2_breath">Beim Vorwandern ausatmen.</string>
+    <string name="ex_h10_2_mistake">In der Plank durchhängen.</string>
+    <string-array name="ex_h10_2_steps">
+        <item>Aus dem Stand vorbeugen, Hände vor in die Plank wandern.</item>
+        <item>Zurück zu den Füßen wandern und aufstehen.</item>
+    </string-array>
+    <string name="ex_h10_3_name">Schattenboxen</string>
+    <string name="ex_h10_3_muscle">Arme &amp; Cardio</string>
+    <string name="ex_h10_3_sets">3 x 45 Sek</string>
+    <string name="ex_h10_3_cue">Ideal für Kraftausdauer im Oberkörper.</string>
+    <string name="ex_h10_3_breath">Bei jedem Schlag kurz ausatmen.</string>
+    <string name="ex_h10_3_mistake">Schultern hochziehen und verkrampfen.</string>
+    <string-array name="ex_h10_3_steps">
+        <item>Boxdeckung einnehmen und zügig Geraden sowie Haken schlagen.</item>
+        <item>Leicht auf den Füßen federn.</item>
+    </string-array>
+    <string name="ex_h11_1_name">Wall Angels (Wandengel)</string>
+    <string name="ex_h11_1_muscle">Schultern &amp; Haltung</string>
+    <string name="ex_h11_1_cue">Unteren Rücken nah an der Wand lassen.</string>
+    <string name="ex_h11_1_breath">Beim Hochschieben ausatmen.</string>
+    <string name="ex_h11_1_mistake">Arme lösen sich von der Wand.</string>
+    <string-array name="ex_h11_1_steps">
+        <item>Rücken, Gesäß und Kopf an die Wand lehnen.</item>
+        <item>Arme aus der W-Position langsam an der Wand entlang ins Y schieben.</item>
+    </string-array>
+    <string name="ex_h11_2_name">Y-T-W-Heben in Bauchlage</string>
+    <string name="ex_h11_2_muscle">Hintere Schulter &amp; oberer Rücken</string>
+    <string name="ex_h11_2_sets">3 x 8/Form</string>
+    <string name="ex_h11_2_cue">Schulterblätter bewusst zusammendrücken.</string>
+    <string name="ex_h11_2_breath">Beim Heben ausatmen.</string>
+    <string name="ex_h11_2_mistake">Arme schwungvoll hochreißen.</string>
+    <string-array name="ex_h11_2_steps">
+        <item>In Bauchlage Arme nacheinander in Y-, T- und W-Form abheben.</item>
+    </string-array>
+    <string name="ex_h11_3_name">Bird-Dog</string>
+    <string name="ex_h11_3_muscle">Rücken &amp; Rumpfbalance</string>
+    <string name="ex_h11_3_sets">3 x 10/Seite</string>
+    <string name="ex_h11_3_cue">Stabilisiert die Wirbelsäule.</string>
+    <string name="ex_h11_3_breath">Beim Ausstrecken ausatmen.</string>
+    <string name="ex_h11_3_mistake">Bein zu hoch heben und ins Hohlkreuz fallen.</string>
+    <string-array name="ex_h11_3_steps">
+        <item>Aus dem Vierfüßlerstand rechten Arm vor und linkes Bein zurück strecken.</item>
+        <item>2 Sekunden halten und wechseln.</item>
+    </string-array>
+    <string name="ex_h12_1_name">Stellung des Kindes (Child\'s Pose)</string>
+    <string name="ex_h12_1_muscle">Rücken &amp; Schultern</string>
+    <string name="ex_h12_1_sets">3 x 45 Sek</string>
+    <string name="ex_h12_1_cue">Beruhigt das Nervensystem durch tiefe Atemzüge.</string>
+    <string name="ex_h12_1_breath">4 Sek ein, 6 Sek aus.</string>
+    <string name="ex_h12_1_mistake">Schultern anspannen statt loslassen.</string>
+    <string-array name="ex_h12_1_steps">
+        <item>Auf die Fersen setzen, Arme vorstrecken, Stirn auf die Matte legen.</item>
+        <item>Mit jedem Atemzug die Rückenöffnung spüren.</item>
+    </string-array>
+    <string name="ex_h12_2_name">Taube-Dehnung (Pigeon Stretch)</string>
+    <string name="ex_h12_2_muscle">Hüfte &amp; Piriformis</string>
+    <string name="ex_h12_2_sets">2 x 45 Sek/Seite</string>
+    <string name="ex_h12_2_cue">Löst tiefe Hüftverspannungen.</string>
+    <string name="ex_h12_2_breath">Mit tiefer Atmung entspannen.</string>
+    <string name="ex_h12_2_mistake">Schmerz im Knie ignorieren (Winkel anpassen).</string>
+    <string-array name="ex_h12_2_steps">
+        <item>Ein Bein vorn anwinkeln, anderes gerade nach hinten strecken.</item>
+        <item>Oberkörper sanft nach vorn neigen.</item>
+    </string-array>
+    <string name="ex_h12_3_name">Beinbeuger-Dehnung mit Handtuch</string>
+    <string name="ex_h12_3_muscle">Beinbeuger</string>
+    <string name="ex_h12_3_sets">2 x 45 Sek/Seite</string>
+    <string name="ex_h12_3_cue">Dehnbare Beinbeuger entlasten den unteren Rücken.</string>
+    <string name="ex_h12_3_breath">Beim Ausatmen sanft dehnen.</string>
+    <string name="ex_h12_3_mistake">Kniegelenk überstrecken.</string>
+    <string-array name="ex_h12_3_steps">
+        <item>Auf dem Rücken ein Bein heben und mit einem Handtuch sanft heranziehen.</item>
+    </string-array>
+    <string name="ex_hp1_1_name">1,5-Wiederholungs-Tempo-Squat</string>
+    <string name="ex_hp1_1_muscle">Beine &amp; Gesäß</string>
+    <string name="ex_hp1_1_cue">Geheimwaffe für Beinwachstum ohne Gewichte.</string>
+    <string name="ex_hp1_1_breath">Beim finalen Aufstehen ausatmen.</string>
+    <string name="ex_hp1_1_mistake">Unten schnell abfedern.</string>
+    <string-array name="ex_hp1_1_steps">
+        <item>Ganz tief beugen, halb hochkommen, wieder tief gehen und dann ganz aufrichten.</item>
+    </string-array>
+    <string name="ex_hp1_2_name">Bogenschützen-Liegestütz (Archer)</string>
+    <string name="ex_hp1_2_muscle">Brust &amp; Einarmkraft</string>
+    <string name="ex_hp1_2_sets">4 x 8/Seite</string>
+    <string name="ex_hp1_2_cue">Stärkste Vorstufe zum einarmigen Liegestütz.</string>
+    <string name="ex_hp1_2_breath">Beim Drücken ausatmen.</string>
+    <string name="ex_hp1_2_mistake">Hüfte verdrehen.</string>
+    <string-array name="ex_hp1_2_steps">
+        <item>Hände breit aufsetzen, einen Arm strecken und Brust zur anderen Hand senken.</item>
+    </string-array>
+    <string name="ex_hp1_3_name">Umgekehrtes Rudern am Tisch</string>
+    <string name="ex_hp1_3_muscle">Rücken</string>
+    <string name="ex_hp1_3_cue">Beste Eigengewichtsübung für Rückendichte zu Hause!</string>
+    <string name="ex_hp1_3_breath">Beim Hochziehen ausatmen.</string>
+    <string name="ex_hp1_3_mistake">Hüfte durchhängen lassen.</string>
+    <string-array name="ex_hp1_3_steps">
+        <item>Unter einen stabilen Tisch legen, Kante greifen und Brust hochziehen.</item>
+    </string-array>
+    <string name="ex_hp2_1_name">Burpee-Weitsprung</string>
+    <string name="ex_hp2_1_muscle">Ganzkörper</string>
+    <string name="ex_hp2_1_cue">Explosivkraft kombiniert mit Maximalpuls.</string>
+    <string name="ex_hp2_1_breath">Beim Sprung ausatmen.</string>
+    <string name="ex_hp2_1_mistake">Hart und steif landen.</string>
+    <string-array name="ex_hp2_1_steps">
+        <item>Burpee ausführen und statt nach oben weit nach vorn springen.</item>
+    </string-array>
+    <string name="ex_hp2_2_name">Gesprungene Ausfallschritte</string>
+    <string name="ex_hp2_2_muscle">Beine &amp; Kondition</string>
+    <string name="ex_hp2_2_cue">Oberkörper aufrecht halten.</string>
+    <string name="ex_hp2_2_breath">Bei jedem Wechsel ausatmen.</string>
+    <string name="ex_hp2_2_mistake">Hinteres Knie hart auf den Boden stoßen.</string>
+    <string-array name="ex_hp2_2_steps">
+        <item>Aus dem Ausfallschritt hochspringen und Beine in der Luft wechseln.</item>
+    </string-array>
+    <string name="ex_hp2_3_name">Plank Up-Downs</string>
+    <string name="ex_hp2_3_muscle">Rumpf &amp; Schultern</string>
+    <string name="ex_hp2_3_cue">In jedem Satz den Führungsarm wechseln.</string>
+    <string name="ex_hp2_3_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_hp2_3_mistake">Hüfte stark hin und her schaukeln.</string>
+    <string-array name="ex_hp2_3_steps">
+        <item>Aus dem Unterarmstütz nacheinander auf die Hände drücken und zurück.</item>
+    </string-array>
+    <string name="ex_hp3_1_name">Pseudo-Planche-Liegestütze</string>
+    <string name="ex_hp3_1_muscle">Schultern &amp; Brust</string>
+    <string name="ex_hp3_1_cue">Baut fortgeschrittene Schulterkraft auf.</string>
+    <string name="ex_hp3_1_breath">Beim Drücken ausatmen.</string>
+    <string name="ex_hp3_1_mistake">Im unteren Rücken durchhängen.</string>
+    <string-array name="ex_hp3_1_steps">
+        <item>Finger auswärts/rückwärts drehen, Schultern weit vor die Hände lehnen und drücken.</item>
+    </string-array>
+    <string name="ex_hp3_2_name">Tuck L-Sit Halten</string>
+    <string name="ex_hp3_2_muscle">Rumpf &amp; Trizeps</string>
+    <string name="ex_hp3_2_sets">4 x 20 Sek</string>
+    <string name="ex_hp3_2_cue">Schultern aktiv von den Ohren wegdrücken.</string>
+    <string name="ex_hp3_2_breath">Gleichmäßig atmen, nicht pressen.</string>
+    <string name="ex_hp3_2_mistake">Ellenbogen beugen.</string>
+    <string-array name="ex_hp3_2_steps">
+        <item>Sitzend Hände neben die Hüfte drücken, Schultern tief und Knie in die Luft ziehen.</item>
+    </string-array>
+    <string name="ex_hp3_3_name">Explosive Liegestütze mit Klatschen</string>
+    <string name="ex_hp3_3_muscle">Explosivkraft</string>
+    <string name="ex_hp3_3_cue">Aktiviert schnelle Muskelfasern.</string>
+    <string name="ex_hp3_3_breath">Beim Abdrücken ausatmen.</string>
+    <string name="ex_hp3_3_mistake">Bei Erschöpfung weiter erzwingen.</string>
+    <string-array name="ex_hp3_3_steps">
+        <item>Von unten so explosiv abdrücken, dass sich die Hände vom Boden lösen (optional klatschen).</item>
+    </string-array>
+    <string name="ex_hp4_1_name">Hollow Body Hold (Schiffchen)</string>
+    <string name="ex_hp4_1_muscle">Gesamter Rumpf</string>
+    <string name="ex_hp4_1_sets">4 x 30 Sek</string>
+    <string name="ex_hp4_1_cue">Knie leicht beugen, falls der Rücken abhebt.</string>
+    <string name="ex_hp4_1_breath">Rhythmisch atmen.</string>
+    <string name="ex_hp4_1_mistake">Hohlkreuz zulassen.</string>
+    <string-array name="ex_hp4_1_steps">
+        <item>Rückenlage, unteren Rücken fest in den Boden drücken.</item>
+        <item>Schultern und gestreckte Beine leicht zu einer Bananenform heben.</item>
+    </string-array>
+    <string name="ex_hp4_2_name">Klappmesser (V-Ups)</string>
+    <string name="ex_hp4_2_muscle">Oberer &amp; unterer Bauch</string>
+    <string name="ex_hp4_2_cue">Oben ein klares V bilden.</string>
+    <string name="ex_hp4_2_breath">Beim Zusammenklappen ausatmen.</string>
+    <string name="ex_hp4_2_mistake">Hart auf den Boden zurückfallen.</string>
+    <string-array name="ex_hp4_2_steps">
+        <item>Aus dem Liegen Hände und gestreckte Beine gleichzeitig oben zusammenführen.</item>
+    </string-array>
+    <string name="ex_hp4_3_name">Dragon-Flag-Negative</string>
+    <string name="ex_hp4_3_muscle">Fortgeschrittener Bauch</string>
+    <string name="ex_hp4_3_cue">Eine der anspruchsvollsten Bauchübungen überhaupt.</string>
+    <string name="ex_hp4_3_breath">Beim Senken langsam einatmen.</string>
+    <string name="ex_hp4_3_mistake">In der Hüfte abknicken.</string>
+    <string-array name="ex_hp4_3_steps">
+        <item>An schwerem Sofa oder Stange festhalten, Körper auf die Schultern heben und brettgerade langsam senken.</item>
+    </string-array>
+</resources>

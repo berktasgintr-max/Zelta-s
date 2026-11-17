@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h1_1_name">Sentadilla con peso corporal</string>
+    <string name="ex_h1_1_muscle">Piernas y Glúteos</string>
+    <string name="ex_h1_1_cue">Mantén el pecho erguido y las rodillas estables.</string>
+    <string name="ex_h1_1_breath">Inhala al bajar, exhala al subir.</string>
+    <string name="ex_h1_1_mistake">Juntar las rodillas hacia dentro.</string>
+    <string-array name="ex_h1_1_steps">
+        <item>Pies al ancho de hombros, brazos al frente.</item>
+        <item>Lleva la cadera atrás como sentándote en una silla invisible.</item>
+        <item>Empuja con los talones para subir.</item>
+    </string-array>
+    <string name="ex_h1_2_name">Flexiones clásicas (o de rodillas)</string>
+    <string name="ex_h1_2_muscle">Pecho y Brazos</string>
+    <string name="ex_h1_2_cue">Codos a 45° hacia atrás, no formes una T.</string>
+    <string name="ex_h1_2_breath">Inhala al bajar, exhala al empujar.</string>
+    <string name="ex_h1_2_mistake">Dejar caer la cadera.</string>
+    <string-array name="ex_h1_2_steps">
+        <item>Manos algo más anchas que los hombros.</item>
+        <item>Mantén el cuerpo recto y baja el pecho al suelo.</item>
+        <item>Empuja con las palmas para subir.</item>
+    </string-array>
+    <string name="ex_h1_3_name">Puente de glúteos</string>
+    <string name="ex_h1_3_muscle">Glúteos y Lumbar</string>
+    <string name="ex_h1_3_cue">Enfócate en apretar los glúteos, no la lumbar.</string>
+    <string name="ex_h1_3_breath">Exhala al subir.</string>
+    <string name="ex_h1_3_mistake">Alejar demasiado los pies.</string>
+    <string-array name="ex_h1_3_steps">
+        <item>Túmbate boca arriba con rodillas flexionadas y pies cerca.</item>
+        <item>Sube la cadera hasta alinear hombros, cadera y rodillas.</item>
+        <item>Aprieta 2 segundos arriba y baja lento.</item>
+    </string-array>
+    <string name="ex_h1_4_name">Escaladores</string>
+    <string name="ex_h1_4_muscle">Abdomen y Cardio</string>
+    <string name="ex_h1_4_sets">3 x 30 seg</string>
+    <string name="ex_h1_4_cue">Mantén la cadera estable sin botar.</string>
+    <string name="ex_h1_4_breath">Respira rítmicamente.</string>
+    <string name="ex_h1_4_mistake">Subir demasiado la cadera.</string>
+    <string-array name="ex_h1_4_steps">
+        <item>Adopta posición de plancha alta.</item>
+        <item>Lleva las rodillas alternadamente hacia el pecho.</item>
+    </string-array>
+    <string name="ex_h2_1_name">Flexiones declinadas (pies elevados)</string>
+    <string name="ex_h2_1_muscle">Pecho superior</string>
+    <string name="ex_h2_1_cue">Carga extra en pecho superior y hombros.</string>
+    <string name="ex_h2_1_breath">Exhala al empujar.</string>
+    <string name="ex_h2_1_mistake">Dejar caer la cabeza.</string>
+    <string-array name="ex_h2_1_steps">
+        <item>Apoya los pies en un sofá o banco.</item>
+        <item>Baja el pecho hacia el suelo y empuja.</item>
+    </string-array>
+    <string name="ex_h2_2_name">Flexiones diamante</string>
+    <string name="ex_h2_2_muscle">Pecho interno y Tríceps</string>
+    <string name="ex_h2_2_cue">Gran estímulo para tríceps y pecho interno.</string>
+    <string name="ex_h2_2_breath">Exhala al empujar.</string>
+    <string name="ex_h2_2_mistake">Poner las manos bajo la cara.</string>
+    <string-array name="ex_h2_2_steps">
+        <item>Forma un diamante con las manos bajo el pecho.</item>
+        <item>Baja sin abrir mucho los codos y empuja.</item>
+    </string-array>
+    <string name="ex_h2_3_name">Flexiones excéntricas (tempo lento)</string>
+    <string name="ex_h2_3_muscle">Control pectoral</string>
+    <string name="ex_h2_3_cue">La bajada lenta estimula más las fibras.</string>
+    <string name="ex_h2_3_breath">Inhala lento al bajar.</string>
+    <string name="ex_h2_3_mistake">Dejarse caer en el último segundo.</string>
+    <string-array name="ex_h2_3_steps">
+        <item>Baja contando 4 segundos lentos.</item>
+        <item>Toca suave el suelo y sube rápido.</item>
+    </string-array>
+    <string name="ex_h3_1_name">Abdominales bicicleta</string>
+    <string name="ex_h3_1_muscle">Abdomen y Oblicuos</string>
+    <string name="ex_h3_1_cue">Gira el hombro, no tires del cuello.</string>
+    <string name="ex_h3_1_breath">Exhala en cada giro.</string>
+    <string name="ex_h3_1_mistake">Pedalear muy rápido sin control.</string>
+    <string-array name="ex_h3_1_steps">
+        <item>Boca arriba con manos junto a las sienes.</item>
+        <item>Lleva codo derecho a rodilla izquierda extendiendo la derecha y alterna.</item>
+    </string-array>
+    <string name="ex_h3_2_name">Elevación de piernas</string>
+    <string name="ex_h3_2_muscle">Abdomen inferior</string>
+    <string name="ex_h3_2_cue">Baja menos si la lumbar se despega del suelo.</string>
+    <string name="ex_h3_2_breath">Inhala al bajar, exhala al subir.</string>
+    <string name="ex_h3_2_mistake">Dejar arco en la zona lumbar.</string>
+    <string-array name="ex_h3_2_steps">
+        <item>Coloca manos bajo los glúteos.</item>
+        <item>Sube piernas rectas a 90° y baja sin tocar el suelo.</item>
+    </string-array>
+    <string name="ex_h3_3_name">Plancha lateral</string>
+    <string name="ex_h3_3_muscle">Oblicuos y Cintura</string>
+    <string name="ex_h3_3_sets">3 x 30 seg/lado</string>
+    <string name="ex_h3_3_cue">Fortalece la cintura y oblicuos.</string>
+    <string name="ex_h3_3_breath">Respira de forma constante.</string>
+    <string name="ex_h3_3_mistake">Girar la cadera adelante o atrás.</string>
+    <string-array name="ex_h3_3_steps">
+        <item>Apóyate sobre un antebrazo formando una línea recta.</item>
+        <item>Mantén sin dejar caer la cadera.</item>
+    </string-array>
+    <string name="ex_h4_1_name">Sentadilla sumo</string>
+    <string name="ex_h4_1_muscle">Aductores y Glúteos</string>
+    <string name="ex_h4_1_cue">Trabaja aductores y glúteos.</string>
+    <string name="ex_h4_1_breath">Exhala al subir.</string>
+    <string name="ex_h4_1_mistake">Meter las rodillas hacia dentro.</string>
+    <string-array name="ex_h4_1_steps">
+        <item>Abre bien los pies con puntas a 45°.</item>
+        <item>Baja con el torso erguido y sube.</item>
+    </string-array>
+    <string name="ex_h4_2_name">Zancada hacia atrás</string>
+    <string name="ex_h4_2_muscle">Cuádriceps y Glúteos</string>
+    <string name="ex_h4_2_sets">3 x 12/pierna</string>
+    <string name="ex_h4_2_cue">Más amigable con las rodillas que la zancada frontal.</string>
+    <string name="ex_h4_2_breath">Exhala al subir.</string>
+    <string name="ex_h4_2_mistake">Inclinarse demasiado adelante.</string>
+    <string-array name="ex_h4_2_steps">
+        <item>Da un paso atrás desde posición erguida.</item>
+        <item>Baja la rodilla trasera y sube con el talón delantero.</item>
+    </string-array>
+    <string name="ex_h4_3_name">Puente de glúteos a una pierna</string>
+    <string name="ex_h4_3_muscle">Glúteo unilateral</string>
+    <string name="ex_h4_3_sets">3 x 12/pierna</string>
+    <string name="ex_h4_3_cue">Duplica la activación del glúteo.</string>
+    <string name="ex_h4_3_breath">Exhala al empujar.</string>
+    <string name="ex_h4_3_mistake">Inclinar la cadera hacia un lado.</string>
+    <string-array name="ex_h4_3_steps">
+        <item>Extiende una pierna recta arriba.</item>
+        <item>Empuja con el otro talón y aprieta 1 segundo.</item>
+    </string-array>
+    <string name="ex_h5_1_name">Saltos de tijera (Jumping Jacks)</string>
+    <string name="ex_h5_1_muscle">Calentamiento y Cardio</string>
+    <string name="ex_h5_1_sets">4 x 40 seg</string>
+    <string name="ex_h5_1_cue">Aterriza suave sobre las puntas de los pies.</string>
+    <string name="ex_h5_1_breath">Respira rítmicamente.</string>
+    <string name="ex_h5_1_mistake">Golpear fuerte con los talones.</string>
+    <string-array name="ex_h5_1_steps">
+        <item>Salta abriendo piernas y uniendo manos arriba.</item>
+        <item>Regresa saltando suavemente.</item>
+    </string-array>
+    <string name="ex_h5_2_name">Burpees (con paso o salto)</string>
+    <string name="ex_h5_2_muscle">Quema cuerpo completo</string>
+    <string name="ex_h5_2_sets">4 x 30 seg</string>
+    <string name="ex_h5_2_cue">Pasa a versión caminando si te fatigas.</string>
+    <string name="ex_h5_2_breath">Exhala al saltar.</string>
+    <string name="ex_h5_2_mistake">Hundir la zona lumbar.</string>
+    <string-array name="ex_h5_2_steps">
+        <item>Manos al suelo, pies atrás a plancha.</item>
+        <item>Vuelve los pies adelante y salta arriba.</item>
+    </string-array>
+    <string name="ex_h5_3_name">Elevación rápida de rodillas</string>
+    <string name="ex_h5_3_muscle">Cardio y Abdomen bajo</string>
+    <string name="ex_h5_3_sets">4 x 30 seg</string>
+    <string name="ex_h5_3_cue">Mueve los brazos al ritmo de carrera.</string>
+    <string name="ex_h5_3_breath">Exhala de forma regular.</string>
+    <string name="ex_h5_3_mistake">Inclinarse hacia atrás.</string>
+    <string-array name="ex_h5_3_steps">
+        <item>Corre en el sitio subiendo rápido las rodillas a la cintura.</item>
+    </string-array>
+    <string name="ex_h6_1_name">Thruster con mancuernas</string>
+    <string name="ex_h6_1_muscle">Piernas y Hombros</string>
+    <string name="ex_h6_1_cue">Trabaja todo el cuerpo en un solo movimiento.</string>
+    <string name="ex_h6_1_breath">Exhala al empujar arriba.</string>
+    <string name="ex_h6_1_mistake">No aprovechar el impulso de las piernas.</string>
+    <string-array name="ex_h6_1_steps">
+        <item>Haz sentadilla con mancuernas en hombros.</item>
+        <item>Usa el impulso de piernas para empujar arriba.</item>
+    </string-array>
+    <string name="ex_h6_2_name">Remo inclinado con mancuernas</string>
+    <string name="ex_h6_2_muscle">Espalda</string>
+    <string name="ex_h6_2_cue">Mantén el cuello alineado con la columna.</string>
+    <string name="ex_h6_2_breath">Exhala al tirar.</string>
+    <string name="ex_h6_2_mistake">Encorvar la espalda.</string>
+    <string-array name="ex_h6_2_steps">
+        <item>Inclínate a 45° desde la cadera con espalda recta.</item>
+        <item>Tira hacia la cadera apretando omóplatos.</item>
+    </string-array>
+    <string name="ex_h6_3_name">Press en suelo con mancuernas</string>
+    <string name="ex_h6_3_muscle">Pecho y Tríceps</string>
+    <string name="ex_h6_3_cue">Excelente ejercicio de pecho seguro para hombros.</string>
+    <string name="ex_h6_3_breath">Exhala al empujar.</string>
+    <string name="ex_h6_3_mistake">Golpear fuerte los codos en el suelo.</string>
+    <string-array name="ex_h6_3_steps">
+        <item>Túmbate boca arriba con rodillas flexionadas.</item>
+        <item>Toca suave el suelo con los codos y empuja arriba.</item>
+    </string-array>
+    <string name="ex_h7_1_name">Estiramiento Gato-Vaca</string>
+    <string name="ex_h7_1_muscle">Movilidad espinal</string>
+    <string name="ex_h7_1_cue">Mueve vértebra a vértebra sintiendo el flujo.</string>
+    <string name="ex_h7_1_breath">Sincroniza respiración y movimiento.</string>
+    <string name="ex_h7_1_mistake">Hacerlo demasiado rápido.</string>
+    <string-array name="ex_h7_1_steps">
+        <item>En cuatro apoyos con manos bajo hombros.</item>
+        <item>Inhala abriendo el pecho; exhala arqueando la espalda arriba.</item>
+    </string-array>
+    <string name="ex_h7_2_name">Estiramiento completo (WGS)</string>
+    <string name="ex_h7_2_muscle">Cadera y Torácica</string>
+    <string name="ex_h7_2_sets">3 x 6/lado</string>
+    <string name="ex_h7_2_cue">Libera la rigidez postural de escritorio.</string>
+    <string name="ex_h7_2_breath">Exhala al girar arriba.</string>
+    <string name="ex_h7_2_mistake">Apoyar la rodilla trasera sin tensión.</string>
+    <string-array name="ex_h7_2_steps">
+        <item>Zancada profunda con una mano en el suelo.</item>
+        <item>Gira el otro brazo hacia el techo abriendo el pecho.</item>
+    </string-array>
+    <string name="ex_h7_3_name">Sentadilla profunda isométrica</string>
+    <string name="ex_h7_3_muscle">Cadera y Tobillos</string>
+    <string name="ex_h7_3_sets">3 x 30 seg</string>
+    <string name="ex_h7_3_cue">Los talones deben permanecer pegados al suelo.</string>
+    <string name="ex_h7_3_breath">Toma respiraciones diafragmáticas profundas.</string>
+    <string name="ex_h7_3_mistake">Levantar los talones.</string>
+    <string-array name="ex_h7_3_steps">
+        <item>Baja a una sentadilla profunda completa.</item>
+        <item>Empuja suave las rodillas afuera con los codos.</item>
+    </string-array>
+    <string name="ex_h8_1_name">Flexiones en pica (Pike)</string>
+    <string name="ex_h8_1_muscle">Hombros</string>
+    <string name="ex_h8_1_cue">El mejor sustituto en casa para press de hombros.</string>
+    <string name="ex_h8_1_breath">Exhala al empujar.</string>
+    <string name="ex_h8_1_mistake">Abrir demasiado los codos.</string>
+    <string-array name="ex_h8_1_steps">
+        <item>Sube la cadera formando una V invertida.</item>
+        <item>Baja la coronilla delante de tus manos y empuja.</item>
+    </string-array>
+    <string name="ex_h8_2_name">Fondos de tríceps en silla</string>
+    <string name="ex_h8_2_muscle">Tríceps</string>
+    <string name="ex_h8_2_cue">No subas los hombros a las orejas.</string>
+    <string name="ex_h8_2_breath">Exhala al subir.</string>
+    <string name="ex_h8_2_mistake">Alejarse demasiado de la silla.</string>
+    <string-array name="ex_h8_2_steps">
+        <item>Sujeta el borde de una silla firme.</item>
+        <item>Espalda cerca de la silla, baja a 90° y empuja.</item>
+    </string-array>
+    <string name="ex_h8_3_name">Superman isométrico</string>
+    <string name="ex_h8_3_muscle">Espalda baja y Postura</string>
+    <string name="ex_h8_3_cue">Fortalece la espalda baja y la postura.</string>
+    <string name="ex_h8_3_breath">Exhala al elevar.</string>
+    <string name="ex_h8_3_mistake">Tensionar el cuello hacia atrás.</string>
+    <string-array name="ex_h8_3_steps">
+        <item>Boca abajo con brazos y piernas extendidos.</item>
+        <item>Eleva pecho y piernas 2 segundos.</item>
+    </string-array>
+</resources>

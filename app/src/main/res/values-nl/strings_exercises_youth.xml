@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Passief Hangen aan de Stang</string>
+    <string name="ex_y1_1_muscle">Wervelkolom Decompressie</string>
+    <string name="ex_y1_1_sets">3 x 30 sec</string>
+    <string name="ex_y1_1_cue">De meest natuurlijke manier om tussenwervelschijven tijdens de groei te ontlasten.</string>
+    <string name="ex_y1_1_breath">Adem diep in door je neus.</string>
+    <string name="ex_y1_1_mistake">Adem inhouden en schouders optrekken.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Pak de optrekstang vast met gestrekte armen en voeten van de vloer.</item>
+        <item>Ontspan schouders en onderrug zodat de zwaartekracht je ruggengraat zacht verlengt.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Cobra Stretch</string>
+    <string name="ex_y1_2_muscle">Wervelkolom &amp; Borst</string>
+    <string name="ex_y1_2_sets">3 x 30 sec</string>
+    <string name="ex_y1_2_cue">Draait een voorovergebogen houding effectief om.</string>
+    <string name="ex_y1_2_breath">Adem bovenin diep in.</string>
+    <string name="ex_y1_2_mistake">De onderrug te ver doorbuigen tot het pijn doet.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Ga op je buik liggen met je handen onder je schouders.</item>
+        <item>Houd je heupen op de mat en duw je borst omhoog terwijl je vooruit kijkt.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Staand Bovenhoofds Strekken &amp; Zijbuiging</string>
+    <string name="ex_y1_3_muscle">Zijketen &amp; Houding</string>
+    <string name="ex_y1_3_sets">3 x 10/zijde</string>
+    <string name="ex_y1_3_cue">Leert een rechte, trotse lichaamshouding aan.</string>
+    <string name="ex_y1_3_breath">Adem in terwijl je omhoog reikt.</string>
+    <string name="ex_y1_3_mistake">De onderrug te ver hol trekken.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Strengel je vingers samen en rek je zo lang mogelijk uit richting het plafond.</item>
+        <item>Ga 5 sec op je tenen staan en buig rustig naar beide kanten.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Pogo Jumps (Enkelvering)</string>
+    <string name="ex_y2_1_muscle">Pezen &amp; Sprongkracht</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Maakt de achillespees krachtig en veerkrachtig.</string>
+    <string name="ex_y2_1_breath">Adem ritmisch door.</string>
+    <string name="ex_y2_1_mistake">Hard op de hielen neerkomen.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Buig de knieën licht en veer snel op vanaf de voorvoet.</item>
+        <item>Kaats direct bij grondcontact omhoog als een springveer.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Tuck Jump (Knieën Optrekken)</string>
+    <string name="ex_y2_2_muscle">Explosieve Kracht</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Verhoogt direct je verticale spronghoogte.</string>
+    <string name="ex_y2_2_breath">Adem uit bij het afzetten.</string>
+    <string name="ex_y2_2_mistake">Neerkomen met gestrekte, stijve knieën.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Spring maximaal omhoog en trek beide knieën naar je borst in de lucht.</item>
+        <item>Land zacht en verend met gebogen knieën.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Eenbenige Kuitverhoging</string>
+    <string name="ex_y2_3_muscle">Kuitkracht</string>
+    <string name="ex_y2_3_sets">3 x 15/been</string>
+    <string name="ex_y2_3_cue">Versterkt de laatste afzet van elke sprong.</string>
+    <string name="ex_y2_3_breath">Adem uit bij het opkomen.</string>
+    <string name="ex_y2_3_mistake">Te snel veren zonder controle.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Ga met één voorvoet op een verhoging staan en laat de hiel zakken.</item>
+        <item>Duw gecontroleerd zo hoog mogelijk omhoog op je tenen.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Tempo Lichaamsgewicht Squat</string>
+    <string name="ex_y3_1_muscle">Benen &amp; Techniek</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Leert perfecte squattechniek zonder zware rugbelasting.</string>
+    <string name="ex_y3_1_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_y3_1_mistake">Knieën naar binnen laten vallen.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Zak langzaam in 3 seconden omlaag met rechte borst.</item>
+        <item>Pauzeer 1 seconde onderin en kom strak omhoog.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Verhoogde Push-Ups</string>
+    <string name="ex_y3_2_muscle">Borst &amp; Schouders</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Bouwt veilig een strakke push-up vorm op.</string>
+    <string name="ex_y3_2_breath">Adem uit bij het omhoog duwen.</string>
+    <string name="ex_y3_2_mistake">De heupen laten doorzakken.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Zet je handen op een stevige tafel of bank.</item>
+        <item>Houd je lichaam recht, laat je borst zakken en duw op.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Australische Pull-Up</string>
+    <string name="ex_y3_3_muscle">Rug &amp; Armen</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">Veiligste opbouw naar volledige pull-ups tijdens de groei.</string>
+    <string name="ex_y3_3_breath">Adem uit bij het optrekken.</string>
+    <string name="ex_y3_3_mistake">Je nek naar voren steken.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Hang met een recht lichaam onder een lage stang.</item>
+        <item>Trek je borst naar de stang en laat rustig zakken.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Chin Tuck (Nek Uitlijnen)</string>
+    <string name="ex_y4_1_muscle">Nek &amp; Houding</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Herstelt de scherm- en studienek.</string>
+    <string name="ex_y4_1_breath">Adem rustig door.</string>
+    <string name="ex_y4_1_mistake">Je kin omlaag buigen.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Zit rechtop of leun met je rug tegen een muur.</item>
+        <item>Schuif je kin recht naar achteren zonder omlaag te kijken en houd 3 sec vast.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Deuropening Borststretch</string>
+    <string name="ex_y4_2_muscle">Borstopening</string>
+    <string name="ex_y4_2_sets">3 x 30 sec</string>
+    <string name="ex_y4_2_cue">Opent naar voren gevallen schouders.</string>
+    <string name="ex_y4_2_breath">Adem diep door.</string>
+    <string name="ex_y4_2_mistake">De onderrug overstrekken naar voren.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Zet je onderarmen in 90 graden tegen de deurpost.</item>
+        <item>Stap rustig iets naar voren om je borst te openen.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Scapulaire Push-Up</string>
+    <string name="ex_y4_3_muscle">Schouderbladcontrole</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Ondersteunt schoudergezondheid en rechte houding.</string>
+    <string name="ex_y4_3_breath">Adem uit bij het uitduwen.</string>
+    <string name="ex_y4_3_mistake">De ellebogen buigen.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>Houd in plank de armen gestrekt en breng alleen je schouderbladen samen en uit elkaar.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Snelle Zijwaartse Shuffle</string>
+    <string name="ex_y5_1_muscle">Zijwaartse Wendbaarheid</string>
+    <string name="ex_y5_1_sets">4 x 20 sec</string>
+    <string name="ex_y5_1_cue">Houd je zwaartepunt laag.</string>
+    <string name="ex_y5_1_breath">Adem ritmisch.</string>
+    <string name="ex_y5_1_mistake">Je voeten kruisen.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>Vanuit een atletische halve squat schuif je snel 3 passen rechts en 3 links.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Eenbenige Balans &amp; Reik</string>
+    <string name="ex_y5_2_muscle">Enkel &amp; Balans</string>
+    <string name="ex_y5_2_sets">3 x 8/been</string>
+    <string name="ex_y5_2_cue">Helpt enkelverzwikkingen te voorkomen.</string>
+    <string name="ex_y5_2_breath">Focus en adem rustig.</string>
+    <string name="ex_y5_2_mistake">Je standknie naar binnen laten zakken.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Balanceer op één been en strek je andere voet naar voren, opzij en achter zonder de grond te raken.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Bear Crawl</string>
+    <string name="ex_y5_3_muscle">Volledige Coördinatie</string>
+    <string name="ex_y5_3_sets">3 x 20 sec</string>
+    <string name="ex_y5_3_cue">Houd je rug vlak als een tafelblad.</string>
+    <string name="ex_y5_3_breath">Adem gelijkmatig uit.</string>
+    <string name="ex_y5_3_mistake">Je heupen te hoog omhoog steken.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>Op handen en voeten met knieën 3 cm boven de grond; kruip vooruit met tegenovergestelde hand en voet.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Dead Bug</string>
+    <string name="ex_y6_1_muscle">Diepe Core</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Versterkt de core zonder belasting voor de onderrug.</string>
+    <string name="ex_y6_1_breath">Adem uit bij het uitstrekken.</string>
+    <string name="ex_y6_1_mistake">De onderrug los laten komen van de mat.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Lig op je rug, armen recht omhoog, knieën in 90 graden.</item>
+        <item>Druk je onderrug in de vloer en laat tegenovergestelde arm en been zakken.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Onderarm Plank</string>
+    <string name="ex_y6_2_muscle">Core Uithoudingsvermogen</string>
+    <string name="ex_y6_2_sets">3 x 35 sec</string>
+    <string name="ex_y6_2_cue">Strakke vorm is belangrijker dan seconden tellen.</string>
+    <string name="ex_y6_2_breath">Blijf rustig doorademen.</string>
+    <string name="ex_y6_2_mistake">Je heupen laten zakken.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Ellebogen recht onder je schouders, houd je lichaam in één rechte lijn.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Glute Bridge March</string>
+    <string name="ex_y6_3_muscle">Billen &amp; Stabiliteit</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Houd je heupen waterpas zonder kantelen.</string>
+    <string name="ex_y6_3_breath">Adem uit bij elk opgetild been.</string>
+    <string name="ex_y6_3_mistake">De heup opzij laten kantelen.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Houd de glute bridge hoog vast en til om de beurt een knie op.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Touwtjespringen (of Zonder Touw)</string>
+    <string name="ex_y7_1_muscle">Conditie &amp; Ritme</string>
+    <string name="ex_y7_1_sets">4 x 45 sec</string>
+    <string name="ex_y7_1_cue">Onovertroffen voor coördinatie en hartconditie.</string>
+    <string name="ex_y7_1_breath">Adem in en uit door je neus.</string>
+    <string name="ex_y7_1_mistake">Onnodig hoog springen.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Maak lichte, ritmische sprongetjes op de ballen van je voeten.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Afwisselende Achterwaartse Lunge</string>
+    <string name="ex_y7_2_muscle">Beenuithoudingsvermogen</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">Knievriendelijkste lunge-variatie.</string>
+    <string name="ex_y7_2_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_y7_2_mistake">Voorste knie die naar binnen valt.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Stap achterwaarts met rechte romp en duw gecontroleerd omhoog.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Box Breathing Herstel</string>
+    <string name="ex_y7_3_muscle">Herstel &amp; Focus</string>
+    <string name="ex_y7_3_sets">3 rondes</string>
+    <string name="ex_y7_3_cue">Verlaagt snel je hartslag en verbetert focus.</string>
+    <string name="ex_y7_3_breath">Adem vanuit het middenrif.</string>
+    <string name="ex_y7_3_mistake">Je schouders optrekken bij het inademen.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>4 sec inademen, 4 sec vasthouden, 4 sec uitademen, 4 sec rust.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Dead Hang + Scapular Pull</string>
+    <string name="ex_yp1_1_muscle">Wervelkolom &amp; Rug</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 sec</string>
+    <string name="ex_yp1_1_cue">Bouwt tegelijk houding en pull-up kracht.</string>
+    <string name="ex_yp1_1_breath">Adem uit bij het trekken.</string>
+    <string name="ex_yp1_1_mistake">Met het lichaam schommelen.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>Trek hangend met gestrekte armen je schouderbladen omlaag en hang daarna los.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Depth Drop naar Squat Jump</string>
+    <string name="ex_yp1_2_muscle">Elite Sprongkracht</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Ontwikkelt reactieve explosiviteit.</string>
+    <string name="ex_yp1_2_breath">Adem uit bij de afzet.</string>
+    <string name="ex_yp1_2_mistake">Hard landen met gestrekte knieën.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Stap zacht van een lage verhoging en spring direct explosief omhoog.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Tempo Push-Up + Plank</string>
+    <string name="ex_yp1_3_muscle">Bovenlichaam &amp; Core</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 sec</string>
+    <string name="ex_yp1_3_cue">Bouwt veilig spierkracht in het bovenlichaam.</string>
+    <string name="ex_yp1_3_breath">Adem regelmatig.</string>
+    <string name="ex_yp1_3_mistake">De vorm laten inzakken door vermoeidheid.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Doe 10 strakke push-ups en houd direct daarna 30 sec een plank vast.</item>
+    </string-array>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Principiante</string>
+    <string name="diff_intermediate">Intermedio</string>
+    <string name="diff_advanced">Avanzato</string>
+    <string name="diff_pro">Pro / Avanzato</string>
+    <string name="story_1_badge">-11,5 kg in 4 mesi</string>
+    <string name="story_1_result" formatted="false">94 kg → 82,5 kg • Grasso 26% → 16%</string>
+    <string name="story_1_quote">Ho seguito il mio programma su misura e il calendario. I consigli quotidiani di FitChicken mi hanno dato la carica ogni giorno!</string>
+    <string name="story_2_badge">Modalità Crescita 0-18</string>
+    <string name="story_2_result">+4 cm Postura • +12 cm Salto verticale</string>
+    <string name="story_2_quote">Ho fatto le routine di salto e postura per il basket. La schiena è dritta e in campo sono molto più esplosivo.</string>
+    <string name="story_3_badge">90 giorni a casa</string>
+    <string name="story_3_result">Zero attrezzi • 4 giorni/sett.</string>
+    <string name="story_3_quote">Non avevo tempo per la palestra: gli allenamenti a casa e le animazioni sembrano un vero personal trainer!</string>
+    <string name="story_4_badge">Ipertrofia Pro</string>
+    <string name="story_4_result">+4,8 kg massa magra</string>
+    <string name="story_4_quote">Ho chiesto tutto su nutrizione e recuperi a FitChicken Coach. Scienza chiara e buon umore hanno raddoppiato i risultati.</string>
+    <string-array name="coach_tips">
+        <item>Smetti di chiocciare e solleva il ferro! Non mollare nelle ultime due ripetizioni: è lì che si cresce.</item>
+        <item>Ho costruito queste ali con un petto forte! Stringi le scapole indietro in ogni piegamento e panca.</item>
+        <item>Resta idratato, campione! Bere 2,5-3 litri d\'acqua al giorno aumenta la resa muscolare fino al 15%.</item>
+        <item>Persino io rispetto il petto di pollo: punta a 25-35 g di proteine di qualità a ogni pasto.</item>
+        <item>Niente sonno, niente muscoli! L\'ormone della crescita ha il picco nelle prime 4 ore di sonno profondo.</item>
+        <item>Solleva per sentire il muscolo, non per l\'ego. Una discesa controllata di 3 secondi fa miracoli.</item>
+        <item>Mai saltare il riscaldamento! 5 minuti di mobilità dinamica dimezzano il rischio di infortuni.</item>
+        <item>Chi salta il leg day cammina male! Squat e affondi danno potenza a tutto il corpo.</item>
+        <item>Non trattenere il respiro! Espira nello sforzo e inspira con calma in discesa.</item>
+        <item>Da 0 a 18 anni: proteggi colonna e postura — appenderti alla sbarra e postura dritta sono oro.</item>
+        <item>Tre allenamenti regolari a settimana battono sempre una singola sessione eroica al mese.</item>
+        <item>Gli addominali nascono in cucina e si scolpiscono in allenamento. Stringi i glutei nel plank!</item>
+        <item>Non stare 5 minuti sul telefono tra le serie. 60-90 secondi di recupero tengono alto il focus.</item>
+        <item>Spalle curve in avanti? Aumenta le trazioni e i rematori: bilancia ogni spinta con una tirata.</item>
+        <item>Non serve essere perfetti dal primo giorno; allacciare le scarpe oggi è già una vittoria.</item>
+        <item>Il peso cambia ogni giorno per i liquidi — controlla sempre la media su 7 giorni.</item>
+        <item>La caffeina 30 min prima aiuta la concentrazione, ma evitala dopo le 18 per dormire bene.</item>
+        <item>Una sessione mirata di 20 minuti a casa batte sempre un\'ora in palestra saltata.</item>
+        <item>Non bloccare di colpo gomiti o ginocchia — mantieni controllo fluido in cima a ogni rep.</item>
+        <item>Il cardio rinforza il cuore così recuperi più in fretta tra le serie pesanti.</item>
+        <item>Vuoi dimagrire? Conta i passi! 8.000-10.000 passi al giorno sono il tuo superpotere segreto.</item>
+        <item>Non esiste la scheda magica, solo quella che segui con costanza. Usa il calendario!</item>
+        <item>Tieni i gomiti incollati ai fianchi nei curl — smetti di oscillare con la schiena.</item>
+        <item>Negli esercizi per la schiena, immagina di tirare con i gomiti e non con le mani.</item>
+        <item>Ricarica entro 1-2 ore dopo l\'allenamento con proteine magre e carboidrati buoni.</item>
+        <item>Dedica solo 5 minuti allo stretching finale: domani ti ringrazierai.</item>
+        <item>Ragazzi: cercate tecnica pulita ed esplosività invece di massimali rischiosi.</item>
+        <item>La serie finisce quando perdi la forma. 10 rep pulite costruiscono più di 15 sporche.</item>
+        <item>Poca energia oggi? Scala il peso del 20% ma finisci lo stesso. La disciplina batte la motivazione.</item>
+        <item>Controlla la postura allo specchio: mento dritto, petto aperto, spalle rilassate indietro.</item>
+        <item>Nello stacco tieni il bilanciere vicino alle tibie — se curvi la schiena, alleggerisci subito.</item>
+        <item>Se cedi con i lombari nel plank, contrai di più addome e glutei o poggia le ginocchia.</item>
+        <item>Misura girovita ed energia oltre alla bilancia: il muscolo è più denso del grasso.</item>
+        <item>Sostituire bibite zuccherate con acqua fa risparmiare enormi calorie senza sforzo.</item>
+        <item>Sovraccarico progressivo: prova ad aggiungere 1 rep o 1 kg rispetto alla scorsa settimana.</item>
+        <item>Niente pesi a casa? Gioca sul tempo: 3 secondi giù, 1 di fermo, spinta esplosiva!</item>
+        <item>Cinque minuti di cat-cow e apertura petto al mattino eliminano la rigidità da scrivania.</item>
+        <item>Ogni allenamento spuntato nel calendario crea l\'abitudine vincente — proteggi la striscia!</item>
+        <item>L\'esercizio che eviti di solito è proprio il punto debole che ti frena. Affrontalo!</item>
+        <item>Sono FitChicken: se avessi mollato con le ali piccole, oggi non avrei queste braccia. Tocca a te!</item>
+    </string-array>
+</resources>

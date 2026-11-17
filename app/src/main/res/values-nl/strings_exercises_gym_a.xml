@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Barbell Bench Press</string>
+    <string name="ex_g1_1_muscle">Borst</string>
+    <string name="ex_g1_1_cue">Houd ellebogen op 45 graden en polsen recht boven je onderarmen.</string>
+    <string name="ex_g1_1_breath">Adem diep in bij het zakken, adem krachtig uit bij het duwen.</string>
+    <string name="ex_g1_1_mistake">De stang van je borst laten stuiteren of je heupen optillen.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Ga plat op de bank liggen met je voeten stevig op de grond.</item>
+        <item>Pak de stang iets breder dan schouderbreedte en knijp schouderbladen samen.</item>
+        <item>Laat de stang gecontroleerd zakken naar de midden-onderkant van je borst.</item>
+        <item>Duw de stang krachtig omhoog vanuit je borst.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Incline Dumbbell Press</string>
+    <string name="ex_g1_2_muscle">Bovenborst</string>
+    <string name="ex_g1_2_cue">Tik de dumbbells bovenin niet tegen elkaar; houd spanning.</string>
+    <string name="ex_g1_2_breath">In bij zakken, uit bij duwen.</string>
+    <string name="ex_g1_2_mistake">De bank steiler dan 45° zetten waardoor schouders overnemen.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Zet de bank op 30 graden helling.</item>
+        <item>Duw de dumbbells boven je schouders omhoog.</item>
+        <item>Laat gecontroleerd zakken richting je bovenborst.</item>
+        <item>Duw terug omhoog en knijp bovenin je bovenborst samen.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Dumbbell Shoulder Press</string>
+    <string name="ex_g1_3_muscle">Schouders</string>
+    <string name="ex_g1_3_cue">Hol je onderrug niet overdreven; houd je ribbenkast laag.</string>
+    <string name="ex_g1_3_breath">Uit bij opduwen, in bij zakken.</string>
+    <string name="ex_g1_3_mistake">Het gewicht te ver naar voren voor je gezicht duwen.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Zit rechtop met aangespannen core.</item>
+        <item>Houd dumbbells op oorhoogte, handpalmen naar voren.</item>
+        <item>Duw gecontroleerd recht boven je hoofd uit.</item>
+        <item>Laat rustig weer zakken tot oorhoogte.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Cable Triceps Rope Pushdown</string>
+    <string name="ex_g1_4_muscle">Triceps</string>
+    <string name="ex_g1_4_cue">Alleen het ellebooggewricht beweegt; schouders blijven stil.</string>
+    <string name="ex_g1_4_breath">Adem uit bij het omlaag duwen.</string>
+    <string name="ex_g1_4_mistake">Voorover leunen om met je lichaam te duwen.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Pak het touw op borsthoogte vast.</item>
+        <item>Zet je ellebogen strak tegen je ribben.</item>
+        <item>Strek onderarmen volledig naar beneden en trek de uiteinden uiteen.</item>
+        <item>Breng gecontroleerd terug met vaste ellebogen.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Lat Pulldown</string>
+    <string name="ex_g2_1_muscle">Lats / Rug</string>
+    <string name="ex_g2_1_cue">Trek vanuit je ellebogen in plaats van je handen.</string>
+    <string name="ex_g2_1_breath">Uit bij omlaag trekken, in bij loslaten.</string>
+    <string name="ex_g2_1_mistake">Met je bovenlijf naar achteren slingeren.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Pak breed vast en klem je knieën onder het kussen.</item>
+        <item>Til je borst licht op.</item>
+        <item>Trek je ellebogen omlaag en naar achter richting je bovenborst.</item>
+        <item>Laat je armen gecontroleerd omhoog komen.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Seated Cable Row</string>
+    <string name="ex_g2_2_muscle">Middenrug</string>
+    <string name="ex_g2_2_cue">Houd schouders laag en weg van je oren.</string>
+    <string name="ex_g2_2_breath">Adem uit bij het aantrekken.</string>
+    <string name="ex_g2_2_mistake">Met een bolle rug naar voren vallen.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Zet je voeten op het plateau met lichte kniebuiging.</item>
+        <item>Houd je rug recht en trek de greep naar je buik.</item>
+        <item>Knijp schouderbladen 1 seconde samen.</item>
+        <item>Strek gecontroleerd naar voren.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull</string>
+    <string name="ex_g2_3_muscle">Achterschouders &amp; Houding</string>
+    <string name="ex_g2_3_cue">De belangrijkste oefening voor een rechte schouderhouding.</string>
+    <string name="ex_g2_3_breath">Adem uit bij het trekken.</string>
+    <string name="ex_g2_3_mistake">Te zwaar laden en met je onderrug trekken.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Zet de kabel op ooghoogte.</item>
+        <item>Trek het touw naar je voorhoofd met wijd geopende ellebogen.</item>
+        <item>Draai vuisten bovenin naar achter en knijp achterschouders aan.</item>
+        <item>Breng rustig terug.</item>
+    </string-array>
+    <string name="ex_g2_4_name">EZ-Bar Biceps Curl</string>
+    <string name="ex_g2_4_muscle">Biceps</string>
+    <string name="ex_g2_4_cue">Houd je polsen neutraal en recht.</string>
+    <string name="ex_g2_4_breath">Uit bij omhoog curlen, in bij zakken.</string>
+    <string name="ex_g2_4_mistake">Met je onderrug zwaaien voor momentum.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>Pak de EZ-stang op schouderbreedte vast.</item>
+        <item>Houd ellebogen stil langs je zij.</item>
+        <item>Curl tot schouderhoogte en knijp 1 sec aan.</item>
+        <item>Laat in 3 seconden langzaam zakken.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Barbell Back Squat</string>
+    <string name="ex_g3_1_muscle">Benen &amp; Billen</string>
+    <string name="ex_g3_1_cue">Houd knieën in lijn met je tenen, niet naar binnen vallen.</string>
+    <string name="ex_g3_1_breath">In bij zakken, uit bij opstaan.</string>
+    <string name="ex_g3_1_mistake">Hielen optillen of onderrug bol maken.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Leg de stang op je trapezius, voeten op schouderbreedte.</item>
+        <item>Adem in en zet je core muurvast.</item>
+        <item>Zak met je heupen achteruit en omlaag tot parallel.</item>
+        <item>Duw krachtig vanuit je hielen omhoog.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Romanian Deadlift</string>
+    <string name="ex_g3_2_muscle">Hamstrings &amp; Billen</string>
+    <string name="ex_g3_2_cue">Het is een heupscharnier, geen rugbuiging.</string>
+    <string name="ex_g3_2_breath">In bij zakken, uit bij opkomen.</string>
+    <string name="ex_g3_2_mistake">De stang van je benen af houden en je rug bollen.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Houd de stang voor je heupen, knieën heel licht gebogen.</item>
+        <item>Met rechte rug duw je heupen naar achteren en laat stang langs benen zakken.</item>
+        <item>Zodra hamstrings rekken, duw je heupen krachtig naar voren.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Leg Press</string>
+    <string name="ex_g3_3_muscle">Quadriceps</string>
+    <string name="ex_g3_3_cue">Zak nooit zo diep dat je billen loskomen van het zitje.</string>
+    <string name="ex_g3_3_breath">Adem uit bij het uitduwen.</string>
+    <string name="ex_g3_3_mistake">Knieën bovenin hard overstrekken.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Druk je rug en billen plat tegen de zitting.</item>
+        <item>Zet je voeten op schouderbreedte op de plaat.</item>
+        <item>Laat je knieën gecontroleerd richting je borst zakken.</item>
+        <item>Duw uit zonder je knieën keihard op slot te zetten.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Standing Calf Raise</string>
+    <string name="ex_g3_4_muscle">Kuiten</string>
+    <string name="ex_g3_4_cue">Werk gecontroleerd zonder op te veren.</string>
+    <string name="ex_g3_4_breath">Adem uit bij het opkomen.</string>
+    <string name="ex_g3_4_mistake">Te snel veren op de achillespees.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Zet je voorvoeten op een verhoging.</item>
+        <item>Laat je hielen helemaal omlaag zakken.</item>
+        <item>Duw omhoog tot maximale hoogte en pauzeer 1 sec.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Goblet Squat</string>
+    <string name="ex_g4_1_muscle">Benen &amp; Core</string>
+    <string name="ex_g4_1_cue">Houd je borst vooruit en val niet naar voren.</string>
+    <string name="ex_g4_1_breath">In naar beneden, uit omhoog.</string>
+    <string name="ex_g4_1_mistake">Het gewicht te ver van je borst af houden.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Houd één dumbbell verticaal voor je borst.</item>
+        <item>Zak met rechte romp diep omlaag.</item>
+        <item>Zodra ellebogen binnenkant knieën raken, kom je omhoog.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Chest Press Machine</string>
+    <string name="ex_g4_2_muscle">Borst</string>
+    <string name="ex_g4_2_cue">Rol je schouders niet naar voren; houd je borst open.</string>
+    <string name="ex_g4_2_breath">Adem uit bij het wegduwen.</string>
+    <string name="ex_g4_2_mistake">De gewichten onderin hard laten klappen.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Stel het zitje zo in dat de grepen midden op borsthoogte zitten.</item>
+        <item>Leun met je rug tegen de leuning en duw vooruit.</item>
+        <item>Breng rustig terug.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Seated Row Machine</string>
+    <string name="ex_g4_3_muscle">Rug</string>
+    <string name="ex_g4_3_cue">Trek je schouders niet omhoog naar je nek.</string>
+    <string name="ex_g4_3_breath">Adem uit bij het trekken.</string>
+    <string name="ex_g4_3_mistake">Halve herhalingen maken.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Leun met je borst tegen het kussen en pak de grepen.</item>
+        <item>Trek ellebogen naar achteren en knijp je rug samen.</item>
+        <item>Strek gecontroleerd weer uit.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Plank</string>
+    <string name="ex_g4_4_muscle">Buik &amp; Core</string>
+    <string name="ex_g4_4_sets">3 x 40 sec</string>
+    <string name="ex_g4_4_cue">Blijf doorademen en houd de adem niet vast.</string>
+    <string name="ex_g4_4_breath">In door de neus, gelijkmatig uit door de mond.</string>
+    <string name="ex_g4_4_mistake">Je heupen te hoog duwen of je onderrug laten doorzakken.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Steun op je onderarmen.</item>
+        <item>Vorm één rechte lijn van hoofd tot hielen.</item>
+        <item>Span buik en billen strak aan tot de tijd om is.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Dumbbell Bench Press</string>
+    <string name="ex_g5_1_muscle">Borst</string>
+    <string name="ex_g5_1_cue">1 seconde pauze onderin vergroot je kracht.</string>
+    <string name="ex_g5_1_breath">Adem uit bij het opduwen.</string>
+    <string name="ex_g5_1_mistake">Ellebogen haaks op 90 graden naar buiten duwen.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Breng de dumbbells met je knieën naar borsthoogte.</item>
+        <item>Duw omhoog en laat gecontroleerd zakken.</item>
+    </string-array>
+    <string name="ex_g5_2_name">One-Arm Dumbbell Row</string>
+    <string name="ex_g5_2_muscle">Rug</string>
+    <string name="ex_g5_2_sets">4 x 10/arm</string>
+    <string name="ex_g5_2_cue">Trek vanuit je rug zonder je romp te draaien.</string>
+    <string name="ex_g5_2_breath">Adem uit bij het optrekken.</string>
+    <string name="ex_g5_2_mistake">De dumbbell recht omhoog naar je schouder trekken.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Zet één hand en knie op de bank met vlakke rug.</item>
+        <item>Trek de dumbbell richting je broekzak/heup.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Lateral Raise</string>
+    <string name="ex_g5_3_muscle">Zijschouders</string>
+    <string name="ex_g5_3_cue">Houd je pinkzijde heel licht omhoog.</string>
+    <string name="ex_g5_3_breath">Adem uit bij het heffen.</string>
+    <string name="ex_g5_3_mistake">Met je lichaam opwippen en zwaaien.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Houd dumbbells naast je lichaam met lichte buiging in ellebogen.</item>
+        <item>Breng armen zijwaarts tot schouderhoogte.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Hammer Curl</string>
+    <string name="ex_g5_4_muscle">Biceps &amp; Onderarmen</string>
+    <string name="ex_g5_4_cue">Beste greep voor dikkere armen en onderarmen.</string>
+    <string name="ex_g5_4_breath">Adem uit bij het omhoog brengen.</string>
+    <string name="ex_g5_4_mistake">Schouders naar voren trekken.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Houd dumbbells met handpalmen naar elkaar toe.</item>
+        <item>Houd ellebogen stil en curl om de beurt.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Arnold Press</string>
+    <string name="ex_g6_1_muscle">Hele Schouder</string>
+    <string name="ex_g6_1_cue">Activeert zowel voor- als zijschouders.</string>
+    <string name="ex_g6_1_breath">Adem uit bij het duwen.</string>
+    <string name="ex_g6_1_mistake">De onderrug te ver hol trekken.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Begin met handpalmen naar je gezicht voor je schouders.</item>
+        <item>Draai polsen naar buiten terwijl je omhoog duwt.</item>
+        <item>Keer rustig terug naar start.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Incline Dumbbell Curl</string>
+    <string name="ex_g6_2_muscle">Lange Kop Biceps</string>
+    <string name="ex_g6_2_cue">Houd ellebogen stil net achter je romp.</string>
+    <string name="ex_g6_2_breath">Adem uit bij het curlen.</string>
+    <string name="ex_g6_2_mistake">Ellebogen naar voren zwaaien.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Leun achterover op een 45° schuine bank.</item>
+        <item>Laat armen vrij hangen en curl puur vanuit de elleboog.</item>
+    </string-array>
+    <string name="ex_g6_3_name">Skull Crusher (EZ Bar)</string>
+    <string name="ex_g6_3_muscle">Triceps</string>
+    <string name="ex_g6_3_cue">Laat je ellebogen niet naar buiten uitwijken.</string>
+    <string name="ex_g6_3_breath">Adem uit bij het strekken.</string>
+    <string name="ex_g6_3_mistake">Te zwaar gewicht gebruiken ten koste van ellebogen.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Lig plat met EZ-stang verticaal boven je ogen.</item>
+        <item>Buig alleen je ellebogen achter je voorhoofd en strek weer.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Cable Lateral Raise</string>
+    <string name="ex_g6_4_muscle">Zijschouders</string>
+    <string name="ex_g6_4_cue">Houdt de spier zelfs onderin constant op spanning.</string>
+    <string name="ex_g6_4_breath">Adem uit bij het heffen.</string>
+    <string name="ex_g6_4_mistake">Met je romp opzij hellen.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Pak de kabel kruislings voor je lichaam vast.</item>
+        <item>Breng gecontroleerd zijwaarts tot schouderhoogte.</item>
+    </string-array>
+</resources>

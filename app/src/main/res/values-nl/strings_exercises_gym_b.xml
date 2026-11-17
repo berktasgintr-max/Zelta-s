@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g7_1_name">Conventionele deadlift</string>
+    <string name="ex_g7_1_muscle">Volledige achterste keten</string>
+    <string name="ex_g7_1_cue">Maak nooit een bolle rug; de stang moet recht omhoog bewegen.</string>
+    <string name="ex_g7_1_breath">Adem diep in en span je core aan voor je trekt, adem boven uit.</string>
+    <string name="ex_g7_1_mistake">Trekken vanuit de onderrug in plaats van wegduwen.</string>
+    <string-array name="ex_g7_1_steps">
+        <item>Voeten op heupbreedte, stang boven de middenvoet.</item>
+        <item>Duw heupen naar achteren, pak de stang, open de borst en zet je rug strak.</item>
+        <item>Duw door de voeten en houd de stang dicht langs de benen.</item>
+    </string-array>
+    <string name="ex_g7_2_name">Hip Thrust</string>
+    <string name="ex_g7_2_muscle">Bilspieren</string>
+    <string name="ex_g7_2_cue">Trek je kin licht richting de borst om holle rug te voorkomen.</string>
+    <string name="ex_g7_2_breath">Adem uit tijdens het uitduwen.</string>
+    <string name="ex_g7_2_mistake">Overstrekken vanuit de onderrug.</string>
+    <string-array name="ex_g7_2_steps">
+        <item>Laat schouderbladen rusten op de bank met de stang in de heupplooi.</item>
+        <item>Duw vanuit de hielen omhoog en knijp bovenin krachtig samen.</item>
+    </string-array>
+    <string name="ex_g7_3_name">Lying leg curl</string>
+    <string name="ex_g7_3_muscle">Hamstrings</string>
+    <string name="ex_g7_3_cue">Houd je heupen stevig op het kussen.</string>
+    <string name="ex_g7_3_breath">Adem uit bij het buigen.</string>
+    <string name="ex_g7_3_mistake">Het gewicht te snel laten vallen.</string>
+    <string-array name="ex_g7_3_steps">
+        <item>Ga op je buik liggen met de rol net boven de achillespees.</item>
+        <item>Trek je hielen naar je billen en laat beheerst zakken.</item>
+    </string-array>
+    <string name="ex_g7_4_name">Hanging knee raise</string>
+    <string name="ex_g7_4_muscle">Onderbuik &amp; Grip</string>
+    <string name="ex_g7_4_cue">Laat langzaam zakken tegen zwaaien.</string>
+    <string name="ex_g7_4_breath">Adem uit als je knieën heft.</string>
+    <string name="ex_g7_4_mistake">Zwaaien met de benen voor momentum.</string>
+    <string-array name="ex_g7_4_steps">
+        <item>Hang aan een optrekstang.</item>
+        <item>Trek je knieën beheerst naar je borst.</item>
+        <item>Laat zonder zwaaien zakken.</item>
+    </string-array>
+    <string name="ex_g8_1_name">Roeimachine sprint</string>
+    <string name="ex_g8_1_muscle">Full body cardio</string>
+    <string name="ex_g8_1_cue" formatted="false">Gebruik 60% benen, 20% core, 20% armen.</string>
+    <string name="ex_g8_1_breath">Adem uit bij elke haal.</string>
+    <string name="ex_g8_1_mistake">Alleen met armen trekken en benen te vroeg buigen.</string>
+    <string-array name="ex_g8_1_steps">
+        <item>Zet je voeten stevig vast.</item>
+        <item>Duw eerst met je benen, leun licht achterover en trek met de armen.</item>
+    </string-array>
+    <string name="ex_g8_2_name">Kettlebell swing</string>
+    <string name="ex_g8_2_muscle">Billen &amp; Conditie</string>
+    <string name="ex_g8_2_cue">Je armen zijn slechts touwen; alle kracht komt uit de heupen.</string>
+    <string name="ex_g8_2_breath">Adem uit bij de zwaai omhoog.</string>
+    <string name="ex_g8_2_mistake">Squatten en met de armen tillen.</string>
+    <string-array name="ex_g8_2_steps">
+        <item>Sta breder dan schouderbreedte.</item>
+        <item>Scharnier vanuit de heupen en breng de kettlebell tussen de benen.</item>
+        <item>Duw heupen explosief naar voren tot borsthoogte.</item>
+    </string-array>
+    <string name="ex_g8_3_name">Battle ropes</string>
+    <string name="ex_g8_3_muscle">Schouders &amp; Cardio</string>
+    <string name="ex_g8_3_sets">4 x 30 sec</string>
+    <string name="ex_g8_3_cue">Houd je core strak en blijf rechtop.</string>
+    <string name="ex_g8_3_breath">Adem ritmisch in en uit.</string>
+    <string name="ex_g8_3_mistake">Alleen vanuit de polsen bewegen.</string>
+    <string-array name="ex_g8_3_steps">
+        <item>Neem een atletische houding aan met licht gebogen knieën.</item>
+        <item>Maak snelle afwisselende golven met de touwen.</item>
+    </string-array>
+    <string name="ex_g8_4_name">Hellinglopen op loopband</string>
+    <string name="ex_g8_4_muscle">Vetverbrandingshartslag</string>
+    <string name="ex_g8_4_sets">12 min</string>
+    <string name="ex_g8_4_cue">Verbrandt veel calorieën met lage gewrichtsbelasting.</string>
+    <string name="ex_g8_4_breath">Adem diep in door je neus.</string>
+    <string name="ex_g8_4_mistake">Hangen aan de leuningen.</string>
+    <string-array name="ex_g8_4_steps">
+        <item>Loop stevig door op 10–12% helling bij 5,0–5,5 km/u.</item>
+        <item>Zwaai je armen vrij zonder de leuningen vast te houden.</item>
+    </string-array>
+    <string name="ex_g9_1_name">Paused barbell bench press</string>
+    <string name="ex_g9_1_muscle">Borst</string>
+    <string name="ex_g9_1_cue">Houd volle spanning vast tijdens de pauze.</string>
+    <string name="ex_g9_1_breath">Adem boven in, adem uit tijdens het duwen.</string>
+    <string name="ex_g9_1_mistake">De stang van je borst laten stuiteren.</string>
+    <string-array name="ex_g9_1_steps">
+        <item>Laat de stang beheerst naar de borst zakken.</item>
+        <item>Pauzeer 1 volledige seconde op de borst.</item>
+        <item>Duw explosief omhoog.</item>
+    </string-array>
+    <string name="ex_g9_2_name">Weighted chest dips</string>
+    <string name="ex_g9_2_muscle">Onderborst &amp; Triceps</string>
+    <string name="ex_g9_2_cue">Voorover leunen activeert de borstspieren extra.</string>
+    <string name="ex_g9_2_breath">Adem uit bij het opduwen.</string>
+    <string name="ex_g9_2_mistake">Schouders naar voren laten zakken.</string>
+    <string-array name="ex_g9_2_steps">
+        <item>Pak de stangen vast en leun licht naar voren.</item>
+        <item>Zak tot 90 graden in de ellebogen en duw krachtig op.</item>
+    </string-array>
+    <string name="ex_g9_3_name">Pec deck fly</string>
+    <string name="ex_g9_3_muscle">Binnenkant borst</string>
+    <string name="ex_g9_3_cue">Maak een wijde boog voor maximale stretch.</string>
+    <string name="ex_g9_3_breath">Adem uit bij het sluiten.</string>
+    <string name="ex_g9_3_mistake">Te zwaar laden en ellebogen te veel buigen.</string>
+    <string-array name="ex_g9_3_steps">
+        <item>Stel de zithoogte af met licht gebogen ellebogen.</item>
+        <item>Breng je armen samen en knijp 1 seconde.</item>
+    </string-array>
+    <string name="ex_g10_1_name">T-bar row</string>
+    <string name="ex_g10_1_muscle">Middenrug</string>
+    <string name="ex_g10_1_cue">Knijp je rugspieren elke herhaling samen.</string>
+    <string name="ex_g10_1_breath">Adem uit bij het trekken.</string>
+    <string name="ex_g10_1_mistake">Meebewegen met de onderrug.</string>
+    <string-array name="ex_g10_1_steps">
+        <item>Buig 45 graden voorover met rechte rug.</item>
+        <item>Trek het gewicht richting de onderkant van je borst.</item>
+    </string-array>
+    <string name="ex_g10_2_name">Close-grip pulldown</string>
+    <string name="ex_g10_2_muscle">Onderste lats</string>
+    <string name="ex_g10_2_cue">Rekt de onderste lats diep uit.</string>
+    <string name="ex_g10_2_breath">Adem uit tijdens het omlaag trekken.</string>
+    <string name="ex_g10_2_mistake">Schouders naar de oren optrekken.</string>
+    <string-array name="ex_g10_2_steps">
+        <item>Pak de smalle V-greep vast.</item>
+        <item>Houd ellebogen dicht langs je zij en trek naar de borst.</item>
+    </string-array>
+    <string name="ex_g10_3_name">Dumbbell shrugs</string>
+    <string name="ex_g10_3_muscle">Trapezius</string>
+    <string name="ex_g10_3_cue">Til recht omhoog zonder met de schouders te draaien.</string>
+    <string name="ex_g10_3_breath">Adem uit bij het ophalen.</string>
+    <string name="ex_g10_3_mistake">Je hoofd naar voren steken.</string>
+    <string-array name="ex_g10_3_steps">
+        <item>Houd dumbbells langs je zij.</item>
+        <item>Trek je schouders recht omhoog naar je oren en houd 1 seconde vast.</item>
+    </string-array>
+    <string name="ex_g11_1_name">Hack squat</string>
+    <string name="ex_g11_1_muscle">Quadriceps</string>
+    <string name="ex_g11_1_cue">Laat je knieën niet naar binnen vallen.</string>
+    <string name="ex_g11_1_breath">Adem uit bij het uitduwen.</string>
+    <string name="ex_g11_1_mistake">Halve herhalingen maken.</string>
+    <string-array name="ex_g11_1_steps">
+        <item>Druk je rug tegen het kussen en zet voeten iets naar voren.</item>
+        <item>Zak diep en duw via de hielen omhoog.</item>
+    </string-array>
+    <string name="ex_g11_2_name">Walking dumbbell lunges</string>
+    <string name="ex_g11_2_muscle">Benen &amp; Balans</string>
+    <string name="ex_g11_2_sets">3 x 20 stappen</string>
+    <string name="ex_g11_2_cue">Romp rechtop, knieën in 90 graden.</string>
+    <string name="ex_g11_2_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_g11_2_mistake">Stappen op één smalle lijn.</string>
+    <string-array name="ex_g11_2_steps">
+        <item>Zet een grote stap vooruit tot de achterste knie bijna de vloer raakt.</item>
+        <item>Duw vanuit de voorste hiel door naar de volgende stap.</item>
+    </string-array>
+    <string name="ex_g11_3_name">Leg extension</string>
+    <string name="ex_g11_3_muscle">Quadriceps isolatie</string>
+    <string name="ex_g11_3_cue">Laat langzaam zakken voor maximale spanning.</string>
+    <string name="ex_g11_3_breath">Adem uit bij het strekken.</string>
+    <string name="ex_g11_3_mistake">Het gewicht omhoog schoppen.</string>
+    <string-array name="ex_g11_3_steps">
+        <item>Plaats de rol net boven je enkels.</item>
+        <item>Strek de benen volledig en knijp 1 seconde bovenin.</item>
+    </string-array>
+    <string name="ex_g12_1_name">Cable rope crunch</string>
+    <string name="ex_g12_1_muscle">Boven- &amp; middenbuik</string>
+    <string name="ex_g12_1_cue">Buig vanuit je buikspieren, niet met je armen.</string>
+    <string name="ex_g12_1_breath">Adem uit bij de crunch.</string>
+    <string name="ex_g12_1_mistake">Je heupen naar achteren duwen.</string>
+    <string-array name="ex_g12_1_steps">
+        <item>Kniel voor de kabel en houd het touw naast je hoofd.</item>
+        <item>Houd heupen stil en rol je ribben naar je knieën.</item>
+    </string-array>
+    <string name="ex_g12_2_name">Decline sit-up</string>
+    <string name="ex_g12_2_muscle">Buikspieren</string>
+    <string name="ex_g12_2_cue">Houd je rug licht bol om buikspanning vast te houden.</string>
+    <string name="ex_g12_2_breath">Adem uit bij het omhoogkomen.</string>
+    <string name="ex_g12_2_mistake">Aan je nek trekken met je handen.</string>
+    <string-array name="ex_g12_2_steps">
+        <item>Zet je voeten vast op de decline bank.</item>
+        <item>Zak en kom beheerst omhoog.</item>
+    </string-array>
+    <string name="ex_g12_3_name">Pallof press</string>
+    <string name="ex_g12_3_muscle">Schuine buikspieren &amp; Anti-rotatie</string>
+    <string name="ex_g12_3_sets">3 x 12/kant</string>
+    <string name="ex_g12_3_cue">Bouwt rotsvaste rompstabiliteit op.</string>
+    <string name="ex_g12_3_breath">Adem uit bij het uitduwen.</string>
+    <string name="ex_g12_3_mistake">Je schouders mee laten draaien.</string>
+    <string-array name="ex_g12_3_steps">
+        <item>Ga zijwaarts naast het kabelstation staan met de greep voor de borst.</item>
+        <item>Duw armen recht naar voren en voorkom draaiing.</item>
+    </string-array>
+    <string name="ex_gp1_1_name">Incline smith machine press</string>
+    <string name="ex_gp1_1_muscle">Bovenborst</string>
+    <string name="ex_gp1_1_cue">Een van de veiligste technieken voor bovenborstgroei.</string>
+    <string name="ex_gp1_1_breath">Adem uit tijdens het duwen.</string>
+    <string name="ex_gp1_1_mistake">Ellebogen te ver naar achteren laten gaan.</string>
+    <string-array name="ex_gp1_1_steps">
+        <item>Op een 30° bank, lijn de stang uit boven je bovenborst.</item>
+        <item>Laat 3 sec zakken, 1 sec pauze, duw explosief op.</item>
+    </string-array>
+    <string name="ex_gp1_2_name">Weighted dips + cable fly superset</string>
+    <string name="ex_gp1_2_muscle">Borst</string>
+    <string name="ex_gp1_2_cue">Supersets verdubbelen de doorbloeding.</string>
+    <string name="ex_gp1_2_breath">Adem ritmisch.</string>
+    <string name="ex_gp1_2_mistake">Te lang rusten voor de tweede oefening.</string>
+    <string-array name="ex_gp1_2_steps">
+        <item>Doe direct na je dips de cable flyes.</item>
+        <item>Rek en knijp de borstvezels volledig samen.</item>
+    </string-array>
+    <string name="ex_gp1_3_name">Dumbbell lateral raise drop set</string>
+    <string name="ex_gp1_3_muscle">Schouders</string>
+    <string name="ex_gp1_3_cue">Prikkelt de zijdeltoïde maximaal.</string>
+    <string name="ex_gp1_3_breath">Adem uit bij het heffen.</string>
+    <string name="ex_gp1_3_mistake">Te veel vanuit de nek/traps tillen.</string>
+    <string-array name="ex_gp1_3_steps">
+        <item>Doe 12 herhalingen, verlaag het gewicht voor 10, en nogmaals voor 10.</item>
+    </string-array>
+    <string name="ex_gp2_1_name">Weighted pull-ups</string>
+    <string name="ex_gp2_1_muscle">Brede lats</string>
+    <string name="ex_gp2_1_cue">Trek eerst je schouderbladen omlaag.</string>
+    <string name="ex_gp2_1_breath">Adem uit bij het optrekken.</string>
+    <string name="ex_gp2_1_mistake">Met je benen schoppen.</string>
+    <string-array name="ex_gp2_1_steps">
+        <item>Hang met brede greep aan de stang.</item>
+        <item>Trek je borst naar de stang tot je kin erboven komt.</item>
+    </string-array>
+    <string name="ex_gp2_2_name">Chest-supported row</string>
+    <string name="ex_gp2_2_muscle">Middenrug</string>
+    <string name="ex_gp2_2_cue">Isoleert pure rugdikte.</string>
+    <string name="ex_gp2_2_breath">Adem uit bij het trekken.</string>
+    <string name="ex_gp2_2_mistake">Je borst van de bank tillen.</string>
+    <string-array name="ex_gp2_2_steps">
+        <item>Steun met je borst op een schuin bankje.</item>
+        <item>Roei strak zonder de onderrug te belasten.</item>
+    </string-array>
+    <string name="ex_gp2_3_name">Preacher curl + rope hammer</string>
+    <string name="ex_gp2_3_muscle">Biceps piek</string>
+    <string name="ex_gp2_3_cue">Bouwt armen op onder continue spanning.</string>
+    <string name="ex_gp2_3_breath">Adem uit bij het omhoog halen.</string>
+    <string name="ex_gp2_3_mistake">Ellebogen onderin op slot gooien.</string>
+    <string-array name="ex_gp2_3_steps">
+        <item>Doe 10 herhalingen op de Scott-bank en ga direct door met rope hammer curls.</item>
+    </string-array>
+    <string name="ex_gp3_1_name">Front squat</string>
+    <string name="ex_gp3_1_muscle">Quadriceps &amp; Core</string>
+    <string name="ex_gp3_1_cue">Als je ellebogen zakken, kantelt je romp voorover.</string>
+    <string name="ex_gp3_1_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_gp3_1_mistake">Polsen overbelasten.</string>
+    <string-array name="ex_gp3_1_steps">
+        <item>Laat de stang rusten op je voorschouders met hoge ellebogen.</item>
+        <item>Zak diep met rechte romp en duw explosief op.</item>
+    </string-array>
+    <string name="ex_gp3_2_name">Bulgarian split squat</string>
+    <string name="ex_gp3_2_muscle">Billen &amp; Balans</string>
+    <string name="ex_gp3_2_sets">3 x 10/been</string>
+    <string name="ex_gp3_2_cue">Verhelpt krachtsverschillen tussen benen.</string>
+    <string name="ex_gp3_2_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_gp3_2_mistake">Te ver voorover buigen.</string>
+    <string-array name="ex_gp3_2_steps">
+        <item>Leg je achterste voet met de wreef op een bank.</item>
+        <item>Zak beheerst en duw op vanuit je voorste been.</item>
+    </string-array>
+    <string name="ex_gp3_3_name">Box jump</string>
+    <string name="ex_gp3_3_muscle">Explosieve kracht</string>
+    <string name="ex_gp3_3_cue">Land stil en zacht.</string>
+    <string name="ex_gp3_3_breath">Adem uit bij de sprong.</string>
+    <string name="ex_gp3_3_mistake">Achteruit van de box springen (stap af).</string>
+    <string-array name="ex_gp3_3_steps">
+        <item>Sta atletisch voor de plyo-box.</item>
+        <item>Zwaai je armen en land zacht bovenop de box.</item>
+    </string-array>
+    <string name="ex_gp4_1_name">Barbell squat</string>
+    <string name="ex_gp4_1_muscle">Onderlichaam</string>
+    <string name="ex_gp4_1_cue">Houd je buikdruk constant strak.</string>
+    <string name="ex_gp4_1_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_gp4_1_mistake">Knieën naar binnen drukken.</string>
+    <string-array name="ex_gp4_1_steps">
+        <item>Activeer de grote spiergroepen met een diepe beheerste squat.</item>
+    </string-array>
+    <string name="ex_gp4_2_name">Incline barbell press</string>
+    <string name="ex_gp4_2_muscle">Bovenborst</string>
+    <string name="ex_gp4_2_cue">Zet je schouderbladen vast tegen het bankje.</string>
+    <string name="ex_gp4_2_breath">Adem uit bij het duwen.</string>
+    <string name="ex_gp4_2_mistake">De stang naar je nek laten zakken.</string>
+    <string-array name="ex_gp4_2_steps">
+        <item>Laat de stang zakken tot net onder je sleutelbeen en duw krachtig op.</item>
+    </string-array>
+    <string name="ex_gp4_3_name">Pendlay row</string>
+    <string name="ex_gp4_3_muscle">Explosieve rug</string>
+    <string name="ex_gp4_3_cue">Geeft rugdikte en explosieve kracht.</string>
+    <string name="ex_gp4_3_breath">Adem uit bij de trek.</string>
+    <string name="ex_gp4_3_mistake">Oprichten vanuit de rug.</string>
+    <string-array name="ex_gp4_3_steps">
+        <item>Romp parallel aan de vloer, trek elke herhaling explosief vanaf de grond.</item>
+    </string-array>
+    <string name="ex_gp4_4_name">Farmer\'s walk</string>
+    <string name="ex_gp4_4_muscle">Grip &amp; Core</string>
+    <string name="ex_gp4_4_cue">Test de stabiliteit van heel je lichaam.</string>
+    <string name="ex_gp4_4_breath">Adem gelijkmatig door.</string>
+    <string name="ex_gp4_4_mistake">Zijwaarts wiebelen.</string>
+    <string-array name="ex_gp4_4_steps">
+        <item>Houd zware dumbbells vast, schouders naar achteren en loop stevig door.</item>
+    </string-array>
+</resources>

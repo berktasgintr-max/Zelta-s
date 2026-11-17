@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_y1_1_name">Colgado Pasivo en Barra</string>
+    <string name="ex_y1_1_muscle">Descompresión Espinal</string>
+    <string name="ex_y1_1_sets">3 x 30 s</string>
+    <string name="ex_y1_1_cue">La forma más natural de aliviar los discos espinales durante el crecimiento.</string>
+    <string name="ex_y1_1_breath">Respira hondo por la nariz.</string>
+    <string name="ex_y1_1_mistake">Aguantar la respiración y tensar los hombros.</string>
+    <string-array name="ex_y1_1_steps">
+        <item>Sujeta la barra con brazos estirados y despega los pies del suelo.</item>
+        <item>Relaja hombros y zona lumbar para que la gravedad descomprima tu columna.</item>
+    </string-array>
+    <string name="ex_y1_2_name">Estiramiento Cobra</string>
+    <string name="ex_y1_2_muscle">Columna y Pecho</string>
+    <string name="ex_y1_2_sets">3 x 30 s</string>
+    <string name="ex_y1_2_cue">Revierte la postura encorvada.</string>
+    <string name="ex_y1_2_breath">Respira profundo arriba.</string>
+    <string name="ex_y1_2_mistake">Forzar la zona lumbar hasta sentir molestia.</string>
+    <string-array name="ex_y1_2_steps">
+        <item>Acuéstate boca abajo con las manos bajo los hombros.</item>
+        <item>Mantén la cadera en el suelo mientras elevas el pecho mirando al frente.</item>
+    </string-array>
+    <string name="ex_y1_3_name">Estiramiento Arriba e Inclinación</string>
+    <string name="ex_y1_3_muscle">Cadena Lateral y Postura</string>
+    <string name="ex_y1_3_sets">3 x 10/lado</string>
+    <string name="ex_y1_3_cue">Crea el hábito de caminar erguido.</string>
+    <string name="ex_y1_3_breath">Inhala al estirarte arriba.</string>
+    <string name="ex_y1_3_mistake">Arquear la espalda baja hacia atrás.</string>
+    <string-array name="ex_y1_3_steps">
+        <item>Entrelaza los dedos y estírate al máximo hacia el techo.</item>
+        <item>Sube de puntillas 5 segundos e inclínate suave hacia cada lado.</item>
+    </string-array>
+    <string name="ex_y2_1_name">Saltos Pogo (Rebote de Tobillo)</string>
+    <string name="ex_y2_1_muscle">Tendones y Salto</string>
+    <string name="ex_y2_1_sets">4 x 20</string>
+    <string name="ex_y2_1_cue">Convierte tu tendón de Aquiles en un resorte potente.</string>
+    <string name="ex_y2_1_breath">Respira con ritmo constante.</string>
+    <string name="ex_y2_1_mistake">Golpear fuerte el suelo con los talones.</string>
+    <string-array name="ex_y2_1_steps">
+        <item>Flexiona mínimo las rodillas y rebota rápido con la punta del pie.</item>
+        <item>Despega al instante en cada contacto como un resorte.</item>
+    </string-array>
+    <string name="ex_y2_2_name">Salto con Rodillas al Pecho</string>
+    <string name="ex_y2_2_muscle">Potencia Explosiva</string>
+    <string name="ex_y2_2_sets">3 x 8</string>
+    <string name="ex_y2_2_cue">Incrementa de forma directa tu salto vertical.</string>
+    <string name="ex_y2_2_breath">Exhala fuerte al saltar.</string>
+    <string name="ex_y2_2_mistake">Aterrizar con rodillas rígidas.</string>
+    <string-array name="ex_y2_2_steps">
+        <item>Salta al máximo llevando ambas rodillas hacia el pecho en el aire.</item>
+        <item>Aterriza suave flexionando rodillas para absorber el impacto.</item>
+    </string-array>
+    <string name="ex_y2_3_name">Elevación de Talón a Una Pierna</string>
+    <string name="ex_y2_3_muscle">Fuerza de Gemelos</string>
+    <string name="ex_y2_3_sets">3 x 15/pierna</string>
+    <string name="ex_y2_3_cue">Potencia el empuje final de cada salto.</string>
+    <string name="ex_y2_3_breath">Exhala al subir.</string>
+    <string name="ex_y2_3_mistake">Rebotar rápido sin control.</string>
+    <string-array name="ex_y2_3_steps">
+        <item>Apoya un pie en el borde de un escalón bajando todo el talón.</item>
+        <item>Impúlsate hasta el punto más alto sobre la punta del pie.</item>
+    </string-array>
+    <string name="ex_y3_1_name">Sentadilla con Tempo Corporal</string>
+    <string name="ex_y3_1_muscle">Piernas y Técnica</string>
+    <string name="ex_y3_1_sets">3 x 15</string>
+    <string name="ex_y3_1_cue">Enseña técnica perfecta sin cargar la columna.</string>
+    <string name="ex_y3_1_breath">Exhala al subir.</string>
+    <string name="ex_y3_1_mistake">Meter las rodillas hacia adentro.</string>
+    <string-array name="ex_y3_1_steps">
+        <item>Baja lento durante 3 segundos con el pecho erguido.</item>
+        <item>Haz 1 segundo de pausa abajo y sube firme.</item>
+    </string-array>
+    <string name="ex_y3_2_name">Flexiones Inclinadas</string>
+    <string name="ex_y3_2_muscle">Pecho y Hombros</string>
+    <string name="ex_y3_2_sets">3 x 12</string>
+    <string name="ex_y3_2_cue">Asienta una técnica limpia con seguridad.</string>
+    <string name="ex_y3_2_breath">Exhala al empujar.</string>
+    <string name="ex_y3_2_mistake">Dejar caer la cadera.</string>
+    <string-array name="ex_y3_2_steps">
+        <item>Apoya las manos en un banco o mesa firme.</item>
+        <item>Con el cuerpo recto, baja el pecho hacia el borde y empuja.</item>
+    </string-array>
+    <string name="ex_y3_3_name">Remo Invertido Australiano</string>
+    <string name="ex_y3_3_muscle">Espalda y Brazos</string>
+    <string name="ex_y3_3_sets">3 x 10</string>
+    <string name="ex_y3_3_cue">La progresión más segura hacia dominadas completas.</string>
+    <string name="ex_y3_3_breath">Exhala al tirar.</string>
+    <string name="ex_y3_3_mistake">Adelantar el cuello hacia la barra.</string>
+    <string-array name="ex_y3_3_steps">
+        <item>Colócate bajo una barra baja manteniendo el cuerpo recto.</item>
+        <item>Tira llevando el pecho hacia la barra y baja controlado.</item>
+    </string-array>
+    <string name="ex_y4_1_name">Retracción Cervical (Chin Tuck)</string>
+    <string name="ex_y4_1_muscle">Cuello y Postura</string>
+    <string name="ex_y4_1_sets">3 x 12</string>
+    <string name="ex_y4_1_cue">Corrige el cuello adelantado por pantallas.</string>
+    <string name="ex_y4_1_breath">Respira con normalidad.</string>
+    <string name="ex_y4_1_mistake">Bajar la barbilla al pecho.</string>
+    <string-array name="ex_y4_1_steps">
+        <item>Siéntate erguido o apóyate en una pared.</item>
+        <item>Sin inclinar la cabeza, desliza la barbilla atrás 3 segundos.</item>
+    </string-array>
+    <string name="ex_y4_2_name">Estiramiento Pectoral en Puerta</string>
+    <string name="ex_y4_2_muscle">Apertura Pectoral</string>
+    <string name="ex_y4_2_sets">3 x 30 s</string>
+    <string name="ex_y4_2_cue">Abre los hombros redondeados hacia atrás.</string>
+    <string name="ex_y4_2_breath">Respira profundo.</string>
+    <string name="ex_y4_2_mistake">Arquear demasiado la espalda baja.</string>
+    <string-array name="ex_y4_2_steps">
+        <item>Apoya los antebrazos a 90° en el marco de una puerta.</item>
+        <item>Da un paso suave adelante para abrir el pecho.</item>
+    </string-array>
+    <string name="ex_y4_3_name">Flexión Escapular</string>
+    <string name="ex_y4_3_muscle">Control Escapular</string>
+    <string name="ex_y4_3_sets">3 x 12</string>
+    <string name="ex_y4_3_cue">Fortalece hombros y postura erguida.</string>
+    <string name="ex_y4_3_breath">Exhala al empujar.</string>
+    <string name="ex_y4_3_mistake">Doblar los codos.</string>
+    <string-array name="ex_y4_3_steps">
+        <item>En plancha con brazos estirados, junta y separa solo los omóplatos.</item>
+    </string-array>
+    <string name="ex_y5_1_name">Desplazamiento Lateral Rápido</string>
+    <string name="ex_y5_1_muscle">Agilidad Lateral</string>
+    <string name="ex_y5_1_sets">4 x 20 s</string>
+    <string name="ex_y5_1_cue">Mantén bajo el centro de gravedad.</string>
+    <string name="ex_y5_1_breath">Respira con ritmo.</string>
+    <string name="ex_y5_1_mistake">Cruzar un pie por delante del otro.</string>
+    <string-array name="ex_y5_1_steps">
+        <item>En media sentadilla atlética, desplázate rápido 3 pasos a cada lado.</item>
+    </string-array>
+    <string name="ex_y5_2_name">Equilibrio y Alcance Unipodal</string>
+    <string name="ex_y5_2_muscle">Tobillo y Equilibrio</string>
+    <string name="ex_y5_2_sets">3 x 8/pierna</string>
+    <string name="ex_y5_2_cue">Ayuda a prevenir esguinces de tobillo.</string>
+    <string name="ex_y5_2_breath">Concéntrate y respira despacio.</string>
+    <string name="ex_y5_2_mistake">Meter la rodilla de apoyo hacia adentro.</string>
+    <string-array name="ex_y5_2_steps">
+        <item>Equilibra sobre una pierna y alcanza adelante, al lado y atrás con la otra sin apoyarla.</item>
+    </string-array>
+    <string name="ex_y5_3_name">Paso del Oso (Bear Crawl)</string>
+    <string name="ex_y5_3_muscle">Coordinación Total</string>
+    <string name="ex_y5_3_sets">3 x 20 s</string>
+    <string name="ex_y5_3_cue">Mantén la espalda plana como una mesa.</string>
+    <string name="ex_y5_3_breath">Exhala con ritmo.</string>
+    <string name="ex_y5_3_mistake">Elevar demasiado la cadera.</string>
+    <string-array name="ex_y5_3_steps">
+        <item>A cuatro apoyos con rodillas a 3 cm del suelo, avanza mano y pie contrarios.</item>
+    </string-array>
+    <string name="ex_y6_1_name">Bicho Muerto (Dead Bug)</string>
+    <string name="ex_y6_1_muscle">Core Profundo</string>
+    <string name="ex_y6_1_sets">3 x 12</string>
+    <string name="ex_y6_1_cue">Fortalece el core sin sobrecargar la espalda.</string>
+    <string name="ex_y6_1_breath">Exhala al extender.</string>
+    <string name="ex_y6_1_mistake">Despegar la espalda baja del suelo.</string>
+    <string-array name="ex_y6_1_steps">
+        <item>Boca arriba, brazos al techo y rodillas a 90°.</item>
+        <item>Pega la zona lumbar al suelo y baja brazo y pierna contrarios.</item>
+    </string-array>
+    <string name="ex_y6_2_name">Plancha sobre Antebrazos</string>
+    <string name="ex_y6_2_muscle">Resistencia de Core</string>
+    <string name="ex_y6_2_sets">3 x 35 s</string>
+    <string name="ex_y6_2_cue">La postura limpia vale más que el tiempo.</string>
+    <string name="ex_y6_2_breath">Mantén respiración continua.</string>
+    <string name="ex_y6_2_mistake">Dejar caer la cadera.</string>
+    <string-array name="ex_y6_2_steps">
+        <item>Codos bajo los hombros, mantén una línea recta de cabeza a talones.</item>
+    </string-array>
+    <string name="ex_y6_3_name">Puente de Glúteo con Marcha</string>
+    <string name="ex_y6_3_muscle">Glúteos y Estabilidad</string>
+    <string name="ex_y6_3_sets">3 x 16</string>
+    <string name="ex_y6_3_cue">Mantén la cadera nivelada sin inclinarse.</string>
+    <string name="ex_y6_3_breath">Exhala al subir la rodilla.</string>
+    <string name="ex_y6_3_mistake">Dejar caer la cadera de lado.</string>
+    <string-array name="ex_y6_3_steps">
+        <item>Mantén arriba el puente de glúteos y eleva las rodillas alternando.</item>
+    </string-array>
+    <string name="ex_y7_1_name">Salto de Cuerda (o Sin Cuerda)</string>
+    <string name="ex_y7_1_muscle">Resistencia y Ritmo</string>
+    <string name="ex_y7_1_sets">4 x 45 s</string>
+    <string name="ex_y7_1_cue">Insuperable para coordinación y corazón.</string>
+    <string name="ex_y7_1_breath">Inhala y exhala por la nariz.</string>
+    <string name="ex_y7_1_mistake">Saltar demasiado alto.</string>
+    <string-array name="ex_y7_1_steps">
+        <item>Realiza saltos ligeros y rítmicos sobre la punta de los pies.</item>
+    </string-array>
+    <string name="ex_y7_2_name">Zancada Atrás Alterna</string>
+    <string name="ex_y7_2_muscle">Resistencia de Piernas</string>
+    <string name="ex_y7_2_sets">3 x 16</string>
+    <string name="ex_y7_2_cue">La variante más amigable para las rodillas.</string>
+    <string name="ex_y7_2_breath">Exhala al subir.</string>
+    <string name="ex_y7_2_mistake">Rodilla delantera cayendo adentro.</string>
+    <string-array name="ex_y7_2_steps">
+        <item>Da un paso atrás con el torso erguido y sube firme.</item>
+    </string-array>
+    <string name="ex_y7_3_name">Respiración Cuadrada</string>
+    <string name="ex_y7_3_muscle">Recuperación</string>
+    <string name="ex_y7_3_sets">3 rondas</string>
+    <string name="ex_y7_3_cue">Baja rápido el pulso y mejora el enfoque.</string>
+    <string name="ex_y7_3_breath">Respira con el diafragma.</string>
+    <string name="ex_y7_3_mistake">Subir los hombros al inhalar.</string>
+    <string-array name="ex_y7_3_steps">
+        <item>Inhala 4 s, mantén 4 s, exhala 4 s, espera 4 s.</item>
+    </string-array>
+    <string name="ex_yp1_1_name">Colgado + Tirón Escapular</string>
+    <string name="ex_yp1_1_muscle">Columna y Espalda</string>
+    <string name="ex_yp1_1_sets">3 x 8 + 20 s</string>
+    <string name="ex_yp1_1_cue">Mejora postura y fuerza para dominadas.</string>
+    <string name="ex_yp1_1_breath">Exhala al tirar.</string>
+    <string name="ex_yp1_1_mistake">Balancear el cuerpo.</string>
+    <string-array name="ex_yp1_1_steps">
+        <item>Colgado sin doblar codos, baja los omóplatos activando dorsales y luego relaja.</item>
+    </string-array>
+    <string name="ex_yp1_2_name">Caída + Salto Sentadilla</string>
+    <string name="ex_yp1_2_muscle">Salto Élite</string>
+    <string name="ex_yp1_2_sets">3 x 6</string>
+    <string name="ex_yp1_2_cue">Desarrolla potencia reactiva.</string>
+    <string name="ex_yp1_2_breath">Exhala al saltar.</string>
+    <string name="ex_yp1_2_mistake">Aterrizar duro con rodillas rígidas.</string>
+    <string-array name="ex_yp1_2_steps">
+        <item>Baja suave de un escalón bajo y explota al instante hacia arriba.</item>
+    </string-array>
+    <string name="ex_yp1_3_name">Flexiones Tempo + Plancha</string>
+    <string name="ex_yp1_3_muscle">Tren Superior y Core</string>
+    <string name="ex_yp1_3_sets">3 x 10 + 30 s</string>
+    <string name="ex_yp1_3_cue">Construye fuerza superior segura en crecimiento.</string>
+    <string name="ex_yp1_3_breath">Respira de forma continua.</string>
+    <string name="ex_yp1_3_mistake">Perder la alineación al cansarse.</string>
+    <string-array name="ex_yp1_3_steps">
+        <item>Haz 10 flexiones controladas y mantén la plancha 30 s enseguida.</item>
+    </string-array>
+</resources>

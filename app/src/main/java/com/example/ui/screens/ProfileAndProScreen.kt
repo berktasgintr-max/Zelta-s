@@ -1,8 +1,8 @@
 package com.example.ui.screens
 
 import android.content.Intent
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -13,6 +13,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -27,16 +28,19 @@ import androidx.compose.material.icons.rounded.CheckCircle
 import androidx.compose.material.icons.rounded.CloudDone
 import androidx.compose.material.icons.rounded.CloudUpload
 import androidx.compose.material.icons.rounded.ContentCopy
+import androidx.compose.material.icons.rounded.EmojiEvents
 import androidx.compose.material.icons.rounded.Female
 import androidx.compose.material.icons.rounded.Language
+import androidx.compose.material.icons.rounded.LocalFireDepartment
+import androidx.compose.material.icons.rounded.Lock
 import androidx.compose.material.icons.rounded.Male
 import androidx.compose.material.icons.rounded.Palette
 import androidx.compose.material.icons.rounded.Refresh
+import androidx.compose.material.icons.rounded.Restaurant
 import androidx.compose.material.icons.rounded.Share
 import androidx.compose.material.icons.rounded.Star
 import androidx.compose.material.icons.rounded.Verified
 import androidx.compose.material3.Button
-import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Icon
@@ -44,8 +48,11 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.LinearProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
-import androidx.compose.material3.OutlinedTextField
+import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
+import com.example.ui.components.AnimatedKocTavuk
+import com.example.ui.components.CleanTextField
+import com.example.ui.components.CoachAnimationMood
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
@@ -54,23 +61,24 @@ import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.alpha
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalClipboardManager
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.text.AnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.credentials.CredentialManager
+import com.example.R
+import com.example.data.model.ChickenBadges
 import com.example.firebase.GoogleSignInButton
 import com.example.firebase.signOut
-import com.example.ui.components.FemaleTopPink
-import com.example.ui.components.MaleShirtBlue
-import com.example.ui.i18n.LocalAppStrings
+import com.example.ui.i18n.AppLanguage
+import com.example.ui.i18n.LocalLocalizedContext
+import com.example.ui.i18n.strRes
 import com.example.ui.theme.AppThemeOption
-import com.example.ui.theme.LocalExtendedColors
-import com.example.ui.theme.WarmGold
 import com.example.ui.viewmodel.MainUiState
 
 @Composable
@@ -86,101 +94,265 @@ fun ProfileAndProScreen(
     onRestartQuiz: () -> Unit,
     onMessage: (String) -> Unit
 ) {
-    val strings = LocalAppStrings.current
-    val isEn = strings.langCode == "en"
-    val ext = LocalExtendedColors.current
+    val localizedCtx = LocalLocalizedContext.current
     val profile = uiState.profile
     val context = LocalContext.current
     val clipboard = LocalClipboardManager.current
     val scope = rememberCoroutineScope()
     val credentialManager = remember { CredentialManager.create(context) }
     var friendCodeInput by remember { mutableStateOf("") }
+    val currentLanguage = AppLanguage.fromCode(profile.appLanguage)
+
+    val flatElevation = CardDefaults.cardElevation(defaultElevation = 0.dp)
+    val surfaceCardColors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surface)
+    val primaryBorder = BorderStroke(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.28f))
 
     LazyColumn(
-        contentPadding = PaddingValues(16.dp),
+        contentPadding = PaddingValues(start = 16.dp, top = 16.dp, end = 16.dp, bottom = 96.dp),
         verticalArrangement = Arrangement.spacedBy(16.dp),
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .fillMaxSize()
+            .imePadding()
+            .background(MaterialTheme.colorScheme.background)
     ) {
-        // 0A. Language Selector (Türkçe / English)
-        item {
+        // Mascot Rank, XP Progress & Badges Showcase
+        item(key = "profile_badges", contentType = "badges_card") {
+            val badges = remember(profile, uiState.calorieLogs.size) {
+                ChickenBadges.evaluate(profile, uiState.calorieLogs.size)
+            }
+            val unlockedCount = badges.count { it.unlocked }
+            var badgesExpanded by remember { mutableStateOf(false) }
+
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
+                border = primaryBorder,
+                elevation = flatElevation,
                 modifier = Modifier
                     .fillMaxWidth()
-                    .border(1.dp, MaterialTheme.colorScheme.outline, MaterialTheme.shapes.large)
+                    .testTag("profile_badges_card")
             ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                    Row(verticalAlignment = Alignment.CenterVertically) {
-                        Icon(Icons.Rounded.Language, contentDescription = null, tint = ext.tealText)
-                        Spacer(modifier = Modifier.width(8.dp))
-                        Column {
-                            Text(strings.settingsLanguageTitle, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                            Text(strings.settingsLanguageSub, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(14.dp)) {
+                    Row(
+                        verticalAlignment = Alignment.CenterVertically,
+                        horizontalArrangement = Arrangement.spacedBy(12.dp),
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        AnimatedKocTavuk(
+                            size = 72.dp,
+                            mood = CoachAnimationMood.CHEERING,
+                            showAura = false,
+                            contentDescription = strRes(profile.chickenRankTitleRes())
+                        )
+                        Column(verticalArrangement = Arrangement.spacedBy(4.dp), modifier = Modifier.weight(1f)) {
+                            Text(
+                                text = "${strRes(R.string.level_prefix)}${profile.chickenLevel} • ${strRes(profile.chickenRankTitleRes())}",
+                                style = MaterialTheme.typography.titleMedium,
+                                fontWeight = FontWeight.ExtraBold,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                            Text(
+                                text = strRes(R.string.badges_section_title),
+                                style = MaterialTheme.typography.titleSmall,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Text(
+                                text = strRes(R.string.badges_progress_fmt, unlockedCount, badges.size),
+                                style = MaterialTheme.typography.bodySmall,
+                                color = MaterialTheme.colorScheme.onSurfaceVariant
+                            )
                         }
                     }
-                    Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
-                        val trSelected = profile.appLanguage != "en"
-                        val enSelected = profile.appLanguage == "en"
-                        SettingPillChoice(
-                            label = "Türkçe",
-                            selected = trSelected,
-                            accent = MaterialTheme.colorScheme.primary,
-                            onClick = { onSelectLanguage("tr") },
+
+                    Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Row(horizontalArrangement = Arrangement.SpaceBetween, modifier = Modifier.fillMaxWidth()) {
+                            Text(
+                                text = "${profile.totalXp} XP",
+                                style = MaterialTheme.typography.labelLarge,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.onSurface
+                            )
+                            Text(
+                                text = "${profile.xpInCurrentLevel} / 100 XP",
+                                style = MaterialTheme.typography.labelMedium,
+                                fontWeight = FontWeight.Bold,
+                                color = MaterialTheme.colorScheme.primary
+                            )
+                        }
+                        LinearProgressIndicator(
+                            progress = { (profile.xpInCurrentLevel / 100f).coerceIn(0f, 1f) },
                             modifier = Modifier
-                                .weight(1f)
-                                .testTag("profile_lang_tr")
+                                .fillMaxWidth()
+                                .height(8.dp)
+                                .clip(CircleShape),
+                            color = MaterialTheme.colorScheme.primary,
+                            trackColor = MaterialTheme.colorScheme.background
                         )
-                        SettingPillChoice(
-                            label = "English",
-                            selected = enSelected,
-                            accent = MaterialTheme.colorScheme.primary,
-                            onClick = { onSelectLanguage("en") },
-                            modifier = Modifier
-                                .weight(1f)
-                                .testTag("profile_lang_en")
+                    }
+
+                    OutlinedButton(
+                        onClick = { badgesExpanded = !badgesExpanded },
+                        modifier = Modifier.fillMaxWidth()
+                    ) {
+                        Text(
+                            text = if (badgesExpanded) {
+                                strRes(R.string.badges_hide_btn)
+                            } else {
+                                strRes(R.string.badges_show_fmt, badges.size)
+                            }
                         )
+                    }
+
+                    if (badgesExpanded) {
+                        badges.chunked(2).forEach { rowPair ->
+                            Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
+                                rowPair.forEach { badge ->
+                                    val icon = when (badge.id) {
+                                        "flame_chick" -> Icons.Rounded.LocalFireDepartment
+                                        "smart_nutrition" -> Icons.Rounded.Restaurant
+                                        else -> Icons.Rounded.EmojiEvents
+                                    }
+                                    Surface(
+                                        color = if (badge.unlocked) {
+                                            MaterialTheme.colorScheme.primary.copy(alpha = 0.12f)
+                                        } else {
+                                            MaterialTheme.colorScheme.background
+                                        },
+                                        shape = MaterialTheme.shapes.medium,
+                                        border = BorderStroke(
+                                            1.dp,
+                                            if (badge.unlocked) MaterialTheme.colorScheme.primary.copy(alpha = 0.55f)
+                                            else MaterialTheme.colorScheme.outline
+                                        ),
+                                        modifier = Modifier
+                                            .weight(1f)
+                                            .alpha(if (badge.unlocked) 1f else 0.62f)
+                                            .testTag("badge_tile_${badge.id}")
+                                    ) {
+                                        Column(
+                                            verticalArrangement = Arrangement.spacedBy(6.dp),
+                                            modifier = Modifier.padding(12.dp)
+                                        ) {
+                                            Row(
+                                                verticalAlignment = Alignment.CenterVertically,
+                                                horizontalArrangement = Arrangement.SpaceBetween,
+                                                modifier = Modifier.fillMaxWidth()
+                                            ) {
+                                                Icon(
+                                                    imageVector = if (badge.unlocked) icon else Icons.Rounded.Lock,
+                                                    contentDescription = null,
+                                                    tint = if (badge.unlocked) MaterialTheme.colorScheme.primary
+                                                    else MaterialTheme.colorScheme.onSurfaceVariant,
+                                                    modifier = Modifier.size(20.dp)
+                                                )
+                                                Text(
+                                                    text = strRes(if (badge.unlocked) R.string.badge_earned_tag else R.string.badge_locked_tag),
+                                                    style = MaterialTheme.typography.labelSmall,
+                                                    fontWeight = FontWeight.Bold,
+                                                    color = if (badge.unlocked) MaterialTheme.colorScheme.primary
+                                                    else MaterialTheme.colorScheme.onSurfaceVariant
+                                                )
+                                            }
+                                            Text(
+                                                text = badge.title,
+                                                style = MaterialTheme.typography.labelLarge,
+                                                fontWeight = FontWeight.Bold,
+                                                color = MaterialTheme.colorScheme.onSurface,
+                                                maxLines = 1,
+                                                overflow = TextOverflow.Ellipsis
+                                            )
+                                            Text(
+                                                text = badge.description,
+                                                style = MaterialTheme.typography.bodySmall,
+                                                color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                                maxLines = 2,
+                                                overflow = TextOverflow.Ellipsis
+                                            )
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
         }
 
-        // 0B. Athlete Character / Gender Setting (Erkek / Kadın)
-        item {
+        // Language Selector (All 10 European Languages)
+        item(key = "profile_language", contentType = "language_card") {
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .border(1.dp, MaterialTheme.colorScheme.outline, MaterialTheme.shapes.large)
+                border = primaryBorder,
+                elevation = flatElevation,
+                modifier = Modifier.fillMaxWidth()
             ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Row(verticalAlignment = Alignment.CenterVertically) {
+                        Icon(Icons.Rounded.Language, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
+                        Spacer(modifier = Modifier.width(8.dp))
+                        Column {
+                            Text(strRes(R.string.settings_language_title), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                            Text(strRes(R.string.settings_language_sub), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                        }
+                    }
+                    AppLanguage.entries.chunked(3).forEach { triplet ->
+                        Row(horizontalArrangement = Arrangement.spacedBy(8.dp), modifier = Modifier.fillMaxWidth()) {
+                            triplet.forEach { lang ->
+                                SettingPillChoice(
+                                    label = lang.nativeName,
+                                    selected = currentLanguage == lang,
+                                    onClick = { onSelectLanguage(lang.code) },
+                                    modifier = Modifier
+                                        .weight(1f)
+                                        .testTag("profile_lang_${lang.code}")
+                                )
+                            }
+                            // Add empty placeholders if row has fewer than 3 items
+                            repeat(3 - triplet.size) {
+                                Spacer(modifier = Modifier.weight(1f))
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        // Gender Setting
+        item(key = "profile_gender", contentType = "gender_card") {
+            Card(
+                colors = surfaceCardColors,
+                shape = MaterialTheme.shapes.large,
+                border = primaryBorder,
+                elevation = flatElevation,
+                modifier = Modifier.fillMaxWidth()
+            ) {
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(
                             imageVector = if (profile.gender == "female") Icons.Rounded.Female else Icons.Rounded.Male,
                             contentDescription = null,
-                            tint = if (profile.gender == "female") FemaleTopPink else MaleShirtBlue
+                            tint = MaterialTheme.colorScheme.primary
                         )
                         Spacer(modifier = Modifier.width(8.dp))
                         Column {
-                            Text(strings.settingsGenderTitle, style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
-                            Text(strings.settingsGenderSub, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                            Text(strRes(R.string.settings_gender_title), style = MaterialTheme.typography.titleMedium, fontWeight = FontWeight.Bold)
+                            Text(strRes(R.string.settings_gender_sub), style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                         }
                     }
                     Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
                         SettingPillChoice(
-                            label = strings.maleLabel,
+                            label = strRes(R.string.male_label),
                             selected = profile.gender != "female",
-                            accent = MaleShirtBlue,
                             onClick = { onSelectGender("male") },
                             modifier = Modifier
                                 .weight(1f)
                                 .testTag("profile_gender_male")
                         )
                         SettingPillChoice(
-                            label = strings.femaleLabel,
+                            label = strRes(R.string.female_label),
                             selected = profile.gender == "female",
-                            accent = FemaleTopPink,
                             onClick = { onSelectGender("female") },
                             modifier = Modifier
                                 .weight(1f)
@@ -191,51 +363,46 @@ fun ProfileAndProScreen(
             }
         }
 
-        // 0C. Tema Stüdyosu (8 Selectable App Themes including Saf Beyaz)
-        item {
+        // Theme Studio
+        item(key = "profile_theme_studio", contentType = "theme_card") {
             val currentTheme = AppThemeOption.fromId(profile.themeId)
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .border(1.dp, MaterialTheme.colorScheme.primary.copy(alpha = 0.55f), MaterialTheme.shapes.large)
+                border = primaryBorder,
+                elevation = flatElevation,
+                modifier = Modifier.fillMaxWidth()
             ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(Icons.Rounded.Palette, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                         Spacer(modifier = Modifier.width(8.dp))
                         Column {
                             Text(
-                                text = "${strings.themeStudioTitle} (${currentTheme.title(strings.langCode)})",
+                                text = "${strRes(R.string.theme_studio_title)} (${strRes(currentTheme.titleRes)})",
                                 style = MaterialTheme.typography.titleMedium,
                                 fontWeight = FontWeight.Bold
                             )
                             Text(
-                                text = strings.themeStudioSub,
+                                text = strRes(R.string.theme_studio_sub),
                                 style = MaterialTheme.typography.bodyMedium,
                                 color = MaterialTheme.colorScheme.onSurfaceVariant
                             )
                         }
                     }
                     LazyRow(horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        items(AppThemeOption.entries) { option ->
+                        items(AppThemeOption.entries, key = { it.id }, contentType = { "theme_swatch" }) { option ->
                             val selected = option == currentTheme
                             Column(
                                 horizontalAlignment = Alignment.CenterHorizontally,
                                 modifier = Modifier
                                     .clip(MaterialTheme.shapes.medium)
                                     .background(
-                                        if (selected) MaterialTheme.colorScheme.primary.copy(alpha = 0.2f)
-                                        else MaterialTheme.colorScheme.surface
-                                    )
-                                    .border(
-                                        width = if (selected) 2.dp else 1.dp,
-                                        color = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.outline,
-                                        shape = MaterialTheme.shapes.medium
+                                        if (selected) MaterialTheme.colorScheme.primary.copy(alpha = 0.16f)
+                                        else MaterialTheme.colorScheme.background
                                     )
                                     .clickable { onSelectTheme(option) }
-                                    .padding(horizontal = 12.dp, vertical = 10.dp)
+                                    .padding(horizontal = 14.dp, vertical = 12.dp)
                                     .testTag("profile_theme_${option.id}")
                             ) {
                                 Box(
@@ -244,7 +411,6 @@ fun ProfileAndProScreen(
                                         .size(34.dp)
                                         .clip(CircleShape)
                                         .background(option.previewBg)
-                                        .border(2.dp, option.previewPrimary, CircleShape)
                                 ) {
                                     if (selected) {
                                         Icon(Icons.Rounded.CheckCircle, contentDescription = null, tint = option.previewPrimary, modifier = Modifier.size(18.dp))
@@ -253,13 +419,13 @@ fun ProfileAndProScreen(
                                             modifier = Modifier
                                                 .size(12.dp)
                                                 .clip(CircleShape)
-                                                .background(option.previewSecondary)
+                                                .background(option.previewPrimary)
                                         )
                                     }
                                 }
                                 Spacer(modifier = Modifier.height(6.dp))
                                 Text(
-                                    text = option.title(strings.langCode),
+                                    text = strRes(option.titleRes),
                                     style = MaterialTheme.typography.labelLarge,
                                     color = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface
                                 )
@@ -270,31 +436,25 @@ fun ProfileAndProScreen(
             }
         }
 
-        // 1. Optional Email / Google Sign-In Section
-        item {
+        // Cloud Sign-In Section
+        item(key = "profile_cloud_signin", contentType = "cloud_card") {
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .border(
-                        1.dp,
-                        if (uiState.currentUser != null) ext.mintText.copy(alpha = 0.6f) else ext.tealText.copy(alpha = 0.5f),
-                        MaterialTheme.shapes.large
-                    )
+                border = primaryBorder,
+                elevation = flatElevation,
+                modifier = Modifier.fillMaxWidth()
             ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         Icon(
                             imageVector = if (uiState.currentUser != null) Icons.Rounded.CloudDone else Icons.Rounded.CloudUpload,
                             contentDescription = null,
-                            tint = if (uiState.currentUser != null) ext.mintText else ext.tealText
+                            tint = MaterialTheme.colorScheme.primary
                         )
                         Spacer(modifier = Modifier.width(8.dp))
                         Text(
-                            text = if (uiState.currentUser != null) {
-                                if (isEn) "Account Synced with Cloud" else "Hesabın Bulutla Eşitleniyor"
-                            } else strings.cloudSaveTitle,
+                            text = strRes(if (uiState.currentUser != null) R.string.cloud_synced_title else R.string.cloud_save_title),
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold
                         )
@@ -302,40 +462,35 @@ fun ProfileAndProScreen(
 
                     if (uiState.currentUser != null) {
                         Text(
-                            text = "${if (isEn) "Connected Email" else "Bağlı E-posta"}: ${uiState.currentUser.email ?: uiState.currentUser.uid}",
+                            text = "${strRes(R.string.connected_email_prefix)}: ${uiState.currentUser.email ?: uiState.currentUser.uid}",
                             style = MaterialTheme.typography.bodyMedium,
-                            fontWeight = FontWeight.SemiBold,
-                            color = ext.mintText
+                            color = MaterialTheme.colorScheme.primary
                         )
+                        val signedOutMsg = strRes(R.string.signed_out_local_msg)
                         OutlinedButton(
                             onClick = {
                                 signOut(credentialManager, scope) {
-                                    onMessage(
-                                        if (isEn) "Signed out. Your local data remains safely on device."
-                                        else "Hesaptan çıkış yapıldı. Verilerin cihazda kalmaya devam ediyor."
-                                    )
+                                    onMessage(signedOutMsg)
                                 }
                             },
                             modifier = Modifier.fillMaxWidth()
                         ) {
                             Icon(Icons.AutoMirrored.Rounded.Logout, contentDescription = null)
                             Spacer(modifier = Modifier.width(6.dp))
-                            Text(if (isEn) "Sign Out" else "Çıkış Yap")
+                            Text(strRes(R.string.sign_out))
                         }
                     } else {
                         Text(
-                            text = strings.cloudSaveDesc,
+                            text = strRes(R.string.cloud_save_desc),
                             style = MaterialTheme.typography.bodyMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant
                         )
+                        val signedInMsg = strRes(R.string.signed_in_cloud_msg)
                         GoogleSignInButton(
-                            label = strings.googleSignInButton,
+                            label = strRes(R.string.google_signin_button),
                             modifier = Modifier.fillMaxWidth(),
                             onAuthSuccess = {
-                                onMessage(
-                                    if (isEn) "Signed in! All data backed up to cloud."
-                                    else "Giriş başarılı! Tüm verilerin buluta kaydedildi."
-                                )
+                                onMessage(signedInMsg)
                             },
                             onAuthError = { err -> onMessage(err) }
                         )
@@ -344,33 +499,28 @@ fun ProfileAndProScreen(
             }
         }
 
-        // 2. Referral Reward Program: 5 Friends -> 1 Month Free Pro
-        item {
+        // Referral Reward Program
+        item(key = "profile_referrals", contentType = "referral_card") {
             val count = profile.referralCount.coerceAtMost(5)
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .border(1.5.dp, ext.orangeText.copy(alpha = 0.5f), MaterialTheme.shapes.large)
+                border = primaryBorder,
+                elevation = flatElevation,
+                modifier = Modifier.fillMaxWidth()
             ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Icon(Icons.Rounded.CardGiftcard, contentDescription = null, tint = ext.goldText)
+                        Icon(Icons.Rounded.CardGiftcard, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                         Spacer(modifier = Modifier.width(8.dp))
                         Text(
-                            text = if (isEn) "Invite 5 Friends = 1 Month Free PRO!" else "5 Arkadaş Davet Et = 1 Ay Ücretsiz PRO!",
+                            text = strRes(R.string.invite_5_title),
                             style = MaterialTheme.typography.titleLarge,
-                            fontWeight = FontWeight.Bold,
-                            color = ext.goldText
+                            color = MaterialTheme.colorScheme.primary
                         )
                     }
                     Text(
-                        text = if (isEn) {
-                            "Access PRO without paying by inviting 5 friends. Each friend who signs up and enters your code counts as 1 invite—reach 5/5 to unlock 1 full month of PRO!"
-                        } else {
-                            "Para ödemeden PRO Plan'a erişmek için 5 arkadaşını davet et. Arkadaşların uygulamaya kaydolup senin davet kodunu girdiğinde 1 kişi davet edilmiş sayılır; 5/5 olunca 1 ay ücretsiz PRO tanımlanır!"
-                        },
+                        text = strRes(R.string.invite_5_desc),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
@@ -381,12 +531,12 @@ fun ProfileAndProScreen(
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Text(
-                            text = if (isEn) "Invite Progress: $count / 5 Friends" else "Davet İlerlemen: $count / 5 Arkadaş",
+                            text = strRes(R.string.invite_progress_fmt, count),
                             style = MaterialTheme.typography.titleMedium,
                             fontWeight = FontWeight.Bold
                         )
                         IconButton(onClick = onRefreshReferrals) {
-                            Icon(Icons.Rounded.Refresh, contentDescription = if (isEn) "Refresh" else "Yenile", tint = ext.tealText)
+                            Icon(Icons.Rounded.Refresh, contentDescription = strRes(R.string.common_refresh), tint = MaterialTheme.colorScheme.primary)
                         }
                     }
 
@@ -396,8 +546,8 @@ fun ProfileAndProScreen(
                             .fillMaxWidth()
                             .height(10.dp)
                             .clip(CircleShape),
-                        color = ext.mintText,
-                        trackColor = MaterialTheme.colorScheme.surface
+                        color = MaterialTheme.colorScheme.primary,
+                        trackColor = MaterialTheme.colorScheme.background
                     )
 
                     Row(
@@ -405,153 +555,145 @@ fun ProfileAndProScreen(
                         modifier = Modifier.fillMaxWidth()
                     ) {
                         Text(
-                            text = if (isEn) "Your Invite Code: ${profile.inviteCode}" else "Senin Davet Kodun: ${profile.inviteCode}",
+                            text = strRes(R.string.your_invite_code_fmt, profile.inviteCode),
                             style = MaterialTheme.typography.titleMedium,
-                            fontWeight = FontWeight.Bold,
-                            color = ext.orangeText,
+                            color = MaterialTheme.colorScheme.primary,
                             modifier = Modifier.weight(1f)
                         )
                         IconButton(onClick = {
                             clipboard.setText(AnnotatedString(profile.inviteCode))
-                            onMessage(
-                                if (isEn) "Invite code copied: ${profile.inviteCode}"
-                                else "Davet kodun kopyalandı: ${profile.inviteCode}"
-                            )
+                            onMessage(localizedCtx.getString(R.string.invite_copied_fmt, profile.inviteCode))
                         }) {
-                            Icon(Icons.Rounded.ContentCopy, contentDescription = if (isEn) "Copy" else "Kopyala")
+                            Icon(Icons.Rounded.ContentCopy, contentDescription = strRes(R.string.common_copy))
                         }
                         IconButton(onClick = {
                             val sendIntent = Intent(Intent.ACTION_SEND).apply {
                                 type = "text/plain"
                                 putExtra(
                                     Intent.EXTRA_TEXT,
-                                    if (isEn) {
-                                        "Join my fitness journey on Koç Tavuk! Sign up and enter my invite code: ${profile.inviteCode}"
-                                    } else {
-                                        "Koç Tavuk ile fitness yolculuğuma katıl! Uygulamaya kaydolup davet kodumu gir: ${profile.inviteCode}"
-                                    }
+                                    localizedCtx.getString(R.string.share_invite_text_fmt, profile.inviteCode)
                                 )
                             }
-                            context.startActivity(Intent.createChooser(sendIntent, if (isEn) "Share Invite Code" else "Davet Kodunu Paylaş"))
+                            context.startActivity(
+                                Intent.createChooser(sendIntent, localizedCtx.getString(R.string.share_invite_chooser))
+                            )
                         }) {
-                            Icon(Icons.Rounded.Share, contentDescription = if (isEn) "Share" else "Paylaş")
+                            Icon(Icons.Rounded.Share, contentDescription = strRes(R.string.common_share))
                         }
                     }
 
                     if (profile.referredByCode.isBlank()) {
-                        OutlinedTextField(
+                        CleanTextField(
                             value = friendCodeInput,
                             onValueChange = { friendCodeInput = it.uppercase().take(24) },
-                            label = { Text(if (isEn) "Enter a friend's invite code" else "Bir arkadaşının davet kodunu gir") },
-                            placeholder = { Text("Örn: TAVUK-AB12C") },
+                            label = strRes(R.string.friend_code_label),
+                            placeholder = "FIT-AB12C",
                             singleLine = true,
-                            modifier = Modifier
-                                .fillMaxWidth()
-                                .testTag("friend_invite_code_input")
+                            inputModifier = Modifier.testTag("friend_invite_code_input")
                         )
                         Button(
                             onClick = { onRedeemFriendCode(friendCodeInput) },
                             enabled = friendCodeInput.trim().length >= 4,
                             modifier = Modifier.fillMaxWidth()
                         ) {
-                            Text(if (isEn) "Apply Friend Code" else "Arkadaş Kodunu Onayla")
+                            Text(strRes(R.string.apply_friend_code))
                         }
                     } else {
                         Text(
-                            text = if (isEn) "Applied Invite Code: ${profile.referredByCode}" else "Kullanılan Davet Kodu: ${profile.referredByCode}",
+                            text = strRes(R.string.applied_code_fmt, profile.referredByCode),
                             style = MaterialTheme.typography.labelLarge,
-                            fontWeight = FontWeight.Bold,
-                            color = ext.mintText
+                            color = MaterialTheme.colorScheme.primary
                         )
                     }
                 }
             }
         }
 
-        // 3. Plan Comparison & Management
-        item {
+        // Plan Comparison & Management
+        item(key = "profile_plan", contentType = "plan_card") {
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
+                border = primaryBorder,
+                elevation = flatElevation,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
                     Row(verticalAlignment = Alignment.CenterVertically) {
-                        Icon(Icons.Rounded.Star, contentDescription = null, tint = ext.goldText)
+                        Icon(Icons.Rounded.Star, contentDescription = null, tint = MaterialTheme.colorScheme.primary)
                         Spacer(modifier = Modifier.width(8.dp))
                         Text(
-                            text = if (profile.isProActive) {
-                                if (isEn) "Current Plan: PRO PLAN" else "Mevcut Plan: PRO PLAN"
-                            } else {
-                                if (isEn) "Current Plan: FREE PLAN" else "Mevcut Plan: ÜCRETSİZ PLAN"
-                            },
-                            style = MaterialTheme.typography.titleLarge,
-                            fontWeight = FontWeight.Bold
+                            text = strRes(if (profile.isProActive) R.string.current_plan_pro else R.string.current_plan_free),
+                            style = MaterialTheme.typography.titleLarge
                         )
                     }
                     Text(
-                        text = if (profile.isProActive) {
-                            if (isEn) "Ad-free experience • Photo Calorie AI active • All custom programs open • Unlimited AI Coach."
-                            else "Reklamlar kapalı • Fotoğrafla Kalori AI açık • Kişisel özel programlar açık • AI Koç sınırsız."
-                        } else {
-                            if (isEn) "PRO Plan is optional. Upgrade anytime or unlock special workouts individually by watching 3 ads."
-                            else "PRO Plan zorunlu değildir. İstediğin zaman PRO'ya geçebilir veya özel antrenmanları 3 reklam izleyerek açabilirsin."
-                        },
+                        text = strRes(if (profile.isProActive) R.string.plan_pro_desc else R.string.plan_free_desc),
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     if (!profile.isProActive) {
                         Button(
                             onClick = onUpgradePro,
-                            colors = ButtonDefaults.buttonColors(containerColor = WarmGold, contentColor = ext.onGoldButton),
                             modifier = Modifier
                                 .fillMaxWidth()
+                                .height(48.dp)
                                 .testTag("upgrade_pro_button")
                         ) {
                             Icon(Icons.Rounded.Verified, contentDescription = null)
                             Spacer(modifier = Modifier.width(8.dp))
-                            Text(if (isEn) "Upgrade to PRO" else "PRO Plana Geç", fontWeight = FontWeight.Bold)
+                            Text(strRes(R.string.upgrade_to_pro))
                         }
                     } else {
                         OutlinedButton(onClick = onDowngradeFree, modifier = Modifier.fillMaxWidth()) {
-                            Text(if (isEn) "Switch to Free Plan" else "Ücretsiz Plana Dön")
+                            Text(strRes(R.string.switch_to_free))
                         }
                     }
                 }
             }
         }
 
-        // 4. Physical Summary & Retake Quiz
-        item {
-            val genderLabel = if (profile.gender == "female") strings.femaleLabel else strings.maleLabel
+        // Physical Summary & Retake Quiz
+        item(key = "profile_summary", contentType = "summary_card") {
+            val genderLabel = strRes(if (profile.gender == "female") R.string.female_label else R.string.male_label)
+            val envDisplay = when (profile.environment.lowercase()) {
+                "hybrid" -> strRes(R.string.env_hybrid)
+                "home" -> strRes(R.string.cat_home)
+                "gym" -> strRes(R.string.cat_gym)
+                else -> profile.environment
+            }
             Card(
-                colors = CardDefaults.cardColors(containerColor = MaterialTheme.colorScheme.surfaceVariant),
+                colors = surfaceCardColors,
                 shape = MaterialTheme.shapes.large,
+                border = primaryBorder,
+                elevation = flatElevation,
                 modifier = Modifier.fillMaxWidth()
             ) {
-                Column(modifier = Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                Column(modifier = Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(10.dp)) {
                     Text(
-                        text = if (isEn) "Physical Profile Summary" else "Fiziksel Profil Özeti",
+                        text = strRes(R.string.physical_profile_summary),
                         style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = if (isEn) {
-                            "Name: ${profile.displayName} • Character: $genderLabel\n" +
-                                "Age: ${profile.age} ${if (profile.isYouthGrowthMode) "(0-18 Growth Mode)" else ""} • Height: ${profile.heightCm} cm\n" +
-                                "Weight: ${profile.currentWeightKg} kg → Target: ${profile.targetWeightKg} kg\n" +
-                                "Space: ${profile.environment} • ${profile.weeklyDays} days/wk (${profile.sessionMinutes} min)"
-                        } else {
-                            "İsim: ${profile.displayName} • Karakter: $genderLabel\n" +
-                                "Yaş: ${profile.age} ${if (profile.isYouthGrowthMode) "(0-18 Büyüme Çağı)" else ""} • Boy: ${profile.heightCm} cm\n" +
-                                "Kilo: ${profile.currentWeightKg} kg → Hedef: ${profile.targetWeightKg} kg\n" +
-                                "Ortam: ${profile.environment} • Haftada ${profile.weeklyDays} gün (${profile.sessionMinutes} dk)"
+                        text = buildString {
+                            append("${profile.displayName} • $genderLabel • $envDisplay\n")
+                            append(
+                                strRes(
+                                    R.string.physical_summary_fmt,
+                                    profile.age,
+                                    profile.heightCm,
+                                    profile.currentWeightKg.toString(),
+                                    profile.targetWeightKg.toString(),
+                                    profile.weeklyDays
+                                )
+                            )
                         },
                         style = MaterialTheme.typography.bodyMedium,
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     OutlinedButton(onClick = onRestartQuiz, modifier = Modifier.fillMaxWidth()) {
-                        Text(strings.settingsRestartQuiz)
+                        Text(strRes(R.string.settings_restart_quiz))
                     }
                 }
             }
@@ -563,7 +705,6 @@ fun ProfileAndProScreen(
 private fun SettingPillChoice(
     label: String,
     selected: Boolean,
-    accent: Color,
     onClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -573,23 +714,21 @@ private fun SettingPillChoice(
         modifier = modifier
             .height(48.dp)
             .clip(MaterialTheme.shapes.medium)
-            .background(if (selected) accent.copy(alpha = 0.2f) else MaterialTheme.colorScheme.surface)
-            .border(
-                width = if (selected) 2.dp else 1.dp,
-                color = if (selected) accent else MaterialTheme.colorScheme.outline,
-                shape = MaterialTheme.shapes.medium
+            .background(
+                if (selected) MaterialTheme.colorScheme.primary.copy(alpha = 0.16f)
+                else MaterialTheme.colorScheme.background
             )
             .clickable(onClick = onClick)
             .padding(horizontal = 12.dp)
     ) {
         if (selected) {
-            Icon(Icons.Rounded.CheckCircle, contentDescription = null, tint = accent, modifier = Modifier.size(16.dp))
+            Icon(Icons.Rounded.CheckCircle, contentDescription = null, tint = MaterialTheme.colorScheme.primary, modifier = Modifier.size(16.dp))
             Spacer(modifier = Modifier.width(6.dp))
         }
         Text(
             text = label,
             style = MaterialTheme.typography.labelLarge,
-            color = if (selected) accent else MaterialTheme.colorScheme.onSurface
+            color = if (selected) MaterialTheme.colorScheme.primary else MaterialTheme.colorScheme.onSurface
         )
     }
 }

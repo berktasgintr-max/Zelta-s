@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g7_1_name">Klassisches Kreuzheben</string>
+    <string name="ex_g7_1_muscle">Gesamte hintere Kette</string>
+    <string name="ex_g7_1_cue">Rücken niemals runden; die Stange bewegt sich strikt vertikal.</string>
+    <string name="ex_g7_1_breath">Vor dem Zug tief einatmen und Rumpf anspannen, oben ausatmen.</string>
+    <string name="ex_g7_1_mistake">Aus dem unteren Rücken ziehen statt aus den Beinen zu drücken.</string>
+    <string-array name="ex_g7_1_steps">
+        <item>Füße hüftbreit stellen, Hantel über der Fußmitte.</item>
+        <item>Hüfte nach hinten schieben, Stange greifen, Brust öffnen und Rücken gerade spannen.</item>
+        <item>Durch die Füße drücken und die Stange eng an den Beinen hochführen.</item>
+    </string-array>
+    <string name="ex_g7_2_name">Hip Thrust</string>
+    <string name="ex_g7_2_muscle">Gesäß</string>
+    <string name="ex_g7_2_cue">Kinn leicht zur Brust ziehen, um ein Hohlkreuz zu vermeiden.</string>
+    <string name="ex_g7_2_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_g7_2_mistake">Ins Hohlkreuz überstrecken.</string>
+    <string-array name="ex_g7_2_steps">
+        <item>Schulterblätter auf die Bank stützen, Stange in die Hüftbeuge legen.</item>
+        <item>Über die Fersen Hüfte hochdrücken und oben fest anspannen.</item>
+    </string-array>
+    <string name="ex_g7_3_name">Beinbeuger liegend</string>
+    <string name="ex_g7_3_muscle">Beinbeuger</string>
+    <string name="ex_g7_3_cue">Hüfte fest auf dem Polster halten.</string>
+    <string name="ex_g7_3_breath">Beim Beugen ausatmen.</string>
+    <string name="ex_g7_3_mistake">Gewicht zu schnell fallen lassen.</string>
+    <string-array name="ex_g7_3_steps">
+        <item>Bauchlage auf dem Gerät, Polster oberhalb der Achillessehne.</item>
+        <item>Fersen zum Gesäß ziehen und kontrolliert absenken.</item>
+    </string-array>
+    <string name="ex_g7_4_name">Knieheben hängend</string>
+    <string name="ex_g7_4_muscle">Unterer Bauch &amp; Griffkraft</string>
+    <string name="ex_g7_4_cue">Langsam absenken, um Pendeln zu vermeiden.</string>
+    <string name="ex_g7_4_breath">Beim Hochziehen ausatmen.</string>
+    <string name="ex_g7_4_mistake">Mit Schwung aus den Beinen arbeiten.</string>
+    <string-array name="ex_g7_4_steps">
+        <item>An die Klimmzugstange hängen.</item>
+        <item>Knie kontrolliert Richtung Brust anheben.</item>
+        <item>Ohne Schwung absenken.</item>
+    </string-array>
+    <string name="ex_g8_1_name">Rudergerät-Sprint</string>
+    <string name="ex_g8_1_muscle">Ganzkörper-Cardio</string>
+    <string name="ex_g8_1_cue" formatted="false">60% Beine, 20% Rumpf, 20% Arme einsetzen.</string>
+    <string name="ex_g8_1_breath">Beim Zug ausatmen.</string>
+    <string name="ex_g8_1_mistake">Zu früh mit den Armen ziehen oder Beine vorzeitig beugen.</string>
+    <string-array name="ex_g8_1_steps">
+        <item>Füße sicher festschnallen.</item>
+        <item>Erst kräftig aus den Beinen abdrücken, leicht zurücklehnen und Griff zur Brust ziehen.</item>
+    </string-array>
+    <string name="ex_g8_2_name">Kettlebell Swing</string>
+    <string name="ex_g8_2_muscle">Gesäß &amp; Kondition</string>
+    <string name="ex_g8_2_cue">Die Arme sind nur Seile – die Kraft kommt rein aus der Hüfte.</string>
+    <string name="ex_g8_2_breath">Beim Hochschwingen ausatmen.</string>
+    <string name="ex_g8_2_mistake">Kniebeugen machen und mit den Armen heben.</string>
+    <string-array name="ex_g8_2_steps">
+        <item>Weiter als schulterbreit stehen.</item>
+        <item>Aus der Hüfte beugen und Kettlebell zwischen die Beine schwingen.</item>
+        <item>Hüfte explosiv strecken und Gewicht auf Brusthöhe bringen.</item>
+    </string-array>
+    <string name="ex_g8_3_name">Battle Ropes</string>
+    <string name="ex_g8_3_muscle">Schultern &amp; Cardio</string>
+    <string name="ex_g8_3_sets">4 x 30 Sek</string>
+    <string name="ex_g8_3_cue">Bauch fest anspannen, aufrecht bleiben.</string>
+    <string name="ex_g8_3_breath">Rhythmisch atmen.</string>
+    <string name="ex_g8_3_mistake">Nur aus dem Handgelenk schlagen.</string>
+    <string-array name="ex_g8_3_steps">
+        <item>Leicht gebeugte, athletische Haltung einnehmen.</item>
+        <item>Seile abwechselnd in schnellen Wellen schlagen.</item>
+    </string-array>
+    <string name="ex_g8_4_name">Steigungsgehen auf dem Laufband</string>
+    <string name="ex_g8_4_muscle">Fettverbrennungs-Puls</string>
+    <string name="ex_g8_4_sets">12 Min</string>
+    <string name="ex_g8_4_cue">Hoher Kalorienverbrauch bei minimaler Gelenkbelastung.</string>
+    <string name="ex_g8_4_breath">Tief durch die Nase einatmen.</string>
+    <string name="ex_g8_4_mistake">Am Geländer abstützen.</string>
+    <string-array name="ex_g8_4_steps">
+        <item>Zügig bei 10–12% Steigung und 5,0–5,5 km/h gehen.</item>
+        <item>Arme frei schwingen, nicht am Geländer festhalten.</item>
+    </string-array>
+    <string name="ex_g9_1_name">Bankdrücken mit Pause</string>
+    <string name="ex_g9_1_muscle">Brust</string>
+    <string name="ex_g9_1_cue">Während der Pause volle Körperspannung halten.</string>
+    <string name="ex_g9_1_breath">Oben einatmen, beim Drücken ausatmen.</string>
+    <string name="ex_g9_1_mistake">Stange auf der Brust abfedern.</string>
+    <string-array name="ex_g9_1_steps">
+        <item>Stange kontrolliert auf die Brust absenken.</item>
+        <item>Volle 1 Sekunde auf der Brust pausieren.</item>
+        <item>Explosiv nach oben drücken.</item>
+    </string-array>
+    <string name="ex_g9_2_name">Vorgebeugte Dips mit Gewicht</string>
+    <string name="ex_g9_2_muscle">Untere Brust &amp; Trizeps</string>
+    <string name="ex_g9_2_cue">Vorlage erhöht die Brustaktivierung.</string>
+    <string name="ex_g9_2_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_g9_2_mistake">Schultern nach vorne einrollen.</string>
+    <string-array name="ex_g9_2_steps">
+        <item>Barren greifen und Oberkörper leicht vorbeugen.</item>
+        <item>Bis 90° Ellenbogenwinkel absenken und kräftig hochdrücken.</item>
+    </string-array>
+    <string name="ex_g9_3_name">Butterfly-Maschine</string>
+    <string name="ex_g9_3_muscle">Innere Brust</string>
+    <string name="ex_g9_3_cue">Weiten Bogen beschreiben und Brust dehnen.</string>
+    <string name="ex_g9_3_breath">Beim Schließen ausatmen.</string>
+    <string name="ex_g9_3_mistake">Zu viel Gewicht und stark gebeugte Ellenbogen.</string>
+    <string-array name="ex_g9_3_steps">
+        <item>Sitzhöhe einstellen, Ellenbogen leicht gebeugt.</item>
+        <item>Arme vorne zusammenführen und 1 Sekunde halten.</item>
+    </string-array>
+    <string name="ex_g10_1_name">T-Bar-Rudern</string>
+    <string name="ex_g10_1_muscle">Mittlerer Rücken</string>
+    <string name="ex_g10_1_cue">Rückenmuskeln bei jeder Wdh. anspannen.</string>
+    <string name="ex_g10_1_breath">Beim Ziehen ausatmen.</string>
+    <string name="ex_g10_1_mistake">Mit dem unteren Rücken Schwung holen.</string>
+    <string-array name="ex_g10_1_steps">
+        <item>Oberkörper 45 Grad vorbeugen, Rücken gerade halten.</item>
+        <item>Gewicht zur unteren Brust ziehen.</item>
+    </string-array>
+    <string name="ex_g10_2_name">Enges Latziehen</string>
+    <string name="ex_g10_2_muscle">Unterer Latissimus</string>
+    <string name="ex_g10_2_cue">Dehnt den unteren Lat intensiv.</string>
+    <string name="ex_g10_2_breath">Beim Herunterziehen ausatmen.</string>
+    <string name="ex_g10_2_mistake">Schultern zu den Ohren hochziehen.</string>
+    <string-array name="ex_g10_2_steps">
+        <item>Engen V-Griff oben fassen.</item>
+        <item>Ellenbogen nah am Körper lassen und zur Brust ziehen.</item>
+    </string-array>
+    <string name="ex_g10_3_name">Kurzhantel-Shrugs</string>
+    <string name="ex_g10_3_muscle">Trapezmuskel</string>
+    <string name="ex_g10_3_cue">Gerade hochziehen, Schultern nicht kreisen.</string>
+    <string name="ex_g10_3_breath">Beim Hochziehen ausatmen.</string>
+    <string name="ex_g10_3_mistake">Kopf nach vorne schieben.</string>
+    <string-array name="ex_g10_3_steps">
+        <item>Kurzhanteln seitlich halten.</item>
+        <item>Schultern gerade zu den Ohren hochziehen und 1 Sekunde halten.</item>
+    </string-array>
+    <string name="ex_g11_1_name">Hackenschmidt-Kniebeuge</string>
+    <string name="ex_g11_1_muscle">Quadrizeps</string>
+    <string name="ex_g11_1_cue">Knie nicht nach innen kippen lassen.</string>
+    <string name="ex_g11_1_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_g11_1_mistake">Nur halb beugen.</string>
+    <string-array name="ex_g11_1_steps">
+        <item>Rücken fest ans Polster drücken, Füße leicht vorstellen.</item>
+        <item>Tief beugen und über die Fersen hochdrücken.</item>
+    </string-array>
+    <string name="ex_g11_2_name">Ausfallschritte gehend mit Kurzhanteln</string>
+    <string name="ex_g11_2_muscle">Beine &amp; Gleichgewicht</string>
+    <string name="ex_g11_2_sets">3 x 20 Schritte</string>
+    <string name="ex_g11_2_cue">Oberkörper aufrecht, Knie bei ca. 90 Grad.</string>
+    <string name="ex_g11_2_breath">Beim Aufstehen ausatmen.</string>
+    <string name="ex_g11_2_mistake">Zu schmal wie auf einem Seil gehen.</string>
+    <string-array name="ex_g11_2_steps">
+        <item>Großen Schritt nach vorn machen, hinteres Knie knapp über den Boden.</item>
+        <item>Über die vordere Ferse in den nächsten Schritt drücken.</item>
+    </string-array>
+    <string name="ex_g11_3_name">Beinstrecker-Maschine</string>
+    <string name="ex_g11_3_muscle">Quadrizeps-Isolation</string>
+    <string name="ex_g11_3_cue">Langsam absenken für maximale Spannung.</string>
+    <string name="ex_g11_3_breath">Beim Strecken ausatmen.</string>
+    <string name="ex_g11_3_mistake">Gewicht schwungvoll hochkicken.</string>
+    <string-array name="ex_g11_3_steps">
+        <item>Polster oberhalb der Knöchel einstellen.</item>
+        <item>Beine voll strecken und oben 1 Sekunde anspannen.</item>
+    </string-array>
+    <string name="ex_g12_1_name">Kabelzug-Crunches</string>
+    <string name="ex_g12_1_muscle">Oberer &amp; mittlerer Bauch</string>
+    <string name="ex_g12_1_cue">Aus dem Bauch einrollen, nicht mit den Armen ziehen.</string>
+    <string name="ex_g12_1_breath">Beim Einrollen ausatmen.</string>
+    <string name="ex_g12_1_mistake">Hüfte nach hinten absetzen.</string>
+    <string-array name="ex_g12_1_steps">
+        <item>Vor dem Kabelzug knien, Seil neben dem Kopf halten.</item>
+        <item>Hüfte fixieren und Brustbein Richtung Knie einrollen.</item>
+    </string-array>
+    <string name="ex_g12_2_name">Negativ-Sit-Up</string>
+    <string name="ex_g12_2_muscle">Bauch</string>
+    <string name="ex_g12_2_cue">Rücken leicht runden, um Bauchspannung zu halten.</string>
+    <string name="ex_g12_2_breath">Beim Aufrichten ausatmen.</string>
+    <string name="ex_g12_2_mistake">Mit den Händen am Nacken ziehen.</string>
+    <string-array name="ex_g12_2_steps">
+        <item>Füße auf der Negativbank fixieren.</item>
+        <item>Kontrolliert absenken und aufrichten.</item>
+    </string-array>
+    <string name="ex_g12_3_name">Pallof Press</string>
+    <string name="ex_g12_3_muscle">Schräge Bauchmuskeln &amp; Anti-Rotation</string>
+    <string name="ex_g12_3_sets">3 x 12/Seite</string>
+    <string name="ex_g12_3_cue">Stabilisiert die Wirbelsäule felsenfest.</string>
+    <string name="ex_g12_3_breath">Beim Vorstrecken ausatmen.</string>
+    <string name="ex_g12_3_mistake">Schultern zum Kabel verdrehen.</string>
+    <string-array name="ex_g12_3_steps">
+        <item>Seitlich zum Kabelzug stellen, Griff vor der Brust halten.</item>
+        <item>Arme gerade nach vorn drücken und Rotation verhindern.</item>
+    </string-array>
+    <string name="ex_gp1_1_name">Schrägbankdrücken an der Multipresse</string>
+    <string name="ex_gp1_1_muscle">Obere Brust</string>
+    <string name="ex_gp1_1_cue">Eine der sichersten Hypertrophie-Übungen für die obere Brust.</string>
+    <string name="ex_gp1_1_breath">Beim Drücken ausatmen.</string>
+    <string name="ex_gp1_1_mistake">Ellenbogen zu weit hinten abspreizen.</string>
+    <string-array name="ex_gp1_1_steps">
+        <item>Auf einer 30°-Schrägbank Stange über der oberen Brust ausrichten.</item>
+        <item>3 Sek. senken, 1 Sek. halten, explosiv drücken.</item>
+    </string-array>
+    <string name="ex_gp1_2_name">Dips mit Gewicht + Kabel-Fliegende Supersatz</string>
+    <string name="ex_gp1_2_muscle">Brust</string>
+    <string name="ex_gp1_2_cue">Supersätze verdoppeln Durchblutung und Pump.</string>
+    <string name="ex_gp1_2_breath">Rhythmisch atmen.</string>
+    <string name="ex_gp1_2_mistake">Zu lange Pause zwischen beiden Übungen.</string>
+    <string-array name="ex_gp1_2_steps">
+        <item>Direkt nach den Dips Kabel-Fliegende anschließen.</item>
+        <item>Brustfasern voll dehnen und kontrahieren.</item>
+    </string-array>
+    <string name="ex_gp1_3_name">Seitheben-Dropsatz mit Kurzhanteln</string>
+    <string name="ex_gp1_3_muscle">Schultern</string>
+    <string name="ex_gp1_3_cue">Reizt den seitlichen Deltamuskel maximal.</string>
+    <string name="ex_gp1_3_breath">Beim Heben ausatmen.</string>
+    <string name="ex_gp1_3_mistake">Zu stark aus dem Trapezmuskel heben.</string>
+    <string-array name="ex_gp1_3_steps">
+        <item>12 Wdh. mit Startgewicht, sofort Gewicht reduzieren für 10 Wdh., erneut reduzieren für 10 Wdh.</item>
+    </string-array>
+    <string name="ex_gp2_1_name">Klimmzüge mit Zusatzgewicht</string>
+    <string name="ex_gp2_1_muscle">Breiter Latissimus</string>
+    <string name="ex_gp2_1_cue">Schulterblätter zuerst nach unten ziehen, dann beugen.</string>
+    <string name="ex_gp2_1_breath">Beim Hochziehen ausatmen.</string>
+    <string name="ex_gp2_1_mistake">Mit den Beinen Schwung holen.</string>
+    <string-array name="ex_gp2_1_steps">
+        <item>Im breiten Obergriff an die Stange hängen.</item>
+        <item>Brust zur Stange ziehen bis das Kinn darüber ist.</item>
+    </string-array>
+    <string name="ex_gp2_2_name">Brustgestütztes Rudern</string>
+    <string name="ex_gp2_2_muscle">Mittlerer Rücken</string>
+    <string name="ex_gp2_2_cue">Isoliert reine Rückendichte.</string>
+    <string name="ex_gp2_2_breath">Beim Ziehen ausatmen.</string>
+    <string name="ex_gp2_2_mistake">Brust vom Polster abheben.</string>
+    <string-array name="ex_gp2_2_steps">
+        <item>Brust auf Schrägbank ablegen.</item>
+        <item>Sauber ohne Belastung des unteren Rückens rudern.</item>
+    </string-array>
+    <string name="ex_gp2_3_name">Scott-Curls + Seil-Hammercurls</string>
+    <string name="ex_gp2_3_muscle">Bizeps-Peak</string>
+    <string name="ex_gp2_3_cue">Baut Arme unter Dauerspannung auf.</string>
+    <string name="ex_gp2_3_breath">Beim Beugen ausatmen.</string>
+    <string name="ex_gp2_3_mistake">Ellenbogen unten durchdrücken.</string>
+    <string-array name="ex_gp2_3_steps">
+        <item>10 Wdh. an der Scott-Bank, dann ohne Pause Seil-Hammercurls.</item>
+    </string-array>
+    <string name="ex_gp3_1_name">Frontkniebeuge</string>
+    <string name="ex_gp3_1_muscle">Quadrizeps &amp; Rumpf</string>
+    <string name="ex_gp3_1_cue">Sinken die Ellenbogen, kippt der Oberkörper vor.</string>
+    <string name="ex_gp3_1_breath">Beim Aufstehen ausatmen.</string>
+    <string name="ex_gp3_1_mistake">Handgelenke statt Schultern belasten.</string>
+    <string-array name="ex_gp3_1_steps">
+        <item>Stange auf den vorderen Schultern ablegen, Ellenbogen hoch.</item>
+        <item>Aufrecht tief beugen und explosiv hochdrücken.</item>
+    </string-array>
+    <string name="ex_gp3_2_name">Bulgarische Kniebeuge</string>
+    <string name="ex_gp3_2_muscle">Gesäß &amp; Gleichgewicht</string>
+    <string name="ex_gp3_2_sets">3 x 10/Bein</string>
+    <string name="ex_gp3_2_cue">Behebt Kraftungleichgewichte der Beine.</string>
+    <string name="ex_gp3_2_breath">Beim Hochdrücken ausatmen.</string>
+    <string name="ex_gp3_2_mistake">Zu weit nach vorne lehnen.</string>
+    <string-array name="ex_gp3_2_steps">
+        <item>Fußrücken hinten auf der Bank ablegen.</item>
+        <item>Kontrolliert absenken und über das vordere Bein hochdrücken.</item>
+    </string-array>
+    <string name="ex_gp3_3_name">Box Jumps</string>
+    <string name="ex_gp3_3_muscle">Explosivkraft</string>
+    <string name="ex_gp3_3_cue">Lautlos und weich landen.</string>
+    <string name="ex_gp3_3_breath">Beim Absprung ausatmen.</string>
+    <string name="ex_gp3_3_mistake">Von der Box rückwärts herunterspringen (besser absteigen).</string>
+    <string-array name="ex_gp3_3_steps">
+        <item>Athletische Position vor der Box einnehmen.</item>
+        <item>Mit Armschwung weich auf die Box springen.</item>
+    </string-array>
+    <string name="ex_gp4_1_name">Kniebeuge mit Langhantel</string>
+    <string name="ex_gp4_1_muscle">Unterkörper</string>
+    <string name="ex_gp4_1_cue">Rumpfspannung konstant halten.</string>
+    <string name="ex_gp4_1_breath">Beim Aufstehen ausatmen.</string>
+    <string name="ex_gp4_1_mistake">Knie nach innen fallen lassen.</string>
+    <string-array name="ex_gp4_1_steps">
+        <item>Große Muskelgruppen mit tiefer, kontrollierter Kniebeuge aktivieren.</item>
+    </string-array>
+    <string name="ex_gp4_2_name">Schrägbankdrücken mit Langhantel</string>
+    <string name="ex_gp4_2_muscle">Obere Brust</string>
+    <string name="ex_gp4_2_cue">Schulterblätter fest an die Bank drücken.</string>
+    <string name="ex_gp4_2_breath">Beim Drücken ausatmen.</string>
+    <string name="ex_gp4_2_mistake">Stange Richtung Hals absenken.</string>
+    <string-array name="ex_gp4_2_steps">
+        <item>Stange knapp unter das Schlüsselbein senken und kraftvoll hochdrücken.</item>
+    </string-array>
+    <string name="ex_gp4_3_name">Pendlay-Rudern</string>
+    <string name="ex_gp4_3_muscle">Explosiver Rücken</string>
+    <string name="ex_gp4_3_cue">Baut Rückendichte und Schnellkraft auf.</string>
+    <string name="ex_gp4_3_breath">Beim Ziehen ausatmen.</string>
+    <string name="ex_gp4_3_mistake">Mit dem Oberkörper aufstehen.</string>
+    <string-array name="ex_gp4_3_steps">
+        <item>Rücken parallel zum Boden, jede Wdh. explosiv vom Boden ziehen.</item>
+    </string-array>
+    <string name="ex_gp4_4_name">Farmer\'s Walk</string>
+    <string name="ex_gp4_4_muscle">Griffkraft &amp; Rumpf</string>
+    <string name="ex_gp4_4_cue">Trainiert die gesamte Rumpfstabilität.</string>
+    <string name="ex_gp4_4_breath">Gleichmäßig atmen, keine flache Hechelei.</string>
+    <string name="ex_gp4_4_mistake">Seitliches Schwanken beim Gehen.</string>
+    <string-array name="ex_gp4_4_steps">
+        <item>Schwere Kurzhanteln halten, Schultern zurück und zügig gehen.</item>
+    </string-array>
+</resources>

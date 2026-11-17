@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h1_1_name">Bodyweight squat</string>
+    <string name="ex_h1_1_muscle">Benen &amp; Billen</string>
+    <string name="ex_h1_1_cue">Houd je borst trots en knieën stabiel.</string>
+    <string name="ex_h1_1_breath">Adem in omlaag, uit omhoog.</string>
+    <string name="ex_h1_1_mistake">Knieën naar elkaar toe laten vallen.</string>
+    <string-array name="ex_h1_1_steps">
+        <item>Voeten op schouderbreedte, armen naar voren.</item>
+        <item>Zak met je heupen naar achteren alsof je op een stoel gaat zitten.</item>
+        <item>Duw vanuit de hielen omhoog.</item>
+    </string-array>
+    <string name="ex_h1_2_name">Klassieke push-ups (of op knieën)</string>
+    <string name="ex_h1_2_muscle">Borst &amp; Armen</string>
+    <string name="ex_h1_2_cue">Houd ellebogen op 45 graden naar achteren, geen T-vorm.</string>
+    <string name="ex_h1_2_breath">Adem in omlaag, uit bij het opduwen.</string>
+    <string name="ex_h1_2_mistake">Je heupen laten doorzakken.</string>
+    <string-array name="ex_h1_2_steps">
+        <item>Zet handen iets breder dan schouderbreedte.</item>
+        <item>Houd je lichaam recht als een plank en laat je borst zakken.</item>
+        <item>Duw jezelf stevig omhoog.</item>
+    </string-array>
+    <string name="ex_h1_3_name">Glute bridge</string>
+    <string name="ex_h1_3_muscle">Billen &amp; Onderrug</string>
+    <string name="ex_h1_3_cue">Focus op het knijpen van de billen, niet op je onderrug.</string>
+    <string name="ex_h1_3_breath">Adem uit bij het omhoog komen.</string>
+    <string name="ex_h1_3_mistake">Voeten te ver naar voren zetten.</string>
+    <string-array name="ex_h1_3_steps">
+        <item>Lig op je rug, knieën gebogen, voeten dicht bij de billen.</item>
+        <item>Til je heupen in een rechte lijn omhoog.</item>
+        <item>Knijp 2 sec bovenin en zak rustig terug.</item>
+    </string-array>
+    <string name="ex_h1_4_name">Mountain climbers</string>
+    <string name="ex_h1_4_muscle">Core &amp; Cardio</string>
+    <string name="ex_h1_4_sets">3 x 30 sec</string>
+    <string name="ex_h1_4_cue">Houd heupen stil zonder te stuiteren.</string>
+    <string name="ex_h1_4_breath">Adem ritmisch.</string>
+    <string name="ex_h1_4_mistake">Je heupen te hoog duwen.</string>
+    <string-array name="ex_h1_4_steps">
+        <item>Neem een hoge plankhouding aan.</item>
+        <item>Trek om de beurt je knieën snel naar je borst.</item>
+    </string-array>
+    <string name="ex_h2_1_name">Decline push-up (voeten verhoogd)</string>
+    <string name="ex_h2_1_muscle">Bovenborst</string>
+    <string name="ex_h2_1_cue">Geeft extra nadruk op bovenborst en voorschouders.</string>
+    <string name="ex_h2_1_breath">Adem uit bij het opduwen.</string>
+    <string name="ex_h2_1_mistake">Je hoofd naar voren laten zakken.</string>
+    <string-array name="ex_h2_1_steps">
+        <item>Zet je voeten op een bank of stoel.</item>
+        <item>Laat je borst zakken en duw op.</item>
+    </string-array>
+    <string name="ex_h2_2_name">Diamond push-ups</string>
+    <string name="ex_h2_2_muscle">Binnenborst &amp; Triceps</string>
+    <string name="ex_h2_2_cue">Zorgt voor sterke triceps- en binnenborstactivatie.</string>
+    <string name="ex_h2_2_breath">Adem uit bij het opduwen.</string>
+    <string name="ex_h2_2_mistake">Handen onder het gezicht zetten.</string>
+    <string-array name="ex_h2_2_steps">
+        <item>Vorm een diamant met je handen onder de borst.</item>
+        <item>Houd ellebogen dichtbij en duw op.</item>
+    </string-array>
+    <string name="ex_h2_3_name">Tempo negatieve push-ups</string>
+    <string name="ex_h2_3_muscle">Borstcontrole</string>
+    <string name="ex_h2_3_cue">Langzaam zakken prikkelt de spiervezels dieper.</string>
+    <string name="ex_h2_3_breath">Adem rustig in tijdens het zakken.</string>
+    <string name="ex_h2_3_mistake">Je op de laatste seconde laten vallen.</string>
+    <string-array name="ex_h2_3_steps">
+        <item>Zak langzaam in 4 volle tellen omlaag.</item>
+        <item>Tik licht aan en duw snel terug omhoog.</item>
+    </string-array>
+    <string name="ex_h3_1_name">Bicycle crunch</string>
+    <string name="ex_h3_1_muscle">Boven- &amp; schuine buikspieren</string>
+    <string name="ex_h3_1_cue">Draai je schouder in zonder aan je nek te trekken.</string>
+    <string name="ex_h3_1_breath">Adem uit bij elke draai.</string>
+    <string name="ex_h3_1_mistake">Te snel en halfslachtig fietsen.</string>
+    <string-array name="ex_h3_1_steps">
+        <item>Op je rug, handen bij de slapen.</item>
+        <item>Breng rechterelleboog naar linkerknie terwijl je rechterbeen strekt, wissel.</item>
+    </string-array>
+    <string name="ex_h3_2_name">Leg raise</string>
+    <string name="ex_h3_2_muscle">Onderbuik</string>
+    <string name="ex_h3_2_cue">Zak minder diep als je onderrug loskomt.</string>
+    <string name="ex_h3_2_breath">Adem in omlaag, uit omhoog.</string>
+    <string name="ex_h3_2_mistake">Een holle rug trekken.</string>
+    <string-array name="ex_h3_2_steps">
+        <item>Leg je handen onder je billen.</item>
+        <item>Til gestrekte benen tot 90° en zak net boven de vloer.</item>
+    </string-array>
+    <string name="ex_h3_3_name">Side plank</string>
+    <string name="ex_h3_3_muscle">Schuine buikspieren &amp; Taille</string>
+    <string name="ex_h3_3_sets">3 x 30 sec/kant</string>
+    <string name="ex_h3_3_cue">Maakt taille en zij-core ijzersterk.</string>
+    <string name="ex_h3_3_breath">Adem rustig door.</string>
+    <string name="ex_h3_3_mistake">Heupen naar voren of achteren draaien.</string>
+    <string-array name="ex_h3_3_steps">
+        <item>Steun op één onderarm met een recht lichaam.</item>
+        <item>Houd vast zonder de heupen te laten zakken.</item>
+    </string-array>
+    <string name="ex_h4_1_name">Sumo squat</string>
+    <string name="ex_h4_1_muscle">Binnenbenen &amp; Billen</string>
+    <string name="ex_h4_1_cue">Richt zich op binnenbenen en billen.</string>
+    <string name="ex_h4_1_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_h4_1_mistake">Knieën naar binnen laten zakken.</string>
+    <string-array name="ex_h4_1_steps">
+        <item>Sta breed met tenen 45° naar buiten.</item>
+        <item>Zak recht omlaag en kom terug omhoog.</item>
+    </string-array>
+    <string name="ex_h4_2_name">Reverse lunge</string>
+    <string name="ex_h4_2_muscle">Bovenbenen &amp; Billen</string>
+    <string name="ex_h4_2_sets">3 x 12/been</string>
+    <string name="ex_h4_2_cue">Vriendelijker voor de knieën dan voorwaartse lunges.</string>
+    <string name="ex_h4_2_breath">Adem uit bij het opstaan.</string>
+    <string name="ex_h4_2_mistake">Te ver voorover leunen.</string>
+    <string-array name="ex_h4_2_steps">
+        <item>Zet één voet naar achteren.</item>
+        <item>Laat achterste knie zakken en duw op via de voorste hiel.</item>
+    </string-array>
+    <string name="ex_h4_3_name">Single-leg glute bridge</string>
+    <string name="ex_h4_3_muscle">Eénbenige bilspieren</string>
+    <string name="ex_h4_3_sets">3 x 12/been</string>
+    <string name="ex_h4_3_cue">Verdubbelt de bilspieractivatie.</string>
+    <string name="ex_h4_3_breath">Adem uit bij het omhoog duwen.</string>
+    <string name="ex_h4_3_mistake">Heupen scheef laten zakken.</string>
+    <string-array name="ex_h4_3_steps">
+        <item>Strek één been recht omhoog.</item>
+        <item>Duw vanuit de andere hiel omhoog en knijp 1 seconde.</item>
+    </string-array>
+    <string name="ex_h5_1_name">Jumping jacks</string>
+    <string name="ex_h5_1_muscle">Warming-up &amp; Cardio</string>
+    <string name="ex_h5_1_sets">4 x 40 sec</string>
+    <string name="ex_h5_1_cue">Land zacht op de voorvoeten.</string>
+    <string name="ex_h5_1_breath">Adem ritmisch.</string>
+    <string name="ex_h5_1_mistake">Hard op je hielen landen.</string>
+    <string-array name="ex_h5_1_steps">
+        <item>Spring je benen wijd en breng armen boven het hoofd samen.</item>
+        <item>Spring licht terug naar de start.</item>
+    </string-array>
+    <string name="ex_h5_2_name">Burpees (stappen of springen)</string>
+    <string name="ex_h5_2_muscle">Volledig lichaam</string>
+    <string name="ex_h5_2_sets">4 x 30 sec</string>
+    <string name="ex_h5_2_cue">Stap in en uit als je vermoeid raakt.</string>
+    <string name="ex_h5_2_breath">Adem uit bij de sprong.</string>
+    <string name="ex_h5_2_mistake">Onderrug laten doorhangen.</string>
+    <string-array name="ex_h5_2_steps">
+        <item>Handen op de grond, voeten naar plankpositie.</item>
+        <item>Spring voeten terug en spring omhoog.</item>
+    </string-array>
+    <string name="ex_h5_3_name">High knees</string>
+    <string name="ex_h5_3_muscle">Cardio &amp; Onderbuik</string>
+    <string name="ex_h5_3_sets">4 x 30 sec</string>
+    <string name="ex_h5_3_cue">Beweeg je armen mee in loopritme.</string>
+    <string name="ex_h5_3_breath">Blijf gelijkmatig uitademen.</string>
+    <string name="ex_h5_3_mistake">Achterover leunen.</string>
+    <string-array name="ex_h5_3_steps">
+        <item>Ren op je plaats en trek knieën snel naar heuphoogte.</item>
+    </string-array>
+    <string name="ex_h6_1_name">Dumbbell thruster</string>
+    <string name="ex_h6_1_muscle">Benen &amp; Schouders</string>
+    <string name="ex_h6_1_cue">Traint bijna het hele lichaam in één vloeiende beweging.</string>
+    <string name="ex_h6_1_breath">Adem uit tijdens het uitduwen.</string>
+    <string name="ex_h6_1_mistake">Alleen met armen drukken zonder beenkracht.</string>
+    <string-array name="ex_h6_1_steps">
+        <item>Squat met dumbbells op de schouders.</item>
+        <item>Gebruik de beenkracht om boven je hoofd te drukken.</item>
+    </string-array>
+    <string name="ex_h6_2_name">Dumbbell bent-over row</string>
+    <string name="ex_h6_2_muscle">Rug</string>
+    <string name="ex_h6_2_cue">Houd je nek neutraal in lijn met de rug.</string>
+    <string name="ex_h6_2_breath">Adem uit bij het trekken.</string>
+    <string name="ex_h6_2_mistake">Een bolle onderrug maken.</string>
+    <string-array name="ex_h6_2_steps">
+        <item>Buig 45 graden voorover met rechte rug.</item>
+        <item>Trek dumbbells naar je heupen en knijp schouderbladen samen.</item>
+    </string-array>
+    <string name="ex_h6_3_name">Dumbbell floor press</string>
+    <string name="ex_h6_3_muscle">Borst &amp; Triceps</string>
+    <string name="ex_h6_3_cue">Zeer schoudervriendelijke borstoefening voor thuis.</string>
+    <string name="ex_h6_3_breath">Adem uit bij het uitduwen.</string>
+    <string name="ex_h6_3_mistake">Ellebogen hard op de grond laten botsen.</string>
+    <string-array name="ex_h6_3_steps">
+        <item>Lig op de grond met gebogen knieën.</item>
+        <item>Tik de vloer licht aan met je ellebogen en duw op.</item>
+    </string-array>
+    <string name="ex_h7_1_name">Cat-cow stretch</string>
+    <string name="ex_h7_1_muscle">Wervelkolom mobiliteit</string>
+    <string name="ex_h7_1_cue">Beweeg wervel voor wervel bewust.</string>
+    <string name="ex_h7_1_breath">Stem ademhaling en beweging op elkaar af.</string>
+    <string name="ex_h7_1_mistake">Te snel bewegen.</string>
+    <string-array name="ex_h7_1_steps">
+        <item>Start op handen en knieën.</item>
+        <item>Adem in en open de borst; adem uit en maak je rug bol.</item>
+    </string-array>
+    <string name="ex_h7_2_name">World\'s greatest stretch</string>
+    <string name="ex_h7_2_muscle">Heupen &amp; Bovenrug</string>
+    <string name="ex_h7_2_sets">3 x 6/kant</string>
+    <string name="ex_h7_2_cue">Maakt stijfheid door zitten snel los.</string>
+    <string name="ex_h7_2_breath">Adem uit bij het opendraaien.</string>
+    <string name="ex_h7_2_mistake">De achterste knie op de grond laten zakken.</string>
+    <string-array name="ex_h7_2_steps">
+        <item>Zet een diepe lunge met één hand op de grond.</item>
+        <item>Draai de andere arm open richting het plafond.</item>
+    </string-array>
+    <string name="ex_h7_3_name">Deep squat hold</string>
+    <string name="ex_h7_3_muscle">Heupen &amp; Enkels</string>
+    <string name="ex_h7_3_sets">3 x 30 sec</string>
+    <string name="ex_h7_3_cue">Houd je hielen plat op de grond.</string>
+    <string name="ex_h7_3_breath">Adem diep naar de buik.</string>
+    <string name="ex_h7_3_mistake">Op de tenen gaan staan.</string>
+    <string-array name="ex_h7_3_steps">
+        <item>Zak in een volledige diepe squat.</item>
+        <item>Duw knieën zacht naar buiten met je ellebogen en houd borst op.</item>
+    </string-array>
+    <string name="ex_h8_1_name">Pike push-up</string>
+    <string name="ex_h8_1_muscle">Schouders</string>
+    <string name="ex_h8_1_cue">Beste vervanger thuis voor de shoulder press.</string>
+    <string name="ex_h8_1_breath">Adem uit bij het opduwen.</string>
+    <string name="ex_h8_1_mistake">Ellebogen te ver naar buiten spreiden.</string>
+    <string-array name="ex_h8_1_steps">
+        <item>Duw heupen hoog in een omgekeerde V.</item>
+        <item>Laat je hoofd voor je handen zakken en duw op.</item>
+    </string-array>
+    <string name="ex_h8_2_name">Chair triceps dips</string>
+    <string name="ex_h8_2_muscle">Triceps</string>
+    <string name="ex_h8_2_cue">Houd schouders laag.</string>
+    <string name="ex_h8_2_breath">Adem uit bij het opduwen.</string>
+    <string name="ex_h8_2_mistake">Te ver van de stoel af zitten.</string>
+    <string-array name="ex_h8_2_steps">
+        <item>Pak de rand van een stevige stoel vast.</item>
+        <item>Houd rug dichtbij, buig ellebogen tot 90° en duw op.</item>
+    </string-array>
+    <string name="ex_h8_3_name">Superman hold</string>
+    <string name="ex_h8_3_muscle">Onderrug &amp; Houding</string>
+    <string name="ex_h8_3_cue">Versterkt rug en houding.</string>
+    <string name="ex_h8_3_breath">Adem uit tijdens het tillen.</string>
+    <string name="ex_h8_3_mistake">Je nek achterover knikken.</string>
+    <string-array name="ex_h8_3_steps">
+        <item>Op je buik liggen met gestrekte armen en benen.</item>
+        <item>Til borst en benen licht op en houd 2 sec vast.</item>
+    </string-array>
+</resources>

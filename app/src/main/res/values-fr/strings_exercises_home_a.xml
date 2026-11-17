@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_h1_1_name">Squat au poids du corps</string>
+    <string name="ex_h1_1_muscle">Jambes &amp; Fessiers</string>
+    <string name="ex_h1_1_cue">Gardez la poitrine fière et les genoux stables.</string>
+    <string name="ex_h1_1_breath">Inspirez en descendant, expirez en montant.</string>
+    <string name="ex_h1_1_mistake">Laisser les genoux rentrer.</string>
+    <string-array name="ex_h1_1_steps">
+        <item>Pieds largeur d\'épaules, bras tendus devant.</item>
+        <item>Asseyez les hanches vers l\'arrière comme sur une chaise invisible.</item>
+        <item>Poussez sur les talons pour remonter.</item>
+    </string-array>
+    <string name="ex_h1_2_name">Pompes classiques (ou sur genoux)</string>
+    <string name="ex_h1_2_muscle">Pectoraux &amp; Bras</string>
+    <string name="ex_h1_2_cue">Coudes à 45° vers l\'arrière, ne formez pas un T.</string>
+    <string name="ex_h1_2_breath">Inspirez en descendant, expirez en poussant.</string>
+    <string name="ex_h1_2_mistake">Laisser le bassin s\'affaisser.</string>
+    <string-array name="ex_h1_2_steps">
+        <item>Mains un peu plus larges que les épaules.</item>
+        <item>Gardez le corps droit et descendez la poitrine vers le sol.</item>
+        <item>Poussez fermement pour remonter.</item>
+    </string-array>
+    <string name="ex_h1_3_name">Pont fessier</string>
+    <string name="ex_h1_3_muscle">Fessiers &amp; Lombaires</string>
+    <string name="ex_h1_3_cue">Contractez les fessiers plutôt que le bas du dos.</string>
+    <string name="ex_h1_3_breath">Expirez en montant.</string>
+    <string name="ex_h1_3_mistake">Placer les pieds trop loin.</string>
+    <string-array name="ex_h1_3_steps">
+        <item>Allongez-vous sur le dos, genoux pliés, pieds proches des fessiers.</item>
+        <item>Montez les hanches en alignant épaules, hanches et genoux.</item>
+        <item>Contractez 2 s en haut puis redescendez doucement.</item>
+    </string-array>
+    <string name="ex_h1_4_name">Mountain Climbers</string>
+    <string name="ex_h1_4_muscle">Abdos &amp; Cardio</string>
+    <string name="ex_h1_4_sets">3 x 30 s</string>
+    <string name="ex_h1_4_cue">Gardez les hanches stables.</string>
+    <string name="ex_h1_4_breath">Respirez de manière rythmée.</string>
+    <string name="ex_h1_4_mistake">Monter les fesses trop haut.</string>
+    <string-array name="ex_h1_4_steps">
+        <item>Adoptez une position de planche haute.</item>
+        <item>Ramenez les genoux en alternance vers la poitrine.</item>
+    </string-array>
+    <string name="ex_h2_1_name">Pompes déclinées (pieds surélevés)</string>
+    <string name="ex_h2_1_muscle">Haut des pectoraux</string>
+    <string name="ex_h2_1_cue">Cible davantage le haut des pecs.</string>
+    <string name="ex_h2_1_breath">Expirez en poussant.</string>
+    <string name="ex_h2_1_mistake">Laisser tomber la tête.</string>
+    <string-array name="ex_h2_1_steps">
+        <item>Posez les pieds sur un canapé ou un banc.</item>
+        <item>Descendez la poitrine vers le sol et poussez.</item>
+    </string-array>
+    <string name="ex_h2_2_name">Pompes diamant</string>
+    <string name="ex_h2_2_muscle">Milieu des pecs &amp; Triceps</string>
+    <string name="ex_h2_2_cue">Brûlure intense dans les triceps et le milieu des pecs.</string>
+    <string name="ex_h2_2_breath">Expirez en poussant.</string>
+    <string name="ex_h2_2_mistake">Placer les mains sous le visage.</string>
+    <string-array name="ex_h2_2_steps">
+        <item>Formez un losange avec vos mains sous la poitrine.</item>
+        <item>Gardez les coudes près du corps, descendez et poussez.</item>
+    </string-array>
+    <string name="ex_h2_3_name">Pompes tempo négatif</string>
+    <string name="ex_h2_3_muscle">Contrôle des pectoraux</string>
+    <string name="ex_h2_3_cue">La descente lente stimule plus les fibres.</string>
+    <string name="ex_h2_3_breath">Inspirez lentement en descendant.</string>
+    <string name="ex_h2_3_mistake">Se laisser tomber à la fin.</string>
+    <string-array name="ex_h2_3_steps">
+        <item>Descendez lentement en comptant 4 secondes.</item>
+        <item>Effleurez le sol et remontez rapidement.</item>
+    </string-array>
+    <string name="ex_h3_1_name">Crunch vélo</string>
+    <string name="ex_h3_1_muscle">Abdos &amp; Obliques</string>
+    <string name="ex_h3_1_cue">Tournez l\'épaule sans tirer sur la nuque.</string>
+    <string name="ex_h3_1_breath">Expirez à chaque rotation.</string>
+    <string name="ex_h3_1_mistake">Pédaler trop vite en demi-amplitude.</string>
+    <string-array name="ex_h3_1_steps">
+        <item>Sur le dos, mains aux tempes.</item>
+        <item>Rapprochez le coude droit du genou gauche en tendant l\'autre jambe, puis alternez.</item>
+    </string-array>
+    <string name="ex_h3_2_name">Relevé de jambes au sol</string>
+    <string name="ex_h3_2_muscle">Bas des abdos</string>
+    <string name="ex_h3_2_cue">Descendez moins bas si le dos se décolle.</string>
+    <string name="ex_h3_2_breath">Inspirez en descendant, expirez en montant.</string>
+    <string name="ex_h3_2_mistake">Cambrer le bas du dos.</string>
+    <string-array name="ex_h3_2_steps">
+        <item>Mains sous les fessiers en soutien.</item>
+        <item>Montez les jambes tendues à 90° puis descendez sans toucher le sol.</item>
+    </string-array>
+    <string name="ex_h3_3_name">Gainage latéral</string>
+    <string name="ex_h3_3_muscle">Obliques &amp; Taille</string>
+    <string name="ex_h3_3_sets">3 x 30 s/côté</string>
+    <string name="ex_h3_3_cue">Renforce fermement la taille et les obliques.</string>
+    <string name="ex_h3_3_breath">Respirez régulièrement.</string>
+    <string name="ex_h3_3_mistake">Basculer les hanches.</string>
+    <string-array name="ex_h3_3_steps">
+        <item>En appui sur un avant-bras, alignez le corps.</item>
+        <item>Maintenez sans laisser tomber les hanches.</item>
+    </string-array>
+    <string name="ex_h4_1_name">Squat sumo</string>
+    <string name="ex_h4_1_muscle">Adducteurs &amp; Fessiers</string>
+    <string name="ex_h4_1_cue">Cible adducteurs et fessiers.</string>
+    <string name="ex_h4_1_breath">Expirez en remontant.</string>
+    <string name="ex_h4_1_mistake">Laisser les genoux rentrer.</string>
+    <string-array name="ex_h4_1_steps">
+        <item>Pieds très écartés, pointes à 45° vers l\'extérieur.</item>
+        <item>Descendez buste droit puis remontez.</item>
+    </string-array>
+    <string name="ex_h4_2_name">Fente arrière</string>
+    <string name="ex_h4_2_muscle">Quadriceps &amp; Fessiers</string>
+    <string name="ex_h4_2_sets">3 x 12/jambe</string>
+    <string name="ex_h4_2_cue">Plus doux pour les genoux que la fente avant.</string>
+    <string name="ex_h4_2_breath">Expirez en remontant.</string>
+    <string name="ex_h4_2_mistake">Trop se pencher en avant.</string>
+    <string-array name="ex_h4_2_steps">
+        <item>Reculez un pied en arrière.</item>
+        <item>Approchez le genou arrière du sol puis poussez sur le talon avant.</item>
+    </string-array>
+    <string name="ex_h4_3_name">Pont fessier unilatéral</string>
+    <string name="ex_h4_3_muscle">Fessiers unilatéraux</string>
+    <string name="ex_h4_3_sets">3 x 12/jambe</string>
+    <string name="ex_h4_3_cue">Double l\'activation des fessiers.</string>
+    <string name="ex_h4_3_breath">Expirez en poussant.</string>
+    <string name="ex_h4_3_mistake">Laisser le bassin basculer sur le côté.</string>
+    <string-array name="ex_h4_3_steps">
+        <item>Tendez une jambe vers le haut.</item>
+        <item>Poussez avec l\'autre talon et contractez 1 seconde.</item>
+    </string-array>
+    <string name="ex_h5_1_name">Jumping Jacks</string>
+    <string name="ex_h5_1_muscle">Échauffement &amp; Cardio</string>
+    <string name="ex_h5_1_sets">4 x 40 s</string>
+    <string name="ex_h5_1_cue">Atterrissez souplement sur l\'avant-pied.</string>
+    <string name="ex_h5_1_breath">Respirez en rythme.</string>
+    <string name="ex_h5_1_mistake">Frapper durement les talons au sol.</string>
+    <string-array name="ex_h5_1_steps">
+        <item>Sautez en écartant les jambes et levez les bras au-dessus de la tête.</item>
+        <item>Revenez en sautant.</item>
+    </string-array>
+    <string name="ex_h5_2_name">Burpees (en pas ou sauté)</string>
+    <string name="ex_h5_2_muscle">Brûlage corps complet</string>
+    <string name="ex_h5_2_sets">4 x 30 s</string>
+    <string name="ex_h5_2_cue">Passez en version marchée si vous fatiguez.</string>
+    <string name="ex_h5_2_breath">Expirez au saut.</string>
+    <string name="ex_h5_2_mistake">Creuser les lombaires.</string>
+    <string-array name="ex_h5_2_steps">
+        <item>Mains au sol, envoyez les pieds en planche.</item>
+        <item>Ramenez les pieds devant et sautez.</item>
+    </string-array>
+    <string name="ex_h5_3_name">Montées de genoux</string>
+    <string name="ex_h5_3_muscle">Cardio &amp; Bas des abdos</string>
+    <string name="ex_h5_3_sets">4 x 30 s</string>
+    <string name="ex_h5_3_cue">Accompagnez le mouvement avec les bras.</string>
+    <string name="ex_h5_3_breath">Expirez régulièrement.</string>
+    <string name="ex_h5_3_mistake">Se pencher en arrière.</string>
+    <string-array name="ex_h5_3_steps">
+        <item>Courez sur place en montant vite les genoux à hauteur de hanche.</item>
+    </string-array>
+    <string name="ex_h6_1_name">Thruster aux haltères</string>
+    <string name="ex_h6_1_muscle">Jambes &amp; Épaules</string>
+    <string name="ex_h6_1_cue">Travaille tout le corps en un seul mouvement.</string>
+    <string name="ex_h6_1_breath">Expirez en poussant vers le haut.</string>
+    <string name="ex_h6_1_mistake">Ne pas utiliser l\'élan des jambes.</string>
+    <string-array name="ex_h6_1_steps">
+        <item>Squattez avec les haltères aux épaules.</item>
+        <item>Utilisez la poussée des jambes pour développer au-dessus de la tête.</item>
+    </string-array>
+    <string name="ex_h6_2_name">Rowing buste penché aux haltères</string>
+    <string name="ex_h6_2_muscle">Dos</string>
+    <string name="ex_h6_2_cue">Gardez la nuque alignée avec la colonne.</string>
+    <string name="ex_h6_2_breath">Expirez en tirant.</string>
+    <string name="ex_h6_2_mistake">Arrondir le bas du dos.</string>
+    <string-array name="ex_h6_2_steps">
+        <item>Penchez le buste à 45°, dos plat.</item>
+        <item>Tirez les haltères vers les hanches en serrant les omoplates.</item>
+    </string-array>
+    <string name="ex_h6_3_name">Développé au sol aux haltères</string>
+    <string name="ex_h6_3_muscle">Pectoraux &amp; Triceps</string>
+    <string name="ex_h6_3_cue">Excellent pour les pectoraux tout en protégeant l\'épaule.</string>
+    <string name="ex_h6_3_breath">Expirez en poussant.</string>
+    <string name="ex_h6_3_mistake">Frapper les coudes au sol.</string>
+    <string-array name="ex_h6_3_steps">
+        <item>Allongez-vous sur le dos, genoux fléchis.</item>
+        <item>Effleurez le sol avec les coudes, pause, puis poussez.</item>
+    </string-array>
+    <string name="ex_h7_1_name">Étirement Chat-Vache</string>
+    <string name="ex_h7_1_muscle">Mobilité vertébrale</string>
+    <string name="ex_h7_1_cue">Mobilisez chaque vertèbre en douceur.</string>
+    <string name="ex_h7_1_breath">Synchronisez souffle et mouvement.</string>
+    <string name="ex_h7_1_mistake">Aller trop vite.</string>
+    <string-array name="ex_h7_1_steps">
+        <item>À quatre pattes, mains sous les épaules.</item>
+        <item>Inspirez en ouvrant le cœur ; expirez en arrondissant le dos.</item>
+    </string-array>
+    <string name="ex_h7_2_name">World\'s Greatest Stretch</string>
+    <string name="ex_h7_2_muscle">Hanches &amp; Rachis thoracique</string>
+    <string name="ex_h7_2_sets">3 x 6/côté</string>
+    <string name="ex_h7_2_cue">Libère les raideurs dues à la position assise.</string>
+    <string name="ex_h7_2_breath">Expirez lors de la rotation.</string>
+    <string name="ex_h7_2_mistake">Poser le genou arrière au sol.</string>
+    <string-array name="ex_h7_2_steps">
+        <item>Fente profonde, une main au sol.</item>
+        <item>Pivotez l\'autre bras vers le plafond en ouvrant la poitrine.</item>
+    </string-array>
+    <string name="ex_h7_3_name">Squat profond maintenu</string>
+    <string name="ex_h7_3_muscle">Hanches &amp; Chevilles</string>
+    <string name="ex_h7_3_sets">3 x 30 s</string>
+    <string name="ex_h7_3_cue">Gardez les talons bien à plat au sol.</string>
+    <string name="ex_h7_3_breath">Respirez profondément par le ventre.</string>
+    <string name="ex_h7_3_mistake">Décoller les talons.</string>
+    <string-array name="ex_h7_3_steps">
+        <item>Descendez en squat complet.</item>
+        <item>Poussez doucement les genoux vers l\'extérieur avec les coudes.</item>
+    </string-array>
+    <string name="ex_h8_1_name">Pompes piquées</string>
+    <string name="ex_h8_1_muscle">Épaules</string>
+    <string name="ex_h8_1_cue">Meilleur équivalent au développé épaules au poids du corps.</string>
+    <string name="ex_h8_1_breath">Expirez en poussant.</string>
+    <string name="ex_h8_1_mistake">Écarter excessivement les coudes.</string>
+    <string-array name="ex_h8_1_steps">
+        <item>Montez les hanches en V inversé.</item>
+        <item>Descendez le sommet du crâne devant les mains et poussez.</item>
+    </string-array>
+    <string name="ex_h8_2_name">Dips triceps sur chaise</string>
+    <string name="ex_h8_2_muscle">Triceps</string>
+    <string name="ex_h8_2_cue">Gardez les épaules basses.</string>
+    <string name="ex_h8_2_breath">Expirez en remontant.</string>
+    <string name="ex_h8_2_mistake">Trop s\'éloigner de la chaise.</string>
+    <string-array name="ex_h8_2_steps">
+        <item>Mains sur le bord d\'une chaise solide.</item>
+        <item>Dos proche de la chaise, pliez à 90° et poussez.</item>
+    </string-array>
+    <string name="ex_h8_3_name">Superman au sol</string>
+    <string name="ex_h8_3_muscle">Lombaires &amp; Posture</string>
+    <string name="ex_h8_3_cue">Renforce le bas du dos et la posture.</string>
+    <string name="ex_h8_3_breath">Expirez en soulevant.</string>
+    <string name="ex_h8_3_mistake">Tirer la nuque en arrière.</string>
+    <string-array name="ex_h8_3_steps">
+        <item>À plat ventre, bras et jambes tendus.</item>
+        <item>Soulevez poitrine et jambes 2 secondes.</item>
+    </string-array>
+</resources>

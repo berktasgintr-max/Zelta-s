@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="diff_beginner">Beginner</string>
+    <string name="diff_intermediate">Gemiddeld</string>
+    <string name="diff_advanced">Gevorderd</string>
+    <string name="diff_pro">Pro / Gevorderd</string>
+    <string name="story_1_badge">-11,5 kg in 4 mnd</string>
+    <string name="story_1_result" formatted="false">94 kg → 82,5 kg • Vetpercentage 26% → 16%</string>
+    <string name="story_1_quote">Ik volgde mijn persoonlijke schema in de kalender. Elke dag FitChicken aantikken hield mijn reeks levend!</string>
+    <string name="story_2_badge">0-18 Groeimodus</string>
+    <string name="story_2_result">+4 cm Houding • +12 cm Spronghoogte</string>
+    <string name="story_2_quote">Ik deed de sprong- en houdingsdrills voor basketbal. Mijn houding is rechter en ik ben explosiever op het veld.</string>
+    <string name="story_3_badge">90 dagen thuis</string>
+    <string name="story_3_result">Geen apparatuur • 4 dgn/wk</string>
+    <string name="story_3_quote">Geen tijd voor de sportschool, maar met de thuisworkouts en duidelijke bewegingsanimaties voelde het als een personal coach!</string>
+    <string name="story_4_badge">Pro Hypertrofie</string>
+    <string name="story_4_result">+4,8 kg droge spiermassa</string>
+    <string name="story_4_quote">Ik vroeg FitChicken Coach alles over voeding en rusttijden. Duidelijke wetenschap met humor verdubbelde mijn progressie.</string>
+    <string-array name="coach_tips">
+        <item>Stop met kakelen en til dat ijzer! Geef nooit op bij de laatste twee reps — daar groeit je spier.</item>
+        <item>Ik bouwde deze vleugels met een brede borst! Knijp je schouderbladen samen bij elke push-up en bench press.</item>
+        <item>Blijf hydrateren, kampioen! 2,5 tot 3 liter water per dag verhoogt je spierprestatie tot 15%.</item>
+        <item>Zelfs ik heb respect voor kipfilet — mik op 25–35 g goede eiwitten bij elke hoofdmaaltijd.</item>
+        <item>Geen slaap, geen spieren! Groeihormoon piekt in de eerste 4 uur diepe slaap.</item>
+        <item>Til om de spier te voelen, niet voor je ego. Rustig 3 seconden laten zakken doet wonderen.</item>
+        <item>Sla nooit je warming-up over! 5 minuten dynamische mobiliteit halveert de kans op blessures.</item>
+        <item>Wie beendag overslaat, loopt als een duif! Squats en lunges zijn de motor van je hele lijf.</item>
+        <item>Houd je adem niet in! Adem uit bij kracht leveren en adem rustig in bij het terugkeren.</item>
+        <item>Voor 0–18 jaar: bescherm je ruggengraat — dead hangs en rechte houdingsoefeningen zijn goud waard.</item>
+        <item>Drie consequente trainingen per week verslaan altijd één heroïsche sessie per maand.</item>
+        <item>Buikspieren worden zichtbaar in de keuken en gevormd tijdens training. Span je billen aan in elke plank!</item>
+        <item>Scroll niet 5 minuten op je telefoon tussen sets. 60–90 seconden rust houdt de pomp maximaal.</item>
+        <item>Hangende schouders? Doe extra roeibewegingen — zet tegenover elke duwoefening een strakke trekbeweging.</item>
+        <item>Je hoeft op dag één niet perfect te zijn; vandaag je sportschoenen strikken is al winst.</item>
+        <item>Je gewicht schommelt dagelijks door vocht — kijk altijd naar je 7-daagse gemiddelde.</item>
+        <item>Cafeïne 30 min voor training verscherpt focus, maar vermijd het na 18:00 uur voor je nachtrust.</item>
+        <item>Een gerichte thuissessie van 20 minuten verslaat altijd een overgeslagen uur in de sportschool.</item>
+        <item>Sla ellebogen of knieën nooit keihard op slot — houd lichte controle bovenin elke rep.</item>
+        <item>Cardio maakt je hart sterker zodat je sneller herstelt tussen zware krachtsets.</item>
+        <item>Vet verliezen? Tel je stappen! 8.000–10.000 stappen per dag is je stille superkracht.</item>
+        <item>Er bestaat geen magisch schema — alleen het schema dat je volhoudt. Plan en vink af!</item>
+        <item>Houd je ellebogen stil langs je zij bij curls — slinger niet met je onderrug.</item>
+        <item>Stel je bij rugoefeningen voor dat je vanuit je ellebogen trekt in plaats van je handen.</item>
+        <item>Vul binnen 1–2 uur na je workout aan met magere eiwitten en goede koolhydraten.</item>
+        <item>Neem daarna 5 minuten om te rekken — morgen ben je jezelf dankbaar.</item>
+        <item>Tieners: jaag op zuivere techniek en atletisch vermogen in plaats van riskante 1RM-records.</item>
+        <item>Een set eindigt zodra je vorm inzakt. 10 strakke reps bouwen meer op dan 15 slordige.</item>
+        <item>Weinig energie vandaag? Verlaag het gewicht met 20%, maar maak de sessie af. Discipline wint.</item>
+        <item>Check je houding in de spiegel: kin recht, borst trots, schouders ontspannen naar achteren.</item>
+        <item>Houd de stang bij deadlifts dicht langs je schenen — bolt je rug, verlaag direct het gewicht.</item>
+        <item>Zakt je onderrug door in de plank? Span je core harder aan of ga gecontroleerd op je knieën.</item>
+        <item>Let naast de weegschaal ook op tailleomtrek en energie — spieren zijn compacter dan vet.</item>
+        <item>Suikerhoudende drankjes vervangen door water bespaart moeiteloos enorm veel calorieën.</item>
+        <item>Progressive overload: probeer elke week 1 rep of 1 kg meer dan vorige week.</item>
+        <item>Geen gewichten thuis? Gebruik tempo: 3 sec omlaag, 1 sec pauze, explosief omhoog!</item>
+        <item>Vijf minuten cat-cow en borstopeners elke ochtend verdrijft stijve kantoor­schouders.</item>
+        <item>Elke afgevinkte kalendertraining versterkt je winnaarsgewoonte — bescherm je reeks!</item>
+        <item>De oefening die je vermijdt is meestal precies de zwakke plek die je tegenhoudt. Pak hem aan!</item>
+        <item>Ik ben FitChicken: als ik was gestopt toen mijn vleugels klein waren, had ik deze armen nooit gehad!</item>
+    </string-array>
+</resources>

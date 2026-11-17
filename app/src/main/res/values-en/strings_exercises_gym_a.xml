@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Barbell Bench Press</string>
+    <string name="ex_g1_1_muscle">Chest</string>
+    <string name="ex_g1_1_cue">Keep elbows at ~45 degrees to your torso and wrists stacked vertically.</string>
+    <string name="ex_g1_1_breath">Inhale deep lowering down, exhale powerfully pressing up.</string>
+    <string name="ex_g1_1_mistake">Bouncing the bar off your chest or lifting hips off the bench.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Lie flat on the bench and plant your feet firmly on the floor.</item>
+        <item>Grip the bar slightly wider than shoulder-width and squeeze your shoulder blades together.</item>
+        <item>Lower the bar under control to your mid-lower chest.</item>
+        <item>Press the bar up strongly while squeezing your chest.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Incline Dumbbell Press</string>
+    <string name="ex_g1_2_muscle">Upper Chest</string>
+    <string name="ex_g1_2_cue">Don\'t clang dumbbells together at the top—keep tension constant.</string>
+    <string name="ex_g1_2_breath">Inhale lowering, exhale pressing up.</string>
+    <string name="ex_g1_2_mistake">Setting the bench steeper than 45° and shifting work to front delts.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Set the bench to a 30-degree incline.</item>
+        <item>Press dumbbells up above your shoulders.</item>
+        <item>Lower with control by opening elbows out to upper chest level.</item>
+        <item>Drive back up feeling upper chest contraction at the top.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Overhead Dumbbell Shoulder Press</string>
+    <string name="ex_g1_3_muscle">Shoulders</string>
+    <string name="ex_g1_3_cue">Avoid excessively arching your lower back; keep ribs stacked down.</string>
+    <string name="ex_g1_3_breath">Exhale pressing overhead, inhale lowering.</string>
+    <string name="ex_g1_3_mistake">Pressing the dumbbells far forward in front of your face.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Sit upright with your core braced.</item>
+        <item>Hold dumbbells at ear level with palms facing forward.</item>
+        <item>Press smoothly overhead without locking elbows hard.</item>
+        <item>Lower slowly back to ear height.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Cable Triceps Rope Pushdown</string>
+    <string name="ex_g1_4_muscle">Triceps</string>
+    <string name="ex_g1_4_cue">Only the elbow joint moves—shoulders stay pinned.</string>
+    <string name="ex_g1_4_breath">Exhale as you press down.</string>
+    <string name="ex_g1_4_mistake">Leaning forward over the rope using bodyweight.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Grip the rope attachment at chest height.</item>
+        <item>Lock your elbows tight to your ribs.</item>
+        <item>Extend forearms fully down and flare the rope ends apart.</item>
+        <item>Return under control without letting elbows drift.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Lat Pulldown</string>
+    <string name="ex_g2_1_muscle">Lats / Back</string>
+    <string name="ex_g2_1_cue">Pull through your elbows rather than your hands.</string>
+    <string name="ex_g2_1_breath">Exhale pulling down, inhale releasing up.</string>
+    <string name="ex_g2_1_mistake">Swinging torso far backward for momentum.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Grip the bar wide and lock knees under the thigh pad.</item>
+        <item>Lift your chest slightly upward.</item>
+        <item>Pull elbows down and back, bringing the bar to upper chest.</item>
+        <item>Extend arms overhead smoothly under control.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Seated Cable Row</string>
+    <string name="ex_g2_2_muscle">Mid Back</string>
+    <string name="ex_g2_2_cue">Keep shoulders depressed away from your ears.</string>
+    <string name="ex_g2_2_breath">Exhale as you pull toward you.</string>
+    <string name="ex_g2_2_mistake">Rounding your lower back forward.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Brace feet on platform with a slight knee bend.</item>
+        <item>Keep spine tall and row handle to your midsection.</item>
+        <item>Squeeze shoulder blades together for 1 second.</item>
+        <item>Extend forward under control.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull</string>
+    <string name="ex_g2_3_muscle">Rear Delts &amp; Posture</string>
+    <string name="ex_g2_3_cue">Essential protective exercise for upright posture.</string>
+    <string name="ex_g2_3_breath">Exhale as you pull toward your face.</string>
+    <string name="ex_g2_3_mistake">Loading too heavy and leaning back with lower back.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Set rope pulley at eye height.</item>
+        <item>Pull rope toward forehead while flaring elbows wide.</item>
+        <item>Externally rotate fists back at peak to squeeze rear delts.</item>
+        <item>Return smoothly under control.</item>
+    </string-array>
+    <string name="ex_g2_4_name">EZ-Bar Biceps Curl</string>
+    <string name="ex_g2_4_muscle">Biceps</string>
+    <string name="ex_g2_4_cue">Keep wrists neutral without bending them inward.</string>
+    <string name="ex_g2_4_breath">Exhale curling up, inhale lowering.</string>
+    <string name="ex_g2_4_mistake">Swinging your lower back to heave the bar.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>Grip the EZ-bar at shoulder width.</item>
+        <item>Pin elbows steadily at your sides.</item>
+        <item>Curl up to shoulder height and squeeze for 1 second.</item>
+        <item>Lower slowly over 3 full seconds.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Barbell Back Squat</string>
+    <string name="ex_g3_1_muscle">Quads &amp; Glutes</string>
+    <string name="ex_g3_1_cue">Track knees over toes without caving inward.</string>
+    <string name="ex_g3_1_breath">Inhale descending, exhale driving up.</string>
+    <string name="ex_g3_1_mistake">Lifting heels off the ground or rounding the lower back.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Rest bar across upper traps with feet shoulder-width apart.</item>
+        <item>Inhale and brace your core tightly.</item>
+        <item>Sit hips back and down until thighs reach parallel.</item>
+        <item>Drive powerfully through your heels to stand.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Romanian Deadlift</string>
+    <string name="ex_g3_2_muscle">Hamstrings &amp; Glutes</string>
+    <string name="ex_g3_2_cue">This is a hip hinge—not a waist bend.</string>
+    <string name="ex_g3_2_breath">Inhale lowering down, exhale driving hips forward.</string>
+    <string name="ex_g3_2_mistake">Letting the bar drift away from your legs and rounding your back.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Hold bar at hips with softly unlocked knees.</item>
+        <item>With a flat back, push hips back while gliding the bar along your legs.</item>
+        <item>Once hamstrings stretch deeply, squeeze glutes forward to stand.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Leg Press</string>
+    <string name="ex_g3_3_muscle">Quadriceps</string>
+    <string name="ex_g3_3_cue">Never lower so deep that your glutes curl off the pad.</string>
+    <string name="ex_g3_3_breath">Exhale as you press.</string>
+    <string name="ex_g3_3_mistake">Snapping knees into full lockout at the top.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Keep lower back and glutes pressed flat against the seat.</item>
+        <item>Place feet shoulder-width on the sled.</item>
+        <item>Unlock safeties and bring knees smoothly toward chest.</item>
+        <item>Press back without locking knees stiffly.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Standing Calf Raise</string>
+    <string name="ex_g3_4_muscle">Calves</string>
+    <string name="ex_g3_4_cue">Use controlled tempo without bouncing.</string>
+    <string name="ex_g3_4_breath">Exhale rising up.</string>
+    <string name="ex_g3_4_mistake">Bouncing too quickly on the Achilles tendon.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Stand with balls of your feet on a step edge.</item>
+        <item>Stretch heels all the way down slowly.</item>
+        <item>Drive onto tiptoes to full height and pause 1 second.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Goblet Squat</string>
+    <string name="ex_g4_1_muscle">Legs &amp; Core</string>
+    <string name="ex_g4_1_cue">Keep your chest facing forward, don\'t tip over.</string>
+    <string name="ex_g4_1_breath">Inhale down, exhale standing up.</string>
+    <string name="ex_g4_1_mistake">Holding the weight far out away from your chest.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Hold one dumbbell vertically against your upper chest.</item>
+        <item>Squat down with an upright torso.</item>
+        <item>When elbows touch inside knees, drive back up cleanly.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Chest Press Machine</string>
+    <string name="ex_g4_2_muscle">Chest</string>
+    <string name="ex_g4_2_cue">Don\'t roll shoulders forward; keep chest proud.</string>
+    <string name="ex_g4_2_breath">Exhale as you press forward.</string>
+    <string name="ex_g4_2_mistake">Dropping the weight stack so plates slam.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Adjust seat so handles line up with mid-chest.</item>
+        <item>Press back into pad and push handles forward.</item>
+        <item>Control return smoothly to start.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Seated Row Machine</string>
+    <string name="ex_g4_3_muscle">Back</string>
+    <string name="ex_g4_3_cue">Don\'t shrug shoulders up toward your neck.</string>
+    <string name="ex_g4_3_breath">Exhale pulling back.</string>
+    <string name="ex_g4_3_mistake">Doing rushed half-reps.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Rest chest lightly against the pad and grab handles.</item>
+        <item>Pull elbows straight back squeezing upper back.</item>
+        <item>Extend forward under control.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Plank</string>
+    <string name="ex_g4_4_muscle">Abs &amp; Core</string>
+    <string name="ex_g4_4_sets">3 x 40 sec</string>
+    <string name="ex_g4_4_cue">Keep breathing continuously—don\'t freeze.</string>
+    <string name="ex_g4_4_breath">In through nose, out through mouth steadily.</string>
+    <string name="ex_g4_4_mistake">Piking hips high or sagging the lower back.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Set up on forearms like a push-up.</item>
+        <item>Form one straight line from head to heels.</item>
+        <item>Brace abs and glutes tightly until time is up.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Dumbbell Bench Press</string>
+    <string name="ex_g5_1_muscle">Chest</string>
+    <string name="ex_g5_1_cue">A 1-second pause at the bottom boosts strength.</string>
+    <string name="ex_g5_1_breath">Exhale pressing up.</string>
+    <string name="ex_g5_1_mistake">Flaring elbows straight out at 90 degrees.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Kick dumbbells smoothly to chest level using knees.</item>
+        <item>Press overhead and lower with control.</item>
+    </string-array>
+    <string name="ex_g5_2_name">One-Arm Dumbbell Row</string>
+    <string name="ex_g5_2_muscle">Back</string>
+    <string name="ex_g5_2_sets">4 x 10/arm</string>
+    <string name="ex_g5_2_cue">Pull strictly with your back without twisting your torso.</string>
+    <string name="ex_g5_2_breath">Exhale pulling up.</string>
+    <string name="ex_g5_2_mistake">Rowing the dumbbell straight up toward your shoulder.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Support one hand and knee on a bench with flat back.</item>
+        <item>Row the dumbbell smoothly toward your hip pocket.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Lateral Raise</string>
+    <string name="ex_g5_3_muscle">Side Delts</string>
+    <string name="ex_g5_3_cue">Lead slightly with your pinky side up.</string>
+    <string name="ex_g5_3_breath">Exhale raising out.</string>
+    <string name="ex_g5_3_mistake">Hopping and swinging arms with momentum.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Hold dumbbells at sides with soft elbows.</item>
+        <item>Raise arms out to the sides up to shoulder level.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Hammer Curl</string>
+    <string name="ex_g5_4_muscle">Biceps &amp; Forearms</string>
+    <string name="ex_g5_4_cue">Fastest grip variation for overall arm thickness.</string>
+    <string name="ex_g5_4_breath">Exhale curling up.</string>
+    <string name="ex_g5_4_mistake">Pulling shoulders forward during reps.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Hold dumbbells with palms facing each other.</item>
+        <item>Keep elbows pinned and curl cleanly.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Arnold Press</string>
+    <string name="ex_g6_1_muscle">Full Shoulders</string>
+    <string name="ex_g6_1_cue">Engages front and lateral delts in one sweep.</string>
+    <string name="ex_g6_1_breath">Exhale pressing up.</string>
+    <string name="ex_g6_1_mistake">Arching lower back excessively.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Start with palms facing your face in front of shoulders.</item>
+        <item>Rotate wrists outward as you press overhead.</item>
+        <item>Reverse smoothly back to start.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Incline Dumbbell Curl</string>
+    <string name="ex_g6_2_muscle">Long Head Biceps</string>
+    <string name="ex_g6_2_cue">Keep elbows fixed slightly behind your torso.</string>
+    <string name="ex_g6_2_breath">Exhale curling up.</string>
+    <string name="ex_g6_2_mistake">Swinging elbows forward on the lift.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Lean back on a 45-degree incline bench.</item>
+        <item>Let arms hang down freely and curl from the elbows.</item>
+    </string-array>
+    <string name="ex_g6_3_name">Skull Crusher (EZ Bar)</string>
+    <string name="ex_g6_3_muscle">Triceps</string>
+    <string name="ex_g6_3_cue">Don\'t let elbows flare wide outward.</string>
+    <string name="ex_g6_3_breath">Exhale pressing up.</string>
+    <string name="ex_g6_3_mistake">Using excessive weight and straining elbows.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Lie flat holding EZ-bar vertical over your eyes.</item>
+        <item>Bend only at elbows to lower bar behind forehead, then extend.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Cable Lateral Raise</string>
+    <string name="ex_g6_4_muscle">Side Delts</string>
+    <string name="ex_g6_4_cue">Keeps constant tension even at the very bottom.</string>
+    <string name="ex_g6_4_breath">Exhale raising out.</string>
+    <string name="ex_g6_4_mistake">Leaning torso sideways to swing up.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Stand sideways and hold low pulley across front of body.</item>
+        <item>Raise smoothly out to shoulder height.</item>
+    </string-array>
+</resources>

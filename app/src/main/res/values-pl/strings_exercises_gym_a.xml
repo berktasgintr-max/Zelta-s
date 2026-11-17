@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ex_g1_1_name">Wyciskanie Sztangi na Płaskiej</string>
+    <string name="ex_g1_1_muscle">Klatka</string>
+    <string name="ex_g1_1_cue">Łokcie prowadź pod kątem 45° do tułowia, nadgarstki prosto.</string>
+    <string name="ex_g1_1_breath">Głęboki wdech przy opuszczaniu, mocny wydech przy wyciskaniu.</string>
+    <string name="ex_g1_1_mistake">Odbijanie gryfu od klatki lub odrywanie bioder od ławki.</string>
+    <string-array name="ex_g1_1_steps">
+        <item>Połóż się na ławce ze stopami mocno opartymi o podłogę.</item>
+        <item>Chwyć gryf nieco szerzej niż barki i ściągnij łopatki.</item>
+        <item>Opuść sztangę pod kontrolą do dolno-środkowej linii klatki.</item>
+        <item>Wypchnij sztangę mocno w górę, napinając klatkę.</item>
+    </string-array>
+    <string name="ex_g1_2_name">Wyciskanie Hantli na Skosie Dodatnim</string>
+    <string name="ex_g1_2_muscle">Góra Klatki</string>
+    <string name="ex_g1_2_cue">Nie zderzaj hantli u góry — utrzymuj stałe napięcie.</string>
+    <string name="ex_g1_2_breath">Wdech w dół, wydech przy wyciskaniu.</string>
+    <string name="ex_g1_2_mistake">Ustawianie ławki ponad 45°, przejmując pracę barkami.</string>
+    <string-array name="ex_g1_2_steps">
+        <item>Ustaw ławkę pod kątem 30 stopni.</item>
+        <item>Unieś hantle nad barki.</item>
+        <item>Opuść pod kontrolą do górnej części klatki.</item>
+        <item>Wypchnij w górę, dopinając górę klatki.</item>
+    </string-array>
+    <string name="ex_g1_3_name">Wyciskanie Hantli na Barki</string>
+    <string name="ex_g1_3_muscle">Barki</string>
+    <string name="ex_g1_3_cue">Nie wyginaj nadmiernie lędźwi, kontroluj żebra.</string>
+    <string name="ex_g1_3_breath">Wydech w górę, wdech w dół.</string>
+    <string name="ex_g1_3_mistake">Wypychanie ciężaru daleko przed głowę.</string>
+    <string-array name="ex_g1_3_steps">
+        <item>Usiądź prosto z napiętym brzuchem.</item>
+        <item>Trzymaj hantle na wysokości uszu, dłonie do przodu.</item>
+        <item>Wypchnij pod kontrolą nad głowę.</item>
+        <item>Opuść powoli z powrotem do wysokości uszu.</item>
+    </string-array>
+    <string name="ex_g1_4_name">Prostowanie Ramion z Liną na Wyciągu</string>
+    <string name="ex_g1_4_muscle">Triceps</string>
+    <string name="ex_g1_4_cue">Pracuje wyłącznie staw łokciowy, barki nieruchome.</string>
+    <string name="ex_g1_4_breath">Wydychaj prostując w dół.</string>
+    <string name="ex_g1_4_mistake">Pochylanie tułowia i dociskanie ciężaru ciałem.</string>
+    <string-array name="ex_g1_4_steps">
+        <item>Chwyć linę na wysokości klatki.</item>
+        <item>Przyklej łokcie do żeber.</item>
+        <item>Wyprostuj przedramiona w dół i rozchyl końce liny.</item>
+        <item>Wróć powoli, nie ruszając łokciami.</item>
+    </string-array>
+    <string name="ex_g2_1_name">Ściąganie Drążka Wyciągu Górnego</string>
+    <string name="ex_g2_1_muscle">Najszersze / Plecy</string>
+    <string name="ex_g2_1_cue">Ciągnij łokciami, a nie samymi dłońmi.</string>
+    <string name="ex_g2_1_breath">Wydech w dół, wdech wracając.</string>
+    <string name="ex_g2_1_mistake">Mocne bujanie tułowiem do tyłu.</string>
+    <string-array name="ex_g2_1_steps">
+        <item>Chwyć drążek szeroko i zablokuj kolana pod wałkiem.</item>
+        <item>Unieś lekko klatkę piersiową.</item>
+        <item>Ściągnij łokcie w dół i w tył do górnej klatki.</item>
+        <item>Wróć płynnie ramionami w górę.</item>
+    </string-array>
+    <string name="ex_g2_2_name">Wiosłowanie na Wyciągu Dolnym</string>
+    <string name="ex_g2_2_muscle">Środek Pleców</string>
+    <string name="ex_g2_2_cue">Trzymaj barki nisko, z dala od uszu.</string>
+    <string name="ex_g2_2_breath">Wydychaj przyciągając.</string>
+    <string name="ex_g2_2_mistake">Garbienie pleców przy pochyleniu w przód.</string>
+    <string-array name="ex_g2_2_steps">
+        <item>Oprzyj stopy na platformie z lekko ugiętymi kolanami.</item>
+        <item>Wyprostuj plecy i przyciągnij uchwyt do brzucha.</item>
+        <item>Ściśnij łopatki na 1 sekundę.</item>
+        <item>Wróć powoli do przodu.</item>
+    </string-array>
+    <string name="ex_g2_3_name">Face Pull (Przyciąganie Liny do Twarzy)</string>
+    <string name="ex_g2_3_muscle">Tył Barków &amp; Postawa</string>
+    <string name="ex_g2_3_cue">Najważniejsze ćwiczenie ochronne dla prostej postawy.</string>
+    <string name="ex_g2_3_breath">Wydychaj przyciągając.</string>
+    <string name="ex_g2_3_mistake">Zbyt duży ciężar i odchylanie się z lędźwi.</string>
+    <string-array name="ex_g2_3_steps">
+        <item>Ustaw wyciąg na wysokości oczu.</item>
+        <item>Ciągnij linę do czoła, szeroko otwierając łokcie.</item>
+        <item>Zrotuj przedramiona na zewnątrz, spinając tył barków.</item>
+        <item>Wróć powoli.</item>
+    </string-array>
+    <string name="ex_g2_4_name">Uginanie Ramion ze Sztangą Łamaną</string>
+    <string name="ex_g2_4_muscle">Biceps</string>
+    <string name="ex_g2_4_cue">Nadgarstki utrzymuj neutralnie, bez zginania.</string>
+    <string name="ex_g2_4_breath">Wydech w górę, wdech w dół.</string>
+    <string name="ex_g2_4_mistake">Bujanie tułowiem i zarzucanie ciężaru.</string>
+    <string-array name="ex_g2_4_steps">
+        <item>Chwyć gryf łamany na szerokość barków.</item>
+        <item>Przymocuj łokcie do boków tułowia.</item>
+        <item>Ugnij do wysokości barków i dopnij 1 s.</item>
+        <item>Opuszczaj powoli przez 3 sekundy.</item>
+    </string-array>
+    <string name="ex_g3_1_name">Przysiad ze Sztangą na Plecach</string>
+    <string name="ex_g3_1_muscle">Uda &amp; Pośladki</string>
+    <string name="ex_g3_1_cue">Kolana prowadź w linii palców stóp, nie do środka.</string>
+    <string name="ex_g3_1_breath">Wdech schodząc, wydech wstając.</string>
+    <string name="ex_g3_1_mistake">Odrywanie pięt lub zaokrąglanie lędźwi.</string>
+    <string-array name="ex_g3_1_steps">
+        <item>Ułóż gryf na mięśniach czworobocznych, stopy na szerokość barków.</item>
+        <item>Weź wdech i mocno zepnij brzuch.</item>
+        <item>Opuść biodra w tył i w dół do linii równoległej.</item>
+        <item>Wypchnij ciało mocno z pięt w górę.</item>
+    </string-array>
+    <string name="ex_g3_2_name">Rumuński Martwy Ciąg</string>
+    <string name="ex_g3_2_muscle">Dwugłowe &amp; Pośladki</string>
+    <string name="ex_g3_2_cue">Ruch pochodzi z zawiasu biodrowego, nie ze zginania pleców.</string>
+    <string name="ex_g3_2_breath">Wdech w dół, wydech przy wyproście.</string>
+    <string name="ex_g3_2_mistake">Odsuwanie sztangi od nóg i zaokrąglanie pleców.</string>
+    <string-array name="ex_g3_2_steps">
+        <item>Trzymaj gryf przed biodrami na lekko ugiętych kolanach.</item>
+        <item>Z prostymi plecami wypchnij biodra w tył, prowadząc gryf blisko nóg.</item>
+        <item>Gdy poczujesz rozciąganie dwugłowych, wyprostuj się z pośladków.</item>
+    </string-array>
+    <string name="ex_g3_3_name">Wypychanie na Suwnicy</string>
+    <string name="ex_g3_3_muscle">Czworogłowe Uda</string>
+    <string name="ex_g3_3_cue">Nie opuszczaj tak nisko, by odrywać pośladki od siedziska.</string>
+    <string name="ex_g3_3_breath">Wydychaj wypychając.</string>
+    <string name="ex_g3_3_mistake">Gwałtowne blokowanie kolan u góry.</string>
+    <string-array name="ex_g3_3_steps">
+        <item>Przyklej mocno plecy i pośladki do oparcia.</item>
+        <item>Ustaw stopy na szerokość barków na platformie.</item>
+        <item>Opuść platformę z kontrolą w stronę klatki.</item>
+        <item>Wypchnij nie blokując stawów kolanowych.</item>
+    </string-array>
+    <string name="ex_g3_4_name">Wspięcia na Palce Stojąc</string>
+    <string name="ex_g3_4_muscle">Łydki</string>
+    <string name="ex_g3_4_cue">Pracuj płynnym tempem bez odbijania.</string>
+    <string name="ex_g3_4_breath">Wydychaj w górę.</string>
+    <string name="ex_g3_4_mistake">Zbyt szybkie odbijanie obciążające ścięgno Achillesa.</string>
+    <string-array name="ex_g3_4_steps">
+        <item>Stań przednią częścią stóp na stopniu.</item>
+        <item>Opuść pięty nisko w pełne rozciągnięcie.</item>
+        <item>Wspnij się wysoko na palce na 1 sekundę.</item>
+    </string-array>
+    <string name="ex_g4_1_name">Przysiad Kielichowy (Goblet)</string>
+    <string name="ex_g4_1_muscle">Nogi &amp; Core</string>
+    <string name="ex_g4_1_cue">Klatka skierowana do przodu, nie pochylaj się.</string>
+    <string name="ex_g4_1_breath">Wdech w dół, wydech w górę.</string>
+    <string name="ex_g4_1_mistake">Odsuwanie hantla daleko od ciała.</string>
+    <string-array name="ex_g4_1_steps">
+        <item>Trzymaj hantel pionowo przy klatce piersiowej.</item>
+        <item>Usiądź z wyprostowanym tułowiem nisko w dół.</item>
+        <item>Gdy łokcie dotkną wewnętrznej strony kolan, wstań.</item>
+    </string-array>
+    <string name="ex_g4_2_name">Wyciskanie na Maszynie (Klatka)</string>
+    <string name="ex_g4_2_muscle">Klatka</string>
+    <string name="ex_g4_2_cue">Nie wysuwaj barków do przodu, otwieraj klatkę.</string>
+    <string name="ex_g4_2_breath">Wydychaj wypychając.</string>
+    <string name="ex_g4_2_mistake">Zrzucanie stosu z hukiem na końcu.</string>
+    <string-array name="ex_g4_2_steps">
+        <item>Ustaw siedzisko tak, by uchwyty były na środku klatki.</item>
+        <item>Oprzyj plecy i wypchnij uchwyty do przodu.</item>
+        <item>Wróć powoli do pozycji startowej.</item>
+    </string-array>
+    <string name="ex_g4_3_name">Wiosłowanie na Maszynie</string>
+    <string name="ex_g4_3_muscle">Plecy</string>
+    <string name="ex_g4_3_cue">Nie podciągaj barków do szyi.</string>
+    <string name="ex_g4_3_breath">Wydychaj przyciągając.</string>
+    <string name="ex_g4_3_mistake">Robienie niepełnych pół-powtórzeń.</string>
+    <string-array name="ex_g4_3_steps">
+        <item>Oprzyj klatkę o poduszkę i chwyć uchwyty.</item>
+        <item>Pociągnij łokcie w tył, spinając plecy.</item>
+        <item>Wróć powoli w przód.</item>
+    </string-array>
+    <string name="ex_g4_4_name">Deska (Plank)</string>
+    <string name="ex_g4_4_muscle">Brzuch &amp; Core</string>
+    <string name="ex_g4_4_sets">3 x 40 s</string>
+    <string name="ex_g4_4_cue">Oddychaj płynnie przez cały czas.</string>
+    <string name="ex_g4_4_breath">Wdech nosem, równomierny wydech ustami.</string>
+    <string name="ex_g4_4_mistake">Zadzieranie bioder lub opuszczanie lędźwi.</string>
+    <string-array name="ex_g4_4_steps">
+        <item>Oprzyj się na przedramionach.</item>
+        <item>Utwórz jedną prostą linię od głowy do pięt.</item>
+        <item>Mocno napinaj brzuch i pośladki do końca czasu.</item>
+    </string-array>
+    <string name="ex_g5_1_name">Wyciskanie Hantli na Ławce Płaskiej</string>
+    <string name="ex_g5_1_muscle">Klatka</string>
+    <string name="ex_g5_1_cue">1-sekundowa pauza na dole wzmacnia siłę.</string>
+    <string name="ex_g5_1_breath">Wydychaj wypychając.</string>
+    <string name="ex_g5_1_mistake">Rozkładanie łokci szeroko pod kątem 90°.</string>
+    <string-array name="ex_g5_1_steps">
+        <item>Zarzuć hantle na wysokość klatki kolanami.</item>
+        <item>Wypchnij w górę i opuść pod kontrolą.</item>
+    </string-array>
+    <string name="ex_g5_2_name">Wiosłowanie Hantlem Jednorącz</string>
+    <string name="ex_g5_2_muscle">Plecy</string>
+    <string name="ex_g5_2_sets">4 x 10/rękę</string>
+    <string name="ex_g5_2_cue">Ciągnij samymi plecami bez skręcania tułowia.</string>
+    <string name="ex_g5_2_breath">Wydychaj przyciągając.</string>
+    <string name="ex_g5_2_mistake">Ciągnięcie hantla prosto do barku.</string>
+    <string-array name="ex_g5_2_steps">
+        <item>Oprzyj rękę i kolano o ławkę z prostymi plecami.</item>
+        <item>Przyciągaj hantel w stronę biodra.</item>
+    </string-array>
+    <string name="ex_g5_3_name">Wznosy Hantli Bokiem</string>
+    <string name="ex_g5_3_muscle">Boki Barków</string>
+    <string name="ex_g5_3_cue">Mały palec kieruj minimalnie wyżej.</string>
+    <string name="ex_g5_3_breath">Wydychaj unosząc.</string>
+    <string name="ex_g5_3_mistake">Bujanie ciałem i szarpanie ciężaru.</string>
+    <string-array name="ex_g5_3_steps">
+        <item>Hantle wzdłuż ciała, łokcie lekko ugięte.</item>
+        <item>Unoś ramiona bokiem na wysokość barków.</item>
+    </string-array>
+    <string name="ex_g5_4_name">Uginanie Młotkowe</string>
+    <string name="ex_g5_4_muscle">Biceps &amp; Przedramiona</string>
+    <string name="ex_g5_4_cue">Najlepszy chwyt dla objętości ramion.</string>
+    <string name="ex_g5_4_breath">Wydychaj w górę.</string>
+    <string name="ex_g5_4_mistake">Wysuwanie barków do przodu.</string>
+    <string-array name="ex_g5_4_steps">
+        <item>Trzymaj hantle chwytem neutralnym dłońmi do siebie.</item>
+        <item>Utrzymuj stałe łokcie i uginaj naprzemiennie.</item>
+    </string-array>
+    <string name="ex_g6_1_name">Wyciskanie Arnolda</string>
+    <string name="ex_g6_1_muscle">Całe Barki</string>
+    <string name="ex_g6_1_cue">Pobudza przedni i boczny akton barków jednocześnie.</string>
+    <string name="ex_g6_1_breath">Wydychaj wypychając.</string>
+    <string name="ex_g6_1_mistake">Nadmierny przeprost w lędźwiach.</string>
+    <string-array name="ex_g6_1_steps">
+        <item>Zacznij z dłońmi skierowanymi do twarzy.</item>
+        <item>Obracaj nadgarstki na zewnątrz podczas wyciskania.</item>
+        <item>Wróć płynnie odwrotnym ruchem.</item>
+    </string-array>
+    <string name="ex_g6_2_name">Uginanie na Ławce Skośnej</string>
+    <string name="ex_g6_2_muscle">Głowa Długa Bicepsa</string>
+    <string name="ex_g6_2_cue">Łokcie utrzymuj lekko za linią tułowia.</string>
+    <string name="ex_g6_2_breath">Wydychaj w górę.</string>
+    <string name="ex_g6_2_mistake">Wypychanie łokci do przodu.</string>
+    <string-array name="ex_g6_2_steps">
+        <item>Oprzyj się na ławce pod kątem 45°.</item>
+        <item>Opuść ramiona swobodnie i uginaj tylko w łokciach.</item>
+    </string-array>
+    <string name="ex_g6_3_name">Wyciskanie Francuskie (Gryf Łamany)</string>
+    <string name="ex_g6_3_muscle">Triceps</string>
+    <string name="ex_g6_3_cue">Nie rozchylaj łokci na boki.</string>
+    <string name="ex_g6_3_breath">Wydychaj prostując.</string>
+    <string name="ex_g6_3_mistake">Zbyt duży ciężar przeciążający łokcie.</string>
+    <string-array name="ex_g6_3_steps">
+        <item>Leżąc trzymaj gryf pionowo nad oczami.</item>
+        <item>Uginaj tylko łokcie za czoło i wyprostuj.</item>
+    </string-array>
+    <string name="ex_g6_4_name">Wznos Boczny na Wyciągu</string>
+    <string name="ex_g6_4_muscle">Boki Barków</string>
+    <string name="ex_g6_4_cue">Utrzymuje stałe napięcie już od samego dołu.</string>
+    <string name="ex_g6_4_breath">Wydychaj unosząc.</string>
+    <string name="ex_g6_4_mistake">Przechylanie tułowia na bok.</string>
+    <string-array name="ex_g6_4_steps">
+        <item>Chwyć linkę z przodu tułowia.</item>
+        <item>Unieś bokiem pod kontrolą na wysokość barku.</item>
+    </string-array>
+</resources>
